@@ -10,8 +10,8 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
 
 ## The Client-Server Model
 
-1. <span class="emphasis">Clients</span> <span class="emphasis">initiate</span> communication by making <span class="secondEmphasis">requests</span> (e.g., opening a webpage or sending a login request).
-2. <span class="emphasis">Servers</span> <span class="emphasis">respond</span> to these <span class="secondEmphasis">requests</span>, providing <span class="secondEmphasis">data</span> or <span class="secondEmphasis">resources</span> (e.g., delivering the webpage or verifying a username and password).
+1. <span class="emphasis">Clients</span>: <span class="emphasis">Initiate</span> <span class="secondEmphasis">communication</span> by making <span class="secondEmphasis">requests</span> (e.g., opening a <span class="secondEmphasis">webpage</span> or sending a <span class="secondEmphasis">login request</span>).
+2. <span class="emphasis">Servers</span>: <span class="emphasis">Respond</span> to these <span class="secondEmphasis">requests</span>, providing <span class="secondEmphasis">data</span> or <span class="secondEmphasis">resources</span> (e.g., delivering the <span class="secondEmphasis">webpage</span> or verifying a <span class="secondEmphasis">username and password</span>).
 
 **Example:**
 - <span class="emphasis">Server A</span> hosts a <span class="secondEmphasis">website</span> and serves it to <span class="emphasis">clients</span> requesting it.
@@ -31,6 +31,50 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
 
 ---
 
+## Network Models
+
+To better understand complex networking concepts, we often use <span class="emphasis">models</span> to break them down into smaller, easy-to-digest parts. These models help us understand how <span class="secondEmphasis">IP networking</span> works by organizing it into layers.
+
+### OSI Model
+
+The <span class="emphasis">OSI Model</span> is a conceptual framework with seven ordered layers, where each layer depends on the one below it to function. It is often used for learning and understanding network processes.
+
+#### OSI Layers:
+1. <span class="emphasis">Physical Layer</span>: Layer 1
+2. <span class="emphasis">Data Link Layer</span>: Layer 2
+3. <span class="emphasis">Network Layer</span>: Layer 3
+4. <span class="emphasis">Transport Layer</span>: Layer 4
+5. <span class="emphasis">Session Layer</span>: Layer 5
+6. <span class="emphasis">Presentation Layer</span>: Layer 6
+7. <span class="emphasis">Application Layer</span>: Layer 7
+
+---
+
+### TCP/IP Model
+
+The <span class="emphasis">TCP/IP Model</span> simplifies networking layers into four main categories and is widely used in real-world applications.
+
+#### TCP/IP Layers:
+1. <span class="emphasis">Network Access</span>: Combines Layers 1 and 2 (Physical + Data Link)
+2. <span class="emphasis">Internet</span>: Layer 3 (Network)
+3. <span class="emphasis">Transport</span>: Layer 4
+4. <span class="emphasis">Application</span>: Combines Layers 5, 6, and 7 (Session + Presentation + Application)
+
+---
+
+### Actual Network Model
+
+The <span class="emphasis">Actual Network Model</span> reflects how networks are implemented in practice, using only the necessary layers for real-world operations.
+
+#### Actual Layers:
+1. <span class="emphasis">Physical Layer</span>: Layer 1
+2. <span class="emphasis">Data Link Layer</span>: Layer 2
+3. <span class="emphasis">Network Layer</span>: Layer 3
+4. <span class="emphasis">Transport Layer</span>: Layer 4
+5. <span class="emphasis">Application Layer</span>: Layer 5 (Combines higher-level OSI layers)
+
+---
+
 ## How Roles Work in a Network
 
 When a device requests a <span class="secondEmphasis">service</span> (like loading a webpage or retrieving <span class="secondEmphasis">data</span>), it becomes a <span class="emphasis">client</span>. Examples:
@@ -42,6 +86,9 @@ When a device requests a <span class="secondEmphasis">service</span> (like loadi
 
 ---
 
-## Other Overview Notes
+## Key Takeaways
 
-(Add additional notes here as needed to expand on <span class="emphasis">networking concepts</span> or <span class="secondEmphasis">examples</span>.)
+- Networking enables the sharing of <span class="emphasis">data</span> and <span class="secondEmphasis">resources</span> between devices.
+- Network models simplify how we understand the structure and function of networks.
+- The <span class="emphasis">TCP/IP Model</span> and <span class="emphasis">Actual Network Model</span> are the most practical for modern networking.
+- Devices dynamically switch between the roles of <span class="emphasis">client</span> and <span class="emphasis">server</span> based on their tasks.
