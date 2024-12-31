@@ -18,63 +18,47 @@ const pages: Page[] = [
     subpages: [],
   },
   {
-    name: "Cisco Networking",
+    name: "Certifications Overview", // General certification details
     subpages: [
-      
-      {
-        name: "Advanced Certifications",
-        subpages: [
-          { name: "CCNP Topics", path: "/cisco/ccnp" },
-          { name: "DevNet", path: "/cisco/devnet" },
-        ],
-      },
+      { name: "CCNA Overview", path: "/certifications/ccna" },
+      { name: "CCNP Overview", path: "/certifications/ccnp" },
+      { name: "DevNet Overview", path: "/certifications/devnet" },
     ],
   },
   {
-    name: "Networking Protocols",
+    name: "Exam Preparation", // Prep resources for both certifications
     subpages: [
-      { name: "TCP/UDP", path: "/protocols/tcp-udp" },
-      { name: "HTTP/HTTPS", path: "/protocols/http-https" },
-      { name: "DNS", path: "/protocols/dns" },
+      { name: "CCNA Exam Guide", path: "/exam-prep/ccna" },
+      { name: "CCNP Exam Guide", path: "/exam-prep/ccnp" },
     ],
   },
   {
-    name: "Access Control Lists (ACLs)",
+    name: "Networking Tools", // Common tools for both certifications
     subpages: [
-      { name: "Standard ACLs", path: "/acls/standard" },
-      { name: "Extended ACLs", path: "/acls/extended" },
+      { name: "Cisco Packet Tracer", path: "/tools/packet-tracer" },
+      { name: "GNS3 Setup", path: "/tools/gns3" },
     ],
   },
   {
-    name: "Routing & Switching",
+    name: "Core Networking Topics", // Shared foundational topics for both CCNA and CCNP
     subpages: [
-      { name: "Static Routing", path: "/routing/static" },
-      { name: "Dynamic Routing Protocols", path: "/routing/dynamic" },
-      { name: "VLANs", path: "/switching/vlans" },
+      { name: "IP Networking Overview", path: "/core-networking/ip-networking-overview" },
+      { name: "Routing Protocols", path: "/core-networking/routing" },
+      { name: "Switching and VLANs", path: "/core-networking/switching-vlans" },
+      { name: "Access Control Lists (ACLs)", path: "/core-networking/acls" },
+      { name: "Wireless Networking Basics", path: "/core-networking/wireless" },
+      { name: "Networking Protocols (TCP/UDP, HTTP, DNS)", path: "/core-networking/protocols" },
+      { name: "Network Security Basics", path: "/core-networking/security" },
     ],
   },
   {
-    name: "Network Security",
+    name: "CCNP Advanced Topics", // Only advanced topics unique to CCNP
     subpages: [
-      { name: "Firewall Basics", path: "/security/firewalls" },
-      { name: "VPNs", path: "/security/vpns" },
-      { name: "Threat Detection", path: "/security/threat-detection" },
-    ],
-  },
-  {
-    name: "VOIP",
-    subpages: [
-      { name: "SIP Protocol", path: "/voip/sip" },
-      { name: "Call Setup", path: "/voip/call-setup" },
-      { name: "Quality of Service (QoS)", path: "/voip/qos" },
-    ],
-  },
-  {
-    name: "Wireless Networking",
-    subpages: [
-      { name: "802.11 Standards", path: "/wireless/802-11" },
-      { name: "Site Surveys", path: "/wireless/site-surveys" },
-      { name: "Wireless Security", path: "/wireless/security" },
+      { name: "Advanced Routing Protocols", path: "/ccnp/advanced-routing" },
+      { name: "Advanced Switching Concepts", path: "/ccnp/advanced-switching" },
+      { name: "Automation & DevNet", path: "/ccnp/devnet" },
+      { name: "Advanced Network Security", path: "/ccnp/security" },
+      { name: "VOIP and Collaboration", path: "/ccnp/voip" },
     ],
   },
 ];
