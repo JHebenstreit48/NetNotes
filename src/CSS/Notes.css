@@ -1,0 +1,142 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    width: 55rem;
+    border: 1px solid gray;
+    box-shadow: 6px 10px #888888;
+    line-height: 2rem;
+    padding: 0 0 2rem;
+    background-color: rgb(87, 81, 81);
+    z-index: 1;
+  }
+  
+  .card-header {
+    background: linear-gradient(
+      to bottom,
+      rgb(56, 4, 56),
+      rgb(123, 1, 160),
+      rgb(195, 0, 255)
+    );
+    display: flex;
+    width: 100%;
+    margin: 0 0 4rem;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    font: bold 48px/1 'Arial', sans-serif;
+    color: rgb(255, 214, 10);
+    text-shadow: 2px 3px 3px black;
+  }
+  
+  .markdownContent {
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(6, 159, 248);
+    text-shadow: 1px 2px 1px black;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  
+  .markdownContent h1, h2 {
+    /* color: rgb(243, 175, 28); */
+    text-shadow: 1px 2px 1px black;
+    text-align: center;
+  }
+  
+  hr {
+    border: 1.5px solid rgb(6, 159, 248) !important;
+    opacity: 1;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  .emphasis {
+    color: rgb(243, 175, 28);
+    font: italic bold 23px 'Arial', sans-serif;
+  }
+  
+  .secondEmphasis {
+    color: rgb(47, 185, 20);
+  }
+  
+  .subheadingEmphasis1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(175, 28, 243);
+    font: italic bold 40px 'Arial', sans-serif;
+    margin: 1.6rem auto;
+  }
+  
+  .subheadingEmphasis2 {
+    color: rgb(243, 175, 28);
+    font: italic bold 30px 'Arial', sans-serif;
+  }
+  
+  .markdownContent ul {
+    margin-top: 0;
+    padding-left: 3rem;
+  }
+  
+  .markdownContent p,
+  .markdownContent li {
+    margin-bottom: 1rem;
+  }
+  
+  /* Example bullet styles using shorthand */
+  .bullet1 ul {
+    display: inline-block;
+    column-count: 2;
+    width: 40rem;
+    padding-left: 65px !important;
+    color: rgb(12, 217, 231)
+  }
+  
+  .bullet2 ul {
+    display: inline-block;
+    column-count: 1;
+    padding-left: 45px !important;
+    margin-left: 0;
+    width: 36rem;
+  }
+  
+  .bullet3 ul {
+    display: inline-block;
+    column-count: 3;
+    width: 40rem;
+    padding-left: 60px !important;
+    color: rgb(12, 217, 231)
+  }
+  
+  @media only screen and (max-width: 390px) {
+    .card {
+      text-align: center;
+      width: 44rem;
+      margin: 13rem 2.7rem 8rem;
+    }
+  
+    /* .card-header {
+      font-size: 3rem;
+    }
+  
+    .markdownContent {
+      width: 100%;
+      font-size: 1.5rem;
+    }
+  
+    .bullet1 ul,
+    .bullet4 ul {
+      column-count: 1;
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    .bullet2 ul,
+    .bullet3 ul {
+      column-count: 1;
+      padding-left: 0;
+      width: 100%;
+    } */
+  }
+  

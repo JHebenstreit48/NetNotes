@@ -1,22 +1,11 @@
-.Footer {
+#error-page {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    font-size: 26px;
-    height: 60px;
-    margin-top: auto; /* Pushes footer to the bottom */
-    margin-bottom: 0;
+    line-height: 2.5;
     color: white;
-    background-color: #333;
-    padding: 10px;
-    max-height: 100vh;
-}
-
-@media only screen and (max-width: 390px) {
-    .Footer {
-        font-size: 22px; /* Smaller font for small screens */
-        height: 80px; /* Adjusted height */
-        margin-top: auto; /* Still pushes footer to the bottom */
-        margin-bottom: 0;
-    }
+    margin-top: 60px;
+    font-size: 1.8rem;
+    margin-top: 17rem;
 }
