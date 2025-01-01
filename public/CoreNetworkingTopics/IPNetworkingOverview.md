@@ -1,6 +1,6 @@
-# IP Networking Overview
-
 ## What is Networking?
+---
+
 Networking is about connecting devices to share <span class="emphasis">data</span> and <span class="secondEmphasis">resources</span>. Devices in a network can take on one of two main roles:
 
 - <span class="emphasis">Client</span>: <span class="emphasis">Requests</span> <span class="secondEmphasis">services</span> or <span class="secondEmphasis">data</span>.
@@ -31,79 +31,77 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
 
 ---
 
-## Network Models
+## Layer 3: Network Layer
 
-To better understand complex networking concepts, we often use <span class="emphasis">models</span> to break them down into smaller, easy-to-digest parts. These models help us understand how <span class="secondEmphasis">IP networking</span> works by organizing it into layers.
+The **Network Layer** is responsible for addressing and routing packets across networks.
 
-### OSI Model
+### Layer 3 Header
+- The **Layer 3 Header** contains:
+  - <span class="emphasis">Source Address</span>: Where the packet originates.
+  - <span class="emphasis">Destination Address</span>: Where the packet is going.
+- These addresses enable proper packet routing across networks.
 
-The <span class="emphasis">OSI Model</span> is a conceptual framework with seven ordered layers, where each layer depends on the one below it to function. It is often used for learning and understanding network processes.
+### Addressing Analogies
+- A **network address** is like a <span class="secondEmphasis">street name</span>, providing a general location.
+- A **host address** is like a <span class="secondEmphasis">house number</span>, uniquely identifying a device.
+- **Example IPv4 Address**:
+  - **Street Name**: <span class="examples">10.10.0</span>
+  - **House Number**: <span class="examples">.50</span>
+  - **Full Address**: <span class="examples">10.10.0.50</span>
 
-#### OSI Layers:
-1. <span class="emphasis">Physical Layer</span>: Layer 1
-2. <span class="emphasis">Data Link Layer</span>: Layer 2
-3. <span class="emphasis">Network Layer</span>: Layer 3
-4. <span class="emphasis">Transport Layer</span>: Layer 4
-5. <span class="emphasis">Session Layer</span>: Layer 5
-6. <span class="emphasis">Presentation Layer</span>: Layer 6
-7. <span class="emphasis">Application Layer</span>: Layer 7
-
----
-
-### TCP/IP Model
-
-The <span class="emphasis">TCP/IP Model</span> simplifies networking layers into four main categories and is widely used in real-world applications.
-
-#### TCP/IP Layers:
-1. <span class="emphasis">Network Access</span>: Combines Layers 1 and 2 (Physical + Data Link)
-2. <span class="emphasis">Internet</span>: Layer 3 (Network)
-3. <span class="emphasis">Transport</span>: Layer 4
-4. <span class="emphasis">Application</span>: Combines Layers 5, 6, and 7 (Session + Presentation + Application)
+### IPv4 and IPv6
+- **IPv4**:
+  - Most common format: <span class="examples">xxx.xxx.xxx.xxx</span> (e.g., <span class="examples">192.168.1.1</span>).
+- **IPv6**:
+  - Newer format: Uses eight groups of hexadecimal numbers.
 
 ---
 
-#### Application and Transport Layers
+## Networking Commands
 
+### Verifying IP Address
+- How to verify the local IP address:
+  - **Windows**: Use the <span class="examples">ipconfig</span> command in the Command Prompt.
+  - **Mac**: Go to System Preferences > Network or use the <span class="examples">ifconfig</span> command in Terminal.
+  - **Linux/Ubuntu**: Use the <span class="examples">ip addr</span> or <span class="examples">ifconfig</span> command in Terminal.
+
+### Subnet Mask and Default Gateway
+- **Subnet Mask**:
+  - Defines which part of an IP address represents the network and which part represents the host.
+  - Example: <span class="examples">255.255.255.0</span>.
+- **Default Gateway**:
+  - Often referred to as the router. Directs packets to other networks.
+  - Example: If the device’s IP is <span class="examples">192.168.1.10</span>, the Default Gateway might be <span class="examples">192.168.1.1</span>.
+
+### ipconfig /flushdns
+- Clears the DNS resolver cache to remove outdated or incorrect entries.
+
+### ipconfig /displaydns
+- Displays cached DNS records, including:
+  - **Domain Name**: <span class="examples">example.com</span>
+  - **A (Host) Records**: Multiple IPs may be shown for redundancy or load balancing.
+
+### ping
+- Tests network connectivity by sending packets to a destination.
+- Example:
+  - <span class="examples">ping google.com</span>: Sends packets to <span class="examples">google.com</span> to verify reachability.
+
+---
+
+## TCP/IP Model
+
+### TCP/IP Layers
+1. **Network Access** (Physical + Data Link)
+2. **Internet** (Network Layer)
+3. **Transport**
+4. **Application**
+
+### Application and Transport Layers
 - **Application Layer Protocols**:
   - <span class="emphasis">HTTP/HTTPS</span>: Used for web communication.
-  - <span class="emphasis">DNS</span>: Translates domain names (e.g., `example.com`) into IP addresses.
+  - <span class="emphasis">DNS</span>: Resolves domain names to IP addresses.
 - **Transport Layer Protocols**:
-  - <span class="emphasis">TCP</span>: Provides reliable communication (e.g., HTTP/HTTPS).
-  - <span class="emphasis">UDP</span>: Enables faster communication without guarantees (e.g., DNS).
+  - <span class="emphasis">TCP</span>: Transmission Control Protocol (reliable communication).
+  - <span class="emphasis">UDP</span>: User Datagram Protocol (faster but less reliable).
 
 ---
-
-**DNS Analogy**:
-- The **DNS system** acts like a directory for translating domain names into IP addresses:
-  - Similar to looking up a phone number in an **old-school phonebook**.
-  - Comparable to using your phone to find a destination’s address.
-
----
-
-## Clearing the DNS Cache
-
-- A device’s DNS resolver cache can be cleared to ensure updated or corrected DNS records.
-- The command to perform this is: <span class="emphasis">ipconfig /flushdns</span> (on Windows systems).
-- This command is useful for:
-  - Fixing issues caused by outdated or incorrect DNS entries.
-  - Forcing the system to re-query DNS information from authoritative sources.
-
----
-
-## How Roles Work in a Network
-
-When a device requests a <span class="secondEmphasis">service</span> (like loading a webpage or retrieving <span class="secondEmphasis">data</span>), it becomes a <span class="emphasis">client</span>. Examples:
-- Your <span class="emphasis">computer</span> is a <span class="emphasis">client</span> when it requests a <span class="secondEmphasis">webpage</span>.
-- A <span class="emphasis">server</span> storing <span class="secondEmphasis">login credentials</span> acts as a <span class="emphasis">server</span> when verifying <span class="secondEmphasis">login details</span>.
-
-<span class="secondEmphasis">Dynamic Roles:</span> Devices can switch roles based on their actions:
-- A <span class="emphasis">printer server</span> provides <span class="secondEmphasis">printing services</span> (<span class="emphasis">server</span> role) but might act as a <span class="emphasis">client</span> when downloading a <span class="secondEmphasis">software update</span>.
-
----
-
-## Key Takeaways
-
-- Networking enables the sharing of <span class="emphasis">data</span> and <span class="secondEmphasis">resources</span> between devices.
-- Network models simplify how we understand the structure and function of networks.
-- The <span class="emphasis">TCP/IP Model</span> and <span class="emphasis">Actual Network Model</span> are the most practical for modern networking.
-- Devices dynamically switch between the roles of <span class="emphasis">client</span> and <span class="emphasis">server</span> based on their tasks.

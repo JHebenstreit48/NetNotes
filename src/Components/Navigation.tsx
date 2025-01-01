@@ -35,6 +35,7 @@ const pages: Page[] = [
   {
     name: "Networking Tools", // Common tools for both certifications
     subpages: [
+      { name: "Wireshark", path: "/tools/wireshark" },
       { name: "Cisco Packet Tracer", path: "/tools/packet-tracer" },
       { name: "GNS3 Setup", path: "/tools/gns3" },
     ],
