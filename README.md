@@ -35,9 +35,8 @@ I just used npm run dev to see what the website looked like as I made changes to
   
 ## Questions
 
-For any further questions you can contact me at:
+For any further questions you can contact me at:  
 [j.hebenstreit.developer@gmail.com](mailto:j.hebenstreit.developer@gmail.com).
 
-You can find projects I have created or participated in at:
+You can find projects I have created or participated in at:  
 [https://github.com/JHebenstreit48](https://github.com/https://github.com/JHebenstreit48).
-
