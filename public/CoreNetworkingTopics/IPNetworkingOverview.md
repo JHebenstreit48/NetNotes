@@ -62,16 +62,31 @@ The <span class="emphasis">TCP/IP Model</span> simplifies networking layers into
 
 ---
 
-### Actual Network Model
+#### Application and Transport Layers
 
-The <span class="emphasis">Actual Network Model</span> reflects how networks are implemented in practice, using only the necessary layers for real-world operations.
+- **Application Layer Protocols**:
+  - <span class="emphasis">HTTP/HTTPS</span>: Used for web communication.
+  - <span class="emphasis">DNS</span>: Translates domain names (e.g., `example.com`) into IP addresses.
+- **Transport Layer Protocols**:
+  - <span class="emphasis">TCP</span>: Provides reliable communication (e.g., HTTP/HTTPS).
+  - <span class="emphasis">UDP</span>: Enables faster communication without guarantees (e.g., DNS).
 
-#### Actual Layers:
-1. <span class="emphasis">Physical Layer</span>: Layer 1
-2. <span class="emphasis">Data Link Layer</span>: Layer 2
-3. <span class="emphasis">Network Layer</span>: Layer 3
-4. <span class="emphasis">Transport Layer</span>: Layer 4
-5. <span class="emphasis">Application Layer</span>: Layer 5 (Combines higher-level OSI layers)
+---
+
+**DNS Analogy**:
+- The **DNS system** acts like a directory for translating domain names into IP addresses:
+  - Similar to looking up a phone number in an **old-school phonebook**.
+  - Comparable to using your phone to find a destination’s address.
+
+---
+
+## Clearing the DNS Cache
+
+- A device’s DNS resolver cache can be cleared to ensure updated or corrected DNS records.
+- The command to perform this is: <span class="emphasis">ipconfig /flushdns</span> (on Windows systems).
+- This command is useful for:
+  - Fixing issues caused by outdated or incorrect DNS entries.
+  - Forcing the system to re-query DNS information from authoritative sources.
 
 ---
 
