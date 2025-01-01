@@ -10,6 +10,7 @@ import ACLs from "../Pages/ACLs";
 import WirelessNetworking from "../Pages/WirelessNetworking";
 import NetworkingProtocols from "../Pages/NetworkingProtocols";
 import NetworkSecurity from "../Pages/NetworkSecurityBasics";
+import Wireshark from "../Pages/Wireshark";
 
 export const router = createBrowserRouter([
   {
@@ -23,32 +24,36 @@ export const router = createBrowserRouter([
       },
       // Core Networking Topics
       {
-        path: "core-networking/ip-networking-overview",
+        path: "/core-networking/ip-networking-overview",
         element: createElement(IPNetworkingOverview),
       },
       {
-        path: "core-networking/routing",
+        path: "/core-networking/routing",
         element: createElement(RoutingProtocols),
       },
       {
-        path: "core-networking/switching-vlans",
+        path: "/core-networking/switching-vlans",
         element: createElement(SwitchingVLANs),
       },
       {
-        path: "core-networking/acls",
+        path: "/core-networking/acls",
         element: createElement(ACLs),
       },
       {
-        path: "core-networking/wireless",
+        path: "/core-networking/wireless",
         element: createElement(WirelessNetworking),
       },
       {
-        path: "core-networking/protocols",
+        path: "/core-networking/protocols",
         element: createElement(NetworkingProtocols),
       },
       {
-        path: "core-networking/security",
+        path: "/core-networking/security",
         element: createElement(NetworkSecurity),
+      },
+      {
+        path: "/tools/wireshark",
+        element: createElement(Wireshark),
       },
     ],
   },
