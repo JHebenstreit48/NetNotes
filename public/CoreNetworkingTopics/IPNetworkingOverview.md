@@ -1,8 +1,5 @@
-# IP Networking Overview
-
----
-
 ## What is Networking?
+---
 
 Networking is about connecting devices to share <span class="emphasis">data</span> and <span class="secondEmphasis">resources</span>. Devices in a network can take on one of two main roles:
 
@@ -34,43 +31,35 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
 
 ---
 
-## TCP/IP Model
+## TCP/IP Model Overview
 
-### Overview
-The **TCP/IP Model** is the primary model used in networking, consisting of four layers:
-
-1. **Network Access Layer** (combines the Physical and Data Link layers from OSI)
-2. **Internet Layer** (equivalent to the Network layer in OSI)
-3. **Transport Layer**
-4. **Application Layer**
+The TCP/IP model includes the following layers:
+1. **Application** (Handles software applications, HTTP/HTTPS, and DNS.)
+2. **Transport** (Handles TCP/UDP communication protocols.)
+3. **Internet** (Layer 3, responsible for routing and addressing.)
+4. **Network Access** (Layers 1 and 2, Physical and Data Link Layers.)
 
 ---
 
 ## Application Layer
 
-The **Application Layer** enables user applications to interact with the network through specific protocols.
-
-### Application Layer Protocols
-- **HTTP/HTTPS**: Used for web communication.
-- **DNS**: Resolves domain names to IP addresses.
+- Handles **application-level protocols** such as:
+  - **HTTP/HTTPS**: For web communication.
+  - **DNS**: Resolves domain names to IP addresses.
 
 ---
 
-## Transport Layer
+## Transport Layer (Layer 4)
 
-The **Transport Layer** provides end-to-end communication and ensures the delivery of data between applications.
-
-### Transport Layer Protocols
-- **TCP (Transmission Control Protocol)**:
-  - Reliable communication with error checking and retransmission.
-- **UDP (User Datagram Protocol)**:
-  - Faster communication without error checking.
+The **Transport Layer** ensures reliable or fast communication depending on the protocol:
+- **TCP**: Transmission Control Protocol. Reliable, ordered delivery of data.
+- **UDP**: User Datagram Protocol. Faster but less reliable.
 
 ---
 
-## Internet Layer (Network Layer)
+## Internet Layer (Layer 3: Network Layer)
 
-The **Internet Layer** is responsible for addressing and routing packets across networks.
+The **Internet Layer** is responsible for addressing and routing data across networks.
 
 ### Layer 3 Header
 - The **Layer 3 Header** contains:
@@ -79,12 +68,10 @@ The **Internet Layer** is responsible for addressing and routing packets across 
 - These addresses enable proper packet routing across networks.
 
 ### Addressing Analogies
-- A **network address** is like a <span class="secondEmphasis">street name</span>, providing a general location.
-- A **host address** is like a <span class="secondEmphasis">house number</span>, uniquely identifying a device.
-- **Example IPv4 Address**:
-  - **Street Name**: <span class="examples">10.10.0</span>
-  - **House Number**: <span class="examples">.50</span>
-  - **Full Address**: <span class="examples">10.10.0.50</span>
+- **Network Address**: Like a <span class="secondEmphasis">street name</span>, providing a general location.
+- **Host Address**: Like a <span class="secondEmphasis">house number</span>, uniquely identifying a device.
+- Example IPv4 Address:
+  - <span class="examples">10.10.0.50</span> (Street: <span class="examples">10.10.0</span>, House: <span class="examples">.50</span>)
 
 ### IPv4 and IPv6
 - **IPv4**:
@@ -92,14 +79,10 @@ The **Internet Layer** is responsible for addressing and routing packets across 
 - **IPv6**:
   - Newer format: Uses eight groups of hexadecimal numbers.
 
----
-
-## Networking Commands
-
 ### Verifying IP Address
 - How to verify the local IP address:
   - **Windows**: Use the <span class="examples">ipconfig</span> command in the Command Prompt.
-  - **Mac**: Go to System Preferences > Network or use the <span class="examples">ifconfig</span> command in Terminal.
+  - **Mac**: Use the <span class="examples">ifconfig</span> command in Terminal.
   - **Linux/Ubuntu**: Use the <span class="examples">ip addr</span> or <span class="examples">ifconfig</span> command in Terminal.
 
 ### Subnet Mask and Default Gateway
@@ -110,13 +93,13 @@ The **Internet Layer** is responsible for addressing and routing packets across 
   - Often referred to as the router. Directs packets to other networks.
   - Example: If the device’s IP is <span class="examples">192.168.1.10</span>, the Default Gateway might be <span class="examples">192.168.1.1</span>.
 
-### ipconfig /flushdns
-- Clears the DNS resolver cache to remove outdated or incorrect entries.
-
-### ipconfig /displaydns
-- Displays cached DNS records, including:
-  - **Domain Name**: <span class="examples">example.com</span>
-  - **A (Host) Records**: Multiple IPs may be shown for redundancy or load balancing.
+### DNS Commands
+- **ipconfig /flushdns**:
+  - Clears the DNS resolver cache to remove outdated or incorrect entries.
+- **ipconfig /displaydns**:
+  - Displays cached DNS records, including:
+    - **Domain Name**: <span class="examples">example.com</span>
+    - **A (Host) Records**: Multiple IPs may be shown for redundancy or load balancing.
 
 ### ping
 - Tests network connectivity by sending packets to a destination.
@@ -124,3 +107,112 @@ The **Internet Layer** is responsible for addressing and routing packets across 
   - <span class="examples">ping google.com</span>: Sends packets to <span class="examples">google.com</span> to verify reachability.
 
 ---
+
+## Layer 2: Data Link Layer
+
+### **What is Layer 2?**
+   - Layer 2 is known as the **Data Link Layer** in the TCP/IP stack.
+
+### **Primary Role of Layer 2**
+   - The main component handled at Layer 2 is the **source and destination MAC addresses**.
+   - These addresses are essential for the frame that will be sent out from the **Network Interface Card (NIC)**.
+
+### **Physical Connections**
+   - Layer 2 deals with physical connections between devices, such as:
+     - **Devices hard-wired to a switch.**
+     - **Devices connected wirelessly** to a network.
+
+### **Network Interface Card (NIC)**
+   - The **Network Interface Card (NIC)** is the hardware component that allows a device to communicate with the internet.
+
+### **Burned-In Address**
+   - Every NIC has its own **burned-in address**, which is assigned by the manufacturer or factory.
+   - These burned-in addresses are **unique** for each NIC.
+
+### **Alternative Names for the Burned-In Address**
+   - The burned-in address is also referred to as:
+     - **MAC Address**
+     - **Ethernet Address**
+     - **Physical Address**
+     - **Layer 2 (L2) Address**
+     - **Burned-In Address (BIA)**
+
+### **Burned-In Address Format**
+   - The burned-in address:
+     - Is **12 digits long**.
+     - Written in **hexadecimal format**.
+     - Each pair of digits is separated by a **colon** (e.g., 12:34:56:78:9A:BC).
+
+### **Burned-In Address Bit Length**
+   - The burned-in address represents a **48-bit address**.
+
+### **Unique Addresses**
+   - It is the responsibility of the manufacturer to ensure all burned-in addresses are **unique**.
+
+### **Layer 2 Responsibilities**
+   - **Framing:** Encapsulates data into frames for transmission.
+   - **Error Detection:** Uses mechanisms like **Cyclic Redundancy Check (CRC)** to detect transmission errors.
+   - **Flow Control:** Manages data flow between devices to prevent data loss.
+
+### **Layer 2 Protocols**
+   - **Ethernet (Wired):** The most common Layer 2 protocol for wired connections.
+   - **Wi-Fi (802.11):** A widely used protocol for wireless connections.
+
+### **Role in Packet Delivery**
+   - Layer 2 ensures the delivery of frames between devices within the **same local network** (e.g., within the same subnet).
+   - For packets destined for devices outside the local network, Layer 2 forwards the data to the **default gateway (router)**.
+
+### **Layer 2 Header Information**
+   - Before a computer or device sends traffic onto the network, the **Layer 2 Header** includes:
+     - The **source Layer 2 address** of the device sending the data.
+     - The **destination Layer 2 address** of the next device the data packet needs to be forwarded to.
+
+### **Viewing Layer 2 Addresses (MAC Addresses)**
+   - **Windows:**
+     - Use ipconfig /all or ipconfig -all to view:
+       - NIC information.
+       - Layer 3 information (e.g., IP address).
+       - Layer 2 burned-in (MAC) address.
+   - **Linux/Ubuntu:**
+     - Use ip link show or ifconfig -a to view:
+       - Network interface details.
+       - MAC address labeled as link/ether or ether.
+   - **macOS:**
+     - Use ifconfig in the Terminal to view:
+       - Network interface details.
+       - MAC address labeled as ether.
+
+### **Address Resolution Protocol (ARP)**
+   - **ARP Overview:**
+     - ARP stands for **Address Resolution Protocol**.
+     - It is considered the **Layer 2 equivalent of DNS**, responsible for mapping IP addresses to MAC addresses.
+   - **Viewing ARP Cache:**
+     - **Windows:**
+       - Use arp -a to display all cached ARP entries.
+       - Typing arp alone displays the available ARP options.
+     - **Linux/Ubuntu:**
+       - Use ip neigh show or arp -n to display the ARP table.
+       - Typing arp without arguments typically displays usage instructions or an error message.
+     - **macOS:**
+       - Use arp -a to display the ARP table.
+       - Typing arp without arguments displays usage information.
+   - **Other ARP Commands:**
+     - **Windows:**
+       - arp -d [IP address]: Deletes a specific ARP entry.
+       - arp -s [IP address] [MAC address]: Adds a static ARP entry.
+     - **Linux/Ubuntu:**
+       - arp -d [IP address] or ip neigh del [IP address] dev [interface]: Deletes an ARP entry.
+     - **macOS:**
+       - arp -d [IP address]: Deletes an ARP entry.
+       - arp -s [IP address] [MAC address]: Adds a static ARP entry.
+
+### **Analogy: Community Mailbox and Burned-In Addresses**
+   - **Street and Houses:**
+     - Imagine a street with houses having unique host addresses (e.g., .51, .52, .53).
+   - **Community Mailbox:**
+     - All houses share a mailbox, and each slot corresponds to a specific house.
+     - Mapping determines which slot matches which house.
+   - **Burned-In Addresses:**
+     - Slots in the mailbox represent the burned-in addresses (e.g., MAC addresses).
+---
+
