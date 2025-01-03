@@ -1,5 +1,8 @@
-## What is Networking?
+# IP Networking Overview
+
 ---
+
+## What is Networking?
 
 Networking is about connecting devices to share <span class="emphasis">data</span> and <span class="secondEmphasis">resources</span>. Devices in a network can take on one of two main roles:
 
@@ -31,9 +34,43 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
 
 ---
 
-## Layer 3: Network Layer
+## TCP/IP Model
 
-The **Network Layer** is responsible for addressing and routing packets across networks.
+### Overview
+The **TCP/IP Model** is the primary model used in networking, consisting of four layers:
+
+1. **Network Access Layer** (combines the Physical and Data Link layers from OSI)
+2. **Internet Layer** (equivalent to the Network layer in OSI)
+3. **Transport Layer**
+4. **Application Layer**
+
+---
+
+## Application Layer
+
+The **Application Layer** enables user applications to interact with the network through specific protocols.
+
+### Application Layer Protocols
+- **HTTP/HTTPS**: Used for web communication.
+- **DNS**: Resolves domain names to IP addresses.
+
+---
+
+## Transport Layer
+
+The **Transport Layer** provides end-to-end communication and ensures the delivery of data between applications.
+
+### Transport Layer Protocols
+- **TCP (Transmission Control Protocol)**:
+  - Reliable communication with error checking and retransmission.
+- **UDP (User Datagram Protocol)**:
+  - Faster communication without error checking.
+
+---
+
+## Internet Layer (Network Layer)
+
+The **Internet Layer** is responsible for addressing and routing packets across networks.
 
 ### Layer 3 Header
 - The **Layer 3 Header** contains:
@@ -85,23 +122,5 @@ The **Network Layer** is responsible for addressing and routing packets across n
 - Tests network connectivity by sending packets to a destination.
 - Example:
   - <span class="examples">ping google.com</span>: Sends packets to <span class="examples">google.com</span> to verify reachability.
-
----
-
-## TCP/IP Model
-
-### TCP/IP Layers
-1. **Network Access** (Physical + Data Link)
-2. **Internet** (Network Layer)
-3. **Transport**
-4. **Application**
-
-### Application and Transport Layers
-- **Application Layer Protocols**:
-  - <span class="emphasis">HTTP/HTTPS</span>: Used for web communication.
-  - <span class="emphasis">DNS</span>: Resolves domain names to IP addresses.
-- **Transport Layer Protocols**:
-  - <span class="emphasis">TCP</span>: Transmission Control Protocol (reliable communication).
-  - <span class="emphasis">UDP</span>: User Datagram Protocol (faster but less reliable).
 
 ---
