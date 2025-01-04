@@ -4,7 +4,7 @@ import ErrorPage from "@/Pages/Error";
 import Home from "@/Pages/Home";
 import IPNetworkingOverview from "@/Pages/IPNetworkingOverview";
 import RoutingProtocols from "@/Pages/RoutingProtocols";
-import SwitchingVLANs from "@/Pages/SwitchingVLANs";
+import SwitchingVLANs from "@/Pages/Switching";
 import ACLs from "@/Pages/ACLs";
 import WirelessNetworking from "@/Pages/WirelessNetworking";
 import NetworkingProtocols from "@/Pages/NetworkingProtocols";

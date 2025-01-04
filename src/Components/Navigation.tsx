@@ -18,7 +18,7 @@ const pages: Page[] = [
     subpages: [],
   },
   {
-    name: "Certifications Overview", // General certification details
+    name: "Certifications Overview",
     subpages: [
       { name: "CCNA Overview", path: "/certifications/ccna" },
       { name: "CCNP Overview", path: "/certifications/ccnp" },
@@ -26,40 +26,205 @@ const pages: Page[] = [
     ],
   },
   {
-    name: "Exam Preparation", // Prep resources for both certifications
+    name: "Exam Preparation",
     subpages: [
-      { name: "CCNA Exam Guide", path: "/exam-prep/ccna" },
-      { name: "CCNP Exam Guide", path: "/exam-prep/ccnp" },
+      {
+        name: "CCNA",
+        subpages: [
+          { name: "CCNA Exam Guide", path: "/exam-prep/ccna/guide" },
+          { name: "CCNA Practice Questions", path: "/exam-prep/ccna/questions" },
+        ],
+      },
+      {
+        name: "CCNP",
+        subpages: [
+          { name: "CCNP Exam Guide", path: "/exam-prep/ccnp/guide" },
+          { name: "CCNP Practice Questions", path: "/exam-prep/ccnp/questions" },
+        ],
+      },
     ],
   },
   {
-    name: "Networking Tools", // Common tools for both certifications
+    name: "Networking Tools",
     subpages: [
-      { name: "Wireshark", path: "/tools/wireshark" },
-      { name: "Cisco Packet Tracer", path: "/tools/packet-tracer" },
-      { name: "GNS3 Setup", path: "/tools/gns3" },
+      {
+        name: "Wireshark",
+        subpages: [
+          { name: "Wireshark Notes", path: "/tools/wireshark/notes" },
+          { name: "Wireshark Usage Examples", path: "/tools/wireshark/examples" },
+        ],
+      },
+      {
+        name: "Cisco Packet Tracer",
+        subpages: [
+          { name: "Packet Tracer Notes", path: "/tools/packet-tracer/notes" },
+          { name: "Packet Tracer Scenarios", path: "/tools/packet-tracer/scenarios" },
+        ],
+      },
+      {
+        name: "GNS3 Setup",
+        subpages: [
+          { name: "GNS3 Basics", path: "/tools/gns3/basics" },
+          { name: "GNS3 Advanced Setup", path: "/tools/gns3/advanced" },
+        ],
+      },
     ],
   },
   {
-    name: "Core Networking Topics", // Shared foundational topics for both CCNA and CCNP
+    name: "Core Networking Topics",
     subpages: [
-      { name: "IP Networking Overview", path: "/core-networking/ip-networking-overview" },
-      { name: "Routing Protocols", path: "/core-networking/routing" },
-      { name: "Switching and VLANs", path: "/core-networking/switching-vlans" },
-      { name: "Access Control Lists (ACLs)", path: "/core-networking/acls" },
-      { name: "Wireless Networking Basics", path: "/core-networking/wireless" },
-      { name: "Networking Protocols (TCP/UDP, HTTP, DNS)", path: "/core-networking/protocols" },
-      { name: "Network Security Basics", path: "/core-networking/security" },
+      {
+        name: "IP Networking Overview",
+        subpages: [
+          { name: "TCP/IP Model Overview", path: "/core-networking/ip-networking/tcp-ip-overview" },
+          {
+            name: "Application Layer",
+            subpages: [
+              { name: "Overview of Application Layer", path: "/core-networking/ip-networking/application-layer/overview" },
+              { name: "HTTP/HTTPS", path: "/core-networking/ip-networking/application-layer/http-https" },
+              { name: "DNS Basics", path: "/core-networking/ip-networking/application-layer/dns" },
+            ],
+          },
+          {
+            name: "Transport Layer",
+            subpages: [
+              { name: "Overview of Transport Layer", path: "/core-networking/ip-networking/transport-layer/overview" },
+              { name: "TCP vs UDP", path: "/core-networking/ip-networking/transport-layer/tcp-vs-udp" },
+            ],
+          },
+          {
+            name: "Internet Layer",
+            subpages: [
+              { name: "Overview of Internet Layer", path: "/core-networking/ip-networking/internet-layer/overview" },
+              { name: "IPv4 vs IPv6", path: "/core-networking/ip-networking/internet-layer/ipv4-vs-ipv6" },
+              { name: "Subnet Mask and Default Gateway", path: "/core-networking/ip-networking/internet-layer/subnet-gateway" },
+            ],
+          },
+          {
+            name: "Data Link Layer",
+            subpages: [
+              { name: "Overview of Data Link Layer", path: "/core-networking/ip-networking/datalink-layer/overview" },
+              { name: "Burned-In Address (MAC Address)", path: "/core-networking/ip-networking/datalink-layer/mac-address" },
+              { name: "Address Resolution Protocol (ARP)", path: "/core-networking/ip-networking/datalink-layer/arp" },
+            ],
+          },
+          {
+            name: "Physical Layer",
+            subpages: [
+              { name: "Overview of Physical Layer", path: "/core-networking/ip-networking/physical-layer/overview" },
+              { name: "Data Representation", path: "/core-networking/ip-networking/physical-layer/data-representation" },
+              { name: "Standards of Communication", path: "/core-networking/ip-networking/physical-layer/standards" },
+              { name: "Encapsulation and De-encapsulation", path: "/core-networking/ip-networking/physical-layer/encapsulationanddeencapsulation" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Routing Protocols",
+        subpages: [
+          { name: "Static Routing", path: "/core-networking/routing/static" },
+          { name: "Dynamic Routing", path: "/core-networking/routing/dynamic" },
+          { name: "Routing Protocol Comparisons", path: "/core-networking/routing/comparisons" },
+        ],
+      },
+      {
+        name: "Switching and VLANs",
+        subpages: [
+          {
+            name: "Switching",
+            subpages: [
+              { name: "Switching Basics", path: "/core-networking/switching/basics" },
+              { name: "Layer 2 Switching", path: "/core-networking/switching/layer2" },
+              { name: "MAC Address Table", path: "/core-networking/switching/mac-address-table" },
+            ],
+          },
+          {
+            name: "VLANs",
+            subpages: [
+              { name: "VLAN Basics", path: "/core-networking/switching/vlans/basics" },
+              { name: "VLAN Trunking Protocol (VTP)", path: "/core-networking/switching/vlans/vtp" },
+              { name: "Inter-VLAN Routing", path: "/core-networking/switching/vlans/inter-vlan-routing" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Access Control Lists (ACLs)",
+        subpages: [
+          { name: "Standard ACLs", path: "/core-networking/acls/standard" },
+          { name: "Extended ACLs", path: "/core-networking/acls/extended" },
+          { name: "ACL Configuration Examples", path: "/core-networking/acls/examples" },
+        ],
+      },
+      {
+        name: "Wireless Networking Basics",
+        subpages: [
+          { name: "Wireless Standards", path: "/core-networking/wireless/standards" },
+          { name: "Wireless Security", path: "/core-networking/wireless/security" },
+          { name: "Wireless Troubleshooting", path: "/core-networking/wireless/troubleshooting" },
+        ],
+      },
+      {
+        name: "Networking Protocols",
+        subpages: [
+          { name: "TCP vs UDP", path: "/core-networking/protocols/tcp-vs-udp" },
+          { name: "HTTP and HTTPS", path: "/core-networking/protocols/http-https" },
+          { name: "DNS Basics", path: "/core-networking/protocols/dns" },
+        ],
+      },
+      {
+        name: "Network Security Basics",
+        subpages: [
+          { name: "Firewalls", path: "/core-networking/security/firewalls" },
+          { name: "Intrusion Detection", path: "/core-networking/security/ids" },
+          { name: "Encryption Basics", path: "/core-networking/security/encryption" },
+        ],
+      },
     ],
   },
   {
-    name: "CCNP Advanced Topics", // Only advanced topics unique to CCNP
+    name: "CCNP Advanced Topics",
     subpages: [
-      { name: "Advanced Routing Protocols", path: "/ccnp/advanced-routing" },
-      { name: "Advanced Switching Concepts", path: "/ccnp/advanced-switching" },
-      { name: "Automation & DevNet", path: "/ccnp/devnet" },
-      { name: "Advanced Network Security", path: "/ccnp/security" },
-      { name: "VOIP and Collaboration", path: "/ccnp/voip" },
+      {
+        name: "Advanced Routing Protocols",
+        subpages: [
+          { name: "BGP Basics", path: "/ccnp/advanced-routing/bgp" },
+          { name: "OSPF Advanced Concepts", path: "/ccnp/advanced-routing/ospf" },
+          { name: "EIGRP Advanced Concepts", path: "/ccnp/advanced-routing/eigrp" },
+        ],
+      },
+      {
+        name: "Advanced Switching Concepts",
+        subpages: [
+          { name: "Spanning Tree Protocol", path: "/ccnp/advanced-switching/stp" },
+          { name: "EtherChannel", path: "/ccnp/advanced-switching/etherchannel" },
+          { name: "Switch Stack Configuration", path: "/ccnp/advanced-switching/switch-stack" },
+        ],
+      },
+      {
+        name: "Automation & DevNet",
+        subpages: [
+          { name: "Python Automation", path: "/ccnp/devnet/python" },
+          { name: "Ansible Basics", path: "/ccnp/devnet/ansible" },
+          { name: "Network Programmability", path: "/ccnp/devnet/programmability" },
+        ],
+      },
+      {
+        name: "Advanced Network Security",
+        subpages: [
+          { name: "VPNs", path: "/ccnp/security/vpns" },
+          { name: "Advanced Firewalls", path: "/ccnp/security/firewalls" },
+          { name: "Zero Trust Networks", path: "/ccnp/security/zero-trust" },
+        ],
+      },
+      {
+        name: "VOIP and Collaboration",
+        subpages: [
+          { name: "VOIP Basics", path: "/ccnp/voip/basics" },
+          { name: "VOIP Protocols", path: "/ccnp/voip/protocols" },
+          { name: "VOIP Troubleshooting", path: "/ccnp/voip/troubleshooting" },
+        ],
+      },
     ],
   },
 ];
