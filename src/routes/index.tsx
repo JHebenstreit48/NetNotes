@@ -10,6 +10,8 @@ import WirelessNetworking from "@/Pages/WirelessNetworking";
 import NetworkingProtocols from "@/Pages/NetworkingProtocols";
 import NetworkSecurity from "@/Pages/NetworkSecurityBasics";
 import Wireshark from "@/Pages/Wireshark";
+import EncapsulationDeencapsulation from "@/Pages/EncapsulationDeencapsulation";
+import PhysicalLayerOverview from "@/Pages/PhysicalLayerOverview";
 
 export const router = createBrowserRouter([
   {
@@ -23,27 +25,35 @@ export const router = createBrowserRouter([
       },
       // Core Networking Topics
       {
-        path: "/core-networking/ip-networking-overview",
+        path: "/corenetworking/ipnetworking/tcpipoverview",
         element: <IPNetworkingOverview />
       },
       {
-        path: "/core-networking/routing",
+        path: "/corenetworking/ipnetworking/physicallayeroverview",
+        element: <PhysicalLayerOverview />
+      },
+      {
+        path: "/corenetworking/ipnetworking/physicallayer/encapsulationanddeencapsulation",
+        element: <EncapsulationDeencapsulation />
+      },
+      {
+        path: "/corenetworking/routing",
         element: <RoutingProtocols />
       },
       {
-        path: "/core-networking/switching-vlans",
+        path: "/corenetworking/switchingvlans",
         element: <SwitchingVLANs />
       },
       {
-        path: "/core-networking/acls",
+        path: "/corenetworking/acls",
         element: <ACLs />
       },
       {
-        path: "/core-networking/wireless",
+        path: "/corenetworking/wireless",
         element: <WirelessNetworking />
       },
       {
-        path: "/core-networking/protocols",
+        path: "/corenetworking/protocols",
         element: <NetworkingProtocols />
       },
       {
