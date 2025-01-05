@@ -74,47 +74,55 @@ const pages: Page[] = [
     name: "Core Networking Topics",
     subpages: [
       {
-        name: "IP Networking Overview",
+        name: "IP Networking",
         subpages: [
-          { name: "TCP/IP Model Overview", path: "/core-networking/ip-networking/tcp-ip-overview" },
+          {
+            name: "TCP/IP Overview",
+            subpages: [
+              {
+                name: "Overview",
+                path: "/corenetworking/ipnetworking/tcpipoverview"
+              },
+            ],
+          },
           {
             name: "Application Layer",
             subpages: [
-              { name: "Overview of Application Layer", path: "/core-networking/ip-networking/application-layer/overview" },
-              { name: "HTTP/HTTPS", path: "/core-networking/ip-networking/application-layer/http-https" },
-              { name: "DNS Basics", path: "/core-networking/ip-networking/application-layer/dns" },
+              { name: "Overview", path: "/corenetworking/ipnetworking/applicationlayeroverview" },
+              { name: "HTTP/HTTPS", path: "/corenetworking/ipnetworking/httphttps" },
+              { name: "DNS Basics", path: "/corenetworking/ipnetworking/dns" },
             ],
           },
           {
             name: "Transport Layer",
             subpages: [
-              { name: "Overview of Transport Layer", path: "/core-networking/ip-networking/transport-layer/overview" },
-              { name: "TCP vs UDP", path: "/core-networking/ip-networking/transport-layer/tcp-vs-udp" },
+              { name: "Overview", path: "/corenetworking/ipnetworking/transportlayeroverview" },
+              { name: "TCP vs UDP", path: "/corenetworking/ipnetworking/tcpvsudp" },
             ],
           },
           {
             name: "Internet Layer",
             subpages: [
-              { name: "Overview of Internet Layer", path: "/core-networking/ip-networking/internet-layer/overview" },
-              { name: "IPv4 vs IPv6", path: "/core-networking/ip-networking/internet-layer/ipv4-vs-ipv6" },
-              { name: "Subnet Mask and Default Gateway", path: "/core-networking/ip-networking/internet-layer/subnet-gateway" },
+              { name: "Overview of Internet Layer", path: "/corenetworking/ipnetworking/internetlayeroverview" },
+              { name: "IPv4 vs IPv6", path: "/corenetworking/ipnetworking/ipv4vsipv6" },
+              { name: "Subnet Mask and Default Gateway", path: "/corenetworking/ipnetworking/subnetmaskandgateway" },
             ],
           },
           {
             name: "Data Link Layer",
             subpages: [
-              { name: "Overview of Data Link Layer", path: "/core-networking/ip-networking/datalink-layer/overview" },
-              { name: "Burned-In Address (MAC Address)", path: "/core-networking/ip-networking/datalink-layer/mac-address" },
-              { name: "Address Resolution Protocol (ARP)", path: "/core-networking/ip-networking/datalink-layer/arp" },
+              { name: "Overview of Data Link Layer", path: "/corenetworking/ipnetworking/datalinklayeroverview" },
+              { name: "Burned-In Address (MAC Address)", path: "/corenetworking/ipnetworking/mac-address" },
+              { name: "Address Resolution Protocol (ARP)", path: "/corenetworking/ipnetworking/arp" },
             ],
           },
           {
             name: "Physical Layer",
             subpages: [
-              { name: "Overview of Physical Layer", path: "/core-networking/ip-networking/physical-layer/overview" },
-              { name: "Data Representation", path: "/core-networking/ip-networking/physical-layer/data-representation" },
-              { name: "Standards of Communication", path: "/core-networking/ip-networking/physical-layer/standards" },
-              { name: "Encapsulation and De-encapsulation", path: "/core-networking/ip-networking/physical-layer/encapsulationanddeencapsulation" },
+              { name: "Overview of Physical Layer", path: "/corenetworking/ipnetworking/physicallayeroverview" },
+              { name: "Data Representation", path: "/corenetworking/ipnetworking/datarepresentation" },
+              { name: "Standards of Communication", path: "/corenetworking/ipnetworking/standards" },
+              { name: "Encapsulation and De-encapsulation", path: "/corenetworking/ipnetworking/physicallayer/encapsulationanddeencapsulation" },
             ],
           },
         ],
@@ -122,9 +130,9 @@ const pages: Page[] = [
       {
         name: "Routing Protocols",
         subpages: [
-          { name: "Static Routing", path: "/core-networking/routing/static" },
-          { name: "Dynamic Routing", path: "/core-networking/routing/dynamic" },
-          { name: "Routing Protocol Comparisons", path: "/core-networking/routing/comparisons" },
+          { name: "Static Routing", path: "/corenetworking/routing/static" },
+          { name: "Dynamic Routing", path: "/corenetworking/routing/dynamic" },
+          { name: "Routing Protocol Comparisons", path: "/corenetworking/routing/comparisons" },
         ],
       },
       {
@@ -270,9 +278,8 @@ const Navigation = () => {
           ) : (
             <>
               <button
-                className={`subpageHeading ${
-                  level > 1 ? "nestedSubpageHeading" : ""
-                }`}
+                className={`subpageHeading ${level > 1 ? "nestedSubpageHeading" : ""
+                  }`}
                 onClick={() => toggleSection(key)}
                 aria-expanded={isExpanded}
               >
