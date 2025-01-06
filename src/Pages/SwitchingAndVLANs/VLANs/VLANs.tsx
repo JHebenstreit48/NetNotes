@@ -1,13 +1,12 @@
-import "../CSS/Header.css";
-import Header from "../Components/Header";
-import PageSetup from "../Components/PageSetup";
+import Header from "@/Components/Header";
+import PageSetup from "@/Components/PageSetup";
 
-const SwitchingVLANs = () => {
+const VLANBasics = () => {
     const markdownFilePath = '/CoreNetworkingTopics/SwitchingVLANs.md';
 
     return (
         <>
-            <Header text="Switching and VLANs" />
+            <Header text="VLAN Basics" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -16,4 +15,4 @@ const SwitchingVLANs = () => {
     );
 };
 
-export default SwitchingVLANs;
+export default VLANBasics;

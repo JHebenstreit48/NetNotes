@@ -32,14 +32,14 @@ const pages: Page[] = [
         name: "CCNA",
         subpages: [
           { name: "CCNA Exam Guide", path: "/exam-prep/ccna/guide" },
-          { name: "CCNA Practice Questions", path: "/exam-prep/ccna/questions" },
+          { name: "CCNA Practice Questions", path: "/examprep/ccna/questions" },
         ],
       },
       {
         name: "CCNP",
         subpages: [
-          { name: "CCNP Exam Guide", path: "/exam-prep/ccnp/guide" },
-          { name: "CCNP Practice Questions", path: "/exam-prep/ccnp/questions" },
+          { name: "CCNP Exam Guide", path: "/examprep/ccnp/guide" },
+          { name: "CCNP Practice Questions", path: "/examprep/ccnp/questions" },
         ],
       },
     ],
@@ -57,8 +57,8 @@ const pages: Page[] = [
       {
         name: "Cisco Packet Tracer",
         subpages: [
-          { name: "Packet Tracer Notes", path: "/tools/packet-tracer/notes" },
-          { name: "Packet Tracer Scenarios", path: "/tools/packet-tracer/scenarios" },
+          { name: "Packet Tracer Notes", path: "/tools/packettracer/notes" },
+          { name: "Packet Tracer Scenarios", path: "/tools/packettracer/scenarios" },
         ],
       },
       {
@@ -88,40 +88,40 @@ const pages: Page[] = [
           {
             name: "Application Layer",
             subpages: [
-              { name: "Overview", path: "/corenetworking/ipnetworking/applicationlayeroverview" },
-              { name: "HTTP/HTTPS", path: "/corenetworking/ipnetworking/httphttps" },
-              { name: "DNS Basics", path: "/corenetworking/ipnetworking/dns" },
+              { name: "Overview", path: "/corenetworking/ipnetworking/applicationlayer/overview" },
+              { name: "HTTP/HTTPS", path: "/corenetworking/ipnetworking/applicationlayer/httphttps" },
+              { name: "DNS Basics", path: "/corenetworking/ipnetworking/applicationlayer/dns" },
             ],
           },
           {
             name: "Transport Layer",
             subpages: [
-              { name: "Overview", path: "/corenetworking/ipnetworking/transportlayeroverview" },
-              { name: "TCP vs UDP", path: "/corenetworking/ipnetworking/tcpvsudp" },
+              { name: "Overview", path: "/corenetworking/ipnetworking/transportlayer/overview" },
+              { name: "TCP vs UDP", path: "/corenetworking/ipnetworking/transportlayer/tcpvsudp" },
             ],
           },
           {
             name: "Internet Layer",
             subpages: [
-              { name: "Overview of Internet Layer", path: "/corenetworking/ipnetworking/internetlayeroverview" },
-              { name: "IPv4 vs IPv6", path: "/corenetworking/ipnetworking/ipv4vsipv6" },
-              { name: "Subnet Mask and Default Gateway", path: "/corenetworking/ipnetworking/subnetmaskandgateway" },
+              { name: "Overview of Internet Layer", path: "/corenetworking/ipnetworking/internetlayer/overview" },
+              { name: "IPv4 vs IPv6", path: "/corenetworking/ipnetworking/internetlayer/ipv4vsipv6" },
+              { name: "Subnet Mask and Default Gateway", path: "/corenetworking/ipnetworking/internetlayer/subnetmaskandgateway" },
             ],
           },
           {
             name: "Data Link Layer",
             subpages: [
-              { name: "Overview of Data Link Layer", path: "/corenetworking/ipnetworking/datalinklayeroverview" },
-              { name: "Burned-In Address (MAC Address)", path: "/corenetworking/ipnetworking/mac-address" },
-              { name: "Address Resolution Protocol (ARP)", path: "/corenetworking/ipnetworking/arp" },
+              { name: "Overview of Data Link Layer", path: "/corenetworking/ipnetworking/datalinklayer/overview" },
+              { name: "Burned-In Address (MAC Address)", path: "/corenetworking/ipnetworking/datalinklayer/macaddress" },
+              { name: "Address Resolution Protocol (ARP)", path: "/corenetworking/ipnetworking/datalinklayer/arp" },
             ],
           },
           {
             name: "Physical Layer",
             subpages: [
-              { name: "Overview of Physical Layer", path: "/corenetworking/ipnetworking/physicallayeroverview" },
-              { name: "Data Representation", path: "/corenetworking/ipnetworking/datarepresentation" },
-              { name: "Standards of Communication", path: "/corenetworking/ipnetworking/standards" },
+              { name: "Overview of Physical Layer", path: "/corenetworking/ipnetworking/physicallayer/overview" },
+              { name: "Data Representation", path: "/corenetworking/ipnetworking/physicallayer/datarepresentation" },
+              { name: "Standards of Communication", path: "/corenetworking/ipnetworking/physicallayer/standards" },
               { name: "Encapsulation and De-encapsulation", path: "/corenetworking/ipnetworking/physicallayer/encapsulationanddeencapsulation" },
             ],
           },
@@ -130,8 +130,8 @@ const pages: Page[] = [
       {
         name: "Routing Protocols",
         subpages: [
-          { name: "Static Routing", path: "/corenetworking/routing/static" },
-          { name: "Dynamic Routing", path: "/corenetworking/routing/dynamic" },
+          { name: "Static Routing", path: "/corenetworking/routing/staticrouting" },
+          { name: "Dynamic Routing", path: "/corenetworking/routing/dynamicrouting" },
           { name: "Routing Protocol Comparisons", path: "/corenetworking/routing/comparisons" },
         ],
       },
@@ -141,17 +141,17 @@ const pages: Page[] = [
           {
             name: "Switching",
             subpages: [
-              { name: "Switching Basics", path: "/core-networking/switching/basics" },
-              { name: "Layer 2 Switching", path: "/core-networking/switching/layer2" },
-              { name: "MAC Address Table", path: "/core-networking/switching/mac-address-table" },
+              { name: "Switching Basics", path: "/corenetworking/switching/basics" },
+              { name: "Layer 2 Switching", path: "/corenetworking/switching/layer2" },
+              { name: "MAC Address Table", path: "/corenetworking/switching/macaddresstable" },
             ],
           },
           {
             name: "VLANs",
             subpages: [
-              { name: "VLAN Basics", path: "/core-networking/switching/vlans/basics" },
-              { name: "VLAN Trunking Protocol (VTP)", path: "/core-networking/switching/vlans/vtp" },
-              { name: "Inter-VLAN Routing", path: "/core-networking/switching/vlans/inter-vlan-routing" },
+              { name: "VLAN Basics", path: "/corenetworking/switching/vlans/basics" },
+              { name: "VLAN Trunking Protocol (VTP)", path: "/corenetworking/switching/vlans/vtp" },
+              { name: "Inter-VLAN Routing", path: "/corenetworking/switching/vlans/intervlanrouting" },
             ],
           },
         ],
@@ -159,33 +159,33 @@ const pages: Page[] = [
       {
         name: "Access Control Lists (ACLs)",
         subpages: [
-          { name: "Standard ACLs", path: "/core-networking/acls/standard" },
-          { name: "Extended ACLs", path: "/core-networking/acls/extended" },
-          { name: "ACL Configuration Examples", path: "/core-networking/acls/examples" },
+          { name: "Standard ACLs", path: "/corenetworking/acls/standard" },
+          { name: "Extended ACLs", path: "/corenetworking/acls/extended" },
+          { name: "ACL Configuration Examples", path: "/corenetworking/acls/examples" },
         ],
       },
       {
         name: "Wireless Networking Basics",
         subpages: [
-          { name: "Wireless Standards", path: "/core-networking/wireless/standards" },
-          { name: "Wireless Security", path: "/core-networking/wireless/security" },
-          { name: "Wireless Troubleshooting", path: "/core-networking/wireless/troubleshooting" },
+          { name: "Wireless Standards", path: "/corenetworking/wireless/standards" },
+          { name: "Wireless Security", path: "/corenetworking/wireless/security" },
+          { name: "Wireless Troubleshooting", path: "/corenetworking/wireless/troubleshooting" },
         ],
       },
       {
         name: "Networking Protocols",
         subpages: [
-          { name: "TCP vs UDP", path: "/core-networking/protocols/tcp-vs-udp" },
-          { name: "HTTP and HTTPS", path: "/core-networking/protocols/http-https" },
-          { name: "DNS Basics", path: "/core-networking/protocols/dns" },
+          { name: "TCP vs UDP", path: "/corenetworking/protocols/tcp-vs-udp" },
+          { name: "HTTP and HTTPS", path: "/corenetworking/protocols/http-https" },
+          { name: "DNS Basics", path: "/corenetworking/protocols/dns" },
         ],
       },
       {
         name: "Network Security Basics",
         subpages: [
-          { name: "Firewalls", path: "/core-networking/security/firewalls" },
-          { name: "Intrusion Detection", path: "/core-networking/security/ids" },
-          { name: "Encryption Basics", path: "/core-networking/security/encryption" },
+          { name: "Firewalls", path: "/corenetworking/security/firewalls" },
+          { name: "Intrusion Detection", path: "/corenetworking/security/ids" },
+          { name: "Encryption Basics", path: "/corenetworking/security/encryption" },
         ],
       },
     ],
@@ -196,17 +196,17 @@ const pages: Page[] = [
       {
         name: "Advanced Routing Protocols",
         subpages: [
-          { name: "BGP Basics", path: "/ccnp/advanced-routing/bgp" },
-          { name: "OSPF Advanced Concepts", path: "/ccnp/advanced-routing/ospf" },
-          { name: "EIGRP Advanced Concepts", path: "/ccnp/advanced-routing/eigrp" },
+          { name: "BGP Basics", path: "/ccnp/advancedrouting/bgp" },
+          { name: "OSPF Advanced Concepts", path: "/ccnp/advancedrouting/ospf" },
+          { name: "EIGRP Advanced Concepts", path: "/ccnp/advancedrouting/eigrp" },
         ],
       },
       {
         name: "Advanced Switching Concepts",
         subpages: [
-          { name: "Spanning Tree Protocol", path: "/ccnp/advanced-switching/stp" },
-          { name: "EtherChannel", path: "/ccnp/advanced-switching/etherchannel" },
-          { name: "Switch Stack Configuration", path: "/ccnp/advanced-switching/switch-stack" },
+          { name: "Spanning Tree Protocol", path: "/ccnp/advancedswitching/stp" },
+          { name: "EtherChannel", path: "/ccnp/advancedswitching/etherchannel" },
+          { name: "Switch Stack Configuration", path: "/ccnp/advancedswitching/switchstack" },
         ],
       },
       {
@@ -222,7 +222,7 @@ const pages: Page[] = [
         subpages: [
           { name: "VPNs", path: "/ccnp/security/vpns" },
           { name: "Advanced Firewalls", path: "/ccnp/security/firewalls" },
-          { name: "Zero Trust Networks", path: "/ccnp/security/zero-trust" },
+          { name: "Zero Trust Networks", path: "/ccnp/security/zerotrust" },
         ],
       },
       {
