@@ -1,17 +1,19 @@
 import { createBrowserRouter } from "react-router-dom";
+
 import App from "@/App";
 import ErrorPage from "@/Pages/Error";
 import Home from "@/Pages/Home";
-import IPNetworkingOverview from "@/Pages/IPNetworkingOverview";
+
+import IPNetworkingOverview from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview";
 import RoutingProtocols from "@/Pages/RoutingProtocols";
-import SwitchingVLANs from "@/Pages/Switching";
 import ACLs from "@/Pages/ACLs";
 import WirelessNetworking from "@/Pages/WirelessNetworking";
 import NetworkingProtocols from "@/Pages/NetworkingProtocols";
 import NetworkSecurity from "@/Pages/NetworkSecurityBasics";
-import Wireshark from "@/Pages/Wireshark";
-import EncapsulationDeencapsulation from "@/Pages/EncapsulationDeencapsulation";
-import PhysicalLayerOverview from "@/Pages/PhysicalLayerOverview";
+import Wireshark from "@/Pages/NetworkingTools/Wireshark";
+import EncapsulationDeencapsulation from "@/Pages/CoreNetworkingTopics/PhysicalLayer/EncapsulationDeencapsulation";
+import PhysicalLayerOverview from "@/Pages/CoreNetworkingTopics/PhysicalLayer/PhysicalLayerOverview";
+import SwitchingBasics from "@/Pages/SwitchingAndVLANs/SwitchingPages/Switching";
 
 export const router = createBrowserRouter([
   {
@@ -29,7 +31,7 @@ export const router = createBrowserRouter([
         element: <IPNetworkingOverview />
       },
       {
-        path: "/corenetworking/ipnetworking/physicallayeroverview",
+        path: "/corenetworking/ipnetworking/physicallayer/overview",
         element: <PhysicalLayerOverview />
       },
       {
@@ -37,12 +39,12 @@ export const router = createBrowserRouter([
         element: <EncapsulationDeencapsulation />
       },
       {
-        path: "/corenetworking/routing",
+        path: "/corenetworking/routing/staticrouting",
         element: <RoutingProtocols />
       },
       {
         path: "/corenetworking/switchingvlans",
-        element: <SwitchingVLANs />
+        element: <SwitchingBasics />
       },
       {
         path: "/corenetworking/acls",
