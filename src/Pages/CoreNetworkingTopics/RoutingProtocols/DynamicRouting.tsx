@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const ACLs = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/ACLs.md';
+const DynamicRouting = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/RoutingProtocols/DynamicRouting.md';
 
     return (
         <>
-            <Header text="Access Control Lists (ACLs)" />
+            <Header text="Dynamic Routing" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const ACLs = () => {
     );
 };
 
-export default ACLs;
+export default DynamicRouting;

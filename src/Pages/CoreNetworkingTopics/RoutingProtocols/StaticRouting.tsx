@@ -1,13 +1,12 @@
-import "../CSS/Header.css";
-import Header from "../Components/Header";
-import PageSetup from "../Components/PageSetup";
+import Header from "@/Components/Header";
+import PageSetup from "@/Components/PageSetup";
 
 const StaticRouting = () => {
-    const markdownFilePath = '/RoutingProtocols/StaticRouting.md';
+    const markdownFilePath = '/CoreNetworkingTopics/RoutingProtocols/StaticRouting.md';
 
     return (
         <>
-            <Header text="Routing Protocols" />
+            <Header text="Static Routing" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

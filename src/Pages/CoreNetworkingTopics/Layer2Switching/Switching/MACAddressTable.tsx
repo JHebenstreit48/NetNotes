@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const PhysicalLayerOverview = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/PhysicalLayer/Overview.md';
+const MACAddressTable = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/MACAddressTable.md';
 
     return (
         <>
-            <Header text="Physical Layer Overview" />
+            <Header text="MAC Address Table" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const PhysicalLayerOverview = () => {
     );
 };
 
-export default PhysicalLayerOverview;
+export default MACAddressTable;

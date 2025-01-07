@@ -44,6 +44,8 @@ const pages: Page[] = [
       },
     ],
   },
+
+  // Networking Tools Start
   {
     name: "Networking Tools",
     subpages: [
@@ -70,6 +72,9 @@ const pages: Page[] = [
       },
     ],
   },
+  // Networking Tools End
+
+  // Core Networking Topics start
   {
     name: "Core Networking Topics",
     subpages: [
@@ -156,56 +161,70 @@ const pages: Page[] = [
       },
       // Routing Protocols end
 
+      // Layer 2 Switching start
       {
-        name: "Switching and VLANs",
+        name: "Layer 2 Switching",
         subpages: [
           {
             name: "Switching",
             subpages: [
-              { name: "Switching Overview", path: "/corenetworking/switching/overview" },
-              { name: "Layer 2 Switching", path: "/corenetworking/switching/layer2" },
-              { name: "MAC Address Table", path: "/corenetworking/switching/macaddresstable" },
+              { name: "Switching Overview", path: "/corenetworking/l2switching/switching/overview" },
+              { name: "Layer 2 Switching", path: "/corenetworking/l2switching/switching/layer2switching" },
+              { name: "MAC Address Table", path: "/corenetworking/l2switching/switching/macaddresstable" },
             ],
           },
+
+          // VLANs Start
           {
             name: "VLANs",
             subpages: [
-              { name: "VLAN Basics", path: "/corenetworking/switching/vlans/basics" },
-              { name: "VLAN Trunking Protocol (VTP)", path: "/corenetworking/switching/vlans/vtp" },
-              { name: "Inter-VLAN Routing", path: "/corenetworking/switching/vlans/intervlanrouting" },
+              { name: "VLAN Overview", path: "/corenetworking/l2switching/vlans/overview" },
+              { name: "VLAN Trunking Protocol (VTP)", path: "/corenetworking/l2switching/vlans/vtp" },
+              { name: "Inter-VLAN Routing", path: "/corenetworking/l2switching/vlans/intervlanrouting" },
             ],
           },
+          // VLANs End
         ],
       },
+      // Layer 2 Switching end
+
+      // ACLs Start
       {
-        name: "Access Control Lists (ACLs)",
+        name: "Access Control Lists",
         subpages: [
           { name: "Standard ACLs", path: "/corenetworking/acls/standard" },
           { name: "Extended ACLs", path: "/corenetworking/acls/extended" },
           { name: "ACL Configuration Examples", path: "/corenetworking/acls/examples" },
         ],
       },
+      // ACLs End
 
+      // Wireless Networking Start
       {
-        name: "Wireless Networking Basics",
+        name: "Wireless Networking",
         subpages: [
           { name: "Wireless Standards", path: "/corenetworking/wireless/standards" },
           { name: "Wireless Security", path: "/corenetworking/wireless/security" },
           { name: "Wireless Troubleshooting", path: "/corenetworking/wireless/troubleshooting" },
         ],
       },
+      // Wireless Networking End
 
+      // Network Security Start
       {
-        name: "Network Security Basics",
+        name: "Network Security",
         subpages: [
           { name: "Firewalls", path: "/corenetworking/security/firewalls" },
           { name: "Intrusion Detection", path: "/corenetworking/security/ids" },
           { name: "Encryption Basics", path: "/corenetworking/security/encryption" },
         ],
       },
+       // Network Security End
     ],
   },
+  // Core Networking End
 
+  // CCNP Advanced Topics start
   {
     name: "CCNP Advanced Topics",
     subpages: [
@@ -251,6 +270,7 @@ const pages: Page[] = [
       },
     ],
   },
+  // CCNP Advanced Topics end
 ];
 
 const Navigation = () => {

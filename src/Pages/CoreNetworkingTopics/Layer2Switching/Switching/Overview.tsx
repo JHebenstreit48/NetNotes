@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const PhysicalLayerOverview = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/PhysicalLayer/Overview.md';
+const SwitchingOverview = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/Overview.md';
 
     return (
         <>
-            <Header text="Physical Layer Overview" />
+            <Header text="Switching Overview" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const PhysicalLayerOverview = () => {
     );
 };
 
-export default PhysicalLayerOverview;
+export default SwitchingOverview;
