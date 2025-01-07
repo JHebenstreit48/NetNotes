@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const EncapsulationDeencapsulation = () => {
-    const markdownFilePath = '/PhysicalLayer/EncapsulationDeencapsulation.md';
+const InternetLayerOverview = () => {
+    const markdownFilePath = '/InternetLayer/Overview.md';
 
     return (
         <>
-            <Header text="Encapsualtion and De-encapsulation" />
+            <Header text="Internet Layer Overview" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const EncapsulationDeencapsulation = () => {
     );
 };
 
-export default EncapsulationDeencapsulation;
+export default InternetLayerOverview;

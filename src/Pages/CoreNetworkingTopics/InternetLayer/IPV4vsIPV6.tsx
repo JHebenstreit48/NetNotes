@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const EncapsulationDeencapsulation = () => {
-    const markdownFilePath = '/PhysicalLayer/EncapsulationDeencapsulation.md';
+const IPV4vsIPV6 = () => {
+    const markdownFilePath = '/InternetLayer/IPv4vsIPv6.md';
 
     return (
         <>
-            <Header text="Encapsualtion and De-encapsulation" />
+            <Header text="IPv4 vs IPv6" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const EncapsulationDeencapsulation = () => {
     );
 };
 
-export default EncapsulationDeencapsulation;
+export default IPV4vsIPV6;
