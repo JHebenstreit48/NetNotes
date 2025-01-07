@@ -90,7 +90,7 @@ const pages: Page[] = [
             subpages: [
               { name: "Overview", path: "/corenetworking/ipnetworking/applicationlayer/overview" },
               { name: "HTTP/HTTPS", path: "/corenetworking/ipnetworking/applicationlayer/httphttps" },
-              { name: "DNS Basics", path: "/corenetworking/ipnetworking/applicationlayer/dns" },
+              { name: "DNS", path: "/corenetworking/ipnetworking/applicationlayer/dns" },
             ],
           },
           {

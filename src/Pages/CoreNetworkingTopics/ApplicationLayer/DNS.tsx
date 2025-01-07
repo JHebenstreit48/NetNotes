@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const EncapsulationDeencapsulation = () => {
-    const markdownFilePath = '/PhysicalLayer/EncapsulationDeencapsulation.md';
+const DNS = () => {
+    const markdownFilePath = '/ApplicationLayer/DNS.md';
 
     return (
         <>
-            <Header text="Encapsualtion and De-encapsulation" />
+            <Header text="DNS" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const EncapsulationDeencapsulation = () => {
     );
 };
 
-export default EncapsulationDeencapsulation;
+export default DNS;

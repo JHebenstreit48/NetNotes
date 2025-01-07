@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const EncapsulationDeencapsulation = () => {
-    const markdownFilePath = '/PhysicalLayer/EncapsulationDeencapsulation.md';
+const HTTPHTTPS = () => {
+    const markdownFilePath = '/ApplicationLayer/HTTPHTTPS.md';
 
     return (
         <>
-            <Header text="Encapsualtion and De-encapsulation" />
+            <Header text="HTTP/HTTPS" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const EncapsulationDeencapsulation = () => {
     );
 };
 
-export default EncapsulationDeencapsulation;
+export default HTTPHTTPS;
