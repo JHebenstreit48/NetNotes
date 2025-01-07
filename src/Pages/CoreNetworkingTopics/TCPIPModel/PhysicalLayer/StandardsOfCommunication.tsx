@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const VLANBasics = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/SwitchingVLANs.md';
+const StandardsOfCommunication = () => {
+    const markdownFilePath = '/PhysicalLayer/StandardsOfCommunication.md';
 
     return (
         <>
-            <Header text="VLAN Basics" />
+            <Header text="Standards of Communication" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const VLANBasics = () => {
     );
 };
 
-export default VLANBasics;
+export default StandardsOfCommunication;

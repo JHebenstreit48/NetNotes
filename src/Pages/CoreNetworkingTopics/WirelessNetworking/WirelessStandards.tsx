@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const SwitchingOverview = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/SwitchingVLANs.md';
+const WirelessStandards = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/WirelessNetworking.md';
 
     return (
         <>
-            <Header text="Switching Overview" />
+            <Header text="Wireless Networking" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const SwitchingOverview = () => {
     );
 };
 
-export default SwitchingOverview;
+export default WirelessStandards;
