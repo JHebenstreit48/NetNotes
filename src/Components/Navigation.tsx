@@ -50,7 +50,7 @@ const pages: Page[] = [
       {
         name: "Wireshark",
         subpages: [
-          { name: "Wireshark Notes", path: "/tools/wireshark/notes" },
+          { name: "Wireshark Notes", path: "/tools/wireshark" },
           { name: "Wireshark Usage Examples", path: "/tools/wireshark/examples" },
         ],
       },
