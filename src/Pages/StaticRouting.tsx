@@ -2,8 +2,8 @@ import "../CSS/Header.css";
 import Header from "../Components/Header";
 import PageSetup from "../Components/PageSetup";
 
-const RoutingProtocols = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/RoutingProtocols.md';
+const StaticRouting = () => {
+    const markdownFilePath = '/RoutingProtocols/StaticRouting.md';
 
     return (
         <>
@@ -16,4 +16,4 @@ const RoutingProtocols = () => {
     );
 };
 
-export default RoutingProtocols;
+export default StaticRouting;

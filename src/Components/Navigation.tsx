@@ -73,60 +73,79 @@ const pages: Page[] = [
   {
     name: "Core Networking Topics",
     subpages: [
+
+      // IP Networking Overview start
       {
         name: "IP Networking",
         subpages: [
-          {
-            name: "TCP/IP Overview",
-            subpages: [
-              {
-                name: "Overview",
-                path: "/corenetworking/ipnetworking/tcpipoverview"
-              },
-            ],
-          },
+          { name: "IP Networking Overview", path: "/corenetworking/ipnetworking/overview" },
+        ],
+      },
+      // IP Networking Overview end
+
+      // TCP/IP Model start
+      {
+        name: "TCP/IP Model",
+        subpages: [
+          // Application Layer start
           {
             name: "Application Layer",
             subpages: [
-              { name: "Overview", path: "/corenetworking/ipnetworking/applicationlayer/overview" },
-              { name: "HTTP/HTTPS", path: "/corenetworking/ipnetworking/applicationlayer/httphttps" },
-              { name: "DNS", path: "/corenetworking/ipnetworking/applicationlayer/dns" },
+              { name: "Overview", path: "/corenetworking/tcpipmodel/applicationlayer/overview" },
+              { name: "HTTP/HTTPS", path: "/corenetworking/tcpipmodel/applicationlayer/httphttps" },
+              { name: "DNS", path: "/corenetworking/tcpipmodel/applicationlayer/dns" },
             ],
           },
+          // Application Layer end
+
+          // Transport Layer start
           {
             name: "Transport Layer",
             subpages: [
-              { name: "Overview", path: "/corenetworking/ipnetworking/transportlayer/overview" },
-              { name: "TCP vs UDP", path: "/corenetworking/ipnetworking/transportlayer/tcpvsudp" },
+              { name: "Overview", path: "/corenetworking/tcpipmodel/transportlayer/overview" },
+              { name: "TCP vs UDP", path: "/corenetworking/tcpipmodel/transportlayer/tcpvsudp" },
             ],
           },
+          // Transport Layer end
+
+          // Internet Layer start
           {
             name: "Internet Layer",
             subpages: [
-              { name: "Overview of Internet Layer", path: "/corenetworking/ipnetworking/internetlayer/overview" },
-              { name: "IPv4 vs IPv6", path: "/corenetworking/ipnetworking/internetlayer/ipv4vsipv6" },
-              { name: "Subnet Mask and Default Gateway", path: "/corenetworking/ipnetworking/internetlayer/subnetmaskandgateway" },
+              { name: "Overview of Internet Layer", path: "/corenetworking/tcpipmodel/internetlayer/overview" },
+              { name: "IPv4 vs IPv6", path: "/corenetworking/tcpipmodel/internetlayer/ipv4vsipv6" },
+              { name: "Subnet Mask and Default Gateway", path: "/corenetworking/tcpipmodel/internetlayer/subnetmaskandgateway" },
             ],
           },
+          // Internet Layer end
+
+          // Data Link Layer start
           {
             name: "Data Link Layer",
             subpages: [
-              { name: "Overview of Data Link Layer", path: "/corenetworking/ipnetworking/datalinklayer/overview" },
-              { name: "Burned-In Address (MAC Address)", path: "/corenetworking/ipnetworking/datalinklayer/macaddress" },
-              { name: "Address Resolution Protocol (ARP)", path: "/corenetworking/ipnetworking/datalinklayer/arp" },
+              { name: "Overview of Data Link Layer", path: "/corenetworking/tcpipmodel/datalinklayer/overview" },
+              { name: "Burned-In Address", path: "/corenetworking/tcpipmodel/datalinklayer/bia" },
+              { name: "Address Resolution Protocol (ARP)", path: "/corenetworking/tcpipmodel/datalinklayer/arp" },
             ],
           },
+          // Data Link Layer end
+
+          // Physical Layer start
           {
             name: "Physical Layer",
             subpages: [
-              { name: "Overview of Physical Layer", path: "/corenetworking/ipnetworking/physicallayer/overview" },
-              { name: "Data Representation", path: "/corenetworking/ipnetworking/physicallayer/datarepresentation" },
-              { name: "Standards of Communication", path: "/corenetworking/ipnetworking/physicallayer/standards" },
-              { name: "Encapsulation and De-encapsulation", path: "/corenetworking/ipnetworking/physicallayer/encapsulationanddeencapsulation" },
+              { name: "Overview of Physical Layer", path: "/corenetworking/tcpipmodel/physicallayer/overview" },
+              { name: "Data Representation", path: "/corenetworking/tcpipmodel/physicallayer/datarepresentation" },
+              { name: "Standards of Communication", path: "/corenetworking/tcpipmodel/physicallayer/standardsofcommunication" },
+              { name: "Encapsulation and De-encapsulation", path: "/corenetworking/tcpipmodel/physicallayer/encapsulationanddeencapsulation" },
             ],
           },
+          // Physical Layer end
         ],
       },
+      // TCP/IP Model end 
+
+      // Routing Protocols start
       {
         name: "Routing Protocols",
         subpages: [
@@ -135,13 +154,15 @@ const pages: Page[] = [
           { name: "Routing Protocol Comparisons", path: "/corenetworking/routing/comparisons" },
         ],
       },
+      // Routing Protocols end
+
       {
         name: "Switching and VLANs",
         subpages: [
           {
             name: "Switching",
             subpages: [
-              { name: "Switching Basics", path: "/corenetworking/switching/basics" },
+              { name: "Switching Overview", path: "/corenetworking/switching/overview" },
               { name: "Layer 2 Switching", path: "/corenetworking/switching/layer2" },
               { name: "MAC Address Table", path: "/corenetworking/switching/macaddresstable" },
             ],
@@ -164,6 +185,7 @@ const pages: Page[] = [
           { name: "ACL Configuration Examples", path: "/corenetworking/acls/examples" },
         ],
       },
+
       {
         name: "Wireless Networking Basics",
         subpages: [
@@ -172,14 +194,7 @@ const pages: Page[] = [
           { name: "Wireless Troubleshooting", path: "/corenetworking/wireless/troubleshooting" },
         ],
       },
-      {
-        name: "Networking Protocols",
-        subpages: [
-          { name: "TCP vs UDP", path: "/corenetworking/protocols/tcp-vs-udp" },
-          { name: "HTTP and HTTPS", path: "/corenetworking/protocols/http-https" },
-          { name: "DNS Basics", path: "/corenetworking/protocols/dns" },
-        ],
-      },
+
       {
         name: "Network Security Basics",
         subpages: [
@@ -190,6 +205,7 @@ const pages: Page[] = [
       },
     ],
   },
+
   {
     name: "CCNP Advanced Topics",
     subpages: [

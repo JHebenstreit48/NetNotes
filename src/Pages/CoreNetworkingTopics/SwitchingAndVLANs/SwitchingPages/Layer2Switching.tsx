@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const SwitchingBasics = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/SwitchingVLANs.md';
+const Layer2Switching = () => {
+    const markdownFilePath = '/.md';
 
     return (
         <>
-            <Header text="Switching Basics" />
+            <Header text="Layer2Switching" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const SwitchingBasics = () => {
     );
 };
 
-export default SwitchingBasics;
+export default Layer2Switching;

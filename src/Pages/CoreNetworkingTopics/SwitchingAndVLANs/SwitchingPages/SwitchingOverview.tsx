@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const IPNetworkingOverview = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/IPNetworkingOverview.md';
+const SwitchingOverview = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/SwitchingVLANs.md';
 
     return (
         <>
-            <Header text="IP Networking Overview" />
+            <Header text="Switching Overview" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const IPNetworkingOverview = () => {
     );
 };
 
-export default IPNetworkingOverview;
+export default SwitchingOverview;
