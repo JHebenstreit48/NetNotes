@@ -4,6 +4,14 @@ import App from "@/App";
 import ErrorPage from "@/Pages/Error";
 import Home from "@/Pages/Home";
 
+// Certifications Overview Start
+// Placeholder for Certifications Overview imports
+// Certifications Overview End
+
+// Exam Preparation Start
+// Placeholder for Exam Preparation imports
+// Exam Preparation End
+
 // Neworking Tools Start
 import Wireshark from "@/Pages/NetworkingTools/Wireshark";
 
@@ -65,7 +73,8 @@ import MACAddressTable from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switch
 
 // VLANs Start
 import VLANOverview from "@/Pages/CoreNetworkingTopics/Layer2Switching/VLAN/VLANOverview";
-
+import VTP from "@/Pages/CoreNetworkingTopics/Layer2Switching/VLAN/VTP";
+import InterVLANRouting from "@/Pages/CoreNetworkingTopics/Layer2Switching/VLAN/InterVLANRouting";
 // VLANs End
 
 // L2 Switching End
@@ -81,9 +90,14 @@ import WirelessStandards from "@/Pages/CoreNetworkingTopics/WirelessNetworking/W
 // Wireless Networking End
 
 // Network Security Start
-import NetworkSecurity from "@/Pages/NetworkSecurityBasics";
+import Firewalls from "@/Pages/CoreNetworkingTopics/NetworkSecurity/Firewalls";
+
 
 // Network Security End
+
+// CCNP Advanced Topics Start
+// Placeholder for CCNP Advanced Topics imports
+// CCNP Advanced Topics End
 
 export const router = createBrowserRouter([
   {
@@ -95,6 +109,14 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
+
+      // Certifications Overview Start
+      // Placeholder for Certifications Overview imports
+      // Certifications Overview End
+
+      // Exam Preparation Start
+      // Placeholder for Exam Preparation imports
+      // Exam Preparation End
 
       // Networking Tools Start
       {
@@ -224,7 +246,14 @@ export const router = createBrowserRouter([
         path: "/corenetworking/l2switching/vlans/overview",
         element: <VLANOverview />
       },
-
+      {
+        path: "/corenetworking/l2switching/vlans/vtp",
+        element: <VTP />
+      },
+      {
+        path: "/corenetworking/l2switching/vlans/intervlanrouting",
+        element: <InterVLANRouting />
+      },
       // VLANs End
 
       // Layer 2 Switching End
@@ -247,13 +276,17 @@ export const router = createBrowserRouter([
 
       // Network Security Start
       {
-        path: "/core-networking/security",
-        element: <NetworkSecurity />
+        path: "/corenetworking/security/firewalls",
+        element: <Firewalls />
       },
 
       // Network Security End
 
       // Core Networking Topics End
+
+      // CCNP Advanced Topics Start
+      // Placeholder for CCNP Advanced Topics routes
+      // CCNP Advanced Topics End
     ],
   },
 ]);

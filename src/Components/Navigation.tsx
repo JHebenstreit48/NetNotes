@@ -28,6 +28,7 @@ const pages: Page[] = [
   {
     name: "Exam Preparation",
     subpages: [
+      // CCNA Prep Start
       {
         name: "CCNA",
         subpages: [
@@ -35,6 +36,9 @@ const pages: Page[] = [
           { name: "CCNA Practice Questions", path: "/examprep/ccna/questions" },
         ],
       },
+      // CCNA Prep End
+
+      // CCNP Prep Start
       {
         name: "CCNP",
         subpages: [
@@ -42,6 +46,17 @@ const pages: Page[] = [
           { name: "CCNP Practice Questions", path: "/examprep/ccnp/questions" },
         ],
       },
+      // CCNP Prep End
+
+      // DevNet Prep Start
+      {
+        name: "DevNet",
+        subpages: [
+          { name: "DevNet Exam Guide", path: "/examprep/devnet/guide" },
+          { name: "DevNet Practice Questions", path: "/examprep/devnet/questions" },
+        ],
+      },
+      // DevNet Prep End
     ],
   },
 
@@ -49,6 +64,7 @@ const pages: Page[] = [
   {
     name: "Networking Tools",
     subpages: [
+      // Wireshark Start
       {
         name: "Wireshark",
         subpages: [
@@ -56,6 +72,9 @@ const pages: Page[] = [
           { name: "Wireshark Usage Examples", path: "/tools/wireshark/examples" },
         ],
       },
+      // Wireshark End
+
+      // Packet Tracer Start
       {
         name: "Cisco Packet Tracer",
         subpages: [
@@ -63,6 +82,9 @@ const pages: Page[] = [
           { name: "Packet Tracer Scenarios", path: "/tools/packettracer/scenarios" },
         ],
       },
+      // Packet Tracer End
+
+      // GNS3 Setup Start
       {
         name: "GNS3 Setup",
         subpages: [
@@ -70,6 +92,7 @@ const pages: Page[] = [
           { name: "GNS3 Advanced Setup", path: "/tools/gns3/advanced" },
         ],
       },
+      // GNS3 Setup End
     ],
   },
   // Networking Tools End
