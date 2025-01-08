@@ -13,7 +13,7 @@ import Home from "@/Pages/Home";
 // Exam Preparation End
 
 // Neworking Tools Start
-import Wireshark from "@/Pages/NetworkingTools/Wireshark";
+import Wireshark from "@/Pages/NetworkingTools/Wireshark/WiresharkNotes";
 
 // Networking Tools End
 

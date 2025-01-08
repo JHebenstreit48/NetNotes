@@ -102,24 +102,52 @@
   }
   
   /* Subpage Headings */
-  .subpageHeading {
-    display: flex;
-    justify-content: center;
-    position: relative; /* For arrow positioning */
-    width: 15rem;
-    font-size: 1rem;
-    color: rgb(77, 135, 245);
-    border: 1px solid rgb(9, 174, 230);
-    border-radius: 13px;
-    padding: 10px;
-    margin: 0 auto 4px;
-    background-color: transparent;
-  }
-  
-  /* Nested Subpage Headings */
-  .nestedSubpageHeading {
-    width: 13rem; /* Maintain desired width */
-  }
+/* Subpage Containers */
+.nestedSubpages {
+  display: flex;
+  flex-direction: column; /* Stack subpages vertically */
+  align-items: center; /* Center subpages horizontally */
+  width: 100%;
+}
+
+/* Subpage Heading (Parent Levels) */
+.subpageHeading {
+  display: flex;
+  justify-content: center;
+  width: 18rem;
+  font-size: 1rem;
+  color: rgb(77, 135, 245);
+  border: 1px solid rgb(9, 174, 230);
+  border-radius: 13px;
+  padding: 10px;
+  margin: 0 auto 4px; /* Ensure centered alignment */
+  background-color: transparent;
+}
+
+/* Child Subpages (Level 2) */
+.childSubpage {
+  display: flex;
+  justify-content: center;
+  width: 16rem; /* Match parent width for consistency */
+  font-size: 0.9rem;
+  color: rgb(77, 135, 245);
+  margin: 0 auto 4px; /* Center child subpages */
+}
+
+/* Grandchild Subpages (Level 3 and deeper) */
+.grandchildSubpage {
+  display: flex;
+  justify-content: center;
+  width: 13rem; /* Match parent width for consistency */
+  font-size: 0.8rem;
+  color: rgb(133, 5, 252); /* Differentiate grandchildren by color */
+  margin: 0 auto 4px; /* Center grandchild subpages */
+}
+
+.subpageHeading,
+.nestedSubpageHeading {
+  position: relative; /* Required for positioning arrows */
+}
   
   /* Arrow for Subpage and Nested Subpage Headings */
   .subpageHeading::after,
@@ -145,7 +173,7 @@
     justify-content: center;
     text-decoration: none;
     border: 1px solid rgb(9, 174, 230);
-    width: 10rem;
+    width: 14rem;
     margin: 0 auto;
     padding: 10px 8px;
     border-radius: 14px;
@@ -155,6 +183,13 @@
     word-wrap: break-word; /* Wrap text */
   }
   
+  .levelClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
   @media only screen and (max-width: 390px) {
     .navigationMenu {
       width: 100%;
