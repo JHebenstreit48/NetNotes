@@ -1,8 +1,8 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const VLANOverview = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/VLAN/Overview.md';
+const InterVLANRouting = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/VLAN/InterVLANRouting.md';
 
     return (
         <>
@@ -15,4 +15,4 @@ const VLANOverview = () => {
     );
 };
 
-export default VLANOverview;
+export default InterVLANRouting;

@@ -1,6 +1,5 @@
-// import Header from '../Components/Header';
-import Header from '../Components/Header';
-import '../CSS/Home.css';
+import Header from '@/Components/Header';
+import '@/CSS/Home.css';
 
 const Home = () => {
 
@@ -13,9 +12,7 @@ const Home = () => {
                 <div className='siteInfo'>
 
                     <p className='siteInfoContent'>
-                    </p>
-
-                    <p className='siteInfoContent'>
+                        A site developed for providing information on networking topics, especially those relating to the Cisco CCNA and CCNP.
                     </p>
 
                 </div>

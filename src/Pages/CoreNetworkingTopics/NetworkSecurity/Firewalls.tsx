@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const VLANOverview = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/VLAN/Overview.md';
+const Firewalls = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/NetworkSecurity/Firewalls.md';
 
     return (
         <>
-            <Header text="VLAN Overview" />
+            <Header text="Firewalls" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const VLANOverview = () => {
     );
 };
 
-export default VLANOverview;
+export default Firewalls;
