@@ -218,28 +218,36 @@ const pages: Page[] = [
           },
           // Internet Layer end
 
-          // Data Link Layer start
+          // Network Access Layer Start
           {
-            name: "Data Link Layer",
+            name: "Network Access Layer",
             subpages: [
-              { name: "Overview of Data Link Layer", path: "/corenetworking/tcpipmodel/datalinklayer/overview" },
-              { name: "Burned-In Address", path: "/corenetworking/tcpipmodel/datalinklayer/bia" },
-              { name: "Address Resolution Protocol (ARP)", path: "/corenetworking/tcpipmodel/datalinklayer/arp" },
-            ],
-          },
-          // Data Link Layer end
 
-          // Physical Layer start
-          {
-            name: "Physical Layer",
-            subpages: [
-              { name: "Overview of Physical Layer", path: "/corenetworking/tcpipmodel/physicallayer/overview" },
-              { name: "Data Representation", path: "/corenetworking/tcpipmodel/physicallayer/datarepresentation" },
-              { name: "Standards of Communication", path: "/corenetworking/tcpipmodel/physicallayer/standardsofcommunication" },
-              { name: "Encapsulation and De-encapsulation", path: "/corenetworking/tcpipmodel/physicallayer/encapsulationanddeencapsulation" },
+              // Data Link Layer Start
+              {
+                name: "Data Link Layer",
+                subpages: [
+                  { name: "Data Link Layer Overview", path: "/corenetworking/tcpipmodel/datalinklayer/overview" },
+                  { name: "Burned-In Address", path: "/corenetworking/tcpipmodel/datalinklayer/bia" },
+                  { name: "Address Resolution Protocol (ARP)", path: "/corenetworking/tcpipmodel/datalinklayer/arp" },
+                ],
+              },
+              // Data Link Layer End
+
+              // Physical Layer Start
+              {
+                name: "Physical Layer",
+                subpages: [
+                  { name: "Physical Layer Overview", path: "/corenetworking/tcpipmodel/physicallayer/overview" },
+                  { name: "Data Representation", path: "/corenetworking/tcpipmodel/physicallayer/datarepresentation" },
+                  { name: "Standards of Communication", path: "/corenetworking/tcpipmodel/physicallayer/standardsofcommunication" },
+                  { name: "Encapsulation and De-encapsulation", path: "/corenetworking/tcpipmodel/physicallayer/encapsulationanddeencapsulation" },
+                ],
+              },
+              // Physical Layer End
             ],
           },
-          // Physical Layer end
+          // Network Access Layer End
         ],
       },
       // TCP/IP Model end 
@@ -368,66 +376,46 @@ const pages: Page[] = [
 ];
 
 const Navigation = () => {
-  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set());
-  const [isCollapsed, setIsCollapsed] = useState(true);
+  const [activeDropdown, setActiveDropdown] = useState<Set<string>>(new Set());
 
-  const toggleSection = (key: string) => {
-    setExpandedSections((prev) => {
-      const newSections = new Set(prev);
-      if (newSections.has(key)) {
-        newSections.delete(key);
+  const toggleDropdown = (key: string) => {
+    setActiveDropdown((prev) => {
+      const newDropdowns = new Set(prev);
+      if (newDropdowns.has(key)) {
+        newDropdowns.delete(key); // Close the dropdown if it's already active
       } else {
-        newSections.add(key);
+        newDropdowns.add(key); // Open the dropdown
       }
-      return newSections;
+      return newDropdowns;
     });
   };
-
-  const toggleSidebar = () => setIsCollapsed(!isCollapsed);
 
   const renderSubpages = (
     subpages: Subpage[],
     parentKey: string,
     level: number = 1
-  ) =>
-    subpages.map((subpage, index) => {
+  ) => {
+    return subpages.map((subpage, index) => {
       const key = `${parentKey}-${index}`;
-      const isExpanded = expandedSections.has(key);
-
-      const levelClass =
-        level === 1
-          ? "parentSubpage"
-          : level === 2
-            ? "childSubpage"
-            : "grandchildSubpage";
+      const isActive = activeDropdown.has(key);
 
       return (
-        <div key={key}>
+        <div key={key} className={`dropdownItem level-${level}`}>
           {subpage.path ? (
-            <p>
-              <Link
-                to={subpage.path}
-                className={`navLink ${level > 1 ? "levelClass" : ""}`}
-              >
-                {subpage.name}
-              </Link>
-            </p>
+            <Link to={subpage.path} className="dropdownLink">
+              {subpage.name}
+            </Link>
           ) : (
             <>
               <button
-                className={`subpageHeading ${levelClass}`}
-                onClick={() => toggleSection(key)}
-                aria-expanded={isExpanded}
+                className={`dropdownButton level-${level}`}
+                onClick={() => toggleDropdown(key)}
               >
                 {subpage.name}
-                {subpage.subpages && subpage.subpages.length > 0 && (
-                  <span
-                    className={`dropdownArrow ${isExpanded ? "up" : "down"}`}
-                  ></span>
-                )}
+                <span className={`dropdownArrow ${isActive ? "up" : "down"}`} />
               </button>
-              {isExpanded && subpage.subpages && (
-                <div className={`nestedSubpages ${levelClass}`}>
+              {isActive && subpage.subpages && (
+                <div className={`dropdownMenu level-${level} active`}>
                   {renderSubpages(subpage.subpages, key, level + 1)}
                 </div>
               )}
@@ -436,62 +424,35 @@ const Navigation = () => {
         </div>
       );
     });
+  };
 
   return (
-    <div className={`navigationMenu ${isCollapsed ? "collapsed" : ""}`}>
-      <button className="toggleButton" onClick={toggleSidebar}>
-        {isCollapsed ? (
-          <i className="menuIcon fas fa-bars"></i>
-        ) : (
-          <i className="closeIcon fas fa-times"></i>
-        )}
-      </button>
+    <div className="navigationMenu">
+      <div className="navigationContent">
+        {pages.map((page, index) => {
+          const pageKey = `page-${index}`;
+          const isActive = activeDropdown.has(pageKey);
 
-      {!isCollapsed && (
-        <div className="navigationContent">
-          <div className="accordion">
-            {pages.map((page, index) => {
-              const pageKey = `page-${index}`;
-              const isExpanded = expandedSections.has(pageKey);
-
-              return (
-                <div key={pageKey} className="accordionItem">
-                  <h2 className="accordionHeader">
-                    {page.subpages.length === 0 ? (
-                      <Link
-                        to="/"
-                        className="accordionButton noDropdown"
-                        id="homeButton"
-                      >
-                        {page.name}
-                      </Link>
-                    ) : (
-                      <button
-                        className="accordionButton"
-                        type="button"
-                        onClick={() => toggleSection(pageKey)}
-                        aria-expanded={isExpanded}
-                      >
-                        {page.name}
-                        <span
-                          className={`dropdownArrow ${isExpanded ? "up" : "down"}`}
-                        ></span>
-                      </button>
-                    )}
-                  </h2>
-                  {isExpanded && (
-                    <div className="accordionCollapse">
-                      <div className="accordionBody">
-                        {renderSubpages(page.subpages, pageKey)}
-                      </div>
-                    </div>
-                  )}
+          return (
+            <div key={pageKey} className="dropdown">
+              <button
+                className="dropdownButton"
+                onClick={() => toggleDropdown(pageKey)}
+              >
+                {page.name}
+                {page.subpages.length > 0 && (
+                  <span className={`dropdownArrow ${isActive ? "up" : "down"}`} />
+                )}
+              </button>
+              {isActive && page.subpages.length > 0 && (
+                <div className="dropdownContent active">
+                  {renderSubpages(page.subpages, pageKey)}
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      )}
+              )}
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
