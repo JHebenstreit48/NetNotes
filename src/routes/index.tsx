@@ -67,8 +67,10 @@ import RoutingComparisons from "@/Pages/CoreNetworkingTopics/RoutingProtocols/Ro
 
 // Switching Start
 import SwitchingOverview from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/Overview";
+import EthernetSpeedsHistory from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/EthernetSpeedsHistory";
 import Layer2Switching from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/Layer2Switching";
 import MACAddressTable from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/MACAddressTable";
+import SwitchingGlossary from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/SwitchingGlossary";
 // Switching End
 
 // VLANs Start
@@ -91,6 +93,7 @@ import WirelessStandards from "@/Pages/CoreNetworkingTopics/WirelessNetworking/W
 
 // Network Security Start
 import Firewalls from "@/Pages/CoreNetworkingTopics/NetworkSecurity/Firewalls";
+
 
 
 // Network Security End
@@ -232,6 +235,10 @@ export const router = createBrowserRouter([
         element: <SwitchingOverview />
       },
       {
+        path: "/corenetworking/l2switching/switching/ethernetspeedshistory",
+        element: <EthernetSpeedsHistory />
+      },
+      {
         path: "/corenetworking/l2switching/switching/layer2switching",
         element: <Layer2Switching />
       },
@@ -239,6 +246,11 @@ export const router = createBrowserRouter([
         path: "/corenetworking/l2switching/switching/macaddresstable",
         element: <MACAddressTable />
       },
+      {
+        path: "/corenetworking/l2switching/switching/glossary",
+        element: <SwitchingGlossary />
+      },
+
       // Switching End
 
       // VLANs Start
