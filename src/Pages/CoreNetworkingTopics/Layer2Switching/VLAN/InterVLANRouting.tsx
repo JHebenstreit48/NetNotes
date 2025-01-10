@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 
 const InterVLANRouting = () => {
     const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/VLAN/InterVLANRouting.md';

@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 
 const VLANOverview = () => {
     const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/VLAN/Overview.md';

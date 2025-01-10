@@ -1,6 +1,5 @@
-## Application Layer Overview
-
-### What is the Application Layer?
+### What is the Application Layer
+---  
 
 The Application Layer in the TCP/IP model corresponds to **Layers 5, 6, and 7** of the OSI model. While the OSI model separates these into **Session**, **Presentation**, and **Application** layers, the TCP/IP model consolidates them into one unified layer.
 
