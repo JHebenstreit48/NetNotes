@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/PageSetup";
 
-const Layer2Switching = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/Layer2SwitchingBasics/Layer2Switching.md';
+const EthernetSpeedsHistory = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/Layer2SwitchingBasics/EthernetSpeedsHistory.md';
 
     return (
         <>
-            <Header text="Layer 2 Switching Basics" />
+            <Header text="History of Ethernet Speeds" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const Layer2Switching = () => {
     );
 };
 
-export default Layer2Switching;
+export default EthernetSpeedsHistory;

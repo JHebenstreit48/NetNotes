@@ -99,7 +99,7 @@ const pages: Page[] = [
 
   // Core Networking Topics start
   {
-    name: "Core Networking Topics",
+    name: "Core Networking",
     subpages: [
 
       // IP Networking Overview start
@@ -270,9 +270,25 @@ const pages: Page[] = [
           {
             name: "Switching",
             subpages: [
-              { name: "Switching Overview", path: "/corenetworking/l2switching/switching/overview" },
-              { name: "Layer 2 Switching", path: "/corenetworking/l2switching/switching/layer2switching" },
-              { name: "MAC Address Table", path: "/corenetworking/l2switching/switching/macaddresstable" },
+              {
+                name: "Switching Overview",
+                path: "/corenetworking/l2switching/switching/overview"
+              },
+              {
+                name: "Ethernet Speed History",
+                path: "/corenetworking/l2switching/switching/ethernetspeedshistory"
+              },
+              {
+                name: "Layer 2 Switching",
+                path: "/corenetworking/l2switching/switching/layer2switching"
+              },
+              { name: "MAC Address Table",
+                path: "/corenetworking/l2switching/switching/macaddresstable"
+              },
+              {
+                name: "Switching Glossary",
+                path: "/corenetworking/l2switching/switching/glossary"
+              } 
             ],
           },
 
@@ -328,7 +344,7 @@ const pages: Page[] = [
 
   // CCNP Advanced Topics start
   {
-    name: "CCNP Advanced Topics",
+    name: "CCNP Advanced",
     subpages: [
       {
         name: "Advanced Routing Protocols",
@@ -412,7 +428,6 @@ const Navigation = () => {
                 onClick={() => toggleDropdown(key)}
               >
                 {subpage.name}
-                <span className={`dropdownArrow ${isActive ? "up" : "down"}`} />
               </button>
               {isActive && subpage.subpages && (
                 <div className={`dropdownMenu level-${level} active`}>
