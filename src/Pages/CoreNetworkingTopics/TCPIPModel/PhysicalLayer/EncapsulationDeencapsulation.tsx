@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 
 const EncapsulationDeencapsulation = () => {
     const markdownFilePath = '/PhysicalLayer/EncapsulationDeencapsulation.md';

@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 
 const MACAddressTable = () => {
     const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/MACAddressTable.md';

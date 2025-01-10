@@ -1,8 +1,8 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 
 const ApplicationLayerOverview = () => {
-    const markdownFilePath = '/ApplicationLayer/Overview.md';
+    const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/ApplicationLayer/Overview.md';
 
     return (
         <>

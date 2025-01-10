@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 
 const Firewalls = () => {
     const markdownFilePath = '/CoreNetworkingTopics/NetworkSecurity/Firewalls.md';

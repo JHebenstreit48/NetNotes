@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import Notes from "@/Components/Notes";
 
 const IPNetworkingOverview = () => {
     const markdownFilePath = '/CoreNetworkingTopics/IPNetworkingOverview/IPNetworkingOverview.md';
@@ -7,7 +7,7 @@ const IPNetworkingOverview = () => {
     return (
         <>
             <Header text="IP Networking Overview" />
-            <PageSetup
+            <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />

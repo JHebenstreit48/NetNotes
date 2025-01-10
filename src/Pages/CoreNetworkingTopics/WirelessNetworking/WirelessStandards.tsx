@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 
 const WirelessStandards = () => {
     const markdownFilePath = '/CoreNetworkingTopics/WirelessNetworking.md';

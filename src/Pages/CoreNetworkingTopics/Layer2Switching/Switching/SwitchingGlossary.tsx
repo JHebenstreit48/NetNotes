@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 import { useNavigate } from "react-router-dom";
 import "@/CSS/GlossaryBack.css"
 

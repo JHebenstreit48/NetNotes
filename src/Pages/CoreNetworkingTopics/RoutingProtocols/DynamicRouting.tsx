@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 
 const DynamicRouting = () => {
     const markdownFilePath = '/CoreNetworkingTopics/RoutingProtocols/DynamicRouting.md';

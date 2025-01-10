@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/PageSetup";
+import PageSetup from "@/Components/Notes";
 
 const StandardsOfCommunication = () => {
     const markdownFilePath = '/PhysicalLayer/StandardsOfCommunication.md';
