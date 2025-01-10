@@ -24,13 +24,13 @@ const pages: Page[] = [
     ],
   },
   {
-    name: "Networking Tools",
+    name: "Tools",
     subpages: [
       Wireshark, CiscoPacketTracer, GNS3Setup,
     ],
   },
   {
-    name: "Core Networking",
+    name: "Core Concepts",
     subpages: [
       IPNetworkingOverview,
       OSIModel, TCPIPModel,
