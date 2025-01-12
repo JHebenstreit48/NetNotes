@@ -2,7 +2,7 @@ import Header from "@/Components/Header";
 import Notes from "@/Components/Notes";
 
 const IPNetworkingOverview = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/IPNetworkingOverview/IPNetworkingOverview.md';
+    const markdownFilePath = '/CoreNetworkingTopics/IPNetworkingOverview/Overview.md';
 
     return (
         <>
