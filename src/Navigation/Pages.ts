@@ -5,6 +5,7 @@ import Wireshark from "./NetworkingToolsNavigation/Wireshark";
 import CiscoPacketTracer from "./NetworkingToolsNavigation/CiscoPacketTracer";
 import TCPIPModel from "./CoreNetworkingNavigation/TCPIPModel";
 import GNS3Setup from "./NetworkingToolsNavigation/GNS3Setup";
+import L2Switching from "./CoreNetworkingNavigation/L2Switching";
 
 const pages: Page[] = [
   {
@@ -24,16 +25,16 @@ const pages: Page[] = [
     ],
   },
   {
-    name: "Tools",
+    name: "Networking Tools",
     subpages: [
       Wireshark, CiscoPacketTracer, GNS3Setup,
     ],
   },
   {
-    name: "Core Concepts",
+    name: "Core Networking Concepts",
     subpages: [
       IPNetworkingOverview,
-      OSIModel, TCPIPModel,
+      OSIModel, TCPIPModel, L2Switching,
     ],
   },
   {
