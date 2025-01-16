@@ -1,5 +1,5 @@
 import { Page } from "@/Navigation/NavigationTypes";
-import IPNetworkingOverview from "@/Navigation/CoreNetworkingNavigation/IPNetworkingOverview"
+import IPNetworkingOverview from "@/Navigation/CoreNetworkingNavigation/IPNetworkingOverview";
 import OSIModel from "@/Navigation/CoreNetworkingNavigation/OSIModel";
 import Wireshark from "./NetworkingToolsNavigation/Wireshark";
 import CiscoPacketTracer from "./NetworkingToolsNavigation/CiscoPacketTracer";
@@ -14,34 +14,23 @@ const pages: Page[] = [
   },
   {
     name: "Certifications Overview",
-    subpages: [
-
-    ],
+    subpages: [],
   },
   {
     name: "Exam Preparation",
-    subpages: [
-
-    ],
+    subpages: [],
   },
   {
     name: "Networking Tools",
-    subpages: [
-      Wireshark, CiscoPacketTracer, GNS3Setup,
-    ],
+    subpages: [Wireshark, CiscoPacketTracer, GNS3Setup],
   },
   {
     name: "Core Networking Concepts",
-    subpages: [
-      IPNetworkingOverview,
-      OSIModel, TCPIPModel, L2Switching,
-    ],
+    subpages: [IPNetworkingOverview, OSIModel, TCPIPModel, L2Switching],
   },
   {
     name: "CCNP Advanced",
-    subpages: [
-
-    ],
+    subpages: [],
   },
 ];
 
