@@ -12,7 +12,6 @@
   z-index: 10;
 }
 
-/* Dropdown Container */
 .dropdown {
   margin: 0 auto;
   position: relative;
@@ -30,7 +29,6 @@
   background-color: rgb(60, 60, 60);
 }
 
-/* Dropdown Button */
 .dropdownButton {
   background-color: transparent;
   border: none;
@@ -45,7 +43,7 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  color: #1E90FF;
+  color: #1e90ff;
   font-size: 1.8rem;
   text-align: center;
   width: 11rem;
@@ -63,34 +61,11 @@
   color: rgb(0, 255, 127);
 }
 
-/* Dropdown Arrow */
-.dropdownArrow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  border: solid white;
-  border-width: 0 2px 2px 0;
-  padding: 4px;
-}
-
-.dropdownArrow.up {
-  transform: rotate(-135deg);
-  margin-top: 0.7rem;
-}
-
-.dropdownArrow.down {
-  transform: rotate(45deg);
-  margin-top: 5px;
-}
-
-/* Dropdown Content */
 .dropdownContent {
   position: absolute;
-  left: 70px;
+  left: 82px;
   background-color: rgb(38, 38, 39);
-  min-width: 15rem;
+  min-width: 18rem;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
@@ -99,58 +74,84 @@
   display: block;
   flex-direction: column;
   margin: 0 auto;
-  max-height: 31.4rem;
-  margin-top: 1rem;
+  width: 17rem;
+  max-height: 31.2rem;
+  margin-top: 2rem;
   overflow-y: auto;
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: transparent transparent; /* Default transparent for Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
 }
 
-/* WebKit Scrollbar Customization */
-.dropdownContent.active::-webkit-scrollbar {
-  width: 6px; /* Width of scrollbar */
+/* .dropdownContent.active::-webkit-scrollbar {
+  width: 6px;
 }
 
 .dropdownContent.active::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2); /* Semi-transparent thumb */
-  border-radius: 5px; /* Rounded thumb edges */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px; 
 }
 
 .dropdownContent.active::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.4); /* Slightly less transparent on hover */
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .dropdownContent.active::-webkit-scrollbar-track {
-  background: transparent; /* Fully transparent track */
+  background: transparent;
 }
 
 .dropdownContent.active::-webkit-scrollbar-button {
-  display: none; /* Hide up and down arrow buttons */
-}
-
-/* Sub-dropdown Menu */
-
+  display: none;
+} */
 
 .dropdownMenu.active {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0 auto;
-  padding: 0 5px;
 }
 
 @media only screen and (max-width: 390px) {
   .navigationMenu {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    height: 1rem;
+    padding: 0;
+  }
+
+  .navbar {
+    display: flex;
   }
 
   .navigationContent {
     overflow-y: auto;
     padding: 0;
     width: 100%;
-    margin: 7rem auto 1rem auto;
     z-index: 10;
   }
+
+  .navbar-toggler.collapsed {
+    margin: 0 auto;
+  }
+
+  /* .navbar-expand-lg {
+    display: flex;
+    margin: 25rem auto 0 auto;
+  } */
+
+  /* .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    padding: 0;
+  } */
+
+  /* .dropdownButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+  } */
 }
