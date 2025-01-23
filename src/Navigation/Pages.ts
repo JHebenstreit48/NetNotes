@@ -3,9 +3,9 @@ import IPNetworkingOverview from "@/Navigation/CoreNetworkingNavigation/IPNetwor
 import OSIModel from "@/Navigation/CoreNetworkingNavigation/OSIModel";
 import Wireshark from "./NetworkingToolsNavigation/Wireshark";
 import CiscoPacketTracer from "./NetworkingToolsNavigation/CiscoPacketTracer";
-import TCPIPModel from "./CoreNetworkingNavigation/TCPIPModel";
+import TCPIPModel from "./CoreNetworkingNavigation/TCPIPModelNavigation/TCPIPModel";
 import GNS3Setup from "./NetworkingToolsNavigation/GNS3Setup";
-import L2Switching from "./CoreNetworkingNavigation/L2Switching";
+import L2Switching from "./CoreNetworkingNavigation/SwitchingNavigation/L2Switching";
 
 const pages: Page[] = [
   {
