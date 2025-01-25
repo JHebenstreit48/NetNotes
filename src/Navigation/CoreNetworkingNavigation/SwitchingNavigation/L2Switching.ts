@@ -6,9 +6,6 @@ const L2Switching: Subpage = {
     {
       name: "Switching",
       subpages: [
-        {
-          name: "Switching Basics",
-          subpages: [
             {
               name: "Switching Overview",
               path: "/corenetworking/l2switching/switching/overview",
@@ -32,8 +29,6 @@ const L2Switching: Subpage = {
           ],
         },
       ],
-    },
-  ],
-};
+    };
 
 export default L2Switching;
