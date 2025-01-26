@@ -37,12 +37,12 @@
   - **Logical Grouping**: Groups ports with similar speeds/types for easier management.
 
 ## Special Cases in Port Numbering
-- **When the Number After the Slash Starts with `0`**:
+- **When the Number After the Slash Starts with 0**:
   - **High-Density Modular Switches**:
-    - Some modular switches use `0` for the first port on certain line cards or modules to align with internal architecture.
+    - Some modular switches use 0 for the first port on certain line cards or modules to align with internal architecture.
   - **Internal or Backplane Ports**:
-    - Ports used for internal communication between modules (e.g., backplane ports) may start at `0`.
+    - Ports used for internal communication between modules (e.g., backplane ports) may start at 0.
   - **Legacy Compatibility**:
-    - Older switches or specialized designs may use `0` to align with legacy conventions.
-- **Why Most Switch Ports Start at `1`**:
-  - User-facing ports generally start at `1` to provide clear, intuitive numbering for configurations like VLANs or spanning tree protocols.
+    - Older switches or specialized designs may use 0 to align with legacy conventions.
+- **Why Most Switch Ports Start at 1**:
+  - User-facing ports generally start at 1 to provide clear, intuitive numbering for configurations like VLANs or spanning tree protocols.
