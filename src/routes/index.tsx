@@ -68,6 +68,7 @@ import RoutingComparisons from "@/Pages/CoreNetworkingTopics/RoutingProtocols/Ro
 // Switching Start
 import SwitchingOverview from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/Overview";
 import EthernetSpeedsHistory from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/EthernetSpeedsHistory";
+import SwitchesAndConnectors from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/SwitchesAndConnectors";
 import Layer2Switching from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/Layer2Switching";
 import MACAddressTable from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/MACAddressTable";
 import SwitchingGlossary from "@/Pages/CoreNetworkingTopics/Layer2Switching/Switching/SwitchingGlossary";
@@ -237,6 +238,10 @@ export const router = createBrowserRouter([
       {
         path: "/corenetworking/l2switching/switching/ethernetspeedshistory",
         element: <EthernetSpeedsHistory />
+      },
+      {
+        path: "/corenetworking/l2switching/switching/switchesandconnectors",
+        element: <SwitchesAndConnectors />
       },
       {
         path: "/corenetworking/l2switching/switching/layer2switching",

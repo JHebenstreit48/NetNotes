@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/Notes";
 
-const EthernetSpeedsHistory = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/EthernetSpeedsHistory.md';
+const SwitchesAndConnectors = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/SwitchesAndConnectors.md';
 
     return (
         <>
-            <Header text="History of Ethernet Speeds" />
+            <Header text="Switches and Connectors" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const EthernetSpeedsHistory = () => {
     );
 };
 
-export default EthernetSpeedsHistory;
+export default SwitchesAndConnectors;

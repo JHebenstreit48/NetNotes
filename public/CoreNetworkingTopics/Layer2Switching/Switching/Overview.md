@@ -21,6 +21,13 @@
   - Hosts are key components in Layer 2 networks, acting as endpoints that exchange data.
 
 ---
+
+## Additional Concepts
+
+- **Physical Ports**: Modern switches feature Ethernet and SFP ports for connectivity. For more, see [Switches and Connectors](./switches_and_connectors.md).
+- **Virtual Switches**: Found in environments like VMware vSphere, virtual switches extend switching to virtualized systems. Details in [Switches and Connectors](./switches_and_connectors.md).
+
+---
 ## Basics of Switching
 ---  
 

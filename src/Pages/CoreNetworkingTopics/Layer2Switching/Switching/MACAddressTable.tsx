@@ -2,7 +2,7 @@ import Header from "@/Components/Header";
 import PageSetup from "@/Components/Notes";
 
 const MACAddressTable = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/Layer2SwitchingBasics/MACAddressTable.md';
+    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/MACAddressTable.md';
 
     return (
         <>
