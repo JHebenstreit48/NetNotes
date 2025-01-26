@@ -15,6 +15,10 @@ const L2Switching: Subpage = {
               path: "/corenetworking/l2switching/switching/ethernetspeedshistory",
             },
             {
+              name: "Switches and Connectors",
+              path: "/corenetworking/l2switching/switching/switchesandconnectors",
+            },
+            {
               name: "Layer 2 Switching",
               path: "/corenetworking/l2switching/switching/layer2switching",
             },

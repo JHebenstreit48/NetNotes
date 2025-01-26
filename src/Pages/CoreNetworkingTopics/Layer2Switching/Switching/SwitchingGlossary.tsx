@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "@/CSS/GlossaryBack.css"
 
 const SwitchingGlossary = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/Layer2SwitchingBasics/SwitchingGlossary.md';
+    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/SwitchingGlossary.md';
     const navigate = useNavigate();
 
     return (

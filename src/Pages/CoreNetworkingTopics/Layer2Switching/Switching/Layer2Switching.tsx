@@ -2,7 +2,7 @@ import Header from "@/Components/Header";
 import PageSetup from "@/Components/Notes";
 
 const Layer2Switching = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/Layer2SwitchingBasics/Layer2Switching.md';
+    const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/Layer2Switching.md';
 
     return (
         <>
