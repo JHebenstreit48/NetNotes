@@ -43,16 +43,16 @@ import SubnetMaskAndGateway from "@/Pages/CoreNetworkingTopics/TCPIPModel/Intern
 // Internet Layer End
 
 // Data Link Layer Start
-import DataLinkLayerOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/DataLinkLayer/Overview";
-import BIA from "@/Pages/CoreNetworkingTopics/TCPIPModel/DataLinkLayer/BIA";
-import ARP from "@/Pages/CoreNetworkingTopics/TCPIPModel/DataLinkLayer/ARP";
+import NetworkAcessOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/Overview";
+import BIA from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/BIA";
+import ARP from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/ARP";
 // Data Link Layer End
 
 // Physical Layer Start
-import PhysicalLayerOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/PhysicalLayer/Overview";
-import DataRepresentation from "@/Pages/CoreNetworkingTopics/TCPIPModel/PhysicalLayer/DataRepresentation";
-import StandardsOfCommunication from "@/Pages/CoreNetworkingTopics/TCPIPModel/PhysicalLayer/StandardsOfCommunication";
-import EncapsulationDeencapsulation from "@/Pages/CoreNetworkingTopics/TCPIPModel/PhysicalLayer/EncapsulationDeencapsulation";
+import PhysicalLayerOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/OSIEquivPhysicalLayer/Overview";
+import DataRepresentation from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/OSIEquivPhysicalLayer/DataRepresentation";
+import StandardsOfCommunication from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/OSIEquivPhysicalLayer/StandardsOfCommunication";
+import EncapsulationDeencapsulation from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/OSIEquivPhysicalLayer/EncapsulationDeencapsulation";
 // Physical Layer End
 
 // TCP/IP Model End
@@ -94,6 +94,7 @@ import WirelessStandards from "@/Pages/CoreNetworkingTopics/WirelessNetworking/W
 
 // Network Security Start
 import Firewalls from "@/Pages/CoreNetworkingTopics/NetworkSecurity/Firewalls";
+import NetworkAccessOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/Overview";
 
 
 
@@ -166,49 +167,49 @@ export const router = createBrowserRouter([
 
       // Internet Layer Start
       {
-        path: "//corenetworking/tcpipmodel/internetlayer/overview",
+        path: "/corenetworking/tcpipmodel/internetlayer/overview",
         element: <InternetLayerOverview />
       },
       {
-        path: "//corenetworking/tcpipmodel/internetlayer/ipv4vsipv6",
+        path: "/corenetworking/tcpipmodel/internetlayer/ipv4vsipv6",
         element: <IPV4vsIPV6 />
       },
       {
-        path: "//corenetworking/tcpipmodel/internetlayer/subnetmaskandgateway",
+        path: "/corenetworking/tcpipmodel/internetlayer/subnetmaskandgateway",
         element: <SubnetMaskAndGateway />
       },
       // Internet Layer End
 
       // Data Link Layer Start
       {
-        path: "//corenetworking/tcpipmodel/datalinklayer/overview",
-        element: <DataLinkLayerOverview />
+        path: "/corenetworking/tcpipmodel/networkaccesslayer/overview",
+        element: <NetworkAccessOverview />
       },
       {
-        path: "//corenetworking/tcpipmodel/datalinklayer/bia",
+        path: "/corenetworking/tcpipmodel/networkaccesslayer/bia",
         element: <BIA />
       },
       {
-        path: "//corenetworking/tcpipmodel/datalinklayer/arp",
+        path: "/corenetworking/tcpipmodel/networkaccesslayer/arp",
         element: <ARP />
       },
       // Data Link Layer End
 
       // Physical Layer Start
       {
-        path: "//corenetworking/tcpipmodel/physicallayer/overview",
+        path: "/corenetworking/tcpipmodel/networkaccesslayer/overview",
         element: <PhysicalLayerOverview />
       },
       {
-        path: "//corenetworking/tcpipmodel/physicallayer/datarepresentation",
+        path: "/corenetworking/tcpipmodel/networkaccesslayer/datarepresentation",
         element: <DataRepresentation />
       },
       {
-        path: "//corenetworking/tcpipmodel/physicallayer/standardsofcommunication",
+        path: "/corenetworking/tcpipmodel/networkaccesslayer/standardsofcommunication",
         element: <StandardsOfCommunication />
       },
       {
-        path: "//corenetworking/tcpipmodel/physicallayer/encapsulationanddeencapsulation",
+        path: "/corenetworking/tcpipmodel/networkaccesslayer/encapsulationanddeencapsulation",
         element: <EncapsulationDeencapsulation />
       },
       // Physical Layer End

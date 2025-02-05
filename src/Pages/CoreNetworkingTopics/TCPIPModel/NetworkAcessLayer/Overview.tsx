@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/Notes";
 
-const DataLinkLayerOverview = () => {
-    const markdownFilePath = '/DataLinkLayer/Overview.md';
+const NetworkAccessOverview = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/NetworkAccessLayerOverview.md';
 
     return (
         <>
-            <Header text="Data Link Layer Overview" />
+            <Header text="Network Acess Layer Overview" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const DataLinkLayerOverview = () => {
     );
 };
 
-export default DataLinkLayerOverview;
+export default NetworkAccessOverview;
