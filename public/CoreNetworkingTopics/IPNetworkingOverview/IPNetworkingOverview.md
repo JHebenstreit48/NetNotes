@@ -31,23 +31,80 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
 - **Social media, email, and news platforms** operate across interconnected networks.
 - **Online gaming** allows thousands of players to interact in real-time.
 - **Video conferencing** enables instant global communication.
-- **Phones & mobile devices** connect people across different countries.  
-*(Based on the Cisco-provided image.)*
+- **Phones & mobile devices** connect people across different countries.
+
+---
+## Local Networks
+---
+A <span class="emphasis">local network</span> is a private network that connects devices within a defined geographic area.
+
+### **Types of Local Networks**
+#### **Small Home Networks**
+- Connects a few computers and smart devices within a home.
+- Uses a router or modem to provide internet access.
+
+#### **Small Office/Home Office (SOHO) Networks**
+- Supports small businesses or remote workers.
+- Provides shared access to <span class="secondEmphasis">printers, files, and the internet</span>.
+
+#### **Medium to Large Networks**
+- Found in <span class="emphasis">corporations, universities, and large organizations</span>.
+- Can span multiple buildings with <span class="secondEmphasis">hundreds or thousands of interconnected hosts</span>.
+
+#### **World Wide Networks**
+- The internet is a <span class="emphasis">global network of interconnected local networks</span>.
+- Enables worldwide access to digital resources, cloud services, and real-time communication.
+
+---
+## Devices in Modern Networking
+---
+### **Mobile Devices**
+Mobile devices can connect to the internet from almost anywhere. Examples include:
+
+- **Smartphones** – Combine telephone, camera, GPS, media player, and computing functions.
+- **Tablets** – Larger screens for media consumption, reading, and productivity.
+- **Smartwatches** – Connect to smartphones for alerts, messaging, and health tracking.
+- **Smart Glasses** – Wearable computers with HUD-like displays (e.g., Google Glass).
+
+### **Connected Home Devices**
+Many home devices now connect to the internet for <span class="secondEmphasis">remote monitoring and automation</span>:
+
+- **Security Systems** – Allow remote monitoring of cameras and alarms.
+- **Smart Appliances** – Internet-connected refrigerators, ovens, and dishwashers provide <span class="secondEmphasis">real-time status updates</span>.
+- **Smart TVs** – Stream content, browse the web, and access apps.
+- **Gaming Consoles** – Connect online to download games and enable multiplayer gaming.
+
+### **Other Connected Devices**
+Internet-connected devices exist beyond homes:
+
+- **Smart Cars** – Use internet access for maps, navigation, and security alerts.
+- **RFID Tags** – Track objects using radio frequency identification.
+- **Sensors and Actuators** – Monitor and automate environmental conditions (e.g., temperature, humidity, and soil moisture).
+- **Medical Devices** – Pacemakers, insulin pumps, and hospital monitors transmit real-time health data.
 
 ---
 ## Core Networking Devices
+---
 
 - <span class="emphasis">Switches</span>: <span class="emphasis">Connect</span> devices in the same <span class="secondEmphasis">local network</span> (Layer 2).
 - <span class="emphasis">Routers</span>: <span class="emphasis">Connect</span> different <span class="secondEmphasis">networks</span> and direct <span class="secondEmphasis">traffic</span> between them (Layer 3).
 - <span class="emphasis">Firewalls</span>: <span class="emphasis">Protect</span> networks by filtering <span class="secondEmphasis">traffic</span> based on <span class="secondEmphasis">security rules</span>.
 
 ---
-## TCP/IP Model Overview
+## Overview of Networking Models
+---
+Networking models define how data moves between devices.
 
-The TCP/IP model includes the following layers:
-1. **Application** (Handles software applications, HTTP/HTTPS, and DNS.)
-2. **Transport** (Handles TCP/UDP communication protocols.)
-3. **Internet** (Layer 3, responsible for routing and addressing.)
-4. **Network Access** (Layers 1 and 2, Physical and Data Link Layers.)
+### **TCP/IP Model**
+- **Application Layer** – Manages software-based communication (e.g., HTTP, DNS).
+- **Transport Layer** – Ensures reliable data transmission (e.g., TCP, UDP).
+- **Internet Layer** – Handles routing and addressing (e.g., IP).
+- **Network Access Layer** – Defines physical and data link communication.
+
+### **OSI Model**
+- A <span class="emphasis">7-layer model</span> used to conceptualize networking.
+- **Comparison with TCP/IP**:
+  - OSI separates <span class="secondEmphasis">Application, Presentation, and Session layers</span>, while TCP/IP combines them into a single **Application layer**.
+  - OSI divides <span class="secondEmphasis">Physical and Data Link layers</span>, while TCP/IP merges them into **Network Access**.
 
 ---
