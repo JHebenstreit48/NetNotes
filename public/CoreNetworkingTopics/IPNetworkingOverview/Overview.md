@@ -60,6 +60,7 @@ A <span class="emphasis">local network</span> is a private network that connects
 ---
 ## Devices in Modern Networking
 ---
+
 ### **Mobile Devices**
 Mobile devices can connect to the internet from almost anywhere. Examples include:
 
@@ -79,8 +80,8 @@ Many home devices now connect to the internet for <span class="secondEmphasis">r
 ### **Other Connected Devices**
 Internet-connected devices exist beyond homes:
 
-- **Smart Cars** – Use internet access for maps, navigation, and security alerts.
-- **RFID Tags** – Track objects using radio frequency identification.
+- <span class="emphasis">Smart Cars</span> – Use internet access for maps, navigation, and security alerts.
+- <span class="emphasis">RFID Tags</span> – Track objects using radio frequency identification.
 - **Sensors and Actuators** – Monitor and automate environmental conditions (e.g., temperature, humidity, and soil moisture).
 - **Medical Devices** – Pacemakers, insulin pumps, and hospital monitors transmit real-time health data.
 
