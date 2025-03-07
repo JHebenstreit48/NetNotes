@@ -6,18 +6,18 @@ const NetworkAccessLayer: Subpage = {
     {
       name: "Layer 2: Data Link",
       subpages: [
-        { name: "Overview", path: "/corenetworking/tcpipmodel/datalinklayer/overview" },
-        { name: "Burned-In Address (BIA)", path: "/corenetworking/tcpipmodel/datalinklayer/bia" },
-        { name: "Address Resolution Protocol (ARP)", path: "/corenetworking/tcpipmodel/datalinklayer/arp" },
+        { name: "Overview", path: "/corenetworking/tcpipmodel/networkaccesslayer/overview" },
+        { name: "Burned-In Address (BIA)", path: "/corenetworking/tcpipmodel/networkaccesslayer/bia" },
+        { name: "Address Resolution Protocol (ARP)", path: "/corenetworking/tcpipmodel/networkaccesslayer/arp" },
       ],
     },
     {
       name: "Layer 1: Physical",
       subpages: [
-        { name: "Overview", path: "/corenetworking/tcpipmodel/physicallayer/overview" },
-        { name: "Data Representation", path: "/corenetworking/tcpipmodel/physicallayer/datarepresentation" },
-        { name: "Communication Standards", path: "/corenetworking/tcpipmodel/physicallayer/standardsofcommunication" },
-        { name: "Encapsulation/De-encapsulation", path: "/corenetworking/tcpipmodel/physicallayer/encapsulationanddeencapsulation" },
+        { name: "Overview", path: "/corenetworking/tcpipmodel/networkaccesslayer/overview" },
+        { name: "Data Representation", path: "/corenetworking/tcpipmodel/networkaccesslayer/datarepresentation" },
+        { name: "Communication Standards", path: "/corenetworking/tcpipmodel/networkaccesslayer/standardsofcommunication" },
+        { name: "Encapsulation/De-encapsulation", path: "/corenetworking/tcpipmodel/networkaccesslayer/encapsulationanddeencapsulation" },
       ],
     },
   ],

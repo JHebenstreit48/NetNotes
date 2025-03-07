@@ -7,7 +7,6 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
 - <span class="emphasis">Server</span>: <span class="emphasis">Provides</span> <span class="secondEmphasis">services</span> or <span class="secondEmphasis">data</span>.
 
 ---
-
 ## The Client-Server Model
 
 1. <span class="emphasis">Clients</span>: <span class="emphasis">Initiate</span> <span class="secondEmphasis">communication</span> by making <span class="secondEmphasis">requests</span> (e.g., opening a <span class="secondEmphasis">webpage</span> or sending a <span class="secondEmphasis">login request</span>).
@@ -22,7 +21,20 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
   - <span class="emphasis">Server B</span> responds to <span class="emphasis">Server A</span> with the verification result, fulfilling its role as a <span class="emphasis">server</span>.
 
 ---
+## The Internet as a Global Network
+---
+- **The internet is not owned by any individual or group.**  
+- The internet is a **worldwide collection of interconnected networks** that cooperate using common standards to exchange data.  
+- Through **telephone wires, fiber-optic cables, wireless transmissions, and satellite links**, users can share information globally.  
 
+### Real-World Internet Applications:
+- **Social media, email, and news platforms** operate across interconnected networks.
+- **Online gaming** allows thousands of players to interact in real-time.
+- **Video conferencing** enables instant global communication.
+- **Phones & mobile devices** connect people across different countries.  
+*(Based on the Cisco-provided image.)*
+
+---
 ## Core Networking Devices
 
 - <span class="emphasis">Switches</span>: <span class="emphasis">Connect</span> devices in the same <span class="secondEmphasis">local network</span> (Layer 2).
@@ -30,7 +42,6 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
 - <span class="emphasis">Firewalls</span>: <span class="emphasis">Protect</span> networks by filtering <span class="secondEmphasis">traffic</span> based on <span class="secondEmphasis">security rules</span>.
 
 ---
-
 ## TCP/IP Model Overview
 
 The TCP/IP model includes the following layers:
