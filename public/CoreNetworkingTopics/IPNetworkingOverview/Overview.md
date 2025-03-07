@@ -39,6 +39,8 @@ Networking is about connecting devices to share <span class="emphasis">data</spa
 A <span class="emphasis">local network</span> is a private network that connects devices within a defined geographic area.
 
 ### **Types of Local Networks**
+---
+
 #### **Small Home Networks**
 - Connects a few computers and smart devices within a home.
 - Uses a router or modem to provide internet access.

@@ -1,7 +1,7 @@
 import Header from "@/Components/Header";
 import PageSetup from "@/Components/Notes";
 import { useNavigate } from "react-router-dom";
-import "@/CSS/GlossaryBack.css"
+import "@/SCSS/GlossaryBack.scss"
 
 const SwitchingGlossary = () => {
     const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/SwitchingGlossary.md';
