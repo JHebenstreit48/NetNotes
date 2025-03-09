@@ -1,13 +1,13 @@
 import { Subpage } from "@/Navigation/NavigationTypes";
 
-const IPNetworkingOverview: Subpage = {
-  name: "IP Networking Overview",
+const NetworkingOverview: Subpage = {
+  name: "Networking Basics",
   subpages: [
     {
       name: "Overview",
       subpages: [
         {
-          name: "Overview",
+          name: "Introduction",
           path: "/corenetworking/ipnetworking/overview"
         },
       ],
@@ -15,4 +15,4 @@ const IPNetworkingOverview: Subpage = {
   ],
 };
 
-export default IPNetworkingOverview;
+export default NetworkingOverview;
