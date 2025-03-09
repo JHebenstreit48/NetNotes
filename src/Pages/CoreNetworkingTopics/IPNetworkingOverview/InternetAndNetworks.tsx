@@ -1,12 +1,12 @@
 import Header from "@/Components/Header";
 import Notes from "@/Components/Notes";
 
-const NetworkingIntro = () => {
-    const markdownFilePath = '/CoreNetworkingTopics/NetworkingOverview/Introduction.md';
+const Internet = () => {
+    const markdownFilePath = '/CoreNetworkingTopics/NetworkingOverview/Internet.md';
 
     return (
         <>
-            <Header text="Networking Introduction" />
+            <Header text="Internet and Networks" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -15,4 +15,4 @@ const NetworkingIntro = () => {
     );
 };
 
-export default NetworkingIntro;
+export default Internet;

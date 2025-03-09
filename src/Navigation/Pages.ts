@@ -1,14 +1,15 @@
 import { Page } from "@/Navigation/NavigationTypes";
-import IPNetworkingOverview from "@/Navigation/CoreNetworkingNavigation/IPNetworkingOverview";
-import OSIModel from "@/Navigation/CoreNetworkingNavigation/OSIModel";
-import Wireshark from "./NetworkingToolsNavigation/Wireshark";
-import CiscoPacketTracer from "./NetworkingToolsNavigation/CiscoPacketTracer";
-import GNS3Setup from "./NetworkingToolsNavigation/GNS3Setup";
-import L2Switching from "./CoreNetworkingNavigation/SwitchingNavigation/L2Switching";
-import ApplicationLayer from "./CoreNetworkingNavigation/TCPIPModelNavigation/ApplicationLayer";
-import TransportLayer from "./CoreNetworkingNavigation/TCPIPModelNavigation/TransportLayer";
-import InternetLayer from "./CoreNetworkingNavigation/TCPIPModelNavigation/InternetLayer";
-import NetworkAccessLayer from "./CoreNetworkingNavigation/TCPIPModelNavigation/NetworkAccessLayer";
+import NetworkingOverview from "@/Navigation/CoreNetworkingNavigation/NetworkingBasics/Overview";
+import OSIModel from "@/Navigation/CoreNetworkingNavigation/OSIModel/OSIModel";
+import Wireshark from "@/Navigation/NetworkingToolsNavigation/Wireshark";
+import CiscoPacketTracer from "@/Navigation/NetworkingToolsNavigation/CiscoPacketTracer";
+import GNS3Setup from "@/Navigation/NetworkingToolsNavigation/GNS3Setup";
+import L2Switching from "@/Navigation/CoreNetworkingNavigation/SwitchingNavigation/L2Switching";
+import VLANs from "@/Navigation/CoreNetworkingNavigation/SwitchingNavigation/VLANs";
+import ApplicationLayer from "@/Navigation/CoreNetworkingNavigation/TCPIPModelNavigation/ApplicationLayer";
+import TransportLayer from "@/Navigation/CoreNetworkingNavigation/TCPIPModelNavigation/TransportLayer";
+import InternetLayer from "@/Navigation/CoreNetworkingNavigation/TCPIPModelNavigation/InternetLayer";
+import NetworkAccessLayer from "@/Navigation/CoreNetworkingNavigation/TCPIPModelNavigation/NetworkAccessLayer";
 
 const pages: Page[] = [
   {
@@ -17,15 +18,11 @@ const pages: Page[] = [
   },
   {
     name: "Certifications Overview",
-    subpages: [
-
-    ],
+    subpages: [],
   },
   {
     name: "Exam Preparation",
-    subpages: [
-
-    ],
+    subpages: [],
   },
   {
     name: "Networking Tools",
@@ -34,7 +31,7 @@ const pages: Page[] = [
   {
     name: "Core Networking Concepts",
     subpages: [
-      IPNetworkingOverview,
+      NetworkingOverview,
       OSIModel,
       {
         name: "TCP/IP Model",
@@ -45,13 +42,15 @@ const pages: Page[] = [
           NetworkAccessLayer
         ],
       },
-      L2Switching],
+      {
+        name: "Layer 2 Switching",
+        subpages: [L2Switching, VLANs],
+      },
+    ],
   },
   {
     name: "CCNP Advanced",
-    subpages: [
-      
-    ],
+    subpages: [],
   },
 ];
 
