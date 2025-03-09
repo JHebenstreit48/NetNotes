@@ -21,6 +21,7 @@ import Wireshark from "@/Pages/NetworkingTools/Wireshark/WiresharkNotes";
 
 // IP Networking Overview Start
 import NetworkingIntro from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/Introduction";
+import Internet from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/InternetAndNetworks";
 // IP Networking Overview End
 
 // TCP/IP Model Start
@@ -98,6 +99,7 @@ import NetworkAccessOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/Netwo
 
 
 
+
 // Network Security End
 
 // CCNP Advanced Topics Start
@@ -136,6 +138,10 @@ export const router = createBrowserRouter([
       {
         path: "/corenetworking/ipnetworking/overview",
         element: <NetworkingIntro />
+      },
+      {
+        path: "/corenetworking/ipnetworking/internet",
+        element: <Internet />
       },
       // IP Networking Overview End
 
