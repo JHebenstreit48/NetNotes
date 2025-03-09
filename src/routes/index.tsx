@@ -20,7 +20,7 @@ import Wireshark from "@/Pages/NetworkingTools/Wireshark/WiresharkNotes";
 // Core Networking Topics Start
 
 // IP Networking Overview Start
-import IPNetworkingOverview from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/Overview";
+import NetworkingIntro from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/Introduction";
 // IP Networking Overview End
 
 // TCP/IP Model Start
@@ -135,7 +135,7 @@ export const router = createBrowserRouter([
       // IP Networking Overview Start
       {
         path: "/corenetworking/ipnetworking/overview",
-        element: <IPNetworkingOverview />
+        element: <NetworkingIntro />
       },
       // IP Networking Overview End
 

@@ -5,7 +5,6 @@ import Wireshark from "./NetworkingToolsNavigation/Wireshark";
 import CiscoPacketTracer from "./NetworkingToolsNavigation/CiscoPacketTracer";
 import GNS3Setup from "./NetworkingToolsNavigation/GNS3Setup";
 import L2Switching from "./CoreNetworkingNavigation/SwitchingNavigation/L2Switching";
-import { Network } from "inspector/promises";
 import ApplicationLayer from "./CoreNetworkingNavigation/TCPIPModelNavigation/ApplicationLayer";
 import TransportLayer from "./CoreNetworkingNavigation/TCPIPModelNavigation/TransportLayer";
 import InternetLayer from "./CoreNetworkingNavigation/TCPIPModelNavigation/InternetLayer";
