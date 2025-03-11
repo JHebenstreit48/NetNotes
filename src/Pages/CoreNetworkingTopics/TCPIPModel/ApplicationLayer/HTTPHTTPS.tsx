@@ -2,7 +2,7 @@ import Header from "@/Components/Header";
 import PageSetup from "@/Components/Notes";
 
 const HTTPHTTPS = () => {
-    const markdownFilePath = '/ApplicationLayer/HTTPHTTPS.md';
+    const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/ApplicationLayer/HTTPHTTPS.md';
 
     return (
         <>

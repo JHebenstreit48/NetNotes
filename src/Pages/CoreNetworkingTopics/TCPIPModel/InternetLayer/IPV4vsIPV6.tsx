@@ -2,7 +2,7 @@ import Header from "@/Components/Header";
 import PageSetup from "@/Components/Notes";
 
 const IPV4vsIPV6 = () => {
-    const markdownFilePath = '/InternetLayer/IPv4vsIPv6.md';
+    const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/InternetLayer/IPv4vsIPv6.md';
 
     return (
         <>

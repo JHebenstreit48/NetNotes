@@ -22,6 +22,8 @@ import Wireshark from "@/Pages/NetworkingTools/Wireshark/WiresharkNotes";
 // IP Networking Overview Start
 import NetworkingIntro from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/Introduction";
 import Internet from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/InternetAndNetworks";
+import LocalNetworks from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/LocalNetworks";
+import NetworkDevices from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/NetworkDevices";
 // IP Networking Overview End
 
 // TCP/IP Model Start
@@ -142,6 +144,14 @@ export const router = createBrowserRouter([
       {
         path: "/corenetworking/ipnetworking/internet",
         element: <Internet />
+      },
+      {
+        path: "/corenetworking/ipnetworking/localnetworks",
+        element: <LocalNetworks />
+      },
+      {
+        path: "/corenetworking/ipnetworking/networkdevices",
+        element: <NetworkDevices />
       },
       // IP Networking Overview End
 
