@@ -3,11 +3,26 @@ import { Subpage } from "@/Navigation/NavigationTypes";
 const WildcardMasks: Subpage = {
   name: "Wildcard Masks",
   subpages: [
-    { name: "What Are Wildcard Masks?", subpages: [] },
-    { name: "Wildcard vs Subnet Mask", subpages: [] },
-    { name: "Wildcard Mask Calculation", subpages: [] },
-    { name: "Examples of Wildcard Use", subpages: [] },
-    { name: "Wildcard Mask Practice", subpages: [] },
+    {
+      name: "Wildcard Mask Fundamentals",
+      path: "/corenetworking/security/acls/wildcardmasks/fundamentals",
+    },
+    {
+      name: "Wildcard vs Subnet Mask",
+      path: "/corenetworking/security/acls/wildcardmasks/vssubnetmask",
+    },
+    {
+      name: "Wildcard Mask Calculation",
+      path: "/corenetworking/security/acls/wildcardmasks/calculation",
+    },
+    {
+      name: "Examples of Wildcard Use",
+      path: "/corenetworking/security/acls/wildcardmasks/examples",
+    },
+    {
+      name: "Wildcard Mask Practice",
+      path: "/corenetworking/security/acls/wildcardmasks/practice",
+    },
   ],
 };
 
