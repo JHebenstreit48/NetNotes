@@ -1,4 +1,18 @@
 import { Page } from "@/Navigation/NavigationTypes";
+
+// Core Networking Topics Start
+
+// ACLs Start
+import ACLsOverview from "@/Navigation/CoreNetworkingNavigation/ACLsNavigation/Overview";
+import StandardACLs from "@/Navigation/CoreNetworkingNavigation/ACLsNavigation/StandardACLs";
+import ExtendedACLs from "@/Navigation/CoreNetworkingNavigation/ACLsNavigation/ExtendedACLs";
+import TroubleshootingACLs from "@/Navigation/CoreNetworkingNavigation/ACLsNavigation/VerifyingTroubleshooting";
+import ConfigurationExamples from "@/Navigation/CoreNetworkingNavigation/ACLsNavigation/ACLConfigExamples";
+import WildcardMasks from "@/Navigation/CoreNetworkingNavigation/ACLsNavigation/WildcardMasks";
+// ACLs End
+
+
+// Core Networking Topics End
 import NetworkingOverview from "@/Navigation/CoreNetworkingNavigation/NetworkingBasics/Overview";
 import OSIModel from "@/Navigation/CoreNetworkingNavigation/OSIModel/OSIModel";
 import Wireshark from "@/Navigation/NetworkingToolsNavigation/Wireshark";
@@ -31,6 +45,17 @@ const pages: Page[] = [
   {
     name: "Core Networking Concepts",
     subpages: [
+      {
+        name: "ACLs",
+        subpages: [
+          ACLsOverview,
+          StandardACLs,
+          ExtendedACLs,
+          WildcardMasks,
+          ConfigurationExamples,
+          TroubleshootingACLs
+        ],
+      },
       NetworkingOverview,
       OSIModel,
       {
