@@ -99,9 +99,6 @@ import WirelessStandards from "@/Pages/CoreNetworkingTopics/WirelessNetworking/W
 import Firewalls from "@/Pages/CoreNetworkingTopics/NetworkSecurity/Firewalls";
 import NetworkAccessOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/Overview";
 
-
-
-
 // Network Security End
 
 // CCNP Advanced Topics Start
