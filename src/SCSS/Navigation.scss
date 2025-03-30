@@ -36,10 +36,6 @@
    .bg-dark {
      background-color: transparent !important;
    }
-
-   .searchContainer {
-    margin-right: 2.5rem;
-   }
    
    /* Dropdown Styles */
    .dropdown {
@@ -66,8 +62,6 @@
          justify-content: center;
          margin: 0 auto;
          color: #1e90ff;
-         font-size: $font-lg;
-         width: 11rem;
        }
    
        &.level-2 {
