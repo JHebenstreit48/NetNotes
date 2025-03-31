@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/Notes";
+import PageSetup from "@/Components/Notes/NotesRender";
 
 const SwitchesAndConnectors = () => {
     const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/SwitchesAndConnectors.md';

@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/Notes";
+import PageSetup from "@/Components/Notes/NotesRender";
 
 const TransportLayerOverview = () => {
     const markdownFilePath = '/TransportLayer/Overview.md';
