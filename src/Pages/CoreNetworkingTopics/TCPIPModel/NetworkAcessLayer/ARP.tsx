@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/Notes";
+import PageSetup from "@/Components/Notes/NotesRender";
 
 const ARP = () => {
     const markdownFilePath = '/DataLinkLayer/ARP.md';
