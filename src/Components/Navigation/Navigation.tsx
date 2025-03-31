@@ -12,9 +12,17 @@ const Navigation = () => {
     { name: string; path: string; breadcrumbs: string[] }[]
   >([]);
   const [showModal, setShowModal] = useState(false);
-  const [searchMode, setSearchMode] = useState<"instant" | "manual">(() => {
-    return (localStorage.getItem("searchMode") as "instant" | "manual") || "instant";
-  });
+  const [searchMode, setSearchMode] = useState<"instant" | "manual">(
+    () => (localStorage.getItem("searchMode") as "instant" | "manual") || "instant"
+  );
+
+  // Load saved term/results on mount
+  useEffect(() => {
+    const savedTerm = localStorage.getItem("lastSearchTerm") || "";
+    const savedResults = localStorage.getItem("lastSearchResults");
+    if (savedTerm) setSearchTerm(savedTerm);
+    if (savedResults) setSearchResults(JSON.parse(savedResults));
+  }, []);
 
   useEffect(() => {
     localStorage.setItem("searchMode", searchMode);
@@ -40,13 +48,16 @@ const Navigation = () => {
     breadcrumbs: string[] = []
   ): { name: string; path: string; breadcrumbs: string[] }[] => {
     const lowerTerm = term.toLowerCase().trim();
-    return subpages.flatMap((sp) => {
+
+    return subpages.flatMap((sp): { name: string; path: string; breadcrumbs: string[] }[] => {
       const currentTrail = [...breadcrumbs, sp.name];
       const matches =
         sp.name.toLowerCase().includes(lowerTerm) && sp.path !== undefined;
+
       const childMatches = sp.subpages
         ? searchSubpages(sp.subpages, term, currentTrail)
         : [];
+
       return [
         ...(matches && sp.path
           ? [{ name: sp.name, path: sp.path, breadcrumbs }]
@@ -58,10 +69,14 @@ const Navigation = () => {
 
   const performSearch = (value: string) => {
     const results: { name: string; path: string; breadcrumbs: string[] }[] = [];
+
     pages.forEach((page) => {
       results.push(...searchSubpages(page.subpages, value, [page.name]));
     });
+
     setSearchResults(results);
+    localStorage.setItem("lastSearchTerm", value);
+    localStorage.setItem("lastSearchResults", JSON.stringify(results));
   };
 
   return (
@@ -83,6 +98,7 @@ const Navigation = () => {
             }}
           />
         )}
+
         <nav className="mainNav">
           {pages.map((page, index) => {
             const pageKey = `page-${index}`;
@@ -103,7 +119,7 @@ const Navigation = () => {
                       {page.name}
                     </button>
                     {isActive && (
-                      <div className={`dropdownContent active`}>
+                      <div className="dropdownContent active">
                         {page.subpages.map((sp, i) =>
                           sp.path ? (
                             <Link key={i} to={sp.path} className="dropdownButton level-4">

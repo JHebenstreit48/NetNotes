@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom";
 import { Link } from "react-router-dom";
+import "@/SCSS/SearchModal.scss";
 
 interface SearchModalProps {
   searchTerm: string;
-  setSearchTerm: (value: string) => void;
+  setSearchTerm: React.Dispatch<React.SetStateAction<string>>;
   results: { name: string; path: string; breadcrumbs: string[] }[];
   searchMode: "instant" | "manual";
   setSearchMode: (mode: "instant" | "manual") => void;
@@ -20,57 +22,105 @@ const SearchModal: React.FC<SearchModalProps> = ({
   onSearch,
   onClose,
 }) => {
+  const [inputValue, setInputValue] = useState(searchTerm);
+  const [hasSearched, setHasSearched] = useState(!!searchTerm);
+
+  useEffect(() => {
+    setInputValue(searchTerm);
+  }, [searchTerm]);
+
+  useEffect(() => {
+    if (searchMode === "instant" && inputValue.trim()) {
+      const delay = setTimeout(() => {
+        onSearch(inputValue);
+        setHasSearched(true);
+      }, 300);
+      return () => clearTimeout(delay);
+    }
+  }, [inputValue, searchMode]);
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchTerm(e.target.value);
+    setInputValue(e.target.value);
+    if (searchMode === "manual") setHasSearched(false);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (searchMode === "manual" && e.key === "Enter") {
-      onSearch(searchTerm);
+      onSearch(inputValue);
+      setHasSearched(true);
     }
   };
 
-  const handleModeToggle = (mode: "instant" | "manual") => {
+  const handleToggle = (mode: "instant" | "manual") => {
     setSearchMode(mode);
     localStorage.setItem("searchMode", mode);
   };
 
-  return (
-    <div className="searchModalOverlay">
+  const handleClearLocal = () => {
+    localStorage.removeItem("lastSearchTerm");
+    localStorage.removeItem("lastSearchResults");
+    setSearchTerm("");
+    setInputValue("");
+    setHasSearched(false);
+  };
+
+  return ReactDOM.createPortal(
+    <div className="searchModal">
       <div className="searchModalContent">
         <div className="searchModalHeader">
-          <input
-            type="text"
-            placeholder="Search..."
-            value={searchTerm}
-            onChange={handleChange}
-            onKeyDown={handleKeyDown}
-            autoFocus
-          />
+          <span>Search</span>
           <button onClick={onClose} className="closeButton">×</button>
         </div>
 
-        <div className="searchModeToggle">
-          <label>
+        <div className="searchControls">
+          <div className="inputWithClear">
             <input
-              type="radio"
-              checked={searchMode === "instant"}
-              onChange={() => handleModeToggle("instant")}
+              type="text"
+              placeholder="Type to search..."
+              value={inputValue}
+              onChange={handleChange}
+              onKeyDown={handleKeyDown}
+              className="filterInput"
             />
-            Instant
-          </label>
-          <label>
-            <input
-              type="radio"
-              checked={searchMode === "manual"}
-              onChange={() => handleModeToggle("manual")}
-            />
-            Manual
-          </label>
+            {inputValue && (
+              <button
+                className="clearButton"
+                onClick={() => {
+                  setInputValue("");
+                  setSearchTerm("");
+                  setHasSearched(false);
+                }}
+              >
+                ×
+              </button>
+            )}
+          </div>
+
+          <div className="searchModeToggle">
+            <label>
+              <input
+                type="radio"
+                checked={searchMode === "instant"}
+                onChange={() => handleToggle("instant")}
+              />
+              Instant
+            </label>
+            <label>
+              <input
+                type="radio"
+                checked={searchMode === "manual"}
+                onChange={() => handleToggle("manual")}
+              />
+              Manual
+            </label>
+            <button className="resetButton" onClick={handleClearLocal}>
+              Reset Local Search
+            </button>
+          </div>
         </div>
 
-        <div className="searchResults">
-          {results.length === 0 ? (
+        {hasSearched ? (
+          results.length === 0 ? (
             <div className="searchResultEmpty">No results found.</div>
           ) : (
             <ul>
@@ -85,10 +135,11 @@ const SearchModal: React.FC<SearchModalProps> = ({
                 </li>
               ))}
             </ul>
-          )}
-        </div>
+          )
+        ) : null}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };
 
