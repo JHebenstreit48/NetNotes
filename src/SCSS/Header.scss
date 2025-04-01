@@ -9,7 +9,7 @@
    $text-glow: #00ffff; // Neon aqua
    
    $header-height: 7.5rem;
-   $header-mobile-height: 10rem;
+   $header-mobile-height: 6rem;
    
    $font-size-lg: 60px;
    $font-size-sm: 3rem;
@@ -54,7 +54,6 @@
      @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
        margin: 0 auto;
        height: $header-mobile-height;
-       padding: 1.5rem 0;
        text-align: center;
        font-size: $font-size-sm;
      }

@@ -20,52 +20,76 @@ $dropdown-width: 17rem;
 
 /* ==============================
               Breakpoints          
-   ============================== */
+      ============================== */
 $cellphone-portrait: 390px;
-$cellphone-landscape: 390px; // Used as height in landscape mode (i.e., phone turned sideways)
+$cellphone-landscape: 390px;
 
 /* ==============================
-            Navigation Menu        
-   ============================== */
+          Hamburger Menu Button    
+      ============================== */
+.hamburgerButton {
+  display: none;
+
+  @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: $primary-color;
+    cursor: pointer;
+    z-index: 15;
+    align-self: center;
+  }
+}
+
+/* ==============================
+            Navigation Menu         
+      ============================== */
 .navigationMenu {
   position: fixed;
-  top: 120px;
+  top: 6rem;
   width: 100%;
-  height: 7rem;
   background-color: $background-dark;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 10px 0;
   z-index: 10;
-
-  @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
-    height: 37rem;
-    flex-flow: column wrap;
-  }
-
-  /* ==============================
-            Cellphone Landscape     
-     ============================== */
-  @media only screen and (max-height: $cellphone-landscape) and (orientation: landscape) {
-    // Placeholder for future landscape-specific styles
-  }
+  padding: 0;
+  transition: all 0.3s ease;
 }
 
+/* ==============================
+       Navigation Content         
+   ============================== */
 .navigationContent {
+  // Show normally on large screens
   display: flex;
-  text-align: center;
-  max-width: 16rem; // Limit the width for larger screens
-  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+  width: auto;
+  padding-top: 0;
 
+  // ✅ MOBILE ONLY – hide by default, show when .open
   @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 0.3rem;
+    display: none;
+
+    &.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      width: 70%;
+      text-align: center;
+      margin-top: 2.9rem;
+      padding-bottom: 1rem;
+    }
   }
 }
 
+/* ==============================
+       Search Icon Container        
+      ============================== */
 .searchIconContainer {
   position: absolute;
   left: 8rem;
@@ -77,10 +101,13 @@ $cellphone-landscape: 390px; // Used as height in landscape mode (i.e., phone tu
     display: flex;
     flex-direction: column;
     left: 45%;
-    top: 2rem;
+    top: 5rem;
   }
 }
 
+/* ==============================
+        Search Icon Button          
+      ============================== */
 .searchIconButton {
   background-color: transparent;
   border: none;
@@ -96,8 +123,8 @@ $cellphone-landscape: 390px; // Used as height in landscape mode (i.e., phone tu
 }
 
 /* ==============================
-         Dropdown Button Style     
-   ============================== */
+        Dropdown Button Style       
+      ============================== */
 .dropdownButton {
   background-color: transparent;
   border: none;
@@ -113,27 +140,11 @@ $cellphone-landscape: 390px; // Used as height in landscape mode (i.e., phone tu
     text-decoration: underline;
   }
 
-  /* ==============================
-                 Responsive         
-     ============================== */
-  /* ==============================
-            Cellphone Portrait      
-     ============================== */
   @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
     font-size: 1.3rem;
     padding: 0.5rem;
   }
 
-  /* ==============================
-            Cellphone Landscape     
-     ============================== */
-  @media only screen and (max-height: $cellphone-landscape) and (orientation: landscape) {
-    // Placeholder for future landscape-specific styles
-  }
-
-  /* ==============================
-            Level Variations        
-     ============================== */
   &.level-1,
   &.level-2,
   &.level-3,
@@ -175,15 +186,22 @@ $cellphone-landscape: 390px; // Used as height in landscape mode (i.e., phone tu
 }
 
 /* ==============================
-            Dropdown Layout         
-   =============================== */
+           Dropdown Layout          
+      ============================== */
 .dropdown {
   position: relative;
   display: inline-block;
   text-align: center;
   margin: 0 1rem;
+
+  @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
+    margin: 0;
+  }
 }
 
+/* ==============================
+       Dropdown Menu Content        
+      ============================== */
 .dropdownContent {
   position: absolute;
   top: 100%;
@@ -226,12 +244,21 @@ $cellphone-landscape: 390px; // Used as height in landscape mode (i.e., phone tu
     &::-webkit-scrollbar-button {
       display: none;
     }
+
+    @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
+      position: static;
+      transform: none;
+      background: transparent;
+      box-shadow: none;
+      padding: 0;
+      margin-top: 0.5rem;
+    }
   }
 }
 
 /* ==============================
-      Active Nested Dropdown Menu  
-   ============================== */
+     Active Nested Dropdown Menu  
+    ============================== */
 .dropdownMenu.active {
   display: flex;
   flex-direction: column;
