@@ -6,7 +6,7 @@ const NetworkingIntro = () => {
 
     return (
         <>
-            <Header text="Networking Introduction" />
+            <Header text="Networking Introduction" size="sm" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
