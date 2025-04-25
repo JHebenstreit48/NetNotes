@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import App from "@/App";
-import ErrorPage from "@/Pages/Error";
-import Home from "@/Pages/Home";
+import ErrorPage from "@/Pages/ErrorHomeSplash/Error";
+import Home from "@/Pages/ErrorHomeSplash/Home";
 
 // Certifications Overview Start
 // Placeholder for Certifications Overview imports
