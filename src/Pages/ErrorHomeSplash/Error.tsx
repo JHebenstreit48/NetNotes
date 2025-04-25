@@ -1,9 +1,8 @@
 import { useRouteError } from "react-router-dom";
-import '@/SCSS/Error.scss';
 
-export default function errorPage() {
+export default function ErrorPage() {
 
-const error: any = useRouteError();
+const error = useRouteError() as { status?: number; message?: string };
 console.error(error);
 
 return (
@@ -22,4 +21,4 @@ return (
 
 );
 
-};
+}
