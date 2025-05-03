@@ -3,14 +3,14 @@ import { useState, useEffect } from "react";
 import Footer from '@/Components/Footer';
 import SplashScreen from '@/Pages/ErrorHomeSplash/SplashScreen';
 
-import '@/SCSS/HomeErrorPage/Page.scss';
-import '@/SCSS/HeaderFooterNav/Header.scss';
-import '@/SCSS/HeaderFooterNav/Navigation.scss';
-import '@/SCSS/HeaderFooterNav/Footer.scss';
-import '@/SCSS/HomeErrorPage/Error.scss';
-import '@/SCSS/BackToTop.scss';
-import '@/SCSS/Notes.scss';
-import '@/SCSS/SplashScreen.scss';
+import '@/SCSS/SharedStyles/Page.scss';
+import '@/SCSS/SharedStyles/Header.scss';
+import '@/SCSS/NavigationStyles/Navigation.scss';
+import '@/SCSS/SharedStyles/Footer.scss';
+import '@/SCSS/SharedStyles/Error.scss';
+import '@/SCSS/SharedStyles/BackToTop.scss';
+import '@/SCSS/SharedStyles/Notes.scss';
+import '@/SCSS/PageStyles/SplashScreen.scss';
 
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
