@@ -30,7 +30,7 @@ const pages: Page[] = [
     subpages: [],
   },
   {
-    name: "Certifications Overview",
+    name: "Certifications",
     subpages: [],
   },
   {
@@ -71,10 +71,6 @@ const pages: Page[] = [
         subpages: [L2Switching, VLANs],
       },
     ],
-  },
-  {
-    name: "CCNP Advanced",
-    subpages: [],
   },
 ];
 

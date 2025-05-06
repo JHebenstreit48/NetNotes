@@ -5,7 +5,11 @@ import SplashScreen from '@/Pages/ErrorHomeSplash/SplashScreen';
 
 import '@/SCSS/SharedStyles/Page.scss';
 import '@/SCSS/SharedStyles/Header.scss';
+
+// Navigation Styles Start
 import '@/SCSS/NavigationStyles/Navigation.scss';
+import '@/SCSS/NavigationStyles/SearchModal.scss';
+// Navigation Styles End
 import '@/SCSS/SharedStyles/Footer.scss';
 import '@/SCSS/SharedStyles/Error.scss';
 import '@/SCSS/SharedStyles/BackToTop.scss';
