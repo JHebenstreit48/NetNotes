@@ -1,4 +1,4 @@
-import Header from "@/Components/Header";
+import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/Notes/NotesRender";
 
 const LocalNetworks = () => {

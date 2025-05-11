@@ -1,4 +1,4 @@
-import Header from "@/Components/Header";
+import Header from "@/Components/PageComponents/Header";
 import PageSetup from "@/Components/Notes/NotesRender";
 
 const RoutingComparisons = () => {
