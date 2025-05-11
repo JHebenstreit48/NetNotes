@@ -1,4 +1,4 @@
-import Header from "@/Components/Header";
+import Header from "@/Components/PageComponents/Header";
 import PageSetup from "@/Components/Notes/NotesRender";
 import { useNavigate } from "react-router-dom";
 import "@/SCSS/SharedStyles/GlossaryBack.scss";

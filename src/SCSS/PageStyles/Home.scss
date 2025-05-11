@@ -1,7 +1,7 @@
-/* ==============================
-            Variables           
-   ============================== */
-   $primary-bg-color: rgba(53, 51, 51, 0.397);
+/* =============================
+   Variables
+   ============================= */
+   $primary-bg-color: rgba(12, 22, 76, 0.21);
    $text-color: white;
    $box-shadow-color: black;
    
@@ -11,17 +11,12 @@
    $site-info-width: 50rem;
    $site-info-mobile-width: 23rem;
    $site-info-padding: 3rem;
+   
    $site-info-content-width: 40rem;
    
-   /* ==============================
-               Breakpoints          
-      ============================== */
-   $cellphone-portrait: 390px;
-   $cellphone-landscape: 390px; // Used as height in landscape mode
-   
-   /* ==============================
-            Home Page Layout        
-      ============================== */
+   /* =============================
+      Home Page Layout
+      ============================= */
    .homePage {
      display: flex;
      flex-direction: column;
@@ -32,11 +27,11 @@
      padding: 0;
    }
    
-   /* ==============================
-              Site Info Box         
-      ============================== */
+   /* =============================
+      Site Info Box
+      ============================= */
    .siteInfo {
-     margin: 7rem auto 2rem auto;
+     margin: 16rem auto 2rem auto;
      padding: $site-info-padding;
      text-align: center;
      width: $site-info-width;
@@ -44,36 +39,18 @@
      font-size: 1.5rem;
      background-color: $primary-bg-color;
      box-shadow: 0px 0px 15px 4px $accent-glow;
-     border: 1px solid rgba(0, 255, 255, 0.25); // Slight aqua tint
+     border: 1px solid rgba(0, 255, 255, 0.25); // Slight aqua tint to echo the glow
      border-radius: 1rem;
      transition: box-shadow 0.3s ease;
    
      &:hover {
        box-shadow: 0px 0px 20px 6px rgba(0, 255, 255, 0.4);
      }
-   
-     /* ==============================
-                 Responsive          
-        ============================== */
-     /* ==============================
-            Cellphone Portrait       
-        ============================== */
-     @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
-       width: $site-info-mobile-width;
-       padding: 0;
-     }
-   
-     /* ==============================
-            Cellphone Landscape      
-        ============================== */
-     @media only screen and (max-height: $cellphone-landscape) and (orientation: landscape) {
-       // Placeholder for future landscape-specific styles
-     }
    }
    
-   /* ==============================
-            Site Info Content        
-      ============================== */
+   /* =============================
+      Site Info Content
+      ============================= */
    .siteInfoContent {
      max-width: $site-info-content-width;
      margin: 0 auto 2rem auto;
@@ -85,27 +62,23 @@
      padding-right: 1rem;
    
      p:first-of-type {
-       font-weight: 600;
+       font-weight: 600; // Bold first paragraph
+     }
+   }
+   
+   /* =============================
+      Responsive Styles (Mobile)
+      ============================= */
+   @media only screen and (max-width: 390px) {
+     .siteInfo {
+       width: $site-info-mobile-width;
      }
    
-     /* ==============================
-                 Responsive          
-        ============================== */
-     /* ==============================
-            Cellphone Portrait       
-        ============================== */
-     @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
+     .siteInfoContent {
        max-width: 100%;
        display: flex;
        flex-direction: column;
        margin: 0 auto;
-     }
-   
-     /* ==============================
-            Cellphone Landscape      
-        ============================== */
-     @media only screen and (max-height: $cellphone-landscape) and (orientation: landscape) {
-       // Placeholder for future landscape-specific styles
      }
    }
    
