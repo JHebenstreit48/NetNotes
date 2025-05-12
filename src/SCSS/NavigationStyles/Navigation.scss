@@ -1,8 +1,8 @@
+@use "sass:color";
+
 /* ==============================
             Variables           
    ============================== */
-
-   @use "sass:color";
 
    $primary-color: rgb(7, 193, 255);
    $secondary-color: rgb(218, 165, 32);
@@ -94,8 +94,8 @@
             ============================== */
    .searchIconContainer {
      position: absolute;
-     left: 19rem;
-     top: 55%;
+     left: 16rem;
+     top: 47%;
      transform: translateY(-50%);
      z-index: 11;
    

@@ -1,5 +1,5 @@
 import Header from "@/Components/PageComponents/Header";
-import Notes from "@/Components/Notes/NotesRender";
+import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const NetworkDevices = () => {
     const markdownFilePath = '/CoreNetworkingTopics/NetworkingOverview/NetworkDevices.md';
