@@ -1,5 +1,5 @@
 import Header from "@/Components/PageComponents/Header";
-import Notes from "@/Components/Notes/NotesRender";
+import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const ApplicationLayerOverview = () => {
     const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/ApplicationLayer/Overview.md';
