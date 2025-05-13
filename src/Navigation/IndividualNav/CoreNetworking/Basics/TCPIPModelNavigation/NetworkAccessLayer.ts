@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/NavigationTypes";
+import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
 const NetworkAccessLayer: Subpage = {
   name: "Network Access Layer (OSI Layers 1-2)",
