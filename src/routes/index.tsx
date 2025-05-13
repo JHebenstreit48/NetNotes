@@ -4,9 +4,9 @@ import App from "@/App";
 import ErrorPage from "@/Pages/ErrorHomeSplash/Error";
 import Home from "@/Pages/ErrorHomeSplash/Home";
 
-// Certifications Overview Start
+// Certifications Start
 // Placeholder for Certifications Overview imports
-// Certifications Overview End
+// Certifications End
 
 // Exam Preparation Start
 // Placeholder for Exam Preparation imports
@@ -17,45 +17,45 @@ import Wireshark from "@/Pages/NetworkingTools/Wireshark/WiresharkNotes";
 
 // Networking Tools End
 
-// Core Networking Topics Start
+// Core Networking Start
 
 // IP Networking Overview Start
-import NetworkingIntro from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/Introduction";
-import Internet from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/InternetAndNetworks";
-import LocalNetworks from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/LocalNetworks";
-import NetworkDevices from "@/Pages/CoreNetworkingTopics/IPNetworkingOverview/NetworkDevices";
+import NetworkingIntro from "@/Pages/CoreNetworkingTopics/Basics/IPNetworkingOverview/Introduction";
+import Internet from "@/Pages/CoreNetworkingTopics/Basics/IPNetworkingOverview/InternetAndNetworks";
+import LocalNetworks from "@/Pages/CoreNetworkingTopics/Basics/IPNetworkingOverview/LocalNetworks";
+import NetworkDevices from "@/Pages/CoreNetworkingTopics/Basics/IPNetworkingOverview/NetworkDevices";
 // IP Networking Overview End
 
 // TCP/IP Model Start
 
 // Application Layer Start
-import ApplicationLayerOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/ApplicationLayer/Overview";
-import HTTPHTTPS from "@/Pages/CoreNetworkingTopics/TCPIPModel/ApplicationLayer/HTTPHTTPS";
-import DNS from "@/Pages/CoreNetworkingTopics/TCPIPModel/ApplicationLayer/DNS";
+import ApplicationLayerOverview from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/ApplicationLayer/Overview";
+import HTTPHTTPS from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/ApplicationLayer/HTTPHTTPS";
+import DNS from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/ApplicationLayer/DNS";
 // Application Layer End
 
 // Transport Layer Start
-import TransportLayerOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/TransportLayer/Overview";
-import TCPvsUDP from "@/Pages/CoreNetworkingTopics/TCPIPModel/TransportLayer/TCPvsUDP";
+import TransportLayerOverview from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/TransportLayer/Overview";
+import TCPvsUDP from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/TransportLayer/TCPvsUDP";
 // Transport Layer End
 
 // Internet Layer Start
-import InternetLayerOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/InternetLayer/Overview";
-import IPV4vsIPV6 from "@/Pages/CoreNetworkingTopics/TCPIPModel/InternetLayer/IPV4vsIPV6";
-import SubnetMaskAndGateway from "@/Pages/CoreNetworkingTopics/TCPIPModel/InternetLayer/SubnetMaskAndGateway";
+import InternetLayerOverview from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/InternetLayer/Overview";
+import IPV4vsIPV6 from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/InternetLayer/IPV4vsIPV6";
+import SubnetMaskAndGateway from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/InternetLayer/SubnetMaskAndGateway";
 // Internet Layer End
 
 // Data Link Layer Start
-import NetworkAcessOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/Overview";
-import BIA from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/BIA";
-import ARP from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/ARP";
+import NetworkAccessOverview from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/NetworkAccessLayer/Overview";
+import BIA from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/NetworkAccessLayer/BIA";
+import ARP from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/NetworkAccessLayer/ARP";
 // Data Link Layer End
 
 // Physical Layer Start
-import PhysicalLayerOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/OSIEquivPhysicalLayer/Overview";
-import DataRepresentation from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/OSIEquivPhysicalLayer/DataRepresentation";
-import StandardsOfCommunication from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/OSIEquivPhysicalLayer/StandardsOfCommunication";
-import EncapsulationDeencapsulation from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/OSIEquivPhysicalLayer/EncapsulationDeencapsulation";
+import PhysicalLayerOverview from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/NetworkAccessLayer/OSIEquivPhysicalLayer/Overview";
+import DataRepresentation from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/NetworkAccessLayer/OSIEquivPhysicalLayer/DataRepresentation";
+import StandardsOfCommunication from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/NetworkAccessLayer/OSIEquivPhysicalLayer/StandardsOfCommunication";
+import EncapsulationDeencapsulation from "@/Pages/CoreNetworkingTopics/Basics/TCPIPModel/NetworkAccessLayer/OSIEquivPhysicalLayer/EncapsulationDeencapsulation";
 // Physical Layer End
 
 // TCP/IP Model End
@@ -97,7 +97,6 @@ import WirelessStandards from "@/Pages/CoreNetworkingTopics/WirelessNetworking/W
 
 // Network Security Start
 import Firewalls from "@/Pages/CoreNetworkingTopics/NetworkSecurity/Firewalls";
-import NetworkAccessOverview from "@/Pages/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/Overview";
 
 // Network Security End
 
@@ -115,7 +114,10 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-
+      ...certificationsRoutes,
+      ...examPrepRoutes,
+      ...toolsRoutes,
+      ...coreNetworkingRoutes
       // Certifications Overview Start
       // Placeholder for Certifications Overview imports
       // Certifications Overview End
