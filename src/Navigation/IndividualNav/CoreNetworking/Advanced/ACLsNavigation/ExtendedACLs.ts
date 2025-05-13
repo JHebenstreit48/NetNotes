@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/NavigationTypes";
+import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
 const ExtendedACLs: Subpage = {
   name: "Extended ACLs",

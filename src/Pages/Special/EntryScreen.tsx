@@ -18,7 +18,7 @@ const EntryScreen: React.FC<IntroSplashScreenProps> = ({ onEnter }) => {
   return (
     <div className={`SplashScreen ${isFading ? "fade-out" : ""}`}>
       <img src="/Favicon/NetNotes.webp" alt="NetNotes Logo" className="logo" />
-      <h1 className="splash-title">Welcome to PixelProse</h1>
+      <h1 className="splash-title">Welcome to NetNotes</h1>
       <p className="splash-desc">Your journey into all things IT Networking and its mastery begins here.</p>
       <button className="splash-button" onClick={handleClick}>
         Enter
