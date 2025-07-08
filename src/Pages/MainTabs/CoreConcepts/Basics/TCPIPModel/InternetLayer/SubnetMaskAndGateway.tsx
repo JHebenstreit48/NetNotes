@@ -1,19 +1,18 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header';
-import Header from '@/Components/Shared/Header';
 import Notes from '@/Components/PageComponents/Notes/NotesRendering/Notes';
 
-const Wireshark = () => {
-  const markdownFilePath = '/NetworkingTools/Wireshark';
+const SubnetMaskGateway = () => {
+  const markdownFilePath = '/InternetLayer/SubnetMaskandDefaultGateway';
 
   return (
     <>
       <PageLayout>
-        <Header text="Wireshark" />
+        <Header text="Subnet Mask/Default Gateway)" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default Wireshark;
+export default SubnetMaskGateway;

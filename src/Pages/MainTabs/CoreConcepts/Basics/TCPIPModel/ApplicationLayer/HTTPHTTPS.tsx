@@ -1,19 +1,18 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header';
-import Header from '@/Components/Shared/Header';
 import Notes from '@/Components/PageComponents/Notes/NotesRendering/Notes';
 
-const Wireshark = () => {
-  const markdownFilePath = '/NetworkingTools/Wireshark';
+const HTTPHTTPS = () => {
+  const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/ApplicationLayer/HTTPHTTPS';
 
   return (
     <>
       <PageLayout>
-        <Header text="Wireshark" />
+        <Header text="HTTP/HTTPS" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default Wireshark;
+export default HTTPHTTPS;

@@ -1,19 +1,20 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header';
-import Header from '@/Components/Shared/Header';
 import Notes from '@/Components/PageComponents/Notes/NotesRendering/Notes';
 
-const Wireshark = () => {
-  const markdownFilePath = '/NetworkingTools/Wireshark';
+const EncapDeencap = () => {
+  const markdownFilePath = '/PhysicalLayer/EncapsulationDeencapsulation';
 
   return (
     <>
       <PageLayout>
-        <Header text="Wireshark" />
-        <Notes filePath={markdownFilePath} />
+        <Header text="Encapsulation/De-encapsulation" />
+        <Notes
+          filePath={markdownFilePath}
+        />
       </PageLayout>
     </>
   );
 };
 
-export default Wireshark;
+export default EncapDeencap;

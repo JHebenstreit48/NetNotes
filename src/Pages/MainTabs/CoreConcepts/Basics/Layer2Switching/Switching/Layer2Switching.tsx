@@ -1,19 +1,18 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header';
-import Header from '@/Components/Shared/Header';
 import Notes from '@/Components/PageComponents/Notes/NotesRendering/Notes';
 
-const Wireshark = () => {
-  const markdownFilePath = '/NetworkingTools/Wireshark';
+const Layer2Switching = () => {
+  const markdownFilePath = '/CoreNetworkingTopics/Layer2Switching/Switching/Layer2Switching';
 
   return (
     <>
       <PageLayout>
-        <Header text="Wireshark" />
+        <Header text="Layer 2 Switching Basics" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default Wireshark;
+export default Layer2Switching;
