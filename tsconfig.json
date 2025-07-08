@@ -10,12 +10,16 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@pages/*": ["src/Pages/*"],
+      "@components/*": ["src/Components/*"],
+      "@routes/*": ["src/routes/*"],
+      "@scss/*": ["src/SCSS/*"]
     },
-    "allowSyntheticDefaultImports": true, // Enable default imports for compatibility
-    "resolveJsonModule": true, // For importing JSON files if needed
-    "typeRoots": ["./node_modules/@types", "./src/types"] // Ensure custom types are included
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"]
   },
   "include": ["src"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }
