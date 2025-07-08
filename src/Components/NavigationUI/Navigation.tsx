@@ -2,10 +2,10 @@ import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import pages from "@/Navigation/CombinedNav/CombinedNavAndTypes/Pages";
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
-import { flattenNavigation } from "@/Components/NavigationUI/SearchModal/Utils/flattenNavigation";
-import { SearchMatch } from "@/Components/NavigationUI/SearchModal/Utils/types";
-import SearchIcon from "@/Components/NavigationUI/SearchIcon";
-import SearchModal from "@/Components/NavigationUI/SearchModal/Modal";
+import { flattenNavigation } from "@/Components/NavigationUI/Search/Utils/flattenNavigation";
+import { SearchMatch } from "@/Components/NavigationUI/Search/Utils/types";
+import SearchIcon from "@/Components/NavigationUI/Search/SearchIcon";
+import SearchModal from "@/Components/NavigationUI/Search/Modal";
 
 const Navigation = () => {
   const [activeDropdown, setActiveDropdown] = useState<Set<string>>(new Set());
@@ -141,7 +141,7 @@ const Navigation = () => {
 
             return (
               <div key={pageKey} className="dropdown">
-                {page.subpages.length === 0 ? (
+                {!page.subpages || page.subpages.length === 0 ? (
                   <Link to="/" className="dropdownButton level-1">
                     {page.name}
                   </Link>
@@ -157,7 +157,7 @@ const Navigation = () => {
                     </button>
                     {isActive && (
                       <div className="dropdownContent active">
-                        {renderSubpages(page.subpages, pageKey, 2)}
+                        {page.subpages && renderSubpages(page.subpages, pageKey, 2)}
                       </div>
                     )}
                   </>
