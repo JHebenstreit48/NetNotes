@@ -1,19 +1,18 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header';
-import Header from '@/Components/Shared/Header';
 import Notes from '@/Components/PageComponents/Notes/NotesRendering/Notes';
 
-const Wireshark = () => {
-  const markdownFilePath = '/NetworkingTools/Wireshark';
+const IPV4vsIPV6 = () => {
+  const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/InternetLayer/IPv4vsIPv6';
 
   return (
     <>
       <PageLayout>
-        <Header text="Wireshark" />
+        <Header text="IPv4 vs IPv6" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default Wireshark;
+export default IPV4vsIPV6;

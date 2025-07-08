@@ -3,7 +3,7 @@ import { Page } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTyp
 import certificationsNav from "@/Navigation/CombinedNav/CombinedNavTopics/certificationsCombined";
 import examPrepNav from "@/Navigation/CombinedNav/CombinedNavTopics/examPrepCombined";
 import toolsNav from "@/Navigation/CombinedNav/CombinedNavTopics/toolsCombined";
-import coreNetworkingNav from "@/Navigation/CombinedNav/CombinedNavTopics/coreNetworkingCombined";
+import CoreConcepts from "@/Navigation/CombinedNav/CombinedNavTopics/coreConcepts";
 
 const pages: Page[] = [
   {
@@ -13,7 +13,7 @@ const pages: Page[] = [
   certificationsNav,
   examPrepNav,
   toolsNav,
-  coreNetworkingNav
+  CoreConcepts
 ];
 
 export default pages;
