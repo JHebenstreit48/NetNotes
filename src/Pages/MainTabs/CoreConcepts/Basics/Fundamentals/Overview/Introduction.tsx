@@ -3,14 +3,13 @@ import Header from '@/Components/Shared/Header';
 import Notes from '@/Components/PageComponents/Notes/NotesRendering/Notes';
 
 const Introduction = () => {
-  const markdownFilePath = '/CoreNetworkingTopics/NetworkingOverview/Introduction';
+  const markdownFilePath = '/CoreConcepts/Basics/Fundamentals/Overview/Introduction';
 
   return (
     <>
       <PageLayout>
         <Header
           text="Introduction"
-          size="sm"
         />
         <Notes filePath={markdownFilePath} />
       </PageLayout>

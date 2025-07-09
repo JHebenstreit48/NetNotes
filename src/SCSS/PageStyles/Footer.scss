@@ -1,18 +1,26 @@
 /* =============================
-   Variables
+            Variables
    ============================= */
    $footer-bg-color: #333;
    $text-color: white;
    $font-size-lg: 26px;
-   $font-size-sm: 1.5rem;
+   $font-size-sm: 1.1rem;
    
    $footer-height: 60px;
    $footer-mobile-height: 3.5rem;
    $footer-padding: 10px;
    $footer-mobile-padding: 2rem;
    
+   /* ==============================
+             Breakpoints          
+      ============================== */
+   $cellphone-portrait: 480px;
+   $cellphone-landscape: 390px;
+   $small-laptop-max: 1366px;
+   $small-laptop-min: 1024px;
+   
    /* =============================
-      Footer Styling
+            Footer Styling
       ============================= */
    .Footer {
      display: flex;
@@ -26,16 +34,12 @@
      background-color: $footer-bg-color;
      padding: $footer-padding;
      max-height: 100vh;
-   }
    
-   /* =============================
-      Responsive Styles (Mobile)
-      ============================= */
-   @media only screen and (max-width: 390px) {
-     .Footer {
+     @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
        font-size: $font-size-sm;
        height: $footer-mobile-height;
        padding: $footer-mobile-padding;
+       text-align: center;
      }
    }
    
