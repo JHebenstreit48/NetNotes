@@ -5,8 +5,8 @@ import ErrorPage from '@/Pages/Special/Error';
 import Home from '@/Pages/Special/Home';
 
 import certifications from '@/routes/RoutesDirectories/certificationsCombined';
-import examPrep from '@/routes/RoutesDirectories/examPrepCombined';
-import coreNetworking from '@/routes/RoutesDirectories/coreNetworkingCombined';
+import examPrep from '@/routes/RoutesDirectories/examPrep';
+import coreNetworking from '@/routes/RoutesDirectories/coreConcepts';
 import tools from '@/routes/RoutesDirectories/toolsCombined';
 
 export const router = createBrowserRouter([

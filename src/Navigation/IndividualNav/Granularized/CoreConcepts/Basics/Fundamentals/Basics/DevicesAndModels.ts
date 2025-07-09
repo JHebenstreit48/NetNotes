@@ -1,17 +1,17 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const OverviewDevicesAndModels: Subpage = {
+const DevicesAndModels: Subpage = {
   name: "Devices & Models",
   subpages: [
     {
       name: "Networking Devices",
-      path: "/corenetworking/basics/overview/networkdevices"
+      path: "/corenetworking/basics/fundamentals/devicesandmodels/networkdevices"
     },
     {
       name: "Networking Models",
-      path: "/corenetworking/basics/overview/models"
+      path: "/corenetworking/basics/fundamentals/devicesandmodels/models"
     }
   ]
 };
 
-export default OverviewDevicesAndModels;
+export default DevicesAndModels;

@@ -1,19 +1,19 @@
-import { Page } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
+import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-import certificationsNav from "@/Navigation/CombinedNav/CombinedNavTopics/certificationsCombined";
-import examPrepNav from "@/Navigation/CombinedNav/CombinedNavTopics/examPrepCombined";
-import toolsNav from "@/Navigation/CombinedNav/CombinedNavTopics/toolsCombined";
-import CoreConcepts from "@/Navigation/CombinedNav/CombinedNavTopics/coreConcepts";
+import certificationsNav from "@/Navigation/CombinedNav/CombinedTopics/certificationsCombined";
+import examPrepNav from "@/Navigation/CombinedNav/CombinedTopics/examPrepCombined";
+import toolsNav from "@/Navigation/CombinedNav/CombinedTopics/toolsCombined";
+import CoreConcepts from "@/Navigation/CombinedNav/CombinedTopics/coreConcepts";
 
-const pages: Page[] = [
+const pages: Subpage[] = [
   {
     name: 'Home',
     subpages: [],
   },
   certificationsNav,
   examPrepNav,
-  toolsNav,
-  CoreConcepts
+  CoreConcepts,
+  toolsNav
 ];
 
 export default pages;
