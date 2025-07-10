@@ -11,15 +11,15 @@ const NetworkAccess: Subpage = {
           subpages: [
             {
               name: "Introduction",
-              path: "/corenetworking/tcpipmodel/networkaccess/datalink/coreconcepts/introduction"
+              path: "/coreconcepts/basics/tcpipmodel/networkaccess/datalink/coreconcepts/introduction"
             },
             {
               name: "Burned-In Address (BIA)",
-              path: "/corenetworking/tcpipmodel/networkaccess/datalink/coreconcepts/bia"
+              path: "/coreconcepts/basics/tcpipmodel/networkaccess/datalink/coreconcepts/bia"
             },
             {
               name: "Address Resolution Protocol (ARP)",
-              path: "/corenetworking/tcpipmodel/networkaccess/datalink/coreconcepts/arp"
+              path: "/coreconcepts/basics/tcpipmodel/networkaccess/datalink/coreconcepts/arp"
             }
           ]
         }
