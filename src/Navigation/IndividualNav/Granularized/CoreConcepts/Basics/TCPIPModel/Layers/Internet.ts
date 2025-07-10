@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const InternetLayer: Subpage = {
+const Internet: Subpage = {
   name: "Internet Layer",
   subpages: [
     {
@@ -23,4 +23,4 @@ const InternetLayer: Subpage = {
   ]
 };
 
-export default InternetLayer;
+export default Internet;

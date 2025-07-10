@@ -1,7 +1,7 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const NetworkAccessLayer: Subpage = {
-  name: "Network Access Layer (OSI Layers 1–2)",
+const NetworkAccess: Subpage = {
+  name: "Network Access Layer",
   subpages: [
     {
       name: "Layer 2: Data Link",
@@ -63,4 +63,4 @@ const NetworkAccessLayer: Subpage = {
   ]
 };
 
-export default NetworkAccessLayer;
+export default NetworkAccess;
