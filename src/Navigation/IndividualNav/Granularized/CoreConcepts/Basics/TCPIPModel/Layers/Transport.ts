@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const TransportLayer: Subpage = {
+const Transport: Subpage = {
   name: "Transport Layer",
   subpages: [
     {
@@ -19,4 +19,4 @@ const TransportLayer: Subpage = {
   ]
 };
 
-export default TransportLayer;
+export default Transport;

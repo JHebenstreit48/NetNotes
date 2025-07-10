@@ -1,7 +1,7 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const NetworkAccessLayer: Subpage = {
-  name: "Network Access Layer (OSI Layers 1–2)",
+const NetworkAccess: Subpage = {
+  name: "Network Access Layer",
   subpages: [
     {
       name: "Layer 2: Data Link",
@@ -11,15 +11,15 @@ const NetworkAccessLayer: Subpage = {
           subpages: [
             {
               name: "Introduction",
-              path: "/corenetworking/tcpipmodel/networkaccess/datalink/coreconcepts/introduction"
+              path: "/coreconcepts/basics/tcpipmodel/networkaccess/datalink/coreconcepts/introduction"
             },
             {
               name: "Burned-In Address (BIA)",
-              path: "/corenetworking/tcpipmodel/networkaccess/datalink/coreconcepts/bia"
+              path: "/coreconcepts/basics/tcpipmodel/networkaccess/datalink/coreconcepts/bia"
             },
             {
               name: "Address Resolution Protocol (ARP)",
-              path: "/corenetworking/tcpipmodel/networkaccess/datalink/coreconcepts/arp"
+              path: "/coreconcepts/basics/tcpipmodel/networkaccess/datalink/coreconcepts/arp"
             }
           ]
         }
@@ -63,4 +63,4 @@ const NetworkAccessLayer: Subpage = {
   ]
 };
 
-export default NetworkAccessLayer;
+export default NetworkAccess;

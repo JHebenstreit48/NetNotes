@@ -1,6 +1,6 @@
 import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
-const ApplicationLayer: Subpage = {
+const Application: Subpage = {
   name: 'Application Layer',
   subpages: [
     {
@@ -57,4 +57,4 @@ const ApplicationLayer: Subpage = {
   ]
 };
 
-export default ApplicationLayer;
+export default Application;

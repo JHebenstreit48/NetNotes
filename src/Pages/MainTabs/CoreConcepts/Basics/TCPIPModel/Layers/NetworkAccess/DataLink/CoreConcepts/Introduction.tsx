@@ -2,14 +2,14 @@ import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header';
 import Notes from '@/Components/PageComponents/Notes/NotesRendering/Notes';
 
-const NetworkAccessOverview = () => {
+const Introduction = () => {
   const markdownFilePath =
-    '/CoreNetworkingTopics/TCPIPModel/NetworkAcessLayer/NetworkAccessLayerOverview';
+    '/CoreConcepts/TCPIPModel/Layers/NetworkAccess/Layer2-DataLink/CoreConcepts/Introduction';
 
   return (
     <>
       <PageLayout>
-        <Header text="Network Acess Layer Overview" />
+        <Header text="Introduction" />
         <Notes
           filePath={markdownFilePath}
         />
@@ -18,4 +18,4 @@ const NetworkAccessOverview = () => {
   );
 };
 
-export default NetworkAccessOverview;
+export default Introduction;
