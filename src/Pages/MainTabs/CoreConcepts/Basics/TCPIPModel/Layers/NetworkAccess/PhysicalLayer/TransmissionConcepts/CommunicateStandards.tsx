@@ -2,8 +2,8 @@ import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header';
 import Notes from '@/Components/PageComponents/Notes/NotesRendering/Notes';
 
-const Standards = () => {
-  const markdownFilePath = '/PhysicalLayer/StandardsOfCommunication';
+const CommStandards = () => {
+  const markdownFilePath = '/CoreConcepts/Basics/TCPIPModel/NetworkAccess/Layer1-Physical/TransmissionConcepts/CommunicationStandards';
 
   return (
     <>
@@ -15,4 +15,4 @@ const Standards = () => {
   );
 };
 
-export default Standards;
+export default CommStandards;

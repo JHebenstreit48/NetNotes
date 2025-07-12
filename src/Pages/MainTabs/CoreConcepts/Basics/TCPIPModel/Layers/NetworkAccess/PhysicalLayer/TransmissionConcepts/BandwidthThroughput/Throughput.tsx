@@ -2,13 +2,13 @@ import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header';
 import Notes from '@/Components/PageComponents/Notes/NotesRendering/Notes';
 
-const EncapDeencap = () => {
-  const markdownFilePath = '/CoreConcepts/Basics/TCPIPModel/NetworkAccess/Layer1-Physical/TransmissionConcepts/EncapDeencap';
+const Throughput = () => {
+  const markdownFilePath = '/CoreConcepts/Basics/TCPIPModel/Layers/NetworkAccess/Layer1-Physical/TransmissionConcepts/BandwidthThroughput/Throughput';
 
   return (
     <>
       <PageLayout>
-        <Header text="Encapsulation/De-Encapsulation" />
+        <Header text="Throughput" />
         <Notes
           filePath={markdownFilePath}
         />
@@ -17,4 +17,4 @@ const EncapDeencap = () => {
   );
 };
 
-export default EncapDeencap;
+export default Throughput;
