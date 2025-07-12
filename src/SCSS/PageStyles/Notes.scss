@@ -200,75 +200,60 @@ $small-laptop-min: 1024px;
 
     .tableWrapper {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      width: 35rem;
-      margin: 0 auto;
-
-      @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
-        width: 100%;
-        padding: 0 1rem;
-        box-sizing: border-box;
-        margin: 0 auto;
-        overflow-x: hidden; // ensure no horizontal scroll
-
-        .notesTable {
-          width: 100%;
-          table-layout: fixed;
-          border-collapse: collapse;
-          text-align: center;
-        }
-
-        .tableCellHeader,
-        .tableCell,
-        .centeredCell {
-          word-wrap: break-word;
-        }
-      }
-
-      .narrowTable {
-        width: 35rem;
-        text-align: center;
-        margin: 0 auto;
-
-        @media screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
+      width: 100%;
+    
+      .notesTable {
+        width: 35rem; // Standardize ALL tables
+        border-collapse: collapse;
+        margin: 1rem 0;
+    
+        @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
           width: 100%;
         }
       }
-
+    
       .tableHeader {
         background-color: $table-header-bg;
       }
-
+    
       .tableCellHeader {
         text-align: center;
         padding: 12px;
         border: 1px solid $table-border;
         background-color: $table-cell-bg;
-
+        font-weight: bold;
+    
         @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
-          width: 9.3rem;
+          width: 50%;
+          word-wrap: break-word;
         }
       }
-
+    
       .tableRow:hover {
         background-color: rgba(255, 255, 255, 0.1);
         transition: background-color 0.3s ease-in-out;
       }
-
+    
       .tableCell,
       .centeredCell {
         padding: 10px;
         text-align: left;
         border: 1px solid $table-border;
         background-color: $background-table;
+    
+        @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
+          width: 50%;
+          word-wrap: break-word;
+        }
       }
-
+    
       .tableEmphasis {
         @include text-emphasis($secondary-color, 1.4rem);
       }
     }
-
+    
     .codeBlockWrapper {
       position: relative;
       border: 1px solid #444;

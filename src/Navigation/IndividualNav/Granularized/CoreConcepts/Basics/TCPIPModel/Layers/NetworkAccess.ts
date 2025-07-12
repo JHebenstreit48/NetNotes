@@ -53,6 +53,19 @@ const NetworkAccess: Subpage = {
               path: "/corenetworking/tcpipmodel/networkaccess/physical/transmission/datatransmission"
             },
             {
+              name: "Bandwidth/Throughput",
+              subpages: [
+                {
+                  name: "Bandwidth",
+                  path: "/corenetworking/tcpipmodel/networkaccess/physical/transmission/bandwidththroughput/bandwidth"
+                },
+                {
+                  name: "Throughput",
+                  path: "/corenetworking/tcpipmodel/networkaccess/physical/transmission/bandwidththroughput/throughput"
+                }
+              ]
+            },
+            {
               name: "Encapsulation / De-encapsulation",
               path: "/corenetworking/tcpipmodel/networkaccess/physical/transmission/encapanddeencap"
             }
