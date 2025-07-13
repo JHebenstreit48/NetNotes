@@ -1,84 +1,171 @@
+@use 'sass:color';
+
 /* =============================
    Variables
    ============================= */
-   $primary-bg-color: rgba(12, 22, 76, 0.21);
-   $text-color: white;
-   $box-shadow-color: black;
-   
-   $default-box-shadow: black;
-   $accent-glow: rgba(0, 255, 255, 0.2); // Aqua glow
-   
-   $site-info-width: 50rem;
-   $site-info-mobile-width: 23rem;
-   $site-info-padding: 3rem;
-   
-   $site-info-content-width: 40rem;
-   
-   /* =============================
-      Home Page Layout
-      ============================= */
-   .homePage {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: flex-start;
-     min-height: 100vh;
-     margin: 0;
-     padding: 0;
-   }
-   
-   /* =============================
-      Site Info Box
-      ============================= */
-   .siteInfo {
-     margin: 16rem auto 2rem auto;
-     padding: $site-info-padding;
-     text-align: center;
-     width: $site-info-width;
-     color: $text-color;
-     font-size: 1.5rem;
-     background-color: $primary-bg-color;
-     box-shadow: 0px 0px 15px 4px $accent-glow;
-     border: 1px solid rgba(0, 255, 255, 0.25); // Slight aqua tint to echo the glow
-     border-radius: 1rem;
-     transition: box-shadow 0.3s ease;
-   
-     &:hover {
-       box-shadow: 0px 0px 20px 6px rgba(0, 255, 255, 0.4);
-     }
-   }
-   
-   /* =============================
-      Site Info Content
-      ============================= */
-   .siteInfoContent {
-     max-width: $site-info-content-width;
-     margin: 0 auto 2rem auto;
-     text-align: left;
-     line-height: 1.6;
-     word-break: break-word;
-     box-sizing: border-box;
-     padding-left: 1rem;
-     padding-right: 1rem;
-   
-     p:first-of-type {
-       font-weight: 600; // Bold first paragraph
-     }
-   }
-   
-   /* =============================
-      Responsive Styles (Mobile)
-      ============================= */
-   @media only screen and (max-width: 390px) {
-     .siteInfo {
-       width: $site-info-mobile-width;
-     }
-   
-     .siteInfoContent {
-       max-width: 100%;
-       display: flex;
-       flex-direction: column;
-       margin: 0 auto;
-     }
-   }
-   
+$primary-bg-color: rgba(12, 22, 76, 0.21);
+$text-color: white;
+$box-shadow-color: black;
+
+$default-box-shadow: black;
+$accent-glow: rgba(0, 255, 255, 0.2); // Aqua glow
+
+$site-info-width: 58rem;
+$site-info-mobile-width: 23rem;
+$site-info-padding: 2rem;
+
+$site-info-content-width: 60rem;
+
+// Match link blue from Notes.scss for visual consistency
+$primary-color: rgb(6, 159, 248);
+
+/* =============================
+   Home Page Layout
+   ============================= */
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================
+   Site Info Box
+   ============================= */
+.siteInfo {
+  margin: 14rem auto 2rem auto;
+  padding: $site-info-padding;
+  text-align: center;
+  width: $site-info-width;
+  color: $text-color;
+  font-size: 1.5rem;
+  background-color: $primary-bg-color;
+  box-shadow: 0px 0px 15px 4px $accent-glow;
+  border: 1px solid rgba(0, 255, 255, 0.25); // Aqua border accent
+  border-radius: 1rem;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0px 0px 20px 6px rgba(0, 255, 255, 0.4);
+  }
+
+  @media only screen and (max-width: 390px) {
+    width: $site-info-mobile-width;
+  }
+
+  /* =============================
+     Site Info Content
+     ============================= */
+  .siteInfoContent {
+    max-width: $site-info-content-width;
+    margin: 0 auto 2rem auto;
+    text-align: left;
+    line-height: 1.6;
+    word-break: break-word;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    p:first-of-type {
+      font-weight: 600; // Emphasize first paragraph
+    }
+
+    @media only screen and (max-width: 390px) {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+  }
+
+  /* =============================
+     Other Sites Description Section
+     ============================= */
+     .otherSitesDescription {
+      text-align: center;
+      padding: 0 5rem;
+      line-height: 1.5;
+    
+      ul {
+        list-style: none;
+        padding: 0 8.5rem;
+        margin: 1rem 0 0;
+      }
+    
+      li {
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 0.3rem 0;
+        white-space: pre; // preserves exact spacing if you add it in Markdown
+      }
+    }
+    
+  /* =============================
+     Note Box
+     ============================= */
+  .Note {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid $primary-color;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  /* =============================
+     Related Projects Section
+     ============================= */
+  .relatedProjects {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+    
+
+
+    @media only screen and (max-width: 390px) {
+      padding: 1rem;
+    }
+
+    .relatedProjectsHeader {
+      font-size: 1.5rem;
+      color: $primary-color;
+      margin-bottom: 1rem;
+    }
+
+    .projectLinks {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+
+      li {
+        margin-bottom: 0.8rem;
+        text-decoration: none;
+
+        @media only screen and (max-width: 390px) {
+          font-size: 1.3rem;
+        }
+      }
+
+      a {
+        color: $primary-color;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+          color: color.adjust($primary-color, $lightness: 10%);
+        }
+      }
+    }
+  }
+}

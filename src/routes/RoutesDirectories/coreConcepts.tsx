@@ -1,9 +1,13 @@
 import { RouteObject } from "react-router-dom";
 
-import Basics from "@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics"
+import Basics from "@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics";
+import Intermediate from "@/routes/IndividualRoutes/Granularized/CoreConcepts/Intermediate";
+import Advanced from "@/routes/IndividualRoutes/Granularized/CoreConcepts/Advanced";
 
-const coreNetworking: RouteObject[] = [
+const coreConcepts: RouteObject[] = [
 ...Basics,
+...Intermediate,
+...Advanced,
 ];
 
-export default coreNetworking;
+export default coreConcepts;
