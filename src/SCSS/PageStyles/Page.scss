@@ -3,9 +3,7 @@
 /* ==============================
             Variables           
 ============================== */
-
-$gradient-start: #001f3a;
-$gradient-middle: #006ba6;
+$gradient-middle: #001f3a;
 $gradient-end: #000d18;
 
 $text-color: #ffffff;
@@ -45,27 +43,27 @@ html, body {
   min-height: 100vh;
   position: relative;
 
-  background: linear-gradient(
-    180deg,
-    $gradient-start 28%,
-    $gradient-middle 70%,
-    $gradient-end 111%
+  background: radial-gradient(
+    circle at center,
+    $gradient-middle 15%,
+    $gradient-end 95%
   );
   background-repeat: no-repeat;
   background-size: cover;
 
-  @supports not (background: linear-gradient(180deg, $gradient-start, $gradient-end)) {
-    background: -webkit-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
-    background: -moz-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
-    background: -o-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
-    background: -ms-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
-  }
+// Fallbacks if radial not supported (rare today, but hey)
+@supports not (background: radial-gradient(circle, $gradient-end)) {
+  background: -webkit-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
+  background: -moz-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
+  background: -o-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
+  background: -ms-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
+}
 
-  @media only screen and (max-width: $cellphone-portrait) {
-    background: linear-gradient(180deg, $gradient-start 30%, $gradient-end 100%);
-    background-size: auto;
-    background-position: center;
-  }
+@media only screen and (max-width: $cellphone-portrait) {
+  background: radial-gradient(circle at center, $gradient-end 100%);
+  background-size: auto;
+  background-position: center;
+}
 }
 
 /* ==============================
