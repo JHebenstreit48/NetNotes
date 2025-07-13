@@ -6,7 +6,7 @@ import Home from '@/Pages/Special/Home';
 
 import certifications from '@/routes/RoutesDirectories/certificationsCombined';
 import examPrep from '@/routes/RoutesDirectories/examPrep';
-import coreNetworking from '@/routes/RoutesDirectories/coreConcepts';
+import coreConcepts from '@/routes/RoutesDirectories/coreConcepts';
 import tools from '@/routes/RoutesDirectories/toolsCombined';
 
 export const router = createBrowserRouter([
@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
       },
       ...certifications,
       ...examPrep,
-      ...coreNetworking,
+      ...coreConcepts,
       ...tools,
     ],
   },

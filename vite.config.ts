@@ -47,5 +47,16 @@ export default defineConfig({
         }
       }
     }
+  },
+  optimizeDeps: {
+    include: [
+      "react-syntax-highlighter",
+      "react-syntax-highlighter/dist/esm/languages/prism/typescript",
+      "react-syntax-highlighter/dist/esm/languages/prism/javascript",
+      "react-syntax-highlighter/dist/esm/languages/prism/css",
+      "react-syntax-highlighter/dist/esm/languages/prism/bash",
+      "react-syntax-highlighter/dist/esm/languages/prism/markup",
+      "react-syntax-highlighter/dist/esm/styles/prism/material-light"
+    ]
   }
 });
