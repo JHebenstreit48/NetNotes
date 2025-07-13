@@ -5,14 +5,14 @@
    ============================= */
 $primary-color: rgb(6, 159, 248);
 $secondary-color: rgb(243, 175, 28);
-$danger-color: rgb(255, 77, 77);
+$header-color: rgb(125, 213, 248);
 $emphasis-color: rgb(255, 56, 209);
 $success-color: rgb(47, 185, 20);
 $highlight-color: rgb(175, 28, 243);
 $info-color: rgb(12, 217, 231);
 $bullet-color: rgb(0, 255, 60);
 
-$background-dark: rgba(41, 40, 40, 0.5);
+$background-dark: rgba(41, 40, 40, 0.4);
 $background-code: rgb(29, 31, 33);
 $background-table: #1b1b1b;
 $background-header: rgb(40, 44, 52);
@@ -103,7 +103,7 @@ $small-laptop-min: 1024px;
     h4,
     h5,
     h6 {
-      color: $danger-color;
+      color: $header-color;
       text-shadow: 1px 2px 1px black;
       text-align: center;
 

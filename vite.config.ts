@@ -13,6 +13,7 @@ export default defineConfig({
       brotliSize: true,
     }),
   ],
+
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
@@ -26,15 +27,20 @@ export default defineConfig({
       '@routeGranular': resolve(__dirname, 'src/routes/IndividualRoutes/Granularized'),
     },
   },
+
+  assetsInclude: ['**/*.md'],
+
   server: {
     proxy: {
-      '/api': {
+      '^/api/.*': {
         target: 'http://localhost:3001',
         changeOrigin: true,
         secure: false,
+        rewrite: path => path, // Keep full /api path
       },
     },
   },
+
   build: {
     outDir: 'dist',
     emptyOutDir: true,
@@ -54,6 +60,7 @@ export default defineConfig({
       },
     },
   },
+
   optimizeDeps: {
     include: [
       'react-syntax-highlighter',
