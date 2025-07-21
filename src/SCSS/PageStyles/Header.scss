@@ -50,14 +50,11 @@ $cellphone-landscape: 390px;
 
     h1 {
       font-size: $font-size-lg;
-     background-color: $header-bg-color;
-     backdrop-filter: blur($header-blur);
-     -webkit-backdrop-filter: blur($header-blur);
-     color: $text-color;
-     text-shadow:
-       0 0 6px $text-glow,
-       0 0 4px $text-glow,
-       0 0 10px $text-glow;
+      background-color: $header-bg-color;
+      backdrop-filter: blur($header-blur);
+      -webkit-backdrop-filter: blur($header-blur);
+      color: $text-color;
+      text-shadow: 0 0 6px $text-glow, 0 0 4px $text-glow, 0 0 10px $text-glow;
     }
 
     @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
