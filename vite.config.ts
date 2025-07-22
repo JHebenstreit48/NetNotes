@@ -36,7 +36,7 @@ export default defineConfig({
         target: 'http://localhost:3001',
         changeOrigin: true,
         secure: false,
-        rewrite: path => path, // Keep full /api path
+        rewrite: path => path, // preserve full /api path
       },
     },
   },
