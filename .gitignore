@@ -1,24 +1,58 @@
-# Logs
-logs
+# ========================================
+# Core Node/Vite Ignore Rules
+# ========================================
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
+
+# Ignore lock files if resetting frequently (optional)
+# package-lock.json
+# yarn.lock
+
+# ========================================
+# Environment Variables
+# ========================================
+.env
+.env.*  # ignores .env.local, .env.production, etc.
+
+# ========================================
+# Log files
+# ========================================
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# ========================================
+# IDE & Editor Config
+# ========================================
+.vscode/
+!.vscode/extensions.json  # if you want to keep team-based extension suggestions
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# ========================================
+# TypeScript Output
+# ========================================
+*.tsbuildinfo
+
+# ========================================
+# Map files (optional – if you don't need to debug prod)
+# ========================================
+*.js.map
+
+# ========================================
+# Temporary/Build Artifacts
+# ========================================
+coverage/
+.temp/
+.cache/
