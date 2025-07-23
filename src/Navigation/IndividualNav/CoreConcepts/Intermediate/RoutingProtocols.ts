@@ -1,31 +1,18 @@
 import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
-const RoutingProtocols: Subpage = {
-  name: 'Routing Protocols',
+const StaticvsDynamic: Subpage = {
+  name: 'Static vs Dynamic',
   subpages: [
-    {
-      name: 'Core Concepts',
-      subpages: [
-        {
-          name: 'Routing Comparisons',
-          path: '/corenetworking/intermediate/routingprotocols/coreconcepts/routingcomparisons'
-        },
-        {
-          name: 'Static vs Dynamic',
-          path: '/corenetworking/intermediate/routingprotocols/coreconcepts/staticvsdynamic'
-        }
-      ]
-    },
     {
       name: 'Static Routing',
       subpages: [
         {
-          name: 'Static Routing',
-          path: '/corenetworking/intermediate/routingprotocols/staticrouting/static'
+          name: 'Configuration & Use Cases',
+          path: '/corenetworking/intermediate/staticvsdynamic/staticrouting/config'
         },
         {
-          name: 'Use Cases & Configuration',
-          path: '/corenetworking/intermediate/routingprotocols/staticrouting/config'
+          name: 'Troubleshooting & Best Practices',
+          path: '/corenetworking/intermediate/staticvsdynamic/staticrouting/troubleshooting'
         }
       ]
     },
@@ -33,16 +20,51 @@ const RoutingProtocols: Subpage = {
       name: 'Dynamic Routing',
       subpages: [
         {
-          name: 'Dynamic Routing',
-          path: '/corenetworking/intermediate/routingprotocols/dynamicrouting/dynamic'
+          name: 'Metrics & Decision Making',
+          path: '/corenetworking/intermediate/staticvsdynamic/dynamicrouting/metrics'
         },
         {
-          name: 'Protocol Types (RIP, OSPF, etc.)',
-          path: '/corenetworking/intermediate/routingprotocols/dynamicrouting/protocoltypes'
+          name: 'Configuration Scenarios',
+          path: '/corenetworking/intermediate/staticvsdynamic/dynamicrouting/scenarios'
+        },
+        {
+          name: 'Protocol Types',
+          subpages: [
+            {
+              name: 'Current',
+              subpages: [
+                {
+                  name: 'RIP (Routing Information Protocol)',
+                  path: '/corenetworking/intermediate/staticvsdynamic/dynamicrouting/protocoltypes/current/rip'
+                },
+                {
+                  name: 'OSPF (Open Shortest Path First)',
+                  path: '/corenetworking/intermediate/staticvsdynamic/dynamicrouting/protocoltypes/current/ospf'
+                }
+              ]
+            },
+            {
+              name: 'Legacy / Supplemental',
+              subpages: [
+                {
+                  name: 'EIGRP (Enhanced Interior Gateway Routing Protocol)',
+                  path: '/corenetworking/intermediate/staticvsdynamic/dynamicrouting/protocoltypes/legacy/eigrp'
+                },
+                {
+                  name: 'IS-IS (Intermediate System to Intermediate System)',
+                  path: '/corenetworking/intermediate/staticvsdynamic/dynamicrouting/protocoltypes/legacy/isis'
+                },
+                {
+                  name: 'BGP (Border Gateway Protocol)',
+                  path: '/corenetworking/intermediate/staticvsdynamic/dynamicrouting/protocoltypes/legacy/bgp'
+                }
+              ]
+            }
+          ]
         }
       ]
     }
   ]
 };
 
-export default RoutingProtocols;
+export default StaticvsDynamic;
