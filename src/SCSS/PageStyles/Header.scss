@@ -1,4 +1,4 @@
-@use 'sass:color';
+@use "sass:color";
 
 /* ==============================
             Variables           
@@ -13,7 +13,7 @@ $text-glow: #00ffff; // Neon aqua
 $header-height: 7.15rem;
 $header-mobile-height: 6rem;
 
-$font-size-lg: 3.6rem;
+$font-size-lg: 3rem;
 
 /* ==============================
             Breakpoints        
@@ -39,14 +39,19 @@ $cellphone-landscape: 390px;
   z-index: 12;
 
   @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
-    flex-direction: column;
-    height: auto;
-    padding: 0.5rem 1rem;
+    flex-direction: row;
+    height: 4.5rem; // allow wrapping
+    padding: 0;
+    margin: 0 auto;
   }
 
   .HeaderLeft {
     display: flex;
-    padding-left: 3rem;
+    padding-left: 2rem;
+
+    @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
+      padding-left: 7rem;
+    }
 
     h1 {
       font-size: $font-size-lg;
@@ -55,12 +60,12 @@ $cellphone-landscape: 390px;
       -webkit-backdrop-filter: blur($header-blur);
       color: $text-color;
       text-shadow: 0 0 6px $text-glow, 0 0 4px $text-glow, 0 0 10px $text-glow;
-    }
 
-    @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
-      justify-content: center;
-      padding-left: 0;
-      padding-bottom: 0.5rem;
+      @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
+        margin: 0.5rem auto 0;
+        font-size: 2rem;
+
+      }
     }
   }
 
@@ -70,11 +75,6 @@ $cellphone-landscape: 390px;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-
-    @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
-      flex-direction: column;
-      gap: 0.5rem;
-    }
   }
 }
 

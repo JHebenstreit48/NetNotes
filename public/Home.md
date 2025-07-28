@@ -10,9 +10,9 @@
 <div class="otherSitesDescription">
   This project shares a common structure with several others:
 
-- DevScriptStax: (web development)
-- AppFoundry: (mobile app and game development)
-- PixelProse: (non-mobile game development)
+- <span class="projectName">DevScriptStax:</span> <span class="projectDescrip">(web development)</span>
+- <span class="projectName">AppFoundry:</span> <span class="projectDescrip">(mobile app and game development)</span>
+- <span class="projectName">PixelProse:</span> <span class="projectDescrip">(non-mobile game development)</span>
 
 </div>
 
