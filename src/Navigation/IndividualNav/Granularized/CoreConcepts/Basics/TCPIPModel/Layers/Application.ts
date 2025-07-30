@@ -4,6 +4,7 @@ import WebAndName from '@/Navigation/IndividualNav/Granularized/CoreConcepts/Bas
 import EmailAndCommunicate from '@/Navigation/IndividualNav/Granularized/CoreConcepts/Basics/TCPIPModel/Layers/ApplicationLayer/EmailAndCommunicate';
 import NetworkServices from '@/Navigation/IndividualNav/Granularized/CoreConcepts/Basics/TCPIPModel/Layers/ApplicationLayer/NetworkServices';
 import ClientvsServer from '@/Navigation/IndividualNav/Granularized/CoreConcepts/Basics/TCPIPModel/Layers/ApplicationLayer/ClientvsServer';
+import UserDataAndPrivacy from '@/Navigation/IndividualNav/Granularized/CoreConcepts/Basics/TCPIPModel/Layers/ApplicationLayer/UserDataAndPrivacy';
 
 const Application: Subpage = {
   name: 'Application Layer',
@@ -11,7 +12,8 @@ const Application: Subpage = {
     WebAndName,
     EmailAndCommunicate,
     NetworkServices,
-    ClientvsServer
+    ClientvsServer,
+    UserDataAndPrivacy
   ],
 };
 
