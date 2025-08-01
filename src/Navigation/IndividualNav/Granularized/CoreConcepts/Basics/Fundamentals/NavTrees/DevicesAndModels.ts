@@ -9,7 +9,7 @@ const DevicesAndModels: Subpage = {
     },
     {
       name: "Networking Models",
-      path: "/coreconcepts/basics/fundamentals/devicesandmodels/models"
+      path: "/coreconcepts/basics/fundamentals/devicesandmodels/networkmodels"
     }
   ]
 };

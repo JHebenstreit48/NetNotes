@@ -3,12 +3,12 @@ import Header from '@/Components/Shared/Header/Header';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const Internet = () => {
-  const markdownFilePath = '/CoreNetworkingTopics/NetworkingOverview/Internet';
+  const markdownFilePath = '/CoreConcepts/Basics/Fundamentals/Overview/Internet';
 
   return (
     <>
       <PageLayout>
-        <Header text="Internet and Networks" />
+        <Header text="Internet/Networks" size="sm" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
