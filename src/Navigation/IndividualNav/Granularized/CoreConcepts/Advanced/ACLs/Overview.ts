@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const ACLsOverview: Subpage = {
+const Overview: Subpage = {
   name: "ACLs Overview",
   subpages: [
     {
@@ -22,4 +22,4 @@ const ACLsOverview: Subpage = {
   ],
 };
 
-export default ACLsOverview;
+export default Overview;
