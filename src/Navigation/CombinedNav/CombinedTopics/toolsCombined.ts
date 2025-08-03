@@ -1,8 +1,10 @@
-import { Page } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
+import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
-const toolsNav: Page = {
+const toolsNav: Subpage = {
     name: 'Tools',
-    subpages: []
+    subpages: [
+        
+    ]
 };
 
 export default toolsNav;

@@ -7,12 +7,12 @@ const CCNANavigation: Subpage = {
       name: "Overview",
       subpages: [
         {
-          name: "What is the CCNA?",
-          path: "/certifications/ccna/overview"
+          name: "Introduction",
+          path: "/certifications/ccna/introduction"
         },
         {
-          name: "Why Get CCNA Certified?",
-          path: "/certifications/ccna/why-certify"
+          name: "Certification Advantages",
+          path: "/certifications/ccna/advantages"
         }
       ]
     },
