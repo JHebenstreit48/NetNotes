@@ -1,6 +1,6 @@
-import { Page } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
+import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
-const examPrepNav: Page = {
+const examPrepNav: Subpage = {
     name: 'Exam Prep',
     subpages: []
 };
