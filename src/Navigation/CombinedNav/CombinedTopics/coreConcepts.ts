@@ -1,15 +1,21 @@
 import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
-import Basics from "@/Navigation/IndividualNav/Granularized/CoreConcepts/Basics";
-import Intermediate from "@/Navigation/IndividualNav/Granularized/CoreConcepts/Intermediate";
-import Advanced from "@/Navigation/IndividualNav/Granularized/CoreConcepts/Advanced";
+import Fundamentals from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Basics/Fundamentals';
+import TCPIPModel from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Basics/TCPIPModel';
+import ACLs from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Advanced/ACLs';
+import NetworkSecurity from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Advanced/NetworkSecurity';
 
 const CoreConcepts: Subpage = {
   name: 'Core Concepts',
   subpages: [
-    Basics,
-    Intermediate,
-    Advanced,
+    {
+      name: 'Basics',
+      subpages: [Fundamentals, TCPIPModel],
+    },
+    {
+      name: 'Advanced',
+      subpages: [ACLs, NetworkSecurity],
+    },
   ],
 };
 
