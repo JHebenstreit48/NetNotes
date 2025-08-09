@@ -1,12 +1,12 @@
 import { RouteObject } from 'react-router-dom';
 
 // Data Link Layer Start
-import CoreConcepts from '@/routes/IndividualRoutes/Granularized/CoreConcepts/TCPIPModel/Layers/NetworkAccess/DataLink/CoreConcepts';
+import CoreConcepts from '@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics/TCPIPModel/Layers/NetworkAccess/DataLink/CoreConcepts';
 // Data Link Layer End
 
 // Physical Layer Start
 // import SignalsMedia from '@/routes/IndividualRoutes/Granularized/CoreConcepts/TCPIPModel/Layers/NetworkAccess/Physical/SignalsMedia';
-import TransmissionConcepts from '@/routes/IndividualRoutes/Granularized/CoreConcepts/TCPIPModel/Layers/NetworkAccess/Physical/TransmissionConcepts';
+import TransmissionConcepts from '@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics/TCPIPModel/Layers/NetworkAccess/Physical/TransmissionConcepts';
 // Physical Layer End
 
 const NetworkAccess: RouteObject[] = [

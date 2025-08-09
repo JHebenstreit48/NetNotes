@@ -13,7 +13,7 @@ const DataTransmitMethods = lazy(
       '@/Pages/MainTabs/CoreConcepts/Basics/TCPIPModel/Layers/NetworkAccess/PhysicalLayer/TransmissionConcepts/DataTransmitMethods'
     )
 );
-import BandwidthThroughput from '@/routes/IndividualRoutes/Granularized/CoreConcepts/TCPIPModel/Layers/NetworkAccess/Physical/BandwidthThroughput';
+import BandwidthThroughput from '@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics/TCPIPModel/Layers/NetworkAccess/Physical/BandwidthThroughput';
 const EncapDeencap = lazy(
   () =>
     import(
