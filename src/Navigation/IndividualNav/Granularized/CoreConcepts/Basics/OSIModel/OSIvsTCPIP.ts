@@ -5,12 +5,12 @@ const OSIvsTCPIP: Subpage = {
   subpages: [
     {
       name: 'Overview',
-      path: '/corenetworking/osivstcpip/overview',
+      path: '/coreconcepts/basics/osimodel/osivstcpip/overview',
     },
 
     {
       name: 'Historical Context',
-      path: '/corenetworking/osivstcpip/history',
+      path: '/coreconcepts/basics/osimodel/osivstcpip/history',
     },
   ],
 };

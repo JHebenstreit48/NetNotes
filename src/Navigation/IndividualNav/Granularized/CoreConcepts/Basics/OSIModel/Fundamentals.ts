@@ -5,15 +5,15 @@ const Fundamentals: Subpage = {
   subpages: [
     {
       name: 'Overview',
-      path: '/corenetworking/osimodel/fundamentals/overview',
+      path: '/coreconcepts/basics/osimodel/fundamentals/overview',
     },
     {
       name: 'Model Characteristics',
-      path: '/corenetworking/osimodel/fundamentals/characteristics',
+      path: '/coreconcepts/basics/osimodel/fundamentals/characteristics',
     },
     {
       name: 'Modern Use in Certifications',
-      path: '/corenetworking/osimodel/fundamentals/certificationrelevance',
+      path: '/coreconcepts/basics/osimodel/fundamentals/certificationrelevance',
     },
   ],
 };

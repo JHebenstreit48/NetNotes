@@ -5,11 +5,11 @@ const DataLink2: Subpage = {
   subpages: [
     {
       name: 'MAC Sublayer (Media Access Control)',
-      path: '/corenetworking/osimodel/datalink/mac',
+      path: '/coreconcepts/basics/osimodel/layers/datalink/mac',
     },
     {
       name: 'LLC Sublayer (Logical Link Control)',
-      path: '/corenetworking/osimodel/datalink/llc',
+      path: '/coreconcepts/basics/osimodel/layers/datalink/llc',
     },
   ],
 };

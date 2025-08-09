@@ -5,11 +5,11 @@ const Transport: Subpage = {
   subpages: [
     {
       name: 'Overview',
-      path: '/corenetworking/osimodel/transportlayer/overview',
+      path: '/coreconcepts/basics/osimodel/layers/transport/overview',
     },
     {
       name: 'OSI Transport Functions',
-      path: '/corenetworking/osimodel/transportlayer/functions',
+      path: '/coreconcepts/basics/osimodel/layers/transport/functions',
     },
   ],
 };

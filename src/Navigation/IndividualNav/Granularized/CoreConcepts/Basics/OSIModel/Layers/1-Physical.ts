@@ -5,11 +5,11 @@ const Physical1: Subpage = {
   subpages: [
     {
       name: 'Physical Media Types',
-      path: '/corenetworking/osimodel/physical/media',
+      path: '/coreconcepts/basics/osimodel/layers/physical/media',
     },
     {
       name: 'Electrical vs Optical Signals',
-      path: '/corenetworking/osimodel/physical/signals',
+      path: '/coreconcepts/basics/osimodel/layers/physical/signals',
     },
   ],
 };

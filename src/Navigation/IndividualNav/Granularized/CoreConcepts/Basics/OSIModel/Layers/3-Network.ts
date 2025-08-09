@@ -5,11 +5,11 @@ const Network3: Subpage = {
   subpages: [
     {
       name: 'Overview',
-      path: '/corenetworking/osimodel/networklayer/overview',
+      path: '/coreconcepts/basics/osimodel/layers/network/overview',
     },
     {
       name: 'Logical Addressing and Routing (OSI)',
-      path: '/corenetworking/osimodel/networklayer/routing',
+      path: '/coreconcepts/basics/osimodel/layers/network/routing',
     },
   ],
 };

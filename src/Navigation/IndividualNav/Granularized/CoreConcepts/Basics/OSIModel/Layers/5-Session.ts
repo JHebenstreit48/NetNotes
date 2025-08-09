@@ -5,15 +5,15 @@ const Session5: Subpage = {
     subpages: [
         {
             name: 'Overview',
-            path: '/corenetworking/osimodel/sessionlayer/overview',
+            path: '/coreconcepts/basics/osimodel/layers/session/overview',
           },
           {
             name: 'Session Management',
-            path: '/corenetworking/osimodel/sessionlayer/management',
+            path: '/coreconcepts/basics/osimodel/layers/session/management',
           },
           {
             name: 'Session Establishment and Termination',
-            path: '/corenetworking/osimodel/sessionlayer/establishment',
+            path: '/coreconcepts/basics/osimodel/layers/session/establishment',
           },
     ]
 };

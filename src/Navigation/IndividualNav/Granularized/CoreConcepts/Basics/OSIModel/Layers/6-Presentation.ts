@@ -5,15 +5,15 @@ const Presentation6: Subpage = {
   subpages: [
     {
       name: 'Overview',
-      path: '/corenetworking/osimodel/presentationlayer/overview',
+      path: '/coreconcepts/basics/osimodel/layers/presentation/overview',
     },
     {
       name: 'Data Translation and Encoding',
-      path: '/corenetworking/osimodel/presentationlayer/datatranslation',
+      path: '/coreconcepts/basics/osimodel/layers/presentation/datatranslation',
     },
     {
       name: 'Encryption and Compression',
-      path: '/corenetworking/osimodel/presentationlayer/encryption',
+      path: '/coreconcepts/basics/osimodel/layers/presentation/encryption',
     },
   ],
 };

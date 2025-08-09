@@ -5,11 +5,11 @@ const Application7: Subpage = {
   subpages: [
     {
       name: 'Overview',
-      path: '/corenetworking/osimodel/applicationlayer/overview',
+      path: '/coreconcepts/basics/osimodel/layers/application/overview',
     },
     {
       name: 'OSI Responsibilities',
-      path: '/corenetworking/osimodel/applicationlayer/responsibilities',
+      path: '/coreconcepts/basics/osimodel/layers/application/responsibilities',
     },
   ],
 };

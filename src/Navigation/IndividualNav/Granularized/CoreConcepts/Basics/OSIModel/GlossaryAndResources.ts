@@ -5,11 +5,11 @@ const GlossaryAndResources: Subpage = {
   subpages: [
     {
       name: 'Glossary of Terms',
-      path: '/corenetworking/osimodel/resources/glossary',
+      path: '/coreconcepts/basics/osimodel/glossaryandresources/glossary',
     },
     {
       name: 'Resources Used',
-      path: '/corenetworking/osimodel/resources/references',
+      path: '/coreconcepts/basics/osimodel/glossaryandresources/references',
     },
   ],
 };
