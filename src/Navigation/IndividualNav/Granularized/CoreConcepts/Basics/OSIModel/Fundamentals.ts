@@ -12,8 +12,8 @@ const Fundamentals: Subpage = {
       path: '/coreconcepts/basics/osimodel/fundamentals/characteristics',
     },
     {
-      name: 'Modern Use in Certifications',
-      path: '/coreconcepts/basics/osimodel/fundamentals/certificationrelevance',
+      name: 'Certifications Usage',
+      path: '/coreconcepts/basics/osimodel/fundamentals/certificationusage',
     },
   ],
 };

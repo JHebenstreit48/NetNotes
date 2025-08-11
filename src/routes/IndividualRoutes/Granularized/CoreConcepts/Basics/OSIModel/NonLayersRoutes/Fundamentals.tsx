@@ -7,6 +7,9 @@ const Overview = lazy(
 const Characteristics = lazy(
   () => import('@/Pages/MainTabs/CoreConcepts/Basics/OSIModel/Fundamentals/ModelCharacteristics')
 );
+const CertificationUse = lazy(
+  () => import('@/Pages/MainTabs/CoreConcepts/Basics/OSIModel/Fundamentals/Certifications')
+);
 
 const Fundamentals: RouteObject[] = [
     {
@@ -16,6 +19,10 @@ const Fundamentals: RouteObject[] = [
     {
         path: '/coreconcepts/basics/osimodel/fundamentals/characteristics',
         element: <Characteristics />,
+    },
+    {
+      path: '/coreconcepts/basics/osimodel/fundamentals/certificationusage',
+      element: <CertificationUse />,
     }
 ];
 
