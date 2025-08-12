@@ -2,17 +2,20 @@ import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header/Header';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const Overview = () => {
-  const markdownFilePath = '/CoreConcepts/Basics/OSIModel/Fundamentals/Overview';
+const Resources = () => {
+  const markdownFilePath =
+    '/CoreConcepts/Basics/OSIModel/Overview/Resources';
 
   return (
     <>
       <PageLayout>
-        <Header text="Overview" />
-        <Notes filePath={markdownFilePath} />
+        <Header text="Resources" />
+        <Notes
+          filePath={markdownFilePath}
+        />
       </PageLayout>
     </>
   );
 };
 
-export default Overview;
+export default Resources;

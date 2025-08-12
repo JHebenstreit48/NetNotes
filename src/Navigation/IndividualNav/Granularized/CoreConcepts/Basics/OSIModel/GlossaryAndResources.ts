@@ -1,15 +1,15 @@
 import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
 const GlossaryAndResources: Subpage = {
-  name: 'Glossary & Resources',
+  name: 'Glossary/Resources',
   subpages: [
     {
-      name: 'Glossary of Terms',
+      name: 'Glossary',
       path: '/coreconcepts/basics/osimodel/glossaryandresources/glossary',
     },
     {
-      name: 'Resources Used',
-      path: '/coreconcepts/basics/osimodel/glossaryandresources/references',
+      name: 'Resources',
+      path: '/coreconcepts/basics/osimodel/glossaryandresources/resources',
     },
   ],
 };

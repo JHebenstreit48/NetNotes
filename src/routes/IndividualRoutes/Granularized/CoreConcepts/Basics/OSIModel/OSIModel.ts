@@ -1,13 +1,11 @@
 import { RouteObject } from 'react-router-dom';
 
-import Fundamentals from '@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics/OSIModel/NonLayersRoutes/Fundamentals';
-import Network from '@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics/OSIModel/Layers/Network';
-import OSIvsTCPIP from '@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics/OSIModel/NonLayersRoutes/OSIvsTCPIP';
+import Overview from '@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics/OSIModel/ModelOverview/Overview';
+import GlossaryAndResources from '@/routes/IndividualRoutes/Granularized/CoreConcepts/Basics/OSIModel/ModelOverview/GlossaryAndResources';
 
 const OSIModel: RouteObject[] = [
-    ...Fundamentals,
-    ...Network,
-    ...OSIvsTCPIP,
+    ...Overview,
+    ...GlossaryAndResources
 ];
 
 export default OSIModel;
