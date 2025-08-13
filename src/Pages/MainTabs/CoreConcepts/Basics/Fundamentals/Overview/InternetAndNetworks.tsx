@@ -1,5 +1,6 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header/Header';
+import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const Internet = () => {
@@ -8,7 +9,8 @@ const Internet = () => {
   return (
     <>
       <PageLayout>
-        <Header text="Internet/Networks" size="sm" />
+        <Header />
+        <PageTitle title=" The Internet and Global Networks" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>

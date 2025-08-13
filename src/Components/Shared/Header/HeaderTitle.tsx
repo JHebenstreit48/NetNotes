@@ -2,7 +2,7 @@ import { getResponsiveHeaderSize } from "@/Components/Shared/Header/ResponsiveHe
 
 interface HeaderTitleProps {
   text: string;
-  size?: "default" | "sm" | "md" | "lg";
+  size?: "default" | "md" | "lg";
   customClass?: string;
 }
 

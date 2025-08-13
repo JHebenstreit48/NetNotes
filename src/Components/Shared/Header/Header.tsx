@@ -6,7 +6,7 @@ export default function Header() {
     <header className="HeaderBar">
       <div className="HeaderLeft">
         {/* Always the site name here */}
-        <HeaderTitle text="NetNotes" size="lg" />
+        <HeaderTitle text="NetNotes" />
       </div>
       <div className="HeaderRight">
         <Navigation />

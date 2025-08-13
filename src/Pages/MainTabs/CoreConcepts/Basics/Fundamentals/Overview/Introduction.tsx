@@ -11,7 +11,6 @@ const Introduction = () => {
       <PageLayout>
         <Header />
         <PageTitle title="Introduction To Networking" />
-
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
