@@ -9,10 +9,7 @@ const Fundamentals = () => {
   return (
     <PageLayout>
       <Header />
-      {/* Page/topic title outside the card */}
       <PageTitle title="OSI Model Fundamentals" />
-
-      {/* Notes card renders Markdown content */}
       <Notes filePath={markdownFilePath} />
     </PageLayout>
   );
