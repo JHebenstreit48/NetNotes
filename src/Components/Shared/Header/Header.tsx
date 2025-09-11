@@ -5,8 +5,8 @@ export default function Header() {
   return (
     <header className="HeaderBar">
       <div className="HeaderLeft">
-        {/* Always the site name here */}
-        <HeaderTitle text="NetNotes" />
+        {/* Site title/logo acts as Home */}
+        <HeaderTitle text="NetNotes" asLink to="/" ariaLabel="Home" />
       </div>
       <div className="HeaderRight">
         <Navigation />

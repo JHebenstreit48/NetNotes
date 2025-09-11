@@ -6,10 +6,6 @@ import toolsNav from "@/Navigation/CombinedNav/CombinedTopics/toolsCombined";
 import CoreConcepts from "@/Navigation/CombinedNav/CombinedTopics/coreConcepts";
 
 const pages: Subpage[] = [
-  {
-    name: 'Home',
-    subpages: [],
-  },
   certificationsNav,
   examPrepNav,
   CoreConcepts,
