@@ -11,8 +11,8 @@ import Wireless from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Interme
 import ACLs from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Advanced/ACLs';
 import NetworkSecurity from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Advanced/NetworkSecurity';
 
-const CoreConcepts: Subpage = {
-  name: 'Core Concepts',
+const routeSwitch: Subpage = {
+  name: 'Routing & Switching',
   subpages: [
     {
       name: 'Basics',
@@ -40,4 +40,4 @@ const CoreConcepts: Subpage = {
   ],
 };
 
-export default CoreConcepts;
+export default routeSwitch;
