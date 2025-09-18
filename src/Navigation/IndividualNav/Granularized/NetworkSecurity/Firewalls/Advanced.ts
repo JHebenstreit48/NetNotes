@@ -17,15 +17,28 @@ const Advanced: Subpage = {
       ]
     },
     {
-      name: "Policy & HA",
+      name: "Policy & Access Control",
       subpages: [
         {
           name: "Rule Design & Order",
           path: "/firewalls/advanced/policy/rule-design"
         },
         {
+          name: "Access Control Strategies",
+          path: "/firewalls/advanced/policy/access-control-strategies"
+        }
+      ]
+    },
+    {
+      name: "High Availability",
+      subpages: [
+        {
           name: "Failover & Clustering",
-          path: "/firewalls/advanced/policy/failover-clustering"
+          path: "/firewalls/advanced/ha/failover-clustering"
+        },
+        {
+          name: "State Sync & Health",
+          path: "/firewalls/advanced/ha/state-sync-health"
         }
       ]
     }
