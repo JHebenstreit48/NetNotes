@@ -1,25 +1,48 @@
-import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
+import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
 const Basics: Subpage = {
-  name: 'Basics',
+  name: "Basics",
   subpages: [
     {
-      name: 'Introduction',
-      path: '/corenetworking/tcpipmodel/transportlayer/basics/introduction',
+      name: "Overview",
+      subpages: [
+        {
+          name: "Introduction",
+          path: "/tcpip-model/transport-layer/basics/overview/introduction"
+        },
+        {
+          name: "TCP vs UDP",
+          path: "/tcpip-model/transport-layer/basics/overview/tcp-vs-udp"
+        }
+      ]
     },
     {
-      name: 'TCP vs UDP',
-      path: '/corenetworking/tcpipmodel/transportlayer/basics/tcpvsudp',
+      name: "Ports & Sockets",
+      subpages: [
+        {
+          name: "Ports/Sockets",
+          path: "/tcpip-model/transport-layer/basics/ports/ports-and-sockets"
+        },
+        {
+          name: "Port Ranges",
+          path: "/tcpip-model/transport-layer/basics/ports/port-ranges"
+        }
+      ]
     },
     {
-      name: 'Ports/Sockets',
-      path: '/corenetworking/tcpipmodel/transportlayer/basics/portsockets',
-    },
-    {
-      name: 'Reliable Delivery/Flow Control',
-      path: '/corenetworking/tcpipmodel/transportlayer/basics/reliabilityflow',
-    },
-  ],
+      name: "Reliability",
+      subpages: [
+        {
+          name: "Reliable Delivery/Flow Control",
+          path: "/tcpip-model/transport-layer/basics/reliability/reliable-delivery-flow-control"
+        },
+        {
+          name: "Segmentation & Reassembly",
+          path: "/tcpip-model/transport-layer/basics/reliability/segmentation-reassembly"
+        }
+      ]
+    }
+  ]
 };
 
 export default Basics;

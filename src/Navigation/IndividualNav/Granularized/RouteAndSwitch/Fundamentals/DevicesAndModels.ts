@@ -5,11 +5,11 @@ const DevicesAndModels: Subpage = {
   subpages: [
     {
       name: "Networking Devices",
-      path: "/coreconcepts/basics/fundamentals/devicesandmodels/networkdevices"
+      path: "/fundamentals/devicesandmodels/networkdevices"
     },
     {
       name: "Networking Models",
-      path: "/coreconcepts/basics/fundamentals/devicesandmodels/networkmodels"
+      path: "/fundamentals/devicesandmodels/networkmodels"
     }
   ]
 };

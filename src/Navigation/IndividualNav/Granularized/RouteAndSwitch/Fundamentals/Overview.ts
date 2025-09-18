@@ -5,19 +5,19 @@ const Overview: Subpage = {
   subpages: [
     {
       name: "Introduction",
-      path: "/coreconcepts/basics/fundamentals/overview/introduction"
+      path: "/fundamentals/overview/introduction"
     },
     {
       name: "Internet/Networks",
-      path: "/coreconcepts/basics/fundamentals/overview/internet"
+      path: "/fundamentals/overview/internet"
     },
     {
       name: "Local Networks",
-      path: "/coreconcepts/basics/fundamentals/overview/localnetworks"
+      path: "/fundamentals/overview/localnetworks"
     },
     {
       name: "Connected Devices",
-      path: "/coreconcepts/basics/fundamentals/overview/connecteddevices"
+      path: "/fundamentals/overview/connecteddevices"
     }
   ]
 };
