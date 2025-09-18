@@ -3,7 +3,7 @@ import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/Navigation
 import Overview from '@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Legacy/OSIModel/Overview';
 import GlossaryAndResources from '@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Legacy/OSIModel/GlossaryAndResources';
 
-const OSIModel: Subpage = {
+const Legacy: Subpage = {
   name: 'OSI Model',
   subpages: [
   Overview,
@@ -11,4 +11,4 @@ const OSIModel: Subpage = {
   ]
 };
 
-export default OSIModel;
+export default Legacy;

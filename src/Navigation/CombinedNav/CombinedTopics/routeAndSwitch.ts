@@ -1,15 +1,9 @@
 import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
-import Fundamentals from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Basics/Fundamentals';
-import OSIModel from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Basics/OSIModel';
-import TCPIPModel from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Basics/TCPIPModel';
-import Switching from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Basics/Switching';
-
-import Routing from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Intermediate/Routing';
-import Wireless from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Intermediate/Wireless';
-
-import ACLs from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Advanced/ACLs';
-import NetworkSecurity from '@/Navigation/IndividualNav/FullTopics/CoreConcepts/Advanced/NetworkSecurity';
+import Fundamentals from '@/Navigation/IndividualNav/FullTopics/RouteAndSwitch/Fundamentals';
+import Legacy from '@/Navigation/IndividualNav/FullTopics/RouteAndSwitch/Legacy';
+import TCPIPModel from '@/Navigation/IndividualNav/FullTopics/RouteAndSwitch/TCPIPModel';
+import Switching from '@/Navigation/IndividualNav/FullTopics/RouteAndSwitch/Switching';
 
 const routeSwitch: Subpage = {
   name: 'Routing & Switching',
@@ -18,23 +12,9 @@ const routeSwitch: Subpage = {
       name: 'Basics',
       subpages: [
         Fundamentals,
-        OSIModel,
+        Legacy,
         TCPIPModel,
         Switching,
-      ],
-    },
-    {
-      name: 'Intermediate',
-      subpages: [
-        Routing,
-        Wireless,
-      ],
-    },
-    {
-      name: 'Advanced',
-      subpages: [
-        ACLs,
-        NetworkSecurity,
       ],
     },
   ],

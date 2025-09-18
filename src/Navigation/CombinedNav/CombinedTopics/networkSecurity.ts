@@ -2,7 +2,8 @@ import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/Navigation
 
 const networkSecurity: Subpage = {
     name: 'Network Security',
-    subpages: []
+    subpages: [
+    ]
 };
 
 export default networkSecurity;
