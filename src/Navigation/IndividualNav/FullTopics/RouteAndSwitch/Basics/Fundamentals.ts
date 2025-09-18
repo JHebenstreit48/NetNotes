@@ -1,7 +1,7 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-import Overview from "@/Navigation/IndividualNav/Granularized/CoreConcepts/Basics/Fundamentals/Overview";
-import DevicesAndModels from "@/Navigation/IndividualNav/Granularized/CoreConcepts/Basics/Fundamentals/DevicesAndModels";
+import Overview from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Fundamentals/Overview";
+import DevicesAndModels from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Fundamentals/DevicesAndModels";
 
 const Fundamentals: Subpage = {
     name: "Fundamentals",
