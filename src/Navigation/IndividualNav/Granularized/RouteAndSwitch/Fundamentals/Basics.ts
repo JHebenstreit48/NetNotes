@@ -8,19 +8,19 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/fundamentals/overview/introduction"
+          path: "/fundamentals/basics/overview/introduction"
         },
         {
           name: "Internet/Networks",
-          path: "/fundamentals/overview/internet"
+          path: "/fundamentals/basics/overview/internet"
         },
         {
           name: "Local Networks",
-          path: "/fundamentals/overview/localnetworks"
+          path: "/fundamentals/basics/overview/local-networks"
         },
         {
           name: "Connected Devices",
-          path: "/fundamentals/overview/connecteddevices"
+          path: "/fundamentals/basics/overview/connected-devices"
         }
       ]
     },
@@ -29,11 +29,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Networking Devices",
-          path: "/fundamentals/devicesandmodels/networkdevices"
+          path: "/fundamentals/basics/devices-and-models/network-devices"
         },
         {
           name: "Networking Models",
-          path: "/fundamentals/devicesandmodels/networkmodels"
+          path: "/fundamentals/basics/devices-and-models/network-models"
         }
       ]
     }

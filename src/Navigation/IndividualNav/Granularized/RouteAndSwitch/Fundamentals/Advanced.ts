@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Core/Distribution/Access",
-          path: "/fundamentals/architecture-and-design/core-distribution-access"
+          path: "/fundamentals/advanced/architecture-and-design/core-distribution-access"
         },
         {
           name: "Spine-Leaf",
-          path: "/fundamentals/architecture-and-design/spine-leaf"
+          path: "/fundamentals/advanced/architecture-and-design/spine-leaf"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Data vs Control vs Mgmt",
-          path: "/fundamentals/planes-and-traffic/data-vs-control-vs-management"
+          path: "/fundamentals/advanced/planes-and-traffic/data-vs-control-vs-management"
         },
         {
           name: "Unicast • Multicast • Broadcast",
-          path: "/fundamentals/planes-and-traffic/unicast-multicast-broadcast"
+          path: "/fundamentals/advanced/planes-and-traffic/unicast-multicast-broadcast"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Physical vs Logical",
-          path: "/fundamentals/diagrams-and-docs/physical-vs-logical"
+          path: "/fundamentals/advanced/diagrams-and-docs/physical-vs-logical"
         },
         {
           name: "Naming & Labeling",
-          path: "/fundamentals/diagrams-and-docs/naming-and-labeling"
+          path: "/fundamentals/advanced/diagrams-and-docs/naming-and-labeling"
         }
       ]
     },
@@ -47,11 +47,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Methodology & Flow",
-          path: "/fundamentals/troubleshooting/methodology-and-flow"
+          path: "/fundamentals/advanced/troubleshooting/methodology-and-flow"
         },
         {
           name: "Baselines & Monitoring",
-          path: "/fundamentals/troubleshooting/baselines-and-monitoring"
+          path: "/fundamentals/advanced/troubleshooting/baselines-and-monitoring"
         }
       ]
     }

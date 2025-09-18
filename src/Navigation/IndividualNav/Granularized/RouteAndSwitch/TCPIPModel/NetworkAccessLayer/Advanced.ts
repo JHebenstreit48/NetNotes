@@ -59,7 +59,7 @@ const Advanced: Subpage = {
             },
             {
               name: "Auto-Neg & Auto-MDI/MDI-X",
-              path: "/tcpip-model/network-access/physical/negotiation-and-duplex/auto-neg-and-auto-mdimdx"
+              path: "/tcpip-model/network-access/physical/negotiation-and-duplex/auto-neg-and-auto-mdi-mdix"
             }
           ]
         },
