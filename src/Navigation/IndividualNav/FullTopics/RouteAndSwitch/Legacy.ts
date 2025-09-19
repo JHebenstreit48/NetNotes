@@ -1,13 +1,11 @@
 import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
-import Overview from '@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Legacy/OSIModel/Overview';
-import GlossaryAndResources from '@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Legacy/OSIModel/GlossaryAndResources';
+import OSIModel from '@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Legacy/OSIModel';
 
 const Legacy: Subpage = {
-  name: 'OSI Model',
+  name: 'Legacy',
   subpages: [
-  Overview,
-  GlossaryAndResources
+    OSIModel,
   ]
 };
 

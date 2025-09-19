@@ -14,10 +14,6 @@ const Basics: Subpage = {
               path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/introduction"
             },
             {
-              name: "Burned-In Address (BIA)",
-              path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/bia"
-            },
-            {
               name: "Address Resolution Protocol (ARP)",
               path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp"
             }
