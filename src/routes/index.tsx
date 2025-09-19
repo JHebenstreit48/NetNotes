@@ -4,10 +4,12 @@ import App from '@/App';
 import ErrorPage from '@/Pages/Special/Error';
 import Home from '@/Pages/Special/Home';
 
-import certifications from '@/routes/RoutesDirectories/certificationsCombined';
-import examPrep from '@/routes/RoutesDirectories/examPrep';
-import coreConcepts from '@/routes/RoutesDirectories/coreConcepts';
-import tools from '@/routes/RoutesDirectories/toolsCombined';
+import certifications from '@/routes/FullSections/certifications';
+import examPrep from '@/routes/FullSections/examPrep';
+import routeAndSwitch from '@/routes/FullSections/routeAndSwitch';
+import networkSecurity from '@/routes/FullSections/networkSecurity';
+import voip from '@/routes/FullSections/voip';
+import tools from '@/routes/FullSections/tools';
 
 export const router = createBrowserRouter([
   {
@@ -21,7 +23,9 @@ export const router = createBrowserRouter([
       },
       ...certifications,
       ...examPrep,
-      ...coreConcepts,
+      ...routeAndSwitch,
+      ...networkSecurity,
+      ...voip,
       ...tools,
     ],
   },
