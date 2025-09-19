@@ -1,14 +1,14 @@
-import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
+import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
-import Overview from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Fundamentals/Overview";
-import DevicesAndModels from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Fundamentals/DevicesAndModels";
+import Basics from '@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Fundamentals/Basics';
+import Advanced from '@/Navigation/IndividualNav/Granularized/RouteAndSwitch/Fundamentals/Advanced';
 
 const Fundamentals: Subpage = {
-    name: "Fundamentals",
-    subpages: [
-        Overview,
-        DevicesAndModels
-    ]
+  name: 'Fundamentals',
+  subpages: [
+    Basics, 
+    Advanced,
+  ],
 };
 
 export default Fundamentals;

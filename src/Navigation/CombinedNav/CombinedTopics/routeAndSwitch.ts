@@ -8,15 +8,10 @@ import Switching from '@/Navigation/IndividualNav/FullTopics/RouteAndSwitch/Swit
 const routeSwitch: Subpage = {
   name: 'Routing & Switching',
   subpages: [
-    {
-      name: 'Basics',
-      subpages: [
-        Fundamentals,
-        Legacy,
-        TCPIPModel,
-        Switching,
-      ],
-    },
+    Fundamentals, 
+    Legacy, 
+    TCPIPModel, 
+    Switching,
   ],
 };
 
