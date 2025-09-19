@@ -11,15 +11,15 @@ const Basics: Subpage = {
           subpages: [
             {
               name: "Introduction",
-              path: "/tcpip-model/network-access/data-link/core-concepts/introduction"
+              path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/introduction"
             },
             {
               name: "Burned-In Address (BIA)",
-              path: "/tcpip-model/network-access/data-link/core-concepts/bia"
+              path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/bia"
             },
             {
               name: "Address Resolution Protocol (ARP)",
-              path: "/tcpip-model/network-access/data-link/core-concepts/arp"
+              path: "/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp"
             }
           ]
         },
@@ -28,11 +28,11 @@ const Basics: Subpage = {
           subpages: [
             {
               name: "MAC Addressing",
-              path: "/tcpip-model/network-access/data-link/frames-and-addressing/mac-addressing"
+              path: "/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing"
             },
             {
               name: "Ethernet Frame Fields",
-              path: "/tcpip-model/network-access/data-link/frames-and-addressing/ethernet-frame-fields"
+              path: "/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields"
             }
           ]
         }
@@ -46,11 +46,11 @@ const Basics: Subpage = {
           subpages: [
             {
               name: "Introduction",
-              path: "/tcpip-model/network-access/physical/signals-and-media/introduction"
+              path: "/tcpip-model/layers/network-access/basics/physical/signals-and-media/introduction"
             },
             {
               name: "Bit/Digital Signals",
-              path: "/tcpip-model/network-access/physical/signals-and-media/bit-digital-signals"
+              path: "/tcpip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals"
             }
           ]
         },
@@ -59,11 +59,11 @@ const Basics: Subpage = {
           subpages: [
             {
               name: "Communication Standards",
-              path: "/tcpip-model/network-access/physical/transmission/communication-standards"
+              path: "/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards"
             },
             {
               name: "Data Transmission Methods",
-              path: "/tcpip-model/network-access/physical/transmission/data-transmission-methods"
+              path: "/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods"
             }
           ]
         },
@@ -72,11 +72,11 @@ const Basics: Subpage = {
           subpages: [
             {
               name: "Bandwidth",
-              path: "/tcpip-model/network-access/physical/bandwidth-and-throughput/bandwidth"
+              path: "/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth"
             },
             {
               name: "Throughput",
-              path: "/tcpip-model/network-access/physical/bandwidth-and-throughput/throughput"
+              path: "/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput"
             }
           ]
         },
@@ -85,11 +85,11 @@ const Basics: Subpage = {
           subpages: [
             {
               name: "Encapsulation",
-              path: "/tcpip-model/network-access/physical/encap-deencap/encapsulation"
+              path: "/tcpip-model/layers/network-access/basics/physical/encap-deencap/encapsulation"
             },
             {
               name: "De-encapsulation",
-              path: "/tcpip-model/network-access/physical/encap-deencap/de-encapsulation"
+              path: "/tcpip-model/layers/network-access/basics/physical/encap-deencap/de-encapsulation"
             }
           ]
         }

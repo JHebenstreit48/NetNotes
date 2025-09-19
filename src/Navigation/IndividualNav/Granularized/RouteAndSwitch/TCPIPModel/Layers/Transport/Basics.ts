@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/tcpip-model/transport-layer/basics/overview/introduction"
+          path: "/tcpip-model/layers/transport/basics/overview/introduction"
         },
         {
           name: "TCP vs UDP",
-          path: "/tcpip-model/transport-layer/basics/overview/tcp-vs-udp"
+          path: "/tcpip-model/layers/transport/basics/overview/tcp-vs-udp"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Ports/Sockets",
-          path: "/tcpip-model/transport-layer/basics/ports/ports-and-sockets"
+          path: "/tcpip-model/layers/transport/basics/ports/ports-and-sockets"
         },
         {
           name: "Port Ranges",
-          path: "/tcpip-model/transport-layer/basics/ports/port-ranges"
+          path: "/tcpip-model/layers/transport/basics/ports/port-ranges"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Reliable Delivery/Flow Control",
-          path: "/tcpip-model/transport-layer/basics/reliability/reliable-delivery-flow-control"
+          path: "/tcpip-model/layers/transport/basics/reliability/reliable-delivery-flow-control"
         },
         {
           name: "Segmentation & Reassembly",
-          path: "/tcpip-model/transport-layer/basics/reliability/segmentation-reassembly"
+          path: "/tcpip-model/layers/transport/basics/reliability/segmentation-reassembly"
         }
       ]
     }

@@ -8,19 +8,19 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "DHCP",
-          path: "/tcpip-model/application-layer/network-services/dhcp"
+          path: "/tcpip-model/layers/application/advanced/network-services/dhcp"
         },
         {
           name: "NTP",
-          path: "/tcpip-model/application-layer/network-services/ntp"
+          path: "/tcpip-model/layers/application/advanced/network-services/ntp"
         },
         {
           name: "SNMP",
-          path: "/tcpip-model/application-layer/network-services/snmp"
+          path: "/tcpip-model/layers/application/advanced/network-services/snmp"
         },
         {
           name: "FTP/SFTP",
-          path: "/tcpip-model/application-layer/network-services/ftp"
+          path: "/tcpip-model/layers/application/advanced/network-services/ftp"
         }
       ]
     },
@@ -29,11 +29,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "SSH",
-          path: "/tcpip-model/application-layer/remote-access/ssh"
+          path: "/tcpip-model/layers/application/advanced/remote-access/ssh"
         },
         {
           name: "Best Practices",
-          path: "/tcpip-model/application-layer/remote-access/ssh-best-practices"
+          path: "/tcpip-model/layers/application/advanced/remote-access/ssh-best-practices"
         }
       ]
     },
@@ -42,11 +42,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Data Collection Types",
-          path: "/tcpip-model/application-layer/user-data/datacollectiontypes"
+          path: "/tcpip-model/layers/application/advanced/user-data/data-collection-types"
         },
         {
           name: "Privacy in Application Protocols",
-          path: "/tcpip-model/application-layer/user-data/privacyinprotocols"
+          path: "/tcpip-model/layers/application/advanced/user-data/privacy-in-protocols"
         }
       ]
     }

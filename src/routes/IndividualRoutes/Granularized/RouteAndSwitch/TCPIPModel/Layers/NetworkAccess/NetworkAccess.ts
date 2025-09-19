@@ -1,22 +1,11 @@
 import { RouteObject } from 'react-router-dom';
 
-// Data Link Layer Start
-
-// Data Link Layer End
-
-// Physical Layer Start
-
-// Physical Layer End
+import DataLink from '@/routes/IndividualRoutes/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Combined/DataLink';
+import Physical from '@/routes/IndividualRoutes/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Combined/Physical';
 
 const NetworkAccess: RouteObject[] = [
-
-    // Data Link Layer Start
-
-    // Data Link Layer End
-
-    // Physical Layer Start
-    
-    // Physical Layer End
+  ...DataLink,
+  ...Physical,
 ];
 
 export default NetworkAccess;

@@ -8,15 +8,15 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/tcpip-model/application-layer/web-name/introduction"
+          path: "/tcpip-model/layers/application/basics/web-and-name/introduction"
         },
         {
           name: "HTTP/HTTPS",
-          path: "/tcpip-model/application-layer/web-name/httphttps"
+          path: "/tcpip-model/layers/application/basics/web-and-name/http-https"
         },
         {
           name: "DNS",
-          path: "/tcpip-model/application-layer/web-name/dns"
+          path: "/tcpip-model/layers/application/basics/web-and-name/dns"
         }
       ]
     },
@@ -25,19 +25,19 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/tcpip-model/application-layer/client-server/introduction"
+          path: "/tcpip-model/layers/application/basics/client-server/introduction"
         },
         {
           name: "Client/Server Roles",
-          path: "/tcpip-model/application-layer/client-server/clientvsserver"
+          path: "/tcpip-model/layers/application/basics/client-server/client-vs-server"
         },
         {
           name: "P2P vs. Client/Server",
-          path: "/tcpip-model/application-layer/client-server/p2pvsclientserver"
+          path: "/tcpip-model/layers/application/basics/client-server/p2p-vs-client-server"
         },
         {
           name: "Examples",
-          path: "/tcpip-model/application-layer/client-server/examples"
+          path: "/tcpip-model/layers/application/basics/client-server/examples"
         }
       ]
     },
@@ -46,11 +46,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "SMTP",
-          path: "/tcpip-model/application-layer/email-comm/smtp"
+          path: "/tcpip-model/layers/application/basics/email-and-communication/smtp"
         },
         {
           name: "IMAP",
-          path: "/tcpip-model/application-layer/email-comm/imap"
+          path: "/tcpip-model/layers/application/basics/email-and-communication/imap"
         }
       ]
     }

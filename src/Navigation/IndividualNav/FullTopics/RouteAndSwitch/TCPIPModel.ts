@@ -1,9 +1,9 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-import Application from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/TCPIPModel/Application";
-import Internet from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/TCPIPModel/Internet";
-import Transport from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/TCPIPModel/Transport";
-import NetworkAccess from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/TCPIPModel/NetworkAccess";
+import Application from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/TCPIPModel/Layers/Application";
+import Internet from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/TCPIPModel/Layers/Internet";
+import Transport from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/TCPIPModel/Layers/Transport";
+import NetworkAccess from "@/Navigation/IndividualNav/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess";
 
 const TCPIPModel: Subpage = {
     name: "TCP/IP Model",
