@@ -1,11 +1,6 @@
 import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
-// ------------------------- Cisco Start -------------------------
-import CCNA from '@/Navigation/IndividualNav/FullTopics/Certifications/Cisco/CCNA';
-import CCNP from '@/Navigation/IndividualNav/Granularized/Certifications/Cisco/CCNP';
-import DevNetNavigation from '@/Navigation/IndividualNav/Granularized/Certifications/Cisco/DevNet';
-// ------------------------- Cisco End ---------------------------
-
+import Cisco from '@/Navigation/IndividualNav/FullTopics/Certifications/Cisco';
 // ------------------------- CompTIA Start -------------------------
 import NetworkPlusNavigation from '@/Navigation/IndividualNav/Granularized/Certifications/CompTIA/NetworkPlus';
 import SecurityPlusNavigation from '@/Navigation/IndividualNav/Granularized/Certifications/CompTIA/SecurityPlus';
@@ -24,14 +19,7 @@ import TerraformNavigation from '@/Navigation/IndividualNav/Granularized/Certifi
 const certificationsNav: Subpage = {
     name: 'Certifications',
     subpages: [
-        {
-            name: 'Cisco',
-            subpages: [
-                CCNA,
-                CCNP,
-                DevNetNavigation
-            ]
-        },
+        Cisco,
         {
             name: 'CompTIA',
             subpages: [
