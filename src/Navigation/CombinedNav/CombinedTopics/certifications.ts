@@ -1,8 +1,8 @@
 import { Subpage } from '@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes';
 
 // ------------------------- Cisco Start -------------------------
-import CCNANavigation from '@/Navigation/IndividualNav/Granularized/Certifications/Cisco/CCNA';
-import CCNPNavigation from '@/Navigation/IndividualNav/Granularized/Certifications/Cisco/CCNP';
+import CCNA from '@/Navigation/IndividualNav/FullTopics/Certifications/Cisco/CCNA';
+import CCNP from '@/Navigation/IndividualNav/Granularized/Certifications/Cisco/CCNP';
 import DevNetNavigation from '@/Navigation/IndividualNav/Granularized/Certifications/Cisco/DevNet';
 // ------------------------- Cisco End ---------------------------
 
@@ -27,8 +27,8 @@ const certificationsNav: Subpage = {
         {
             name: 'Cisco',
             subpages: [
-                CCNANavigation,
-                CCNPNavigation,
+                CCNA,
+                CCNP,
                 DevNetNavigation
             ]
         },
