@@ -4,6 +4,8 @@ import Fundamentals from '@/Navigation/Individual/Topics/RouteAndSwitch/Fundamen
 import Legacy from '@/Navigation/Individual/Topics/RouteAndSwitch/Legacy';
 import TCPIPModel from '@/Navigation/Individual/Topics/RouteAndSwitch/TCPIPModel';
 import Switching from '@/Navigation/Individual/Topics/RouteAndSwitch/Switching';
+import RoutingProtocols from '@/Navigation/Individual/Topics/RouteAndSwitch/RoutingProtocols';
+import Wireless from '@/Navigation/Individual/Topics/RouteAndSwitch/Wireless';
 
 const routeSwitch: Subpage = {
   name: 'Routing & Switching',
@@ -12,6 +14,8 @@ const routeSwitch: Subpage = {
     Legacy, 
     TCPIPModel, 
     Switching,
+    RoutingProtocols,
+    Wireless
   ],
 };
 
