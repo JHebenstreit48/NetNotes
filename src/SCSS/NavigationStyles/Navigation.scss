@@ -100,7 +100,7 @@
   cursor: pointer;
   outline: none;
   color: $level-1;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: color 0.3s ease;
 
   &:hover { color: color.adjust($level-1, $lightness: 10%); }
