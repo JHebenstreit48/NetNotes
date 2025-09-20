@@ -5,7 +5,6 @@ import ErrorPage from '@/Pages/Special/Error';
 import Home from '@/Pages/Special/Home';
 
 import certifications from '@/routes/FullSections/certifications';
-import examPrep from '@/routes/FullSections/examPrep';
 import routeAndSwitch from '@/routes/FullSections/routeAndSwitch';
 import networkSecurity from '@/routes/FullSections/networkSecurity';
 import voip from '@/routes/FullSections/voip';
@@ -22,7 +21,6 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       ...certifications,
-      ...examPrep,
       ...routeAndSwitch,
       ...networkSecurity,
       ...voip,
