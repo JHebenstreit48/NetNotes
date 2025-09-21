@@ -1,18 +1,20 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header/Header';
+import PageTitle from '@/Components/PageComponents/PageTitle'
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const ApplicationLayerOverview = () => {
-  const markdownFilePath = '/CoreNetworkingTopics/TCPIPModel/ApplicationLayer/Overview';
+const HTTPHTTPS = () => {
+  const markdownFilePath = 'RouteAndSwitch/TCPIPModel/Layers/Application/WebAndName/HTTPHTTPS';
 
   return (
     <>
       <PageLayout>
-        <Header text="Introduction" />
+        <Header />
+        <PageTitle title="Application Layer - HTTP/HTTPS" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default ApplicationLayerOverview;
+export default HTTPHTTPS;

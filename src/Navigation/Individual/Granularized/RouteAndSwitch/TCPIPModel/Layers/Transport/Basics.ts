@@ -4,15 +4,15 @@ const Basics: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Overview",
+      name: "Fundamentals",
       subpages: [
         {
           name: "Introduction",
-          path: "/tcpip-model/layers/transport/basics/overview/introduction"
+          path: "/tcpip-model/layers/transport/basics/fundamentals/introduction"
         },
         {
           name: "TCP vs UDP",
-          path: "/tcpip-model/layers/transport/basics/overview/tcp-vs-udp"
+          path: "/tcpip-model/layers/transport/basics/fundamentals/tcp-vs-udp"
         }
       ]
     },

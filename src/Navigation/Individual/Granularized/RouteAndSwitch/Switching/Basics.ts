@@ -28,6 +28,19 @@ const Basics: Subpage = {
           path: "/switching/basics/hardware-and-history/ethernet-speed-history"
         }
       ]
+    },
+    {
+      name: "Glossary",
+      subpages: [
+        {
+          name: "Hosts & Ports",
+          path: "/switching/basics/glossary/hosts-and-ports"
+        },
+        {
+          name: "L2 Concepts & Architecture",
+          path: "/switching/basics/glossary/l2-concepts-and-architecture"
+        }
+      ]
     }
   ]
 };
