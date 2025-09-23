@@ -1,17 +1,17 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
 
 const TLSAndSRTP: Subpage = {
-  name: "TLS/SRTP Security",
+  name: 'TLS & SRTP Security',
   subpages: [
     {
-      name: "TLS Handshake & Certificates",
-      path: "/tools/diagnostics/tls-srtp/tls-handshake-certs"
+      name: 'TLS Handshake & Certificates',
+      path: '/tools/diagnostics/tls-srtp/tls-handshake-certs',
     },
     {
-      name: "SRTP Troubleshooting",
-      path: "/tools/diagnostics/tls-srtp/srtp-troubleshooting"
-    }
-  ]
+      name: 'SRTP Troubleshooting',
+      path: '/tools/diagnostics/tls-srtp/srtp-troubleshooting',
+    },
+  ],
 };
 
 export default TLSAndSRTP;
