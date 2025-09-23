@@ -46,12 +46,12 @@ const Basics: Subpage = {
       name: "Capture & Console",
       subpages: [
         {
-          name: "Wireshark/TShark",
-          path: "/gns3/basics/capture-and-console/wireshark-and-tshark"
+          name: "Add Wireshark/TShark (GNS3)",
+          path: "/gns3/basics/capture-and-console/add-wireshark-and-tshark"
         },
         {
-          name: "Telnet/Serial Access",
-          path: "/gns3/basics/capture-and-console/telnet-and-serial-access"
+          name: "Console Access (Telnet/Serial/VNC)",
+          path: "/gns3/basics/capture-and-console/console-access-telnet-serial-vnc"
         }
       ]
     }
