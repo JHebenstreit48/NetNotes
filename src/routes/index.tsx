@@ -4,11 +4,11 @@ import App from '@/App';
 import ErrorPage from '@/Pages/Special/Error';
 import Home from '@/Pages/Special/Home';
 
-import certifications from '@/routes/FullSections/certifications';
-import routeAndSwitch from '@/routes/FullSections/routeAndSwitch';
-import networkSecurity from '@/routes/FullSections/networkSecurity';
-import voip from '@/routes/FullSections/voip';
-import tools from '@/routes/FullSections/tools';
+import certifications from '@/routes/Sections/certifications';
+import routeAndSwitch from '@/routes/Sections/routeAndSwitch';
+import networkSecurity from '@/routes/Sections/networkSecurity';
+import voip from '@/routes/Sections/voip';
+import tools from '@/routes/Sections/tools';
 
 export const router = createBrowserRouter([
   {

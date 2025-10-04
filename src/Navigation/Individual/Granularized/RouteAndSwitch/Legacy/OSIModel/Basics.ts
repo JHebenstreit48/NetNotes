@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Fundamentals",
-          path: "/coreconcepts/basics/osimodel/fundamentals"
+          path: "/legacy/osi-model/basics/overview/fundamentals"
         },
         {
           name: "Layers Comparison",
-          path: "/coreconcepts/basics/osimodel/layercomparison"
+          path: "/legacy/osi-model/basics/overview/layer-comparison"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Model & Terms",
-          path: "/coreconcepts/osimodel/basics/foundations/model-and-terms"
+          path: "/legacy/osi-model/basics/foundations/model-and-terms"
         },
         {
           name: "Services vs Protocols",
-          path: "/coreconcepts/osimodel/basics/foundations/services-vs-protocols"
+          path: "/legacy/osi-model/basics/foundations/services-vs-protocols"
         }
       ]
     },
