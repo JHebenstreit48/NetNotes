@@ -1,44 +1,23 @@
-import { Outlet } from 'react-router-dom';
-import { useState, useEffect, Suspense } from "react";
+// src/App.tsx
+import { Outlet } from "react-router-dom";
+import { Suspense } from "react";
 
-// Component Imports
-import Footer from '@/Components/Shared/Footer';
-import EntryScreen from "@/Pages/Special/EntryScreen";
+// Components
+import Footer from "@/Components/Shared/Footer";
 
-// SCSS Imports
-import '@/SCSS/PageStyles/Page.scss';
-import '@/SCSS/PageStyles/Header/Header.scss';
-import '@/SCSS/PageStyles/Footer.scss';
-import '@/SCSS/NavigationStyles/Navigation.scss';
-import '@/SCSS/NavigationStyles/SearchModal.scss';
-import '@/SCSS/PageStyles/Error.scss';
-import '@/SCSS/PageStyles/EntryScreen.scss';
-import '@/SCSS/PageStyles/SplashScreen.scss';
+// Styles (unchanged except EntryScreen.scss removed)
+import "@/SCSS/PageStyles/Page.scss";
+import "@/SCSS/PageStyles/Header/Header.scss";
+import "@/SCSS/PageStyles/Footer.scss";
+import "@/SCSS/NavigationStyles/Navigation.scss";
+import "@/SCSS/NavigationStyles/SearchModal.scss";
+import "@/SCSS/PageStyles/Error.scss";
 
 export default function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  const [hasEntered, setHasEntered] = useState(false);
-
-  useEffect(() => {
-    setIsLoading(false);
-  }, []);
-  
-  useEffect(() => {
-    const entered = sessionStorage.getItem("hasEntered");
-    if (entered === "true") setHasEntered(true);
-  }, []);
-
-  const handleEnter = () => {
-    sessionStorage.setItem("hasEntered", "true");
-    setHasEntered(true);
-  };
-
-  if (isLoading) return null;
-  if (!hasEntered) return <EntryScreen onEnter={handleEnter} />;
-
   return (
     <div className="appContainer">
       <div className="contentWrapper">
+        {/* Keep a route-level Suspense so lazy routes don't complain */}
         <Suspense fallback={null}>
           <Outlet />
         </Suspense>
