@@ -1,10 +1,8 @@
-import { Outlet } from "react-router-dom";
 import { Suspense } from "react";
-
-// Components
+import { Outlet } from "react-router-dom";
 import Footer from "@/Components/Shared/Footer";
+import RouteTracker from "@/Components/Shared/analytics/RouteTracker";
 
-// Styles (unchanged except EntryScreen.scss removed)
 import "@/SCSS/PageStyles/Page.scss";
 import "@/SCSS/PageStyles/Header/Header.scss";
 import "@/SCSS/PageStyles/Footer.scss";
@@ -15,12 +13,15 @@ import "@/SCSS/PageStyles/Error.scss";
 export default function App() {
   return (
     <div className="appContainer">
+      {/* Mount before any page renders to ensure event capture */}
+      <RouteTracker />
+
       <div className="contentWrapper">
-        {/* Keep a route-level Suspense so lazy routes don't complain */}
         <Suspense fallback={null}>
           <Outlet />
         </Suspense>
       </div>
+
       <Footer />
     </div>
   );
