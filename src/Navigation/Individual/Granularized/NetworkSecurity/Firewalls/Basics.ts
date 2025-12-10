@@ -28,6 +28,19 @@ const Basics: Subpage = {
           path: "/firewalls/basics/zbfw/classmaps-policymaps"
         }
       ]
+    },
+    {
+      name: "OPNsense",
+      subpages: [
+        {
+          name: "Install & Setup",
+          path: "/firewalls/basics/opnsense/install-setup"
+        },
+        {
+          name: "Core Firewall Configuration",
+          path: "/firewalls/basics/opnsense/core-configuration"
+        }
+      ]
     }
   ]
 };
