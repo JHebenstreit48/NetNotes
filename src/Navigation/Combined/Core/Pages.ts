@@ -8,10 +8,10 @@ import tools from "@/Navigation/Combined/Topics/tools";
 
 
 const pages: Subpage[] = [
-  certifications,
   routeSwitch,
   networkSecurity,
   voip,
+  certifications,
   tools
 ];
 
