@@ -5,7 +5,7 @@ import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const Bandwidth = () => {
   const markdownFilePath =
-    '/RouteAndSwitch/Basics/TCPIPModel/Layers/NetworkAccess/Basics/Physical-1/BandwidthThroughput/Bandwidth';
+    '/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical-1/BandwidthThroughput/Bandwidth';
 
   return (
     <>
