@@ -10,7 +10,7 @@ const Internet = () => {
     <>
       <PageLayout>
         <Header />
-        <PageTitle title=" Fundamentals - Internet and Global Networks" />
+        <PageTitle title="Fundamentals - Internet and Global Networks" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
