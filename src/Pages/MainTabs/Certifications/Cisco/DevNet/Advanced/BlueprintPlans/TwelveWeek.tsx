@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const 80211kVR = () => {
-  const markdownFilePath = 'RouteAndSwitch/Wireless/Advanced/Roaming/80211kVR';
+const TwelveWeek = () => {
+  const markdownFilePath = 'Certifications/Cisco/DevNet/Advanced/BlueprintPlans/12Week';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="802.11k/v/r" />
+        <PageTitle title="12-Week (DEVCOR)" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default 80211kVR;
+export default TwelveWeek;

@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const 72HourPlan = () => {
-  const markdownFilePath = 'Certifications/Cisco/CCNA/Advanced/FinalReview/72HourPlan';
+const EightWeek = () => {
+  const markdownFilePath = 'Certifications/Cisco/DevNet/Advanced/BlueprintPlans/8Week';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="72-Hour Plan" />
+        <PageTitle title="8-Week (Associate)" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default 72HourPlan;
+export default EightWeek;
