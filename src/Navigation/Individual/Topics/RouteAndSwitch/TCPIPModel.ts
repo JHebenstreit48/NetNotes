@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 import Application from "@/Navigation/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/Application";
 import Internet from "@/Navigation/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/Internet";

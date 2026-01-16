@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import Fundamentals from '@/Navigation/Individual/Topics/NetworkSecurity/Fundamentals'
 import ACLs from '@/Navigation/Individual/Topics/NetworkSecurity/ACLs';

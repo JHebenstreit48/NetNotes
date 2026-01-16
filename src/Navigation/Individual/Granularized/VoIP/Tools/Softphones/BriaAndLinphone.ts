@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 const BriaAndLinphone: Subpage = {
   name: 'Bria and Linphone',

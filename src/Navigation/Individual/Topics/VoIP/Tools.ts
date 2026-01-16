@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 // ------------------------ Desk Phones Navigation Start ------------------------
 import CiscoDeskPhones from '@/Navigation/Individual/Granularized/VoIP/Tools/DeskPhones/Cisco';

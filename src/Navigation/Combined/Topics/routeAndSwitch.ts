@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import Fundamentals from '@/Navigation/Individual/Topics/RouteAndSwitch/Fundamentals';
 import Legacy from '@/Navigation/Individual/Topics/RouteAndSwitch/Legacy';

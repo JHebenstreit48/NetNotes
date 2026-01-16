@@ -1,5 +1,5 @@
 // Navigation/Individual/Granularized/Certifications/Cisco/CCIE/Advanced.ts
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 const Advanced: Subpage = {
   name: "Advanced",

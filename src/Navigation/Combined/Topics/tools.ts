@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import CiscoPacketTracer from '@/Navigation/Individual/Topics/Tools/CiscoPacketTracer';
 import GNS3 from '@/Navigation/Individual/Topics/Tools/GNS3';
