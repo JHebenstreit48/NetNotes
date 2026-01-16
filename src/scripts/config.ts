@@ -16,6 +16,14 @@ export const config = {
     "Tools": "Tools"
   } as Record<string, string>,
 
+  topicNameMap: {
+    "TCP/IP Model": "TCPIPModel",
+  } as Record<string, string>,
+
+  topicFsPrefixMap: {
+    "TCP/IP Model": ["Layers"],
+  } as Record<string, string[]>,
+
   // If the leaf name is “generic”, make the H1 slightly richer:
   // “Fundamentals: Introduction”
   genericLeafNames: new Set([

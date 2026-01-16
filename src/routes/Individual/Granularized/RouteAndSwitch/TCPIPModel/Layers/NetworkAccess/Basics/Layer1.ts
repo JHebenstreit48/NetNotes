@@ -1,9 +1,9 @@
 import { RouteObject } from 'react-router-dom';
 
-import SignalsAndMedia from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/PhysicalLayer1/SignalsAndMedia';
-import TransmissionConcepts from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/PhysicalLayer1/TransmissionConcepts';
-import BandwidthAndThroughput from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/PhysicalLayer1/BandwidthThroughput';
-import EncapAndDeencap from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/PhysicalLayer1/EncapAndDeencap';
+import SignalsAndMedia from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical/SignalsAndMedia';
+import TransmissionConcepts from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical/TransmissionConcepts';
+import BandwidthAndThroughput from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical/BandwidthThroughput';
+import EncapAndDeencap from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical/EncapAndDeencap';
 
 const Layer1: RouteObject[] = [
     ...SignalsAndMedia,
