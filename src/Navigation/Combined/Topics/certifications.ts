@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import Cisco from '@/Navigation/Individual/Topics/Certifications/Cisco';
 // ------------------------- CompTIA Start -------------------------
@@ -13,8 +13,6 @@ import Jenkins from '@/Navigation/Individual/Granularized/Certifications/DevOps/
 import Kubernetes from '@/Navigation/Individual/Granularized/Certifications/DevOps/Kubernetes';
 import Terraform from '@/Navigation/Individual/Granularized/Certifications/DevOps/Terraform';
 // ------------------------- DevOps End ---------------------------
-
-
 
 const certifications: Subpage = {
     name: 'Certifications',

@@ -1,5 +1,5 @@
 // Navigation/Individual/Granularized/Certifications/Cisco/CCIE/Basics.ts
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 const Basics: Subpage = {
   name: "Basics",

@@ -32,7 +32,6 @@ I have used the following resources for this project:
 [CBT Nuggets 2024 CCNA v1.1 (200-301) course](https://learn.adept.at/cbtnuggets/2024-ccna-v11-200-301)
 [Cisco Netacad Networking Basics course](https://www.netacad.com/launch?id=f393c38f-b410-4d2b-8275-70e144273519&tab=curriculum&view=b0879118-8820-509f-9f00-c440f93acc8c)
 
-
 ## Tests
 
 I just used npm run dev to see what the website looked like as I made changes to it.

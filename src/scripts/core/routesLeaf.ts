@@ -1,12 +1,20 @@
-import path from "node:path";
-import type { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
-import { config } from "../config";
-import { ensureDir, exists, writeIfChanged } from "./fs";
-import { pascalize, safeLazyVarName, sectionFolderName } from "./naming";
+import path from 'node:path';
+import type { Subpage } from '@/types/navigation/Subpage';
+
+import { config } from '../config';
+import { ensureDir, exists, writeIfChanged } from './fs';
+import { pascalize, sectionFolderName } from './naming';
+import { matchesWithin } from './within';
+
+import {
+  computeLeafRouteSignatureFromPaths,
+  getLeafRouteSignatureIndex,
+} from './scanExisting';
 
 type Filter = {
-  tab?: string;     // e.g. "Languages"
-  topic?: string;   // e.g. "Dart"
+  tab?: string;
+  topic?: string;
+  within?: string;
   dryRun?: boolean;
   limit?: number;
 };
@@ -18,9 +26,9 @@ type Result = {
 };
 
 function makeLeafGroupRoutesFile(args: {
-  fileVarName: string;                 // e.g. ControlFlow
+  fileVarName: string;
   leafChildren: Array<{ name: string; path: string }>;
-  pageImportBaseDir: string;           // e.g. "@/Pages/MainTabs/Languages/Dart/Basics/ControlFlow"
+  pageImportBaseDir: string;
 }) {
   const used = new Map<string, number>();
 
@@ -34,20 +42,18 @@ function makeLeafGroupRoutesFile(args: {
   };
 
   for (const child of args.leafChildren) {
-    const baseName = pascalize(child.name);      // Conditionals
-    const varName = uniqueVar(baseName);         // Conditionals (or Conditionals2 if duplicate)
+    const baseName = pascalize(child.name);
+    const varName = uniqueVar(baseName);
 
-    // One-line lazy import (matches your exact sample)
     lazyLines.push(
       `const ${varName} = lazy(() => import('${args.pageImportBaseDir}/${baseName}'));`
     );
 
-    // Multi-line route object (matches your exact sample)
     routeLines.push(
       `  {\n` +
-      `    path: '${child.path}',\n` +
-      `    element: <${varName} />,\n` +
-      `  },`
+        `    path: '${child.path}',\n` +
+        `    element: <${varName} />,\n` +
+        `  },`
     );
   }
 
@@ -63,7 +69,7 @@ function makeLeafGroupRoutesFile(args: {
     ``,
     `export default ${args.fileVarName};`,
     ``,
-  ].join("\n");
+  ].join('\n');
 }
 
 function matchesFilter(filter: Filter, sectionName: string, topicName: string) {
@@ -72,31 +78,21 @@ function matchesFilter(filter: Filter, sectionName: string, topicName: string) {
   return true;
 }
 
-/**
- * Generates ONLY "leaf-group" lazy route files:
- * A nav node qualifies if:
- * - it has subpages
- * - every child subpage has a `path` (i.e. they’re leaf pages)
- *
- * Output location (matches your current routes architecture):
- *   src/routes/Individual/Granularized/<SectionFolder>/<TopicFolder>/<GroupFolders...>/<NodeName>.tsx
- *
- * Example (Dart):
- *   src/routes/Individual/Granularized/Languages/Dart/Basics/Fundamentals.tsx
- *   src/routes/Individual/Granularized/Languages/Dart/Basics/Language.tsx
- *   ...
- */
 export function generateLeafLazyRoutes(pagesRoot: Subpage[], filter: Filter): Result {
   const out: Result = { wrote: [], skipped: [], wouldWrite: [] };
   const limit = filter.limit ?? config.defaultLimit;
   let createdCount = 0;
 
-  const routesRoot = path.join(process.cwd(), "src", "routes", "Individual", "Granularized");
+  const routesRoot = path.join(process.cwd(), 'src', 'routes', 'Individual', 'Granularized');
+  const sigIdx = getLeafRouteSignatureIndex(routesRoot);
 
-  // Walk inside one topic subtree
   const walk = (section: Subpage, topic: Subpage, node: Subpage, groupPathCrumbs: string[]) => {
     if (createdCount >= limit) return;
     if (!node.subpages || node.subpages.length === 0) return;
+
+    // prune outside subtree
+    const fakeCrumbs = [section.name, topic.name, ...groupPathCrumbs, '__leaf__'];
+    if (!matchesWithin(filter.within, fakeCrumbs)) return;
 
     const leafChildren = node.subpages.filter((c) => !!c.path) as Array<{ name: string; path: string }>;
     const nonLeafChildren = node.subpages.filter((c) => !c.path);
@@ -107,48 +103,48 @@ export function generateLeafLazyRoutes(pagesRoot: Subpage[], filter: Filter): Re
       const sectionFolder = sectionFolderName(section.name);
       const topicFolder = pascalize(topic.name);
 
-      // groupPathCrumbs is the folder chain from topic down to this node (excluding leaf pages)
-      // e.g. ["Basics", "Fundamentals"]
       const groupFolders = groupPathCrumbs.map(pascalize);
+      const fileVarName = pascalize(node.name);
 
-      const fileVarName = pascalize(node.name); // Fundamentals, Language, ControlFlow, etc.
-
-      // routes file path:
-      // .../<Section>/<Topic>/<Groups...>/<NodeName>.tsx
-      // For Dart: .../Languages/Dart/Basics/Fundamentals.tsx
       const outDir = path.join(routesRoot, sectionFolder, topicFolder, ...groupFolders.slice(0, -1));
       const outPath = path.join(outDir, `${fileVarName}.tsx`);
 
-      // page import base dir:
-      // "@/Pages/MainTabs/<Section>/<Topic>/<Groups...>"
-      // For Dart Fundamentals: "@/Pages/MainTabs/Languages/Dart/Basics/Fundamentals"
-      const pageImportBaseDir = `@/Pages/MainTabs/${sectionFolder}/${topicFolder}/${groupFolders.join("/")}`;
+      const pageImportBaseDir = `@/Pages/MainTabs/${sectionFolder}/${topicFolder}/${groupFolders.join('/')}`;
 
-      const content = makeLeafGroupRoutesFile({
-        fileVarName,
-        leafChildren,
-        pageImportBaseDir,
-      });
+      const sig = computeLeafRouteSignatureFromPaths(leafChildren.map((c) => c.path));
+
+      // If an equivalent route group already exists anywhere, skip (prevents duplicates on rename)
+      if (sigIdx.has(sig)) {
+        out.skipped.push(sigIdx.get(sig)!);
+        return;
+      }
+
+      const content = makeLeafGroupRoutesFile({ fileVarName, leafChildren, pageImportBaseDir });
 
       if (filter.dryRun) {
-        out.wouldWrite.push(outPath);
-      } else {
-        // skip if it already exists (we don't overwrite your manual work)
-        if (exists(outPath)) {
-          out.skipped.push(outPath);
-          return;
-        }
-
-        ensureDir(outDir);
-        writeIfChanged(outPath, content);
-        out.wrote.push(outPath);
+        if (sigIdx.has(sig)) out.skipped.push(sigIdx.get(sig)!);
+        else if (exists(outPath)) out.skipped.push(outPath);
+        else out.wouldWrite.push(outPath);
+        createdCount++;
+        return;
       }
+
+      if (exists(outPath)) {
+        out.skipped.push(outPath);
+        return;
+      }
+
+      ensureDir(outDir);
+      writeIfChanged(outPath, content);
+      out.wrote.push(outPath);
+
+      // update in-memory index so later groups in same run see it
+      sigIdx.set(sig, outPath);
 
       createdCount++;
       return;
     }
 
-    // Continue recursion into non-leaf children
     for (const child of nonLeafChildren) {
       if (!child.subpages || child.subpages.length === 0) continue;
       walk(section, topic, child, [...groupPathCrumbs, child.name]);
@@ -163,9 +159,7 @@ export function generateLeafLazyRoutes(pagesRoot: Subpage[], filter: Filter): Re
       if (!topic.subpages?.length) continue;
       if (!matchesFilter(filter, section.name, topic.name)) continue;
 
-      // Walk starting from topic subpages (e.g. Basics, Advanced, etc.)
       for (const topNode of topic.subpages) {
-        // groupPath includes this node name (e.g. ["Basics"])
         walk(section, topic, topNode, [topNode.name]);
         if (createdCount >= limit) break;
       }
