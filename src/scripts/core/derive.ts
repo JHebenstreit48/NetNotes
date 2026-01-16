@@ -1,6 +1,13 @@
 import path from "node:path";
 import { config } from "../config";
-import { pascalize, sectionFolderName, isGenericLeafName, safeLazyVarName } from "./naming";
+import {
+  pascalize,
+  sectionFolderName,
+  topicFolderName,
+  tcpipFolderName,
+  isGenericLeafName,
+  safeLazyVarName,
+} from "./naming";
 
 export type Derived = {
   sectionCrumb: string;
@@ -37,12 +44,18 @@ export function derive(leaf: { urlPath: string; crumbs: string[] }): Derived {
   const [sectionCrumb = "Misc", topicCrumb = "Topic", ...rest] = leaf.crumbs;
 
   const sectionFolder = sectionFolderName(sectionCrumb);
-  const topicFolder = pascalize(topicCrumb);
+  const topicFolder = topicFolderName(topicCrumb);
+
+  // Optional extra folders inserted after the topic (filesystem only)
+  const topicPrefix = config.topicFsPrefixMap?.[topicCrumb] ?? [];
 
   const groupsRaw = rest.slice(0, -1);
   const leafRaw = rest.at(-1) ?? "Page";
 
-  const groupFolders = groupsRaw.map(pascalize);
+  const folderize = (s: string) =>
+    topicCrumb === "TCP/IP Model" ? tcpipFolderName(s) : pascalize(s);
+
+  const groupFolders = groupsRaw.map(folderize);
   const componentName = pascalize(leafRaw);
 
   const pageFsPath = path.join(
@@ -50,20 +63,21 @@ export function derive(leaf: { urlPath: string; crumbs: string[] }): Derived {
     config.pagesRoot,
     sectionFolder,
     topicFolder,
+    ...topicPrefix,
     ...groupFolders,
     `${componentName}.tsx`
   );
 
-  const pageImportPath = `@/Pages/MainTabs/${sectionFolder}/${topicFolder}/${[...groupFolders, componentName].join("/")}`;
-  const markdownFilePath = `${sectionFolder}/${topicFolder}/${[...groupFolders, componentName].join("/")}`;
+  const importParts = [sectionFolder, topicFolder, ...topicPrefix, ...groupFolders, componentName];
+
+  const pageImportPath = `@/Pages/MainTabs/${importParts.join("/")}`;
+  const markdownFilePath = `${importParts.join("/")}`;
 
   const parentGroup = groupFolders.at(-1);
   const pageTitle =
-    isGenericLeafName(leafRaw) && parentGroup
-      ? `${parentGroup}: ${leafRaw}`
-      : leafRaw;
+    isGenericLeafName(leafRaw) && parentGroup ? `${parentGroup}: ${leafRaw}` : leafRaw;
 
-  const lazyVarName = safeLazyVarName([sectionFolder, topicFolder, ...groupFolders, componentName]);
+  const lazyVarName = safeLazyVarName(importParts);
 
   return {
     sectionCrumb,
