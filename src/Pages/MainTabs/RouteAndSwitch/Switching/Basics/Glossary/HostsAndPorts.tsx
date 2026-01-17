@@ -3,7 +3,7 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 // import { useNavigate } from 'react-router-dom';
-// import '@/SCSS/PageStyles/GlossaryBack.scss';
+// import '@/scss/PageStyles/GlossaryBack.scss';
 
 const HostsAndPorts = () => {
   const markdownFilePath =
