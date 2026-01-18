@@ -5,7 +5,7 @@ import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const ARP = () => {
   const markdownFilePath =
-    'RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/CoreConcepts/AddressResolutionProtocol';
+    'RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/CoreConcepts/ARP';
 
   return (
     <>

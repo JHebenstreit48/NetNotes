@@ -20,7 +20,7 @@ const TransmissionConcepts: RouteObject[] = [
     element: <CommStandards />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission',
+    path: '/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods',
     element: <DataTransmitMethods />,
   },
 

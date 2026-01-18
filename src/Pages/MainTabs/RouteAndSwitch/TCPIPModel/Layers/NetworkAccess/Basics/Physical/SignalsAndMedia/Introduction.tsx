@@ -5,7 +5,7 @@ import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const Introduction = () => {
   const markdownFilePath =
-    'RouteAndSwitch/Basics/TCPIPModel/Layers/NetworkAccess/Basics/Physical/SignalsAndMedia/Introduction';
+    'RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical/SignalsAndMedia/Introduction';
 
   return (
     <>

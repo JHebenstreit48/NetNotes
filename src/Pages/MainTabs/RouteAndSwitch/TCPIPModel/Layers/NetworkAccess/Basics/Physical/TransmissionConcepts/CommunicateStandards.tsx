@@ -4,7 +4,8 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const CommStandards = () => {
-  const markdownFilePath = '/CoreConcepts/Basics/TCPIPModel/NetworkAccess/Layer1-Physical/TransmissionConcepts/CommunicationStandards';
+  const markdownFilePath =
+    'RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical/TransmissionConcepts/CommunicationStandards';
 
   return (
     <>
