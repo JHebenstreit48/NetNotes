@@ -1,11 +1,11 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/WebAndNameResolution/Introduction'));
-const HTTPHTTPS = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/WebAndNameResolution/HTTPHTTPS'));
-const DNS = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/WebAndNameResolution/DNS'));
+const Introduction = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/WebAndName/Introduction'));
+const HTTPHTTPS = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/WebAndName/HTTPHTTPS'));
+const DNS = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/WebAndName/DNS'));
 
-const WebAndNameResolution: RouteObject[] = [
+const WebAndName: RouteObject[] = [
   {
     path: '/tcpip-model/layers/application/basics/web-and-name/introduction',
     element: <Introduction />,
@@ -20,4 +20,4 @@ const WebAndNameResolution: RouteObject[] = [
   },
 ];
 
-export default WebAndNameResolution;
+export default WebAndName;

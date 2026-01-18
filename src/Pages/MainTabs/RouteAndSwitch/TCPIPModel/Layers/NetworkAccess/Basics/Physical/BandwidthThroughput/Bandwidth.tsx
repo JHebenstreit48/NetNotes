@@ -5,13 +5,13 @@ import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const Bandwidth = () => {
   const markdownFilePath =
-    '/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical-1/BandwidthThroughput/Bandwidth';
+    '/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical/BandwidthThroughput/Bandwidth';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Bandwidth" />
+        <PageTitle title="Network Access - Physical - Bandwidth" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>

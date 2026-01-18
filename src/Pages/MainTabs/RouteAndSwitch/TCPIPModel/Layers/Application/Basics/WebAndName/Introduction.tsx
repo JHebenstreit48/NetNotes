@@ -1,6 +1,6 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header/Header';
-import PageTitle from '@/Components/PageComponents/PageTitle'
+import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const Introduction = () => {
@@ -10,7 +10,7 @@ const Introduction = () => {
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Application Layer - Introduction" />
+        <PageTitle title="TCP/IP Model - Application Layer -Introduction" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>

@@ -1,6 +1,6 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header/Header';
-import PageTitle from '@/Components/PageComponents/PageTitle'
+import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const HTTPHTTPS = () => {
@@ -10,7 +10,7 @@ const HTTPHTTPS = () => {
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Application Layer - HTTP/HTTPS" />
+        <PageTitle title="TCP/IP Model - Application Layer - HTTP/HTTPS" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
