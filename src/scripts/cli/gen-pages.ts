@@ -17,7 +17,7 @@ function main() {
   const derived = leaves
     .filter((l) => matchesWithin(args.within, l.crumbs))
     .map((l) => derive(l))
-    .filter((d) => matchesFilter({ tab: args.tab, topic: args.topic }, d));
+    .filter((d) => matchesFilter({ "tab": args.tab, "topic": args.topic }, d));
 
   // Group by leaf folder (directory containing the .tsx pages)
   const groupCounts = new Map<string, number>();
@@ -45,19 +45,38 @@ function main() {
     const expectedStems = groupStems.get(leafFolderFsPath) ?? new Set([d.componentName]);
 
     const res = createPageIfMissing({
-      pageFsPath: d.pageFsPath,
-      componentName: d.componentName,
-      markdownFilePath: d.markdownFilePath,
-      pageTitle: d.pageTitle,
+      "pageFsPath": d.pageFsPath,
+      "componentName": d.componentName,
+      "markdownFilePath": d.markdownFilePath,
+      "pageTitle": d.pageTitle,
       expectedLeafCount,
       expectedStems,
       leafFolderFsPath,
       leafFolderParentFsPath,
-      dryRun: args.dryRun,
+      "dryRun": args.dryRun,
     });
 
-    if (res === 'created') created++;
-    else skipped++;
+    if (res === 'created') {
+      created++;
+
+      // ✅ Only print details in dry-run so it stays noise-free
+      if (args.dryRun) {
+        console.log(`[dry-run] would create: ${d.pageFsPath}`);
+        console.log(`          import: ${d.pageImportPath}`);
+        console.log(`          url:    ${d.urlPath}`);
+        console.log(
+          `          crumbs: ${[
+            d.sectionCrumb,
+            d.topicCrumb,
+            ...d.groupFolders,
+            d.componentName,
+          ].join(' > ')}`
+        );
+        console.log('');
+      }
+    } else {
+      skipped++;
+    }
   }
 
   console.log(

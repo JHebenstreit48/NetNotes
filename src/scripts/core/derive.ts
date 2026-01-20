@@ -3,59 +3,30 @@ import { config } from "../config";
 import {
   pascalize,
   sectionFolderName,
-  topicFolderName,
-  tcpipFolderName,
   isGenericLeafName,
   safeLazyVarName,
+  tcpipFolderName, // ✅ add this import
+  topicFolderName, // if you have it
 } from "./naming";
 
-export type Derived = {
-  sectionCrumb: string;
-  topicCrumb: string;
-  sectionFolder: string;
-  topicFolder: string;
-
-  // folders between topic and leaf
-  groupFolders: string[];
-
-  // leaf component/file name
-  componentName: string;
-
-  // filesystem targets
-  pageFsPath: string;
-
-  // imports
-  pageImportPath: string;
-
-  // markdown file path used by Notes
-  markdownFilePath: string;
-
-  // route url
-  urlPath: string;
-
-  // display title
-  pageTitle: string;
-
-  // used for unique lazy const name
-  lazyVarName: string;
-};
-
-export function derive(leaf: { urlPath: string; crumbs: string[] }): Derived {
+export function derive(leaf: { urlPath: string; crumbs: string[] }) {
   const [sectionCrumb = "Misc", topicCrumb = "Topic", ...rest] = leaf.crumbs;
 
   const sectionFolder = sectionFolderName(sectionCrumb);
-  const topicFolder = topicFolderName(topicCrumb);
+  const topicFolder = topicFolderName ? topicFolderName(topicCrumb) : pascalize(topicCrumb);
 
-  // Optional extra folders inserted after the topic (filesystem only)
   const topicPrefix = config.topicFsPrefixMap?.[topicCrumb] ?? [];
 
   const groupsRaw = rest.slice(0, -1);
   const leafRaw = rest.at(-1) ?? "Page";
 
-  const folderize = (s: string) =>
-    topicCrumb === "TCP/IP Model" ? tcpipFolderName(s) : pascalize(s);
+  const groupFolders = groupsRaw.map((g, idx) => {
+    // ✅ if this is TCP/IP Model, normalize the *layer folder* (first group)
+    if (topicCrumb === "TCP/IP Model" && idx === 0) return tcpipFolderName(g);
 
-  const groupFolders = groupsRaw.map(folderize);
+    return config.groupFolderNameMap?.[g] ?? pascalize(g);
+  });
+
   const componentName = pascalize(leafRaw);
 
   const pageFsPath = path.join(
@@ -68,16 +39,15 @@ export function derive(leaf: { urlPath: string; crumbs: string[] }): Derived {
     `${componentName}.tsx`
   );
 
-  const importParts = [sectionFolder, topicFolder, ...topicPrefix, ...groupFolders, componentName];
-
-  const pageImportPath = `@/Pages/MainTabs/${importParts.join("/")}`;
-  const markdownFilePath = `${importParts.join("/")}`;
+  const rel = [...topicPrefix, ...groupFolders, componentName].join("/");
+  const pageImportPath = `@/Pages/MainTabs/${sectionFolder}/${topicFolder}/${rel}`;
+  const markdownFilePath = `${sectionFolder}/${topicFolder}/${rel}`;
 
   const parentGroup = groupFolders.at(-1);
   const pageTitle =
     isGenericLeafName(leafRaw) && parentGroup ? `${parentGroup}: ${leafRaw}` : leafRaw;
 
-  const lazyVarName = safeLazyVarName(importParts);
+  const lazyVarName = safeLazyVarName([sectionFolder, topicFolder, ...topicPrefix, ...groupFolders, componentName]);
 
   return {
     sectionCrumb,
@@ -89,7 +59,7 @@ export function derive(leaf: { urlPath: string; crumbs: string[] }): Derived {
     pageFsPath,
     pageImportPath,
     markdownFilePath,
-    urlPath: leaf.urlPath,
+    "urlPath": leaf.urlPath,
     pageTitle,
     lazyVarName,
   };
