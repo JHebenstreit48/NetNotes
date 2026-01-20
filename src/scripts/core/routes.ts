@@ -48,7 +48,7 @@ export function generateSectionRoutesFile(args: {
 
   const content = lines.join("\n");
 
-  if (args.dryRun) return { outPath, changed: true };
+  if (args.dryRun) return { outPath, "changed": true };
   const changed = writeIfChanged(outPath, content);
   return { outPath, changed };
 }

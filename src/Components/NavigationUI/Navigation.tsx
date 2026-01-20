@@ -19,8 +19,8 @@ const Navigation = () => {
   const [showModal, setShowModal] = useState(false);
 
   const [searchMode, setSearchMode] = useLocalStorageState<'instant' | 'manual'>('searchMode', 'instant', {
-    serialize: (v) => v,
-    deserialize: (raw) => (raw === 'manual' ? 'manual' : 'instant'),
+    "serialize": (v) => v,
+    "deserialize": (raw) => (raw === 'manual' ? 'manual' : 'instant'),
   });
 
   const navRef = useRef<HTMLDivElement | null>(null);
@@ -40,6 +40,7 @@ const Navigation = () => {
       className="navigationMenu"
       ref={navRef}
     >
+      <SearchIcon onClick={() => setShowModal(true)} />
       <button
         className="hamburgerButton"
         onClick={() => setIsMenuOpen((p) => !p)}
@@ -49,7 +50,7 @@ const Navigation = () => {
       </button>
 
       <div className={`navigationContent ${isMenuOpen ? 'open' : ''}`}>
-        <SearchIcon onClick={() => setShowModal(true)} />
+        
 
         {showModal && (
           <SearchModal

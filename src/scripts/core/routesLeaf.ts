@@ -3,7 +3,7 @@ import type { Subpage } from '@/types/navigation/Subpage';
 
 import { config } from '../config';
 import { ensureDir, exists, writeIfChanged } from './fs';
-import { pascalize, sectionFolderName, topicFolderName, tcpipFolderName } from './naming';
+import { pascalize, sectionFolderName } from './naming';
 import { matchesWithin } from './within';
 
 import {
@@ -79,7 +79,7 @@ function matchesFilter(filter: Filter, sectionName: string, topicName: string) {
 }
 
 export function generateLeafLazyRoutes(pagesRoot: Subpage[], filter: Filter): Result {
-  const out: Result = { wrote: [], skipped: [], wouldWrite: [] };
+  const out: Result = { "wrote": [], "skipped": [], "wouldWrite": [] };
   const limit = filter.limit ?? config.defaultLimit;
   let createdCount = 0;
 
@@ -101,31 +101,15 @@ export function generateLeafLazyRoutes(pagesRoot: Subpage[], filter: Filter): Re
 
     if (isLeafGroup) {
       const sectionFolder = sectionFolderName(section.name);
-      const topicFolder = topicFolderName(topic.name);
+      const topicFolder = pascalize(topic.name);
 
-      // filesystem-only prefix inserted after topic folder (TCP/IP Model -> Layers/)
-      const topicPrefix = config.topicFsPrefixMap?.[topic.name] ?? [];
-
-      // folder normalization (TCP/IP Model only)
-      const folderize = (crumb: string) =>
-        topic.name === 'TCP/IP Model' ? tcpipFolderName(crumb) : pascalize(crumb);
-
-      const groupFolders = groupPathCrumbs.map(folderize);
+      const groupFolders = groupPathCrumbs.map(pascalize);
       const fileVarName = pascalize(node.name);
 
-      const outDir = path.join(
-        routesRoot,
-        sectionFolder,
-        topicFolder,
-        ...topicPrefix,
-        ...groupFolders.slice(0, -1)
-      );
+      const outDir = path.join(routesRoot, sectionFolder, topicFolder, ...groupFolders.slice(0, -1));
       const outPath = path.join(outDir, `${fileVarName}.tsx`);
 
-      const pageImportBaseDir = `@/Pages/MainTabs/${sectionFolder}/${topicFolder}/${[
-        ...topicPrefix,
-        ...groupFolders,
-      ].join('/')}`;
+      const pageImportBaseDir = `@/Pages/MainTabs/${sectionFolder}/${topicFolder}/${groupFolders.join('/')}`;
 
       const sig = computeLeafRouteSignatureFromPaths(leafChildren.map((c) => c.path));
 

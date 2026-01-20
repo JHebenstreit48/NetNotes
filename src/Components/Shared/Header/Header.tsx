@@ -6,7 +6,6 @@ export default function Header() {
   return (
     <header className="HeaderBar">
       <div className="HeaderLeft">
-        {/* Site title/logo acts as Home */}
         <HeaderTitle text={SITE_NAME} asLink to="/" ariaLabel="Home" />
       </div>
       <div className="HeaderRight">

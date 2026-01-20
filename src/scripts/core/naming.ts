@@ -18,7 +18,7 @@ export function sectionFolderName(sectionCrumb: string): string {
 }
 
 export function topicFolderName(topicCrumb: string): string {
-  return config.topicNameMap?.[topicCrumb] ?? pascalize(topicCrumb);
+  return config.groupFolderNameMap?.[topicCrumb] ?? pascalize(topicCrumb);
 }
 
 /**
