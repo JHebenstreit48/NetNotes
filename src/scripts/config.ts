@@ -27,7 +27,16 @@ export const config = {
 
   // If the leaf name is “generic”, make the H1 slightly richer:
   // “Fundamentals: Introduction”
-  genericLeafNames: new Set(['Introduction', 'Overview', 'Basics', 'Fundamentals', 'Getting Started', 'Setup']),
+  genericLeafNames: new Set(
+    [
+      'Introduction',
+      'Overview',
+      'Basics',
+      'Fundamentals',
+      'Getting Started',
+      'Setup'
+    ]
+  ),
 
   // Optional safety cap default (can be overridden by CLI --limit)
   defaultLimit: 10_000,

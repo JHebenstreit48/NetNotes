@@ -17,7 +17,7 @@ function main() {
   const derived = leaves
     .filter((l) => matchesWithin(args.within, l.crumbs))
     .map((l) => derive(l))
-    .filter((d) => matchesFilter({ "tab": args.tab, "topic": args.topic }, d));
+    .filter((d) => matchesFilter({ tab: args.tab, topic: args.topic }, d));
 
   // Group by leaf folder (directory containing the .tsx pages)
   const groupCounts = new Map<string, number>();
@@ -45,15 +45,15 @@ function main() {
     const expectedStems = groupStems.get(leafFolderFsPath) ?? new Set([d.componentName]);
 
     const res = createPageIfMissing({
-      "pageFsPath": d.pageFsPath,
-      "componentName": d.componentName,
-      "markdownFilePath": d.markdownFilePath,
-      "pageTitle": d.pageTitle,
+      pageFsPath: d.pageFsPath,
+      componentName: d.componentName,
+      markdownFilePath: d.markdownFilePath,
+      pageTitle: d.pageTitle,
       expectedLeafCount,
       expectedStems,
       leafFolderFsPath,
       leafFolderParentFsPath,
-      "dryRun": args.dryRun,
+      dryRun: args.dryRun,
     });
 
     if (res === 'created') {
