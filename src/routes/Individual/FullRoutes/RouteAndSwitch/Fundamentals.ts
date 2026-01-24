@@ -1,11 +1,10 @@
-import { RouteObject } from 'react-router-dom';
+import { RouteObject } from "react-router-dom";
 
-import Basics from '@/routes/Individual/Granularized/RouteAndSwitch/Fundamentals/Basics';
-import Advanced from '@/routes/Individual/Granularized/RouteAndSwitch/Fundamentals/Advanced';
+import Basics from "@/routes/Individual/Granularized/RouteAndSwitch/Fundamentals/Basics";
+import Advanced from "@/routes/Individual/Granularized/RouteAndSwitch/Fundamentals/Advanced";
 
 const Fundamentals: RouteObject[] = [
-    ...Basics,
-    ...Advanced
+  ...Basics,
+  ...Advanced,
 ];
-
 export default Fundamentals;

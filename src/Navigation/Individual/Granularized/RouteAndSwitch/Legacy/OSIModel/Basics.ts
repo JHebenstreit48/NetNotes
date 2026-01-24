@@ -4,15 +4,15 @@ const Basics: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Overview",
+      name: "Fundamentals",
       subpages: [
         {
-          name: "Fundamentals",
-          path: "/legacy/osi-model/basics/overview/fundamentals"
+          name: "Introduction",
+          path: "/legacy/osi-model/basics/fundamentals/introduction"
         },
         {
           name: "Layers Comparison",
-          path: "/legacy/osi-model/basics/overview/layer-comparison"
+          path: "/legacy/osi-model/basics/fundamentals/layer-comparison"
         }
       ]
     },

@@ -4,8 +4,7 @@ import Basics from "@/routes/Individual/Granularized/RouteAndSwitch/Switching/Ba
 import Advanced from "@/routes/Individual/Granularized/RouteAndSwitch/Switching/Advanced";
 
 const Switching: RouteObject[] = [
-    ...Basics,
-    ...Advanced
+  ...Basics,
+  ...Advanced,
 ];
-
 export default Switching;

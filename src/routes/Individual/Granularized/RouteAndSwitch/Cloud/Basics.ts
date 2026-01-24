@@ -6,10 +6,10 @@ import Monitoring from "@/routes/Individual/Granularized/RouteAndSwitch/Cloud/Ba
 import ChangeOps from "@/routes/Individual/Granularized/RouteAndSwitch/Cloud/Basics/ChangeOps";
 
 const Basics: RouteObject[] = [
-    ...ManagementModels,
-    ...Provisioning,
-    ...Monitoring,
-    ...ChangeOps
+  ...ManagementModels,
+  ...Provisioning,
+  ...Monitoring,
+  ...ChangeOps,
 ];
 
 export default Basics;
