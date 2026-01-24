@@ -1,11 +1,11 @@
 import { RouteObject } from "react-router-dom";
 
 import SourceValidation from "@/routes/Individual/Granularized/NetworkSecurity/NetworkControls/Advanced/SourceValidation";
-import 8021XOverview from "@/routes/Individual/Granularized/NetworkSecurity/NetworkControls/Advanced/8021XOverview";
+import Eight021XOverview from "@/routes/Individual/Granularized/NetworkSecurity/NetworkControls/Advanced/Eight021XOverview";
 
 const Advanced: RouteObject[] = [
   ...SourceValidation,
-  ...8021XOverview,
+  ...Eight021XOverview,
 ];
 
 export default Advanced;
