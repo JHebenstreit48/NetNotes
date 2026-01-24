@@ -1,11 +1,11 @@
-import { RouteObject } from 'react-router-dom';
+import { RouteObject } from "react-router-dom";
 
-import Layer1 from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Layer1';
-import Layer2 from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Layer2';
+import DataLink from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/DataLink';
+import Physical from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical';
 
 const Basics: RouteObject[] = [
-    ...Layer1,
-    ...Layer2
+    ...DataLink,
+    ...Physical,
 ];
 
 export default Basics;

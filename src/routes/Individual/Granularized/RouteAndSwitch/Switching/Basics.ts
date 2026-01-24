@@ -5,9 +5,9 @@ import HardwareAndHistory from "@/routes/Individual/Granularized/RouteAndSwitch/
 import Glossary from "@/routes/Individual/Granularized/RouteAndSwitch/Switching/Basics/Glossary";
 
 const Basics: RouteObject[] = [
-    ...Fundamentals,
-    ...HardwareAndHistory,
-    ...Glossary
+  ...Fundamentals,
+  ...HardwareAndHistory,
+  ...Glossary,
 ];
 
 export default Basics;

@@ -1,9 +1,10 @@
-import { RouteObject } from 'react-router-dom';
+import { RouteObject } from "react-router-dom";
 
-import OSIModel from '@/routes/Individual/Granularized/RouteAndSwitch/Legacy/OSIModel/OSIModel';
+import OSIModel from "@/routes/Individual/Granularized/RouteAndSwitch/Legacy/OSIModel";
+import ProtocolsAndStatuses from "@/routes/Individual/Granularized/RouteAndSwitch/Legacy/ProtocolsAndStatuses";
 
 const Legacy: RouteObject[] = [
-    ...OSIModel,
+  ...OSIModel,
+  ...ProtocolsAndStatuses,
 ];
-
 export default Legacy;

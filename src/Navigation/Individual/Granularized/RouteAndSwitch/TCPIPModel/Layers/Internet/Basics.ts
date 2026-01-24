@@ -15,6 +15,10 @@ const Basics: Subpage = {
           path: "/tcpip-model/layers/internet/basics/ip-addressing/ipv4"
         },
         {
+          name: "IPv4 vs IPv6 Comparison",
+          path: "/tcpip-model/layers/internet/basics/ip-addressing/ipv4-vs-ipv6-comparison"
+        },
+        {
           name: "IPv6",
           subpages: [
             {
@@ -31,10 +35,6 @@ const Basics: Subpage = {
             }
           ]
         },
-        {
-          name: "IPv4 vs IPv6 Comparison",
-          path: "/tcpip-model/layers/internet/basics/ip-addressing/ipv4-vs-ipv6-comparison"
-        }
       ]
     },
     {

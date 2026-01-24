@@ -5,7 +5,7 @@ const Introduction = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPMod
 const HTTPHTTPS = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/WebAndName/HTTPHTTPS'));
 const DNS = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/WebAndName/DNS'));
 
-const WebAndName: RouteObject[] = [
+const WebAndNameResolution: RouteObject[] = [
   {
     path: '/tcpip-model/layers/application/basics/web-and-name/introduction',
     element: <Introduction />,
@@ -20,4 +20,4 @@ const WebAndName: RouteObject[] = [
   },
 ];
 
-export default WebAndName;
+export default WebAndNameResolution;

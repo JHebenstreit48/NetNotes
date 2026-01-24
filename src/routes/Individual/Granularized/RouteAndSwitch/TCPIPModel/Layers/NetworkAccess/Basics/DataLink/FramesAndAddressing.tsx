@@ -3,7 +3,7 @@ import { RouteObject } from 'react-router-dom';
 
 const MACAddressing = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/FramesAndAddressing/MACAddressing'));
 const EthernetFrameFields = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/FramesAndAddressing/EthernetFrameFields'));
-const BIA = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/FramesAndAddressing/BIA'));
+const BurnedInAddress = lazy(() => import('@/Pages/MainTabs/RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/FramesAndAddressing/BIA'));
 
 const FramesAndAddressing: RouteObject[] = [
   {
@@ -16,8 +16,8 @@ const FramesAndAddressing: RouteObject[] = [
   },
   {
     path: '/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia',
-    element: <BIA />,
-  }
+    element: <BurnedInAddress />,
+  },
 ];
 
 export default FramesAndAddressing;

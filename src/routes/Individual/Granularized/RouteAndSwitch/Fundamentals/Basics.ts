@@ -1,11 +1,11 @@
 import { RouteObject } from "react-router-dom";
 
-import Overview from '@/routes/Individual/Granularized/RouteAndSwitch/Fundamentals/Basics/Overview';
-import DevicesAndModels from '@/routes/Individual/Granularized/RouteAndSwitch/Fundamentals/Basics/DevicesAndModels';
+import Overview from "@/routes/Individual/Granularized/RouteAndSwitch/Fundamentals/Basics/Overview";
+import DevicesAndModels from "@/routes/Individual/Granularized/RouteAndSwitch/Fundamentals/Basics/DevicesAndModels";
 
 const Basics: RouteObject[] = [
   ...Overview,
-  ...DevicesAndModels
+  ...DevicesAndModels,
 ];
 
 export default Basics;
