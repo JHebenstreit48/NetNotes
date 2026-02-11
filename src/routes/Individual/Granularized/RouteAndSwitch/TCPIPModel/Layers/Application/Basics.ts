@@ -1,11 +1,11 @@
 import { RouteObject } from "react-router-dom";
 import WebAndNameResolution from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/WebAndNameResolution';
-import ClientServerConcepts from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/ClientServerConcepts';
+import ClientServerRoles from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/ClientServerRoles';
 import EmailAndCommunication from '@/routes/Individual/Granularized/RouteAndSwitch/TCPIPModel/Layers/Application/Basics/EmailAndCommunication';
 
 const Basics: RouteObject[] = [
   ...WebAndNameResolution,
-  ...ClientServerConcepts,
+  ...ClientServerRoles,
   ...EmailAndCommunication
 ];
 

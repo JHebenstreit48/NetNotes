@@ -1,23 +1,15 @@
 import type { Subpage } from '@/types/navigation';
 
 const ClientAndServer: Subpage = {
-  name: 'Client/Server Concepts',
+  name: 'Client & Server Roles',
   subpages: [
     {
-      name: 'Introduction',
-      path: '/tcpip-model/layers/application/basics/client-server/introduction',
+      name: 'Fundamentals',
+      path: '/tcpip-model/layers/application/basics/client-and-server-roles/fundamentals',
     },
     {
-      name: 'Client/Server Roles',
-      path: '/tcpip-model/layers/application/basics/client-server/client-vs-server',
-    },
-    {
-      name: 'P2P vs. Client/Server',
-      path: '/tcpip-model/layers/application/basics/client-server/p2p-vs-client-server',
-    },
-    {
-      name: 'Examples',
-      path: '/tcpip-model/layers/application/basics/client-server/examples',
+      name: 'P2P & Examples',
+      path: '/tcpip-model/layers/application/basics/client-and-server-roles/p2p-and-examples',
     },
   ],
 };
