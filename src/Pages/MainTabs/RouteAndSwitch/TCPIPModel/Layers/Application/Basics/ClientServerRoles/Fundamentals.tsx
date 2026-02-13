@@ -4,7 +4,7 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const Fundamentals = () => {
-  const markdownFilePath = 'RouteAndSwitch/TCPIPModel/Layers/Application/Basics/ClientServerRoles/Fundamentals';
+  const markdownFilePath = 'RouteAndSwitch/TCPIPModel/Layers/Application/Basics/ClientAndServerRoles/Fundamentals';
 
   return (
     <>

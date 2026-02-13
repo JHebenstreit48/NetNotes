@@ -4,7 +4,7 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const P2PAndExamples = () => {
-  const markdownFilePath = 'RouteAndSwitch/TCPIPModel/Layers/Application/Basics/ClientServerRoles/P2PAndExamples';
+  const markdownFilePath = 'RouteAndSwitch/TCPIPModel/Layers/Application/Basics/ClientAndServerRoles/P2PAndExamples';
 
   return (
     <>
