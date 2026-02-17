@@ -5,8 +5,7 @@ import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const BitDigitalSignals = () => {
   const markdownFilePath =
-    'RouteAndSwitch/Basics/TCPIPModel/Layers/NetworkAccess/Basics/Physical/SignalsAndMedia/BitDigitalSignals';
-
+    'RouteAndSwitch/TCPIPModel/Layers/NetworkAccess/Basics/Physical/SignalsAndMedia/BitsAndDigitalSignals';
   return (
     <>
       <PageLayout>
