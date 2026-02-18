@@ -1,6 +1,6 @@
 export const config = {
   // Where to import the navigation root from (Subpage[])
-  navEntryModule: '@/Navigation/Combined/Core/Pages',
+  navEntryModule: '@/navigation/Combined/Core/Pages',
 
   // Output roots
   pagesRoot: 'src/Pages/MainTabs',
@@ -8,7 +8,7 @@ export const config = {
 
   // prettier-ignore
   sectionNameMap: {
-    'Routing & Switching': 'RouteAndSwitch',
+    'Networking': 'Networking',
     'Network Security': 'NetworkSecurity',
     'VoIP': 'VoIP',
     'Certifications': 'Certifications',

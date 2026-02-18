@@ -1,6 +1,6 @@
 import type { Subpage } from '@/types/navigation';
 
-import Fundamentals from '@/navigation/Individual/Topics/Networking/Fundamentals';
+import Foundations from '@/navigation/Individual/Topics/Networking/Fundamentals';
 import TCPIPModel from '@/navigation/Individual/Topics/Networking/TCPIPModel';
 import Switching from '@/navigation/Individual/Topics/Networking/Switching';
 import RoutingProtocols from '@/navigation/Individual/Topics/Networking/RoutingProtocols';
@@ -12,7 +12,7 @@ import Legacy from '@/navigation/Individual/Topics/Networking/Legacy';
 const networking: Subpage = {
   name: 'Networking',
   subpages: [
-    Fundamentals,
+    Foundations,
     TCPIPModel,
     Switching,
     RoutingProtocols,
