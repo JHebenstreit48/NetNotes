@@ -16,7 +16,7 @@ export const topicButtons: Array<{ key: TopicKey; name: string }> = [
 ];
 
 const topicImporters: Record<TopicKey, () => Promise<{ default: Subpage }>> = {
-  routeAndSwitch: () => import("@/Navigation/Combined/Topics/routeAndSwitch"),
+  routeAndSwitch: () => import("@/Navigation/Combined/Topics/networking"),
   networkSecurity: () => import("@/Navigation/Combined/Topics/networkSecurity"),
   voip: () => import("@/Navigation/Combined/Topics/voip"),
   certifications: () => import("@/Navigation/Combined/Topics/certifications"),
