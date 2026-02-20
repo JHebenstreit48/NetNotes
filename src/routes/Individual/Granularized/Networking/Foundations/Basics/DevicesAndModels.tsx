@@ -8,6 +8,9 @@ const NetworkInfrastructure = lazy(
 const NetworkDevices = lazy(
   () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/NetworkDevices')
 );
+const HomeNetworkArchitecture = lazy(
+  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/HomeNetworkArchitecture')
+);
 const NetworkModels = lazy(
   () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/NetworkModels')
 );
@@ -20,6 +23,10 @@ const DevicesAndModels: RouteObject[] = [
   {
     path: '/foundations/basics/devices-and-models/network-devices',
     element: <NetworkDevices />,
+  },
+  {
+    path: '/foundations/basics/devices-and-models/home-network-architecture',
+    element: <HomeNetworkArchitecture />,
   },
   {
     path: '/foundations/basics/devices-and-models/network-models',
