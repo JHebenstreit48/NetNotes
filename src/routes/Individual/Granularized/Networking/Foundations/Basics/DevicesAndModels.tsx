@@ -1,37 +1,11 @@
-import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NetworkInfrastructure = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/NetworkInfrastructure')
-);
-
-const NetworkDevices = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/NetworkDevices')
-);
-const HomeNetworkArchitecture = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/HomeNetworkArchitecture')
-);
-const NetworkModels = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/NetworkModels')
-);
+import Fundamentals from '@/routes/Individual/Granularized/Networking/Foundations/Basics/DevicesAndModels/Fundamentals';
+import Routers from '@/routes/Individual/Granularized/Networking/Foundations/Basics/DevicesAndModels/Routers';
 
 const DevicesAndModels: RouteObject[] = [
-  {
-    path: '/foundations/basics/devices-and-models/network-infrastructure',
-    element: <NetworkInfrastructure />,
-  },
-  {
-    path: '/foundations/basics/devices-and-models/network-devices',
-    element: <NetworkDevices />,
-  },
-  {
-    path: '/foundations/basics/devices-and-models/home-network-architecture',
-    element: <HomeNetworkArchitecture />,
-  },
-  {
-    path: '/foundations/basics/devices-and-models/network-models',
-    element: <NetworkModels />,
-  },
-];
+    ...Fundamentals,
+    ...Routers
+  ];
 
 export default DevicesAndModels;
