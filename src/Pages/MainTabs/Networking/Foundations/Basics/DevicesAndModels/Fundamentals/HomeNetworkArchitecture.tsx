@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTile from '@/Components/PageComponents/PageTitle'
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const NetworkInfrastructure = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/DevicesAndModels/NetworkInfrastructure';
+const HomeNetworkArchitecture = () => {
+  const markdownFilePath = 'Networking/Foundations/Basics/DevicesAndModels/Fundamentals/HomeNetworkArchitecture';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTile title="Fundamentals - Devices & Models - Network Infrastructure" />
+        <PageTile title="Fundamentals - Home Network Architecture" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default NetworkInfrastructure;
+export default HomeNetworkArchitecture;
