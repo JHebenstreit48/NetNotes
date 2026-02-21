@@ -4,7 +4,7 @@ import Basics from '@/navigation/Individual/Granularized/Networking/TCPIPModel/L
 import Advanced from '@/navigation/Individual/Granularized/Networking/TCPIPModel/Layers/NetworkAccess/Advanced';
 
 const NetworkAccess: Subpage = {
-  name: "Network Access Layer",
+  name: "Network Access",
   subpages: [
     Basics,
     Advanced

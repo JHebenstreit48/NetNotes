@@ -1,18 +1,10 @@
 import type { Subpage } from '@/types/navigation';
 
-import Application from "@/navigation/Individual/Granularized/Networking/TCPIPModel/Layers/Application";
-import Internet from "@/navigation/Individual/Granularized/Networking/TCPIPModel/Layers/Internet";
-import Transport from "@/navigation/Individual/Granularized/Networking/TCPIPModel/Layers/Transport";
-import NetworkAccess from "@/navigation/Individual/Granularized/Networking/TCPIPModel/Layers/NetworkAccess";
+import Layers from '@/navigation/Individual/Granularized/Networking/TCPIPModel/Layers';
 
 const TCPIPModel: Subpage = {
-    name: "TCP/IP Model",
-    subpages: [
-        Application,
-        Internet,
-        Transport,
-        NetworkAccess,
-    ]
+  name: 'TCP/IP Model',
+  subpages: [Layers],
 };
 
 export default TCPIPModel;
