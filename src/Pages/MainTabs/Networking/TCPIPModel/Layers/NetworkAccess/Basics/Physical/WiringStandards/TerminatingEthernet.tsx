@@ -3,18 +3,19 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const WirelessStandards = () => {
-  const markdownFilePath = 'Networking/Wireless/Basics/802_11Fundamentals/WirelessStandards';
+const TerminatingEthernet = () => {
+  const markdownFilePath =
+    'Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/WiringStandards/TerminatingEthernet';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Wireless Standards" />
+        <PageTitle title="Network Access - Physical - Terminating Ethernet Cables" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default WirelessStandards;
+export default TerminatingEthernet;
