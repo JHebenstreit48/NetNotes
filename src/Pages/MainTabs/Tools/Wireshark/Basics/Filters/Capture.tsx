@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const CaptureInterfaces = () => {
-  const markdownFilePath = 'Tools/Wireshark/Basics/GettingStarted/CaptureInterfaces';
+const CaptureFilters = () => {
+  const markdownFilePath = 'Tools/Wireshark/Basics/Filters/Capture';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Capture Interfaces" />
+        <PageTitle title="Wireshark Basics - Capture Filters" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default CaptureInterfaces;
+export default CaptureFilters;

@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Install & Profiles",
-          path: "/wireshark/basics/getting-started/install-and-profiles"
+          path: "/wireshark/basics/fundamentals/install-and-profiles"
         },
         {
           name: "Capture Interfaces",
-          path: "/wireshark/basics/getting-started/capture-interfaces"
+          path: "/wireshark/basics/fundamentals/capture-interfaces"
         }
       ]
     },

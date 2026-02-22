@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const InstallAndProfiles = () => {
-  const markdownFilePath = 'Tools/Wireshark/Basics/GettingStarted/InstallAndProfiles';
+const DisplayFilters = () => {
+  const markdownFilePath = 'Tools/Wireshark/Basics/Filters/Display';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Install & Profiles" />
+        <PageTitle title="Wireshark Basics - Display Filters" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default InstallAndProfiles;
+export default DisplayFilters;
