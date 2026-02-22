@@ -4,7 +4,7 @@ import Basics from '@/navigation/Individual/Granularized/Networking/TCPIPModel/L
 import Advanced from '@/navigation/Individual/Granularized/Networking/TCPIPModel/Layers/Internet/Advanced';
 
 const Internet: Subpage = {
-  name: 'Internet Layer',
+  name: 'Internet',
   subpages: [
     Basics,
     Advanced

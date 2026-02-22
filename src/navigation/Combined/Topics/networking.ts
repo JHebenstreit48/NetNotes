@@ -1,6 +1,6 @@
 import type { Subpage } from '@/types/navigation';
 
-import Foundations from '@/navigation/Individual/Topics/Networking/Fundamentals';
+import Foundations from '@/navigation/Individual/Topics/Networking/Foundations';
 import TCPIPModel from '@/navigation/Individual/Topics/Networking/TCPIPModel';
 import Switching from '@/navigation/Individual/Topics/Networking/Switching';
 import RoutingProtocols from '@/navigation/Individual/Topics/Networking/RoutingProtocols';

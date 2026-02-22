@@ -4,7 +4,7 @@ import Basics from '@/navigation/Individual/Granularized/Networking/TCPIPModel/L
 import Advanced from '@/navigation/Individual/Granularized/Networking/TCPIPModel/Layers/Transport/Advanced';
 
 const Transport: Subpage = {
-  name: 'Transport Layer',
+  name: 'Transport',
   subpages: [
     Basics,
     Advanced

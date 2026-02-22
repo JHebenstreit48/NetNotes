@@ -58,7 +58,7 @@ export default function Footer() {
 
       <div className="footerMeta">
         <div className="metaInner pageContainer">
-          <span>© {new Date().getFullYear()} DevScriptStax</span>
+          <span>© {new Date().getFullYear()} NetNotes</span>
           <span className="dot">•</span>
           <span>Built as a learning reference</span>
         </div>

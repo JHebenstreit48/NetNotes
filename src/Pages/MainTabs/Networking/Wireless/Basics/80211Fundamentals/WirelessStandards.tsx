@@ -4,7 +4,7 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const WirelessStandards = () => {
-  const markdownFilePath = 'Networking/Wireless/Basics/80211Fundamentals/WirelessStandards';
+  const markdownFilePath = 'Networking/Wireless/Basics/802_11Fundamentals/WirelessStandards';
 
   return (
     <>
