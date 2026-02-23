@@ -1,20 +1,20 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
 import Header from '@/Components/Shared/Header/Header';
-import PageTitle from '@/Components/PageComponents/PageTitle';
+import PageTile from '@/Components/PageComponents/PageTitle'
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const DNS = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Application/Basics/WebAndName/DNS';
+const BasicRouterSetup = () => {
+  const markdownFilePath = 'Networking/Foundations/Basics/DevicesAndModels/Routers/BasicRouterSetup';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="TCP/IP Model - Application Layer - DNS" />
+        <PageTile title="Devices & Models - Routers - Basic Router Setup" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default DNS;
+export default BasicRouterSetup;
