@@ -10,6 +10,7 @@ import networkSecurity from '@/routes/Sections/networkSecurity';
 import voip from '@/routes/Sections/voip';
 import certifications from '@/routes/Sections/certifications';
 import tools from '@/routes/Sections/tools';
+import glossary from '@/routes/Sections/glossary';
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,7 @@ export const router = createBrowserRouter([
       ...voip,
       ...certifications,
       ...tools,
+      ...glossary,
     ],
   },
 ]);
