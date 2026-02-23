@@ -13,6 +13,12 @@ const LocalNetworks = lazy(
 const ConnectedDevices = lazy(
   () => import('@/Pages/MainTabs/Networking/Foundations/Basics/Fundamentals/ConnectedDevices')
 );
+const CommunicationProtocols = lazy(
+  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/Fundamentals/CommunicationProtocols')
+);
+const StandardsAndOrganizations = lazy(
+  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/Fundamentals/StandardsAndOrganizations')
+);
 
 const Overview: RouteObject[] = [
   {
@@ -30,6 +36,14 @@ const Overview: RouteObject[] = [
   {
     path: '/foundations/basics/fundamentals/connected-devices',
     element: <ConnectedDevices />,
+  },
+  {
+    path: '/foundations/basics/fundamentals/communication-protocols',
+    element: <CommunicationProtocols />,
+  },
+  {
+    path: '/foundations/basics/fundamentals/standards-and-organizations',
+    element: <StandardsAndOrganizations />,
   }
 ];
 
