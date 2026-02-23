@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const IPv4 = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4';
+const Introduction = () => {
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/Fundamentals/Introduction';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="IPv4" />
+        <PageTitle title="TCP/IP Model - Internet Layer - IP Addressing - Introduction" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default IPv4;
+export default Introduction;
