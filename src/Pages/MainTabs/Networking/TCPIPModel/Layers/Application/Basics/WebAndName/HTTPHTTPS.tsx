@@ -4,7 +4,7 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const HTTPHTTPS = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Application/WebAndName/HTTPHTTPS';
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/Application/Basics/WebAndName/HTTPHTTPS';
 
   return (
     <>
