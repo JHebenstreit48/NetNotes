@@ -14,6 +14,10 @@ export default defineConfig({
     }),
   ],
 
+  define: {
+    __BUILD_TIME_ISO__: JSON.stringify(new Date().toISOString()),
+  },
+
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
