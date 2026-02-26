@@ -3,14 +3,14 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const Encapsulation = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/EncapAndDeencap/Encapsulation';
+const Deencapsulation = () => {
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/CoreConcepts/Deencapsulation';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Network Access - Physical - Encapsulation" />
+        <PageTitle title="Network Access - Data Link - De-encapsulation" />
         <Notes
           filePath={markdownFilePath}
         />
@@ -19,4 +19,4 @@ const Encapsulation = () => {
   );
 };
 
-export default Encapsulation;
+export default Deencapsulation;
