@@ -1,9 +1,15 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Fundamentals = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv6/Fundamentals'));
-const AddressTypesAndScope = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv6/AddressTypesAndScope'));
-const NDRASLAACDAD = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv6/NDRASLAACDAD'));
+const Fundamentals = lazy(
+  () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv6/Fundamentals')
+);
+const AddressTypesAndScope = lazy(
+  () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv6/AddressTypesAndScope')
+);
+const NDRASLAACDAD = lazy(
+  () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv6/NDRASLAACDAD')
+);
 
 const IPv6: RouteObject[] = [
   {

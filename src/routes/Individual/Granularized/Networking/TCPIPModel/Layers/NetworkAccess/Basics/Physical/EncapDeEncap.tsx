@@ -1,16 +1,16 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Encapsulation = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/EncapsulateAndDeencapsulate/Encapsulation'));
-const DeEncapsulation = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/EncapsulateAndDeencapsulate/Deencapsulation'));
+const Encapsulation = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/CoreConcepts/Encapsulation'));
+const DeEncapsulation = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/CoreConcepts/Deencapsulation'));
 
 const EncapDeEncap: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/encap-deencap/encapsulation',
+    path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/encapsulation',
     element: <Encapsulation />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/encap-deencap/de-encapsulation',
+    path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation',
     element: <DeEncapsulation />,
   },
 ];

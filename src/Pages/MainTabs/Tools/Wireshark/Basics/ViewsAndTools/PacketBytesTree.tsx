@@ -4,13 +4,13 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const PacketBytesTree = () => {
-  const markdownFilePath = 'Tools/Wireshark/Basics/ViewsAndTools/PacketBytesTree';
+  const markdownFilePath = 'Tools/Wireshark/Basics/ViewsAndTools/PacketAndBytesAndTree';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Packet/Bytes/Tree" />
+        <PageTitle title="Wireshark Views and Tools - Packet/Bytes/Tree" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>

@@ -4,13 +4,13 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const LayerComparison = () => {
-  const markdownFilePath = 'Networking/Legacy/OSIModel/Basics/Overview/LayerComparison';
+  const markdownFilePath = 'Networking/Legacy/OSIModel/Basics/Fundamentals/LayerComparison';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="OSI Model - Layers Comparison" />
+        <PageTitle title="OSI Model - Fundamentals - Layer Comparison" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>

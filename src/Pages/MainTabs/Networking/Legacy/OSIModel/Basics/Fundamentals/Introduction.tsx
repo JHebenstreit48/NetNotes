@@ -3,16 +3,16 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const Fundamentals = () => {
-  const markdownFilePath = 'Networking/Legacy/OSIModel/Basics/Overview/Fundamentals';
+const Introduction = () => {
+  const markdownFilePath = 'Networking/Legacy/OSIModel/Basics/Fundamentals/Introduction';
 
   return (
     <PageLayout>
       <Header />
-      <PageTitle title="OSI Model - Fundamentals" />
+      <PageTitle title="OSI Model - Fundamentals - Introduction" />
       <Notes filePath={markdownFilePath} />
     </PageLayout>
   );
 };
 
-export default Fundamentals;
+export default Introduction;
