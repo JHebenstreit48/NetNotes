@@ -4,7 +4,7 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const EthernetSpeedHistory = () => {
-  const markdownFilePath = 'Networking/Switching/Basics/HardwareAndHistory/EthernetSpeedHistory';
+  const markdownFilePath = 'Networking/Switching/Basics/HardwareAndPortHistory/EthernetSpeedHistory';
 
   return (
     <>
