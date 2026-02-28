@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const SubnetMasksAndCIDR = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/SubnettingAndGateways/SubnetMasksAndCIDR';
+const IPv4VsIPv6Comparison = () => {
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/IPv4VsIPv6Comparison';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Subnet Masks & CIDR" />
+        <PageTitle title="Internet Layer - IP Addressing - IPv4 vs IPv6 Comparison" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default SubnetMasksAndCIDR;
+export default IPv4VsIPv6Comparison;

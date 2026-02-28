@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const DHCP = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/Fundamentals/DHCP';
+const Basics = () => {
+  const markdownFilePath = 'Glossary/Networking/TCPIPModel/Internet/Basics';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="TCP/IP Model - Internet Layer - IP Addressing - DHCP" />
+        <PageTitle title="Glossary - Internet Layer - Basics" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default DHCP;
+export default Basics;

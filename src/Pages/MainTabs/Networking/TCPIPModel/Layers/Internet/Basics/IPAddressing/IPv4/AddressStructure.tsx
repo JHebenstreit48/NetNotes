@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const IPv4VsIPv6Comparison = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/Fundamentals/IPv4vsIPv6';
+const AddressStructure = () => {
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/AddressStructure';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Internet Layer - IP Addressing - IPv4 vs IPv6 Comparison" />
+        <PageTitle title="Internet Layer - IP Addressing - IPv4 Address Structure" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default IPv4VsIPv6Comparison;
+export default AddressStructure;
