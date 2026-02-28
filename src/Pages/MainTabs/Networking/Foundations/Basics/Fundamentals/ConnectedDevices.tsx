@@ -10,7 +10,7 @@ const ConnectedDevices = () => {
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Fundamentals - Devices and Interfaces" />
+        <PageTitle title="Fundamentals - Connected Devices" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
