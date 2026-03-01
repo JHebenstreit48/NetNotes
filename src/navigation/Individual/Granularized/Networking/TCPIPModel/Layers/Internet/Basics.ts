@@ -27,6 +27,10 @@ const Basics: Subpage = {
               path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure',
             },
             {
+              name: 'Transmission Types',
+              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/transmission-types',
+            },
+            {
               name: 'Types of Addresses',
               path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses',
             },
