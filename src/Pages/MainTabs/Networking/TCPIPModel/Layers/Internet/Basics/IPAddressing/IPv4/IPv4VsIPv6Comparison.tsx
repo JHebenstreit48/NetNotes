@@ -4,7 +4,7 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const IPv4VsIPv6Comparison = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/Fundamentals/IPv4vsIPv6';
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/IPv4vsIPv6';
 
   return (
     <>

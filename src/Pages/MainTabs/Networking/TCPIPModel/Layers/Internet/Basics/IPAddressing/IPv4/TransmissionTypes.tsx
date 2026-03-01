@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const DefaultGatewayAndRoutingTables = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/SubnettingAndGateways/DefaultGatewayAndRoutingTables';
+const TransmissionTypes = () => {
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/TransmissionTypes';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Default Gateway & Routing Tables" />
+        <PageTitle title="Internet Layer - IP Addressing - IPv4 - Transmission Types" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default DefaultGatewayAndRoutingTables;
+export default TransmissionTypes;

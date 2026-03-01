@@ -1,9 +1,9 @@
 import { RouteObject } from "react-router-dom";
 
-import Switching from '@/routes/Individual/Granularized/Glossary/Networking/Switching';
+import Networking from "@/routes/Individual/FullRoutes/Glossary/Networking";
 
 const glossary: RouteObject[] = [
-    ...Switching,
+  ...Networking
 ];
 
 export default glossary;
