@@ -10,7 +10,7 @@ const IPv4Subnetting = () => {
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="TCP/IP Model - Internet Layer - IP Addressing - IPv4 Subnetting" />
+        <PageTitle title="Internet Layer - IP Addressing - Subnetting & Gateways - IPv4 Subnetting" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>

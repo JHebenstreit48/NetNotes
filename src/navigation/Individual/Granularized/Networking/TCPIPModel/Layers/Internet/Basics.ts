@@ -65,6 +65,10 @@ const Basics: Subpage = {
               path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/subnet-masks-and-cidr',
             },
             {
+              name: 'Broadcast Domains & Segmentation',
+              path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation',
+            },
+            {
               name: 'Default Gateway & Routing Tables',
               path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables',
             },
@@ -75,7 +79,7 @@ const Basics: Subpage = {
             {
               name: 'IPv6 Subnetting',
               path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv6-subnetting',
-            }
+            },
           ],
         },
       ],
