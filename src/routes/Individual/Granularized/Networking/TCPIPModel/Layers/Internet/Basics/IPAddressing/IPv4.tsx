@@ -10,6 +10,9 @@ const TransmissionTypes = lazy(
 const TypesOfAddresses = lazy(
   () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/TypesOfAddresses')
 );
+const IPv4Exhaustion = lazy(
+  () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/IPv4Exhaustion')
+);
 const IPv4vsIPv6Comparison = lazy(
   () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/IPv4VsIPv6Comparison')
 );
@@ -26,6 +29,10 @@ const IPv4: RouteObject[] = [
   {
     path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses',
     element: <TypesOfAddresses />,
+  },
+  {
+    path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition',
+    element: <IPv4Exhaustion />,
   },
   {
     path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison',
