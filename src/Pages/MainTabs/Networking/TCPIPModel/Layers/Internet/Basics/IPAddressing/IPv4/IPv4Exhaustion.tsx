@@ -3,18 +3,18 @@ import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const IPv4AndIPv6Addressing = () => {
-  const markdownFilePath = 'Glossary/Networking/TCPIPModel/Internet/IPv4AndIPv6Addressing';
+const IPv4Exhaustion = () => {
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/IPv4Exhaustion';
 
   return (
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="Glossary - Internet Layer - IPv4 and IPv6 Addressing" />
+        <PageTitle title="Internet Layer - IP Addressing - IPv4 Exhaustion and Transition" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default IPv4AndIPv6Addressing;
+export default IPv4Exhaustion;

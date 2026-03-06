@@ -10,7 +10,7 @@ const DefaultGatewayAndRoutingTables = () => {
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="TCP/IP Model - Internet Layer - IP Addressing - Default Gateway & Routing Tables" />
+        <PageTitle title="Internet Layer - IP Addressing - Subnetting & Gateways - Default Gateway & Routing Tables" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>

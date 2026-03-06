@@ -10,7 +10,7 @@ const SubnetMasksAndCIDR = () => {
     <>
       <PageLayout>
         <Header />
-        <PageTitle title="TCP/IP Model - Internet Layer - IP Addressing - Subnet Masks & CIDR" />
+        <PageTitle title="Internet Layer - IP Addressing - Subnetting & Gateways - Subnet Masks & CIDR" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
