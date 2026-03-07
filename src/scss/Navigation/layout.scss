@@ -69,7 +69,7 @@
   }
 
   @include between($small-laptop-min, $small-laptop-max) {
-    gap: 0.5rem;
+    left: 14rem;
 
   }
 
@@ -118,5 +118,9 @@
   @include maxw($cellphone-portrait) {
     margin-top: 2rem;
     margin-left: 0;
+  }
+
+  @include between($small-laptop-min, $small-laptop-max) {
+    margin-left: 0px;  // temporary — keep nested
   }
 }
