@@ -4,6 +4,7 @@ import App from '@/App';
 import ErrorPage from '@/Pages/Special/Error';
 import Home from '@/Pages/Special/Home';
 import About from '@/Pages/Special/About';
+import RelatedProjects from '@/Pages/Special/RelatedProjects';
 
 import networking from '@/routes/Sections/networking';
 import networkSecurity from '@/routes/Sections/networkSecurity';
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       { path: 'about', element: <About /> },
+      { path: 'projects', element: <RelatedProjects /> },
       ...networking,
       ...networkSecurity,
       ...voip,
