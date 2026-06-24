@@ -1,5 +1,5 @@
 import Header from '@/Components/Shared/Header/Header';
-import '@/scss/Shared/Home/Home.scss';          // base + glass card
+import "@/scss/Shared/HomeAndAbout/index.scss";
 import '@/scss/Shared/RelatedProjects.scss';   // overrides only
 
 export default function RelatedProjects() {
