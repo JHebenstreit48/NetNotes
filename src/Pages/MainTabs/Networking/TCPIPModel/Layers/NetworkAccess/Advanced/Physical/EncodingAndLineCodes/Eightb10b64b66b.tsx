@@ -1,5 +1,4 @@
 import PageLayout from '@/Components/NavigationUI/PageLayout';
-import Header from '@/Components/Shared/Header/Header';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
@@ -9,7 +8,6 @@ const Eightb10b64b66b = () => {
   return (
     <>
       <PageLayout>
-        <Header />
         <PageTitle title="8b/10b • 64b/66b" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
