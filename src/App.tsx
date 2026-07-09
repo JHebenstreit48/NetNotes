@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
+import Header from '@/Components/Shared/Header/Header';
 import Footer from '@/Components/Shared/Footer';
 import RouteTracker from '@/Components/Shared/analytics/RouteTracker';
 import BackToTopGate from '@/Components/Shared/BackToTop/Gate';
@@ -19,6 +20,7 @@ export default function App() {
     <div className="appContainer">
       <RouteTracker />
       <BackToTopGate />
+      <Header />
 
       <div className="contentWrapper">
         <Suspense fallback={<RouteFallback />}>

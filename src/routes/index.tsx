@@ -5,6 +5,7 @@ import ErrorPage from '@/Pages/Special/Error';
 import Home from '@/Pages/Special/Home';
 import About from '@/Pages/Special/About';
 import RelatedProjects from '@/Pages/Special/RelatedProjects';
+import QRCodePage from '@/Pages/Special/qrCode';
 
 import networking from '@/routes/Sections/networking';
 import networkSecurity from '@/routes/Sections/networkSecurity';
@@ -23,8 +24,18 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      { path: 'about', element: <About /> },
-      { path: 'projects', element: <RelatedProjects /> },
+      {
+        path: 'about',
+        element: <About />
+      },
+      {
+        path: 'projects',
+        element: <RelatedProjects />
+      },
+      {
+        path: 'qrcode',
+        element: <QRCodePage />
+      },
       ...networking,
       ...networkSecurity,
       ...voip,

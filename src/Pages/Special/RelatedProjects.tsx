@@ -1,11 +1,9 @@
-import Header from '@/Components/Shared/Header/Header';
 import "@/scss/Shared/HomeAndAbout/index.scss";
 import '@/scss/Shared/RelatedProjects.scss';   // overrides only
 
 export default function RelatedProjects() {
   return (
     <>
-      <Header />
 
       <main className="homePage">  {/* ← match Home's wrapper class */}
         <div className="siteInfo">  {/* ← match Home's glass card class */}
