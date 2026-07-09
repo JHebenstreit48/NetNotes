@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import QRCode from 'qrcode';
-import '@/scss/shared/qrCode.scss';
+import '@/scss/Shared/qrCode.scss';
 
 export default function QRCodePage() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
