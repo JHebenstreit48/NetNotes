@@ -1,7 +1,7 @@
 import path from 'node:path';
 import type { Subpage } from '@/types/navigation/Subpage';
 
-import { ensureDir, writeIfChanged, exists } from '@/scripts/shared/utils/fs';
+import { ensureDir, writeIfChanged } from '@/scripts/shared/utils/fs';
 import { pascalize } from '@/scripts/shared/utils/naming';
 import { buildRouteModel } from '@/scripts/shared/model/buildRouteModel';
 import { config } from '@/scripts/shared/config';
@@ -15,7 +15,7 @@ function importPathForGroup(args: {
   // groupCrumbs includes bucket name as first element
   const mappedFolders = args.groupCrumbs.map((g) => config.groupFolderNameMap?.[g] ?? pascalize(g));
   const rel = mappedFolders.join('/');
-  return `@/routes/Individual/Granularized/${args.sectionFolder}/${args.topicFolder}/${rel}`;
+  return `@/routes/individual/modularized/${args.sectionFolder}/${args.topicFolder}/${rel}`;
 }
 
 function fsPathForGroup(args: {
@@ -32,8 +32,8 @@ function fsPathForGroup(args: {
     process.cwd(),
     'src',
     'routes',
-    'Individual',
-    'Granularized',
+    'individual',
+    'modularized',
     args.sectionFolder,
     args.topicFolder,
     ...parent,
@@ -121,12 +121,6 @@ export function syncBuckets(args: {
         });
 
         const childImportBase = (childName: string) => {
-          const childCrumbs = [...agg.groupCrumbs.slice(0, -1), agg.groupName, childName];
-          // NOTE: agg.groupCrumbs already includes [Bucket, ..., groupName], so:
-          // agg.groupCrumbs.slice(0,-1) gives [Bucket, ...parent]
-          // then add groupName and childName
-          // But groupName is already the last of agg.groupCrumbs.
-          // So child crumbs should be [...agg.groupCrumbs, childName]
           const realChildCrumbs = [...agg.groupCrumbs, childName];
           return importPathForGroup({
             sectionFolder: agg.sectionFolder,
@@ -175,8 +169,8 @@ export function syncBuckets(args: {
           process.cwd(),
           'src',
           'routes',
-          'Individual',
-          'Granularized',
+          'individual',
+          'modularized',
           topic.sectionFolder,
           topic.topicFolder,
           bucketFileName

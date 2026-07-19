@@ -1,13 +1,13 @@
 import { RouteObject } from "react-router-dom";
 
-import Foundations from "@/routes/Individual/FullRoutes/Networking/Foundations";
-import TCPIPModel from "@/routes/Individual/FullRoutes/Networking/TCPIPModel";
-import Switching from "@/routes/Individual/FullRoutes/Networking/Switching";
-import Routing from "@/routes/Individual/FullRoutes/Networking/routing";
-import Wireless from "@/routes/Individual/FullRoutes/Networking/wireless";
-import Mobile from "@/routes/Individual/FullRoutes/Networking/mobile";
-import Cloud from "@/routes/Individual/FullRoutes/Networking/Cloud";
-import Legacy from "@/routes/Individual/FullRoutes/Networking/Legacy";
+import Foundations from "@routes/individual/FullRoutes/Networking/Foundations";
+import TCPIPModel from "@routes/individual/FullRoutes/Networking/TCPIPModel";
+import Switching from "@routes/individual/FullRoutes/Networking/Switching";
+import Routing from "@routes/individual/FullRoutes/Networking/routing";
+import Wireless from "@routes/individual/FullRoutes/Networking/wireless";
+import Mobile from "@routes/individual/FullRoutes/Networking/mobile";
+import Cloud from "@routes/individual/FullRoutes/Networking/Cloud";
+import Legacy from "@routes/individual/FullRoutes/Networking/Legacy";
 
 const Networking: RouteObject[] = [
   ...Foundations,

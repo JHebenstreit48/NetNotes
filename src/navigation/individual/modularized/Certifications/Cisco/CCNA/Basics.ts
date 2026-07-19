@@ -4,15 +4,15 @@ const Basics: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Overview",
+      name: "Fundamentals",
       subpages: [
         {
-          name: "Exam Overview",
-          path: "/certifications/cisco/ccna/basics/overview/exam-overview"
+          name: "Introduction",
+          path: "/certifications/cisco/ccna/basics/fundamentals/introduction"
         },
         {
           name: "Policies & Registration",
-          path: "/certifications/cisco/ccna/basics/overview/policies-and-registration"
+          path: "/certifications/cisco/ccna/basics/fundamentals/policies-and-registration"
         }
       ]
     },
