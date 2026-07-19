@@ -1,8 +1,8 @@
 import type { Subpage } from '@/types/navigation';
 
-import CiscoPacketTracer from '@/navigation/Individual/Topics/Tools/CiscoPacketTracer';
-import GNS3 from '@/navigation/Individual/Topics/Tools/GNS3';
-import Wireshark from '@/navigation/Individual/Topics/Tools/Wireshark';
+import CiscoPacketTracer from '@/navigation/individual/Topics/Tools/CiscoPacketTracer';
+import GNS3 from '@/navigation/individual/Topics/Tools/GNS3';
+import Wireshark from '@/navigation/individual/Topics/Tools/Wireshark';
 
 const tools: Subpage = {
     name: 'Tools',

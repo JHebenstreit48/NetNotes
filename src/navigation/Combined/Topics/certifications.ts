@@ -1,17 +1,17 @@
 import type { Subpage } from '@/types/navigation';
 
-import Cisco from '@/navigation/Individual/Topics/Certifications/Cisco';
+import Cisco from '@/navigation/individual/Topics/Certifications/Cisco';
 // ------------------------- CompTIA Start -------------------------
-import NetworkPlus from '@/navigation/Individual/Granularized/Certifications/CompTIA/NetworkPlus';
-import SecurityPlus from '@/navigation/Individual/Granularized/Certifications/CompTIA/SecurityPlus';
+import NetworkPlus from '@/navigation/individual/modularized/Certifications/CompTIA/NetworkPlus';
+import SecurityPlus from '@/navigation/individual/modularized/Certifications/CompTIA/SecurityPlus';
 // ------------------------- CompTIA End ---------------------------
 
 // ------------------------- DevOps Start -------------------------
-import AzureDevOps from '@/navigation/Individual/Granularized/Certifications/DevOps/Azure';
-import Docker from '@/navigation/Individual/Granularized/Certifications/DevOps/Docker';
-import Jenkins from '@/navigation/Individual/Granularized/Certifications/DevOps/Jenkins';
-import Kubernetes from '@/navigation/Individual/Granularized/Certifications/DevOps/Kubernetes';
-import Terraform from '@/navigation/Individual/Granularized/Certifications/DevOps/Terraform';
+import AzureDevOps from '@/navigation/individual/modularized/Certifications/DevOps/Azure';
+import Docker from '@/navigation/individual/modularized/Certifications/DevOps/Docker';
+import Jenkins from '@/navigation/individual/modularized/Certifications/DevOps/Jenkins';
+import Kubernetes from '@/navigation/individual/modularized/Certifications/DevOps/Kubernetes';
+import Terraform from '@/navigation/individual/modularized/Certifications/DevOps/Terraform';
 // ------------------------- DevOps End ---------------------------
 
 const certifications: Subpage = {
