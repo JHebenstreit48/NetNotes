@@ -1,4 +1,4 @@
-import { SearchMatch } from "./types";
+import { SearchMatch } from "../../../types/navigation/types";
 
 export interface Subpage {
   name: string;

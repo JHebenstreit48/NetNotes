@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation';
+import type { Subpage } from '@/types/navigation/dropdownState';
 
 import WebAndName from '@/navigation/individual/modularized/Networking/TCPIPModel/Layers/Application/Basics/WebAndName';
 import ClientAndServer from '@/navigation/individual/modularized/Networking/TCPIPModel/Layers/Application/Basics/ClientAndServer';

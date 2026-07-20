@@ -9,4 +9,3 @@ export interface SearchMatch {
     section: string;
     matches: SearchMatch[];
   }
-  

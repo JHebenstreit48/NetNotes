@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation';
+import type { Subpage } from '@/types/navigation/dropdownState';
 
 const DockerNavigation: Subpage = {
   name: "Docker",

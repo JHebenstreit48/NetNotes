@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import pages from '@/domain/navigation/mainTabs';
-import type { SearchMatch } from '@/Components/NavigationUI/Search/Utils/types';
+import type { SearchMatch } from '@/types/navigation/types';
 
-import { getSearchIndex } from '@/Components/NavigationUI/Search/Utils/searchIndex';
+import { getSearchIndex } from '@/utils/navigation/search/searchIndex';
 
 import SearchIcon from '@/Components/NavigationUI/Search/SearchIcon';
 import SearchModal from '@/Components/NavigationUI/Search/Modal';

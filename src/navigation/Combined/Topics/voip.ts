@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation';
+import type { Subpage } from '@/types/navigation/dropdownState';
 
 import Foundations from '@/navigation/individual/Topics/VoIP/Foundations';
 import Diagnostics from '@/navigation/individual/Topics/VoIP/Diagnostics';

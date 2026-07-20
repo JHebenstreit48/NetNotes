@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation';
+import type { Subpage } from '@/types/navigation/dropdownState';
 
 import CCNA from '@/navigation/individual/Topics/Certifications/Cisco/CCNA';
 import CCNP from '@/navigation/individual/Topics/Certifications/Cisco/CCNP';

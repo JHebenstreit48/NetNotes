@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation';
+import type { Subpage } from '@/types/navigation/dropdownState';
 
 import CiscoPacketTracer from '@/navigation/individual/Topics/Tools/CiscoPacketTracer';
 import GNS3 from '@/navigation/individual/Topics/Tools/GNS3';

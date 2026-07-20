@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation';
+import type { Subpage } from '@/types/navigation/dropdownState';
 
 import OSIModel from '@/navigation/individual/modularized/Networking/Legacy/OSIModel';
 import ProtocolsAndStatuses from '@/navigation/individual/modularized/Networking/Legacy/ProtocolsAndStatuses';

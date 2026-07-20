@@ -1,5 +1,5 @@
 import pages from '@/domain/navigation/mainTabs';
-import type { Subpage } from '@/types/navigation';
+import type { Subpage } from '@/types/navigation/dropdownState';
 
 import { parseArgs, matchesFilter } from "@/scripts/shared/args";
 import { flattenNav } from "@/scripts/shared/model/flattenNav";
