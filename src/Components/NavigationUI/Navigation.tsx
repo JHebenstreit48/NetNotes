@@ -2,10 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import pages from '@/domain/navigation/mainTabs';
-import type { SearchMatch } from '@/Components/NavigationUI/Search/Utils/types';
 
-import { getSearchIndex } from '@/Components/NavigationUI/Search/Utils/searchIndex';
-
+import { useSearchIndex } from '@/hooks/navigation/useSearchIndex';
 import SearchIcon from '@/Components/NavigationUI/Search/SearchIcon';
 import SearchModal from '@/Components/NavigationUI/Search/Modal';
 import NavSubpages from '@/Components/NavigationUI/Dropdown/NavSubpages';
@@ -19,8 +17,7 @@ const Navigation = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showModal, setShowModal] = useState(false);
 
-  // ✅ only created when modal opens
-  const [allPages, setAllPages] = useState<SearchMatch[] | null>(null);
+  const allPages = useSearchIndex(showModal);
 
   const [searchMode, setSearchMode] = useLocalStorageState<'instant' | 'manual'>(
     'searchMode',
@@ -40,13 +37,6 @@ const Navigation = () => {
   }, []);
 
   useClickOutside(navRef, closeAll);
-
-  // ✅ build once, only when needed
-  useEffect(() => {
-    if (showModal && !allPages) {
-      setAllPages(getSearchIndex());
-    }
-  }, [showModal, allPages]);
 
   return (
     <div className="navigationMenu" ref={navRef}>

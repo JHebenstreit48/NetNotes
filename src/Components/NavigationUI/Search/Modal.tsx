@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import SHeader from "@/Components/NavigationUI/Search/SHeader";
 import SModeToggle from "@/Components/NavigationUI/Search/SModeToggle";
 import InputResults from "@/Components/NavigationUI/Search/InputResults";
-import { filterResults } from "@/Components/NavigationUI/Search/Utils/filterResults";
-import { GroupedSearchResult, SearchMatch } from "@/Components/NavigationUI/Search/Utils/types";
+import { filterResults } from "@/utils/navigation/search/filterResults";
+import { GroupedSearchResult, SearchMatch } from "@/types/navigation/types";
 
 interface SearchModalProps {
   searchTerm: string;
