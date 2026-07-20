@@ -1,13 +1,13 @@
 import { RouteObject } from "react-router-dom";
 
-import Fundamentals from "@/routes/Individual/FullRoutes/NetworkSecurity/fundamentals";
-import ACLs from "@/routes/Individual/FullRoutes/NetworkSecurity/acls";
-import AccessControl from "@/routes/Individual/FullRoutes/NetworkSecurity/accessControl";
-import Firewalls from "@/routes/Individual/FullRoutes/NetworkSecurity/firewalls";
-import VPNAndTunneling from "@/routes/Individual/FullRoutes/NetworkSecurity/vpnAndTunneling";
-import IDSAndIPS from "@/routes/Individual/FullRoutes/NetworkSecurity/idsAndIPS";
-import NetworkControls from "@/routes/Individual/FullRoutes/NetworkSecurity/networkControls";
-import SegmentZeroTrust from "@/routes/Individual/FullRoutes/NetworkSecurity/segmentZeroTrust";
+import Fundamentals from "@routes/individual/FullRoutes/NetworkSecurity/fundamentals";
+import ACLs from "@routes/individual/FullRoutes/NetworkSecurity/acls";
+import AccessControl from "@routes/individual/FullRoutes/NetworkSecurity/accessControl";
+import Firewalls from "@routes/individual/FullRoutes/NetworkSecurity/firewalls";
+import VPNAndTunneling from "@routes/individual/FullRoutes/NetworkSecurity/vpnAndTunneling";
+import IDSAndIPS from "@routes/individual/FullRoutes/NetworkSecurity/idsAndIPS";
+import NetworkControls from "@routes/individual/FullRoutes/NetworkSecurity/networkControls";
+import SegmentZeroTrust from "@routes/individual/FullRoutes/NetworkSecurity/segmentZeroTrust";
 
 const networkSecurity: RouteObject[] = [
   ...Fundamentals,

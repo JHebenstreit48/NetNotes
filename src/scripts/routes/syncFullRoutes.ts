@@ -24,7 +24,7 @@ function makeFullRoutesFile(args: {
   for (const b of args.buckets) {
     const varName = pascalize(b);
     lines.push(
-      `import ${varName} from "@/routes/Individual/Granularized/${args.sectionFolder}/${args.topicFolder}/${varName}";`
+      `import ${varName} from "@/routes/individual/modularized/${args.sectionFolder}/${args.topicFolder}/${varName}";`
     );
   }
 
@@ -63,7 +63,7 @@ export function syncFullRoutes(args: {
         process.cwd(),
         'src',
         'routes',
-        'Individual',
+        'individual',
         'FullRoutes',
         topic.sectionFolder,
         `${base}.ts`

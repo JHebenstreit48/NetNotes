@@ -1,6 +1,6 @@
 import type { Subpage } from '@/types/navigation';
 
-import Networking from '@/navigation/Individual/Topics/Glossary/Networking';
+import Networking from '@/navigation/individual/Topics/Glossary/Networking';
 
 const glossary: Subpage = {
     name: 'Glossary',

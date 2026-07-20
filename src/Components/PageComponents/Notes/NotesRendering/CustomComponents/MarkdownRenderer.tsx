@@ -8,7 +8,8 @@ import CodeBlock from '@/Components/PageComponents/Notes/NotesRendering/CustomCo
 import LinkRenderer from '@/Components/PageComponents/Notes/NotesRendering/CustomComponents/LinkRenderer';
 import TableWrapper from '@/Components/PageComponents/Notes/NotesRendering/CustomComponents/TableWrapper';
 import IconRenderer from '@/Components/PageComponents/Notes/NotesRendering/CustomComponents/IconRenderer';
-import { remarkIconPlugin } from '@/utils/notes/remarkIconPlugin'; // ✅ make sure this is correct
+import { remarkIconPlugin } from '@/utils/notes/remarkIconPlugin';
+import remarkNoBareAutolinks from '@/utils/notes/remarkNoBareAutoLinks';
 
 interface RendererProps {
   content: string;
@@ -24,7 +25,7 @@ const MarkdownRenderer = ({
   return (
     <ReactMarkdown
       rehypePlugins={[rehypeRaw, rehypeSlug, rehypeAutolinkHeadings]}
-      remarkPlugins={[remarkGfm, remarkIconPlugin]} // ✅ Include the plugin
+      remarkPlugins={[remarkGfm, remarkNoBareAutolinks, remarkIconPlugin]}
       components={{
         code({ className, children }) {
           return (
