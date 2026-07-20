@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation/dropdownState';
+import type { Subpage } from '@/types/navigation';
 
 import Fundamentals from '@/navigation/individual/Topics/NetworkSecurity/Fundamentals'
 import ACLs from '@/navigation/individual/Topics/NetworkSecurity/ACLs';

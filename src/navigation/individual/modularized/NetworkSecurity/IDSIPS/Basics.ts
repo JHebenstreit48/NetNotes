@@ -1,5 +1,5 @@
 // NetworkSecurity/IDSIPS/Basics.ts
-import type { Subpage } from '@/types/navigation/dropdownState';
+import type { Subpage } from '@/types/navigation';
 
 const Basics: Subpage = {
   name: "Basics",

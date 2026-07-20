@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation/dropdownState';
+import type { Subpage } from '@/types/navigation';
 
 import Cisco from '@/navigation/individual/Topics/Certifications/Cisco';
 // ------------------------- CompTIA Start -------------------------

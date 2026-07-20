@@ -1,4 +1,4 @@
-import type { Subpage } from "@/types/navigation/dropdownState";
+import type { Subpage } from '@/types/navigation';
 
 import Application from "@/navigation/individual/modularized/Networking/TCPIPModel/Layers/Application";
 import Transport from "@/navigation/individual/modularized/Networking/TCPIPModel/Layers/Transport";

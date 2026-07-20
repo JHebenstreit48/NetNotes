@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import type { Subpage } from "@/types/navigation/dropdownState";
+import type { Subpage } from '@/types/navigation';
 
 interface NavSubpagesProps {
   subpages: Subpage[];

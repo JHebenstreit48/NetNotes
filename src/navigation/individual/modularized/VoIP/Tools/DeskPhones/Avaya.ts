@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation/dropdownState';
+import type { Subpage } from '@/types/navigation';
 
 const AvayaDeskPhones: Subpage = {
   name: 'Avaya Desk Phones',

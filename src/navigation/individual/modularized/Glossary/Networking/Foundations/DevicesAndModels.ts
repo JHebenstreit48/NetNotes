@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation/dropdownState';
+import type { Subpage } from '@/types/navigation';
 
 const DevicesAndModels: Subpage = {
   name: 'Devices & Models',

@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation/dropdownState';
+import type { Subpage } from '@/types/navigation';
 
 export type NavLeaf = {
   urlPath: string;      // "/angular/basics/..."

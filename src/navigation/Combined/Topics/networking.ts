@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation/dropdownState';
+import type { Subpage } from '@/types/navigation';
 
 import Foundations from '@/navigation/individual/Topics/Networking/Foundations';
 import TCPIPModel from '@/navigation/individual/Topics/Networking/TCPIPModel';

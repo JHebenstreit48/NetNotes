@@ -1,4 +1,4 @@
-import type { Subpage } from '@/types/navigation/dropdownState';
+import type { Subpage } from '@/types/navigation';
 
 // ------------------------ Desk Phones Navigation Start ------------------------
 import CiscoDeskPhones from '@/navigation/individual/modularized/VoIP/Tools/DeskPhones/Cisco';

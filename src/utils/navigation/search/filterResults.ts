@@ -4,11 +4,15 @@ export function filterResults(
   allPages: SearchMatch[],
   searchTerm: string
 ): GroupedSearchResult[] {
-  const terms = searchTerm.toLowerCase().split(/\s+/);
+  const terms = searchTerm.toLowerCase().split(/\s+/).filter(Boolean);
 
-  const filtered = allPages.filter(({ name, breadcrumbs }) => {
-    const haystack = [name, ...breadcrumbs].join(" ").toLowerCase();
-    return terms.every(term => haystack.includes(term));
+  const filtered = allPages.filter(({ name, breadcrumbs, content }) => {
+    const navHaystack = [name, ...breadcrumbs].join(" ").toLowerCase();
+    const contentHaystack = (content ?? "").toLowerCase();
+
+    return terms.every(
+      (term) => navHaystack.includes(term) || contentHaystack.includes(term)
+    );
   });
 
   const grouped: Record<string, SearchMatch[]> = {};

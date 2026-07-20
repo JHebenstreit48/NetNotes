@@ -1,4 +1,4 @@
-import type { Subpage } from "@/types/navigation/dropdownState";
+import type { Subpage } from '@/types/navigation';
 import pages from "@/domain/navigation/mainTabs";
 
 /** Walk a Subpage tree and collect any defined `path`. */

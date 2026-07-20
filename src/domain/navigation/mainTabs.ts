@@ -1,4 +1,4 @@
-import { Subpage } from "@/types/navigation/dropdownState";
+import { Subpage } from "@/types/navigation";
 
 import networking from "@/navigation/Combined/Topics/networking";
 import networkSecurity from "@/navigation/Combined/Topics/networkSecurity";

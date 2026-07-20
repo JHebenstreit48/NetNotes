@@ -1,5 +1,5 @@
 // Navigation/Individual/Granularized/Certifications/Cisco/CCIE/Advanced.ts
-import type { Subpage } from '@/types/navigation/dropdownState';
+import type { Subpage } from '@/types/navigation';
 
 const Advanced: Subpage = {
   name: "Advanced",
