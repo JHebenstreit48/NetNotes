@@ -3,7 +3,7 @@ import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const FTPSFTP = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/FTPSFTP';
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/FtpSftp';
 
   return (
     <>

@@ -11,6 +11,10 @@ const EmailAndCommunication: Subpage = {
       name: 'IMAP',
       path: '/tcpip-model/layers/application/basics/email-and-communication/imap',
     },
+    {
+      name: 'Text Messaging',
+      path: '/tcpip-model/layers/application/basics/email-and-communication/text-messaging',
+    },
   ],
 };
 

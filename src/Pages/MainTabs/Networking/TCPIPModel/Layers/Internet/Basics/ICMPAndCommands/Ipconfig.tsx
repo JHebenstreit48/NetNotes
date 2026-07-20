@@ -2,17 +2,17 @@ import PageLayout from '@/Components/NavigationUI/PageLayout';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const DHCP = () => {
-  const markdownFilePath = 'Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/DHCP';
+const Ipconfig = () => {
+  const markdownFilePath = 'Networking/TCPIPModel/Layers/Internet/Basics/ICMPAndCommands/Ipconfig';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="DHCP" />
+        <PageTitle title="Internet Layer - ICMP & Commands - Ipconfig" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default DHCP;
+export default Ipconfig;

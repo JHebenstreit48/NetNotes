@@ -2,7 +2,7 @@ import { RouteObject } from "react-router-dom";
 
 import Fundamentals from '@/routes/individual/modularized/Networking/TCPIPModel/Layers/Internet/Basics/Fundamentals';
 import IPAddressing from '@/routes/individual/modularized/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing';
-import ICMPAndDiagnostics from '@/routes/individual/modularized/Networking/TCPIPModel/Layers/Internet/Basics/ICMPAndDiagnostics';
+import ICMPAndDiagnostics from '@/routes/individual/modularized/Networking/TCPIPModel/Layers/Internet/Basics/ICMPAndCommands';
 
 const Basics: RouteObject[] = [
     ...Fundamentals,

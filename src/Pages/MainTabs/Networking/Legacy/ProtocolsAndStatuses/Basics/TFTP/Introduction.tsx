@@ -2,17 +2,17 @@ import PageLayout from '@/Components/NavigationUI/PageLayout';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const FTPVsFTPS = () => {
-  const markdownFilePath = 'Networking/Legacy/ProtocolsAndStatuses/Basics/FTPFTPS/FTPVsFTPS';
+const Introduction = () => {
+  const markdownFilePath = 'Networking/Legacy/ProtocolsAndStatuses/Basics/TFTP/Introduction';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="FTP vs FTPS" />
+        <PageTitle title="Legacy - Protocols & Statuses - TFTP - Introduction" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default FTPVsFTPS;
+export default Introduction;

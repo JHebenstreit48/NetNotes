@@ -1,56 +1,56 @@
 import type { Subpage } from '@/types/navigation';
 
 const Advanced: Subpage = {
-  name: "Advanced",
+  name: 'Advanced',
   subpages: [
     {
-      name: "Network Services",
+      name: 'Network Services',
       subpages: [
         {
-          name: "DHCP",
-          path: "/tcpip-model/layers/application/advanced/network-services/dhcp"
+          name: 'Introduction',
+          path: '/tcpip-model/layers/application/advanced/network-services/introduction',
         },
         {
-          name: "NTP",
-          path: "/tcpip-model/layers/application/advanced/network-services/ntp"
+          name: 'NTP',
+          path: '/tcpip-model/layers/application/advanced/network-services/ntp',
         },
         {
-          name: "SNMP",
-          path: "/tcpip-model/layers/application/advanced/network-services/snmp"
+          name: 'SNMP',
+          path: '/tcpip-model/layers/application/advanced/network-services/snmp',
         },
         {
-          name: "FTP/SFTP",
-          path: "/tcpip-model/layers/application/advanced/network-services/ftp"
-        }
-      ]
+          name: 'FTP/SFTP',
+          path: '/tcpip-model/layers/application/advanced/network-services/ftp',
+        },
+      ],
     },
     {
-      name: "Remote Access",
+      name: 'Remote Access',
       subpages: [
         {
-          name: "SSH",
-          path: "/tcpip-model/layers/application/advanced/remote-access/ssh"
+          name: 'SSH',
+          path: '/tcpip-model/layers/application/advanced/remote-access/ssh',
         },
         {
-          name: "Best Practices",
-          path: "/tcpip-model/layers/application/advanced/remote-access/ssh-best-practices"
-        }
-      ]
+          name: 'Best Practices',
+          path: '/tcpip-model/layers/application/advanced/remote-access/ssh-best-practices',
+        },
+      ],
     },
     {
-      name: "User Data & Privacy",
+      name: 'User Data & Privacy',
       subpages: [
         {
-          name: "Data Collection Types",
-          path: "/tcpip-model/layers/application/advanced/user-data/data-collection-types"
+          name: 'Data Collection Types',
+          path: '/tcpip-model/layers/application/advanced/user-data/data-collection-types',
         },
         {
-          name: "Privacy in Application Protocols",
-          path: "/tcpip-model/layers/application/advanced/user-data/privacy-in-protocols"
-        }
-      ]
-    }
-  ]
+          name: 'Privacy in Application Protocols',
+          path: '/tcpip-model/layers/application/advanced/user-data/privacy-in-protocols',
+        },
+      ],
+    },
+  ],
 };
 
 export default Advanced;

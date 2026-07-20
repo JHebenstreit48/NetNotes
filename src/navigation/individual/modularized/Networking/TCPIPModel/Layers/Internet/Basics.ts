@@ -89,15 +89,19 @@ const Basics: Subpage = {
       ],
     },
     {
-      name: 'ICMP & Diagnostics',
+      name: 'ICMP & Commands',
       subpages: [
         {
-          name: 'Introduction',
-          path: '/tcpip-model/layers/internet/basics/icmp-and-diagnostics/introduction',
+          name: 'ICMP',
+          path: '/tcpip-model/layers/internet/basics/icmp-and-commands/icmp',
+        },
+        {
+          name: 'ipconfig (Viewing & Renewing IP Configuration)',
+          path: '/tcpip-model/layers/internet/basics/icmp-and-commands/ipconfig',
         },
         {
           name: 'Ping & Traceroute',
-          path: '/tcpip-model/layers/internet/basics/icmp-and-diagnostics/ping-and-traceroute',
+          path: '/tcpip-model/layers/internet/basics/icmp-and-commands/ping-and-traceroute',
         },
       ],
     },
