@@ -3,7 +3,6 @@ import type { Subpage } from '@/types/navigation';
 import Foundations from '@/navigation/individual/Topics/Networking/Foundations';
 import TCPIPModel from '@/navigation/individual/Topics/Networking/TCPIPModel';
 import Switching from '@/navigation/individual/Topics/Networking/Switching';
-import RoutingProtocols from '@/navigation/individual/Topics/Networking/RoutingProtocols';
 import Wireless from '@/navigation/individual/Topics/Networking/Wireless';
 import Mobile from '@/navigation/individual/Topics/Networking/Mobile';
 import Cloud from '@/navigation/individual/Topics/Networking/Cloud';
@@ -15,7 +14,6 @@ const networking: Subpage = {
     Foundations,
     TCPIPModel,
     Switching,
-    RoutingProtocols,
     Wireless,
     Mobile,
     Cloud, 
