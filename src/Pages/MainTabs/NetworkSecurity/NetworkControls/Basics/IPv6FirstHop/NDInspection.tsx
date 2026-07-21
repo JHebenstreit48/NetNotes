@@ -1,6 +1,6 @@
-import PageLayout from '@/Components/NavigationUI/PageLayout';
-import PageTitle from '@/Components/PageComponents/PageTitle';
-import Notes from '@/Components/PageComponents/Notes/Notes';
+import PageLayout from '@/components/NavigationUI/PageLayout';
+import PageTitle from '@/components/PageComponents/PageTitle';
+import Notes from '@/components/PageComponents/Notes/Notes';
 
 const NDInspection = () => {
   const markdownFilePath = 'NetworkSecurity/NetworkControls/Basics/IPv6FirstHop/NDInspection';

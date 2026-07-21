@@ -1,9 +1,9 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '@/Components/Shared/Header/Header';
-import Footer from '@/Components/Shared/Footer';
-import RouteTracker from '@/Components/Shared/analytics/RouteTracker';
-import BackToTopGate from '@/Components/Shared/BackToTop/Gate';
+import Header from '@/components/Shared/Header/Header';
+import Footer from '@/components/Shared/Footer';
+import RouteTracker from '@/components/Shared/analytics/RouteTracker';
+import BackToTopGate from '@/components/Shared/BackToTop/Gate';
 
 import '@/scss/Page/Page.scss';
 import '@/scss/Shared/Header/index.scss';

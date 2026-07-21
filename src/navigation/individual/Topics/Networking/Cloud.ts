@@ -1,7 +1,7 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from '@/navigation/individual/modularized/Networking/Cloud/Basics';
-import Advanced from '@/navigation/individual/modularized/Networking/Cloud/Advanced';
+import Basics from '@/navigation/individual/modularized/networking/Cloud/Basics';
+import Advanced from '@/navigation/individual/modularized/networking/Cloud/Advanced';
 
 const Cloud: Subpage = {
   name: 'Cloud',

@@ -1,0 +1,55 @@
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import remarkGfm from 'remark-gfm';
+
+import CodeBlock from '@/components/PageComponents/Notes/NotesRendering/CustomComponents/CodeBlock';
+import LinkRenderer from '@/components/PageComponents/Notes/NotesRendering/CustomComponents/LinkRenderer';
+import TableWrapper from '@/components/PageComponents/Notes/NotesRendering/CustomComponents/TableWrapper';
+import IconRenderer from '@/components/PageComponents/Notes/NotesRendering/CustomComponents/IconRenderer';
+import { remarkIconPlugin } from '@/utils/notes/remarkIconPlugin';
+import remarkNoBareAutolinks from '@/utils/notes/remarkNoBareAutoLinks';
+
+interface RendererProps {
+  content: string;
+  copyToClipboard: (code: string) => void;
+  copiedCode: boolean;
+}
+
+const MarkdownRenderer = ({
+  content,
+  copyToClipboard,
+  copiedCode
+}: RendererProps) => {
+  return (
+    <ReactMarkdown
+      rehypePlugins={[rehypeRaw, rehypeSlug, rehypeAutolinkHeadings]}
+      remarkPlugins={[remarkGfm, remarkNoBareAutolinks, remarkIconPlugin]}
+      components={{
+        code({ className, children }) {
+          return (
+            <CodeBlock
+              className={className}
+              children={children ?? ''}
+              copyToClipboard={copyToClipboard}
+              copied={copiedCode}
+            />
+          );
+        },
+        a: LinkRenderer,
+        table: TableWrapper,
+        span(props) {
+          if ('data-icon' in props && props['data-icon'] === 'wrench') {
+            return <IconRenderer type="wrench" />;
+          }
+          return <span {...props} />;
+        }
+      }}      
+    >
+      {content}
+    </ReactMarkdown>
+  );
+};
+
+export default MarkdownRenderer;
