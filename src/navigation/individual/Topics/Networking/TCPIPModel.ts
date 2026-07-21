@@ -1,7 +1,7 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from '@/navigation/individual/modularized/Networking/TCPIPModel/Basics';
-import Layers from '@/navigation/individual/modularized/Networking/TCPIPModel/Layers';
+import Basics from '@/navigation/individual/modularized/networking/TCPIPModel/Basics';
+import Layers from '@/navigation/individual/modularized/networking/TCPIPModel/Layers';
 
 const TCPIPModel: Subpage = {
   name: 'TCP/IP Model',

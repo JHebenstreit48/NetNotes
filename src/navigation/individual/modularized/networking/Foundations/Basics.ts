@@ -1,7 +1,7 @@
 import type { Subpage } from '@/types/navigation';
 
-import Fundamentals from '@/navigation/individual/modularized/Networking/Foundations/Basics/Fundamentals';
-import DevicesAndModels from '@/navigation/individual/modularized/Networking/Foundations/Basics/DevicesAndModels';
+import Fundamentals from '@/navigation/individual/modularized/networking/Foundations/Basics/Fundamentals';
+import DevicesAndModels from '@/navigation/individual/modularized/networking/Foundations/Basics/DevicesAndModels';
 
 const Basics: Subpage = {
   name: 'Basics',

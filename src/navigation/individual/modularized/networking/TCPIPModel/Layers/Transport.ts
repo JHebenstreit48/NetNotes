@@ -1,7 +1,7 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from '@/navigation/individual/modularized/Networking/TCPIPModel/Layers/Transport/Basics';
-import Advanced from '@/navigation/individual/modularized/Networking/TCPIPModel/Layers/Transport/Advanced';
+import Basics from '@/navigation/individual/modularized/networking/TCPIPModel/Layers/Transport/Basics';
+import Advanced from '@/navigation/individual/modularized/networking/TCPIPModel/Layers/Transport/Advanced';
 
 const Transport: Subpage = {
   name: 'Transport',

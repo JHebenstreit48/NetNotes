@@ -1,7 +1,7 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from '@/navigation/individual/modularized/Networking/Mobile/Basics';
-import Advanced from '@/navigation/individual/modularized/Networking/Mobile/Advanced';
+import Basics from '@/navigation/individual/modularized/networking/Mobile/Basics';
+import Advanced from '@/navigation/individual/modularized/networking/Mobile/Advanced';
 
 const Mobile: Subpage = {
   name: 'Mobile',

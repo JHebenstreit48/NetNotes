@@ -1,7 +1,7 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from '@/navigation/individual/modularized/Networking/Legacy/ProtocolsAndStatuses/Basics';
-import Advanced from '@/navigation/individual/modularized/Networking/Legacy/ProtocolsAndStatuses/Advanced';
+import Basics from '@/navigation/individual/modularized/networking/Legacy/ProtocolsAndStatuses/Basics';
+import Advanced from '@/navigation/individual/modularized/networking/Legacy/ProtocolsAndStatuses/Advanced';
 
 const ProtocolsAndStatuses: Subpage = {
   name: 'Protocols & Statuses',
