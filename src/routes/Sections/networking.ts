@@ -3,7 +3,6 @@ import { RouteObject } from "react-router-dom";
 import Foundations from "@routes/individual/FullRoutes/Networking/Foundations";
 import TCPIPModel from "@routes/individual/FullRoutes/Networking/TCPIPModel";
 import Switching from "@routes/individual/FullRoutes/Networking/Switching";
-import Routing from "@routes/individual/FullRoutes/Networking/routing";
 import Wireless from "@routes/individual/FullRoutes/Networking/wireless";
 import Mobile from "@routes/individual/FullRoutes/Networking/mobile";
 import Cloud from "@routes/individual/FullRoutes/Networking/Cloud";
@@ -13,7 +12,6 @@ const Networking: RouteObject[] = [
   ...Foundations,
   ...TCPIPModel,
   ...Switching,
-  ...Routing,
   ...Wireless,
   ...Mobile,
   ...Cloud,

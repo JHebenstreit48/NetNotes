@@ -1,61 +1,20 @@
 import type { Subpage } from '@/types/navigation';
 
+import ArchitectureAndDesign from '@/navigation/individual/modularized/Networking/Foundations/Advanced/ArchitectureAndDesign';
+import PlanesAndTraffice from '@/navigation/individual/modularized/Networking/Foundations/Advanced/PlanesAndTraffic';
+import DiagramAndDocs from '@/navigation/individual/modularized/Networking/Foundations/Advanced/DiagramAndDocs';
+import RoutingProtocols from '@/navigation/individual/modularized/Networking/Foundations/Advanced/RoutingProtocols';
+import Troubleshooting from '@/navigation/individual/modularized/Networking/Foundations/Advanced/Troubleshooting';
+
 const Advanced: Subpage = {
-  name: "Advanced",
+  name: 'Advanced',
   subpages: [
-    {
-      name: "Architecture & Design",
-      subpages: [
-        {
-          name: "Core/Distribution/Access",
-          path: "/foundations/advanced/architecture-and-design/core-distribution-access"
-        },
-        {
-          name: "Spine-Leaf",
-          path: "/foundations/advanced/architecture-and-design/spine-leaf"
-        }
-      ]
-    },
-    {
-      name: "Planes & Traffic",
-      subpages: [
-        {
-          name: "Data vs Control vs Mgmt",
-          path: "/foundations/advanced/planes-and-traffic/data-vs-control-vs-management"
-        },
-        {
-          name: "Plane Protection & Security",
-          path: "/foundations/advanced/planes-and-traffic/plane-protection-and-security"
-        }
-      ]
-    },
-    {
-      name: "Diagrams & Docs",
-      subpages: [
-        {
-          name: "Physical vs Logical",
-          path: "/foundations/advanced/diagrams-and-docs/physical-vs-logical"
-        },
-        {
-          name: "Naming & Labeling",
-          path: "/foundations/advanced/diagrams-and-docs/naming-and-labeling"
-        }
-      ]
-    },
-    {
-      name: "Troubleshooting",
-      subpages: [
-        {
-          name: "Methodology & Flow",
-          path: "/foundations/advanced/troubleshooting/methodology-and-flow"
-        },
-        {
-          name: "Baselines & Monitoring",
-          path: "/foundations/advanced/troubleshooting/baselines-and-monitoring"
-        }
-      ]
-    }
-  ]
+    ArchitectureAndDesign,
+    PlanesAndTraffice,
+    DiagramAndDocs,
+    RoutingProtocols,
+    Troubleshooting
+  ],
 };
 
 export default Advanced;
