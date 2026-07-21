@@ -8,9 +8,9 @@ export function makePageStub(opts: {
 }) {
   const { componentName, markdownFilePath, pageTitle } = opts;
 
-  return `import PageLayout from '@/Components/NavigationUI/PageLayout';
-import PageTitle from '@/Components/PageComponents/PageTitle';
-import Notes from '@/Components/PageComponents/Notes/Notes';
+  return `import PageLayout from '@/components/NavigationUI/PageLayout';
+import PageTitle from '@/components/PageComponents/PageTitle';
+import Notes from '@/components/PageComponents/Notes/Notes';
 
 const ${componentName} = () => {
   const markdownFilePath = '${markdownFilePath}';

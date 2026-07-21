@@ -1,6 +1,6 @@
-import PageLayout from '@/Components/NavigationUI/PageLayout';
-import PageTitle from '@/Components/PageComponents/PageTitle';
-import Notes from '@/Components/PageComponents/Notes/Notes';
+import PageLayout from '@/components/NavigationUI/PageLayout';
+import PageTitle from '@/components/PageComponents/PageTitle';
+import Notes from '@/components/PageComponents/Notes/Notes';
 
 const Eightb10b64b66b = () => {
   const markdownFilePath = 'Networking/TCPIPModel/Layers/NetworkAccess/Advanced/Physical/EncodingAndLineCodes/8b10b64b66b';

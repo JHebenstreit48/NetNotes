@@ -1,5 +1,5 @@
-import PageLayout from '@/Components/NavigationUI/PageLayout';
-import Notes from '@/Components/PageComponents/Notes/Notes';
+import PageLayout from '@/components/NavigationUI/PageLayout';
+import Notes from '@/components/PageComponents/Notes/Notes';
 
 const WirelessStandards = () => {
   const markdownFilePath = '/CoreNetworkingTopics/WirelessNetworking';

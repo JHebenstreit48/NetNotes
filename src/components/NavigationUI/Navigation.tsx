@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import pages from '@/domain/navigation/mainTabs';
 
 import { useSearchIndex } from '@/hooks/navigation/useSearchIndex';
-import SearchIcon from '@/Components/NavigationUI/Search/SearchIcon';
-import SearchModal from '@/Components/NavigationUI/Search/Modal';
-import NavSubpages from '@/Components/NavigationUI/Dropdown/NavSubpages';
+import SearchIcon from '@/components/NavigationUI/Search/SearchIcon';
+import SearchModal from '@/components/NavigationUI/Search/Modal';
+import NavSubpages from '@/components/NavigationUI/Dropdown/NavSubpages';
 
 import { useNavDropdown } from '@/hooks/navigation/useNavDropdown';
 import { useClickOutside } from '@/hooks/ui/useClickOutside';

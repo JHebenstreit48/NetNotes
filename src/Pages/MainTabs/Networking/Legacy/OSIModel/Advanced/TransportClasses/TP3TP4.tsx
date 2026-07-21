@@ -1,6 +1,6 @@
-import PageLayout from '@/Components/NavigationUI/PageLayout';
-import PageTitle from '@/Components/PageComponents/PageTitle';
-import Notes from '@/Components/PageComponents/Notes/Notes';
+import PageLayout from '@/components/NavigationUI/PageLayout';
+import PageTitle from '@/components/PageComponents/PageTitle';
+import Notes from '@/components/PageComponents/Notes/Notes';
 
 const TP3TP4 = () => {
   const markdownFilePath = 'Networking/Legacy/OSIModel/Advanced/TransportClasses/TP3TP4';

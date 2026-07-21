@@ -1,4 +1,4 @@
-import AboutContent from "@/Components/HomeAndAbout/aboutContent";
+import AboutContent from "@/components/HomeAndAbout/aboutContent";
 import "@/scss/Shared/HomeAndAbout/index.scss";
 
 export default function About() {
