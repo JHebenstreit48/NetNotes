@@ -12,12 +12,12 @@ const Routers: Subpage = {
       path: '/foundations/basics/devices-and-models/routers/roles-and-types',
     },
     {
-      name: 'Interfaces',
-      path: '/foundations/basics/devices-and-models/routers/interfaces',
+      name: 'Interfaces & Port Types',
+      path: '/foundations/basics/devices-and-models/routers/interfaces-and-port-types',
     },
     {
-      name: 'Port Types',
-      path: '/foundations/basics/devices-and-models/routers/port-types',
+      name: 'Router Models',
+      path: '/foundations/basics/devices-and-models/routers/router-models',
     },
     {
       name: 'Routing vs Switching',

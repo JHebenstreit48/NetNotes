@@ -2,8 +2,8 @@ import PageLayout from '@/components/NavigationUI/PageLayout';
 import PageTile from '@/components/PageComponents/PageTitle'
 import Notes from '@/components/PageComponents/Notes/Notes';
 
-const Interfaces = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/DevicesAndModels/Routers/Interfaces';
+const InterfacesAndPortTypes = () => {
+  const markdownFilePath = 'Networking/Foundations/Basics/DevicesAndModels/Routers/InterfacesAndPortTypes';
 
   return (
     <>
@@ -15,4 +15,4 @@ const Interfaces = () => {
   );
 };
 
-export default Interfaces;
+export default InterfacesAndPortTypes;

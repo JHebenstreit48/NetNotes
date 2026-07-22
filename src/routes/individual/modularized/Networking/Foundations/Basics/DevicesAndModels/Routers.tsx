@@ -7,10 +7,12 @@ const BasicRouterSetup = lazy(
 const RolesAndTypes = lazy(
   () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/RolesAndTypes')
 );
-const Interfaces = lazy(
-  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/Interfaces')
+const InterfacesAndPortTypes = lazy(
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/InterfacesAndPortTypes')
 );
-const PortTypes = lazy(() => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/PortTypes'));
+const RouterModels = lazy(
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/RouterModels')
+);
 const RoutingVsSwitching = lazy(
   () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/RoutingVsSwitching')
 );
@@ -25,12 +27,12 @@ const Routers: RouteObject[] = [
     element: <RolesAndTypes />,
   },
   {
-    path: '/foundations/basics/devices-and-models/routers/interfaces',
-    element: <Interfaces />,
+    path: '/foundations/basics/devices-and-models/routers/interfaces-and-port-types',
+    element: <InterfacesAndPortTypes />,
   },
   {
-    path: '/foundations/basics/devices-and-models/routers/port-types',
-    element: <PortTypes />,
+    path: '/foundations/basics/devices-and-models/routers/router-models',
+    element: <RouterModels />,
   },
   {
     path: '/foundations/basics/devices-and-models/routers/routing-vs-switching',
