@@ -1,6 +1,6 @@
 export const config = {
   // Where to import the navigation root from (Subpage[])
-  navEntryModule: '@/navigation/combined/Topics',
+  navEntryModule: '@/navigation/combined/topics',
 
   // Output roots
   pagesRoot: 'src/pages/mainTabs',
