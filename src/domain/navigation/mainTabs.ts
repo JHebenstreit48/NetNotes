@@ -1,11 +1,11 @@
 import { Subpage } from "@/types/navigation";
 
-import networking from "@/navigation/Combined/Topics/networking";
-import networkSecurity from "@/navigation/Combined/Topics/networkSecurity";
-import voip from "@/navigation/Combined/Topics/voip";
-import certifications from "@/navigation/Combined/Topics/certifications";
-import tools from "@/navigation/Combined/Topics/tools";
-import glossary from "@/navigation/Combined/Topics/glossary";
+import networking from "@/navigation/combined/Topics/networking";
+import networkSecurity from "@/navigation/combined/Topics/networkSecurity";
+import voip from "@/navigation/combined/Topics/voip";
+import certifications from "@/navigation/combined/Topics/certifications";
+import tools from "@/navigation/combined/Topics/tools";
+import glossary from "@/navigation/combined/Topics/glossary";
 
 const pages: Subpage[] = [
   networking,
