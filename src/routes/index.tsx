@@ -1,11 +1,11 @@
 import { createBrowserRouter } from 'react-router-dom';
 
 import App from '@/App';
-import ErrorPage from '@/Pages/Special/Error';
-import Home from '@/Pages/Special/Home';
-import About from '@/Pages/Special/About';
-import RelatedProjects from '@/Pages/Special/RelatedProjects';
-import QRCodePage from '@/Pages/Special/qrCode';
+import ErrorPage from '@/pages/Special/Error';
+import Home from '@/pages/Special/Home';
+import About from '@/pages/Special/About';
+import RelatedProjects from '@/pages/Special/RelatedProjects';
+import QRCodePage from '@/pages/Special/qrCode';
 
 import networking from '@/routes/Sections/networking';
 import networkSecurity from '@/routes/Sections/networkSecurity';

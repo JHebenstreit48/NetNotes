@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PythonAndRESTLabs = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Advanced/PracticeAndLabs/PythonAndRESTLabs'));
-const AutomationWithAnsible = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Advanced/PracticeAndLabs/AutomationWithAnsible'));
+const PythonAndRESTLabs = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/DevNet/Advanced/PracticeAndLabs/PythonAndRESTLabs'));
+const AutomationWithAnsible = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/DevNet/Advanced/PracticeAndLabs/AutomationWithAnsible'));
 
 const PracticeAndLabs: RouteObject[] = [
   {

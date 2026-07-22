@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const DashboardsAndAlerts = lazy(
-  () => import('@/Pages/MainTabs/Networking/Cloud/Basics/Monitoring/DashboardsAndAlerts')
+  () => import('@/pages/mainTabs/Networking/Cloud/Basics/Monitoring/DashboardsAndAlerts')
 );
 const HealthAndTelemetry = lazy(
-  () => import('@/Pages/MainTabs/Networking/Cloud/Basics/Monitoring/HealthAndTelemetry')
+  () => import('@/pages/mainTabs/Networking/Cloud/Basics/Monitoring/HealthAndTelemetry')
 );
 
 const Monitoring: RouteObject[] = [

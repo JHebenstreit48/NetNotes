@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CommunicationStandards = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/TransmissionConcepts/CommunicateStandards'));
-const DataTransmissionMethods = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/TransmissionConcepts/DataTransmitMethods'));
+const CommunicationStandards = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/TransmissionConcepts/CommunicateStandards'));
+const DataTransmissionMethods = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/TransmissionConcepts/DataTransmitMethods'));
 
 const TransmissionConcepts: RouteObject[] = [
   {

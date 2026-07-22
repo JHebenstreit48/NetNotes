@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const FollowStreamsAndRTT = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Advanced/Analysis/FollowStreamsAndRTT'));
-const TLSKeysAndDecryption = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Advanced/Analysis/TLSKeysAndDecryption'));
+const FollowStreamsAndRTT = lazy(() => import('@/pages/mainTabs/Tools/Wireshark/Advanced/Analysis/FollowStreamsAndRTT'));
+const TLSKeysAndDecryption = lazy(() => import('@/pages/mainTabs/Tools/Wireshark/Advanced/Analysis/TLSKeysAndDecryption'));
 
 const Analysis: RouteObject[] = [
   {

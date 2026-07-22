@@ -2,22 +2,22 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const Introduction = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/Fundamentals/Introduction')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/Fundamentals/Introduction')
 );
 const Internet = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/Fundamentals/InternetAndNetworks')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/Fundamentals/InternetAndNetworks')
 );
 const LocalNetworks = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/Fundamentals/LocalNetworks')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/Fundamentals/LocalNetworks')
 );
 const ConnectedDevices = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/Fundamentals/ConnectedDevices')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/Fundamentals/ConnectedDevices')
 );
 const CommunicationProtocols = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/Fundamentals/CommunicationProtocols')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/Fundamentals/CommunicationProtocols')
 );
 const StandardsAndOrganizations = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/Fundamentals/StandardsAndOrganizations')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/Fundamentals/StandardsAndOrganizations')
 );
 
 const Overview: RouteObject[] = [

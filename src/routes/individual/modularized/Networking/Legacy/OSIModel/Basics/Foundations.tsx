@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ModelAndTerms = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/Foundations/ModelAndTerms'));
-const ServicesVsProtocols = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/Foundations/ServicesVsProtocols'));
+const ModelAndTerms = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/Foundations/ModelAndTerms'));
+const ServicesVsProtocols = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/Foundations/ServicesVsProtocols'));
 
 const Foundations: RouteObject[] = [
   {

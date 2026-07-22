@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AccountingAndCommandAuthorization = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/AccessControl/Advanced/BestPractices/AccountingAndCommandAuthorization'));
-const HAAndFallbackStrategies = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/AccessControl/Advanced/BestPractices/HAAndFallbackStrategies'));
+const AccountingAndCommandAuthorization = lazy(() => import('@/pages/mainTabs/NetworkSecurity/AccessControl/Advanced/BestPractices/AccountingAndCommandAuthorization'));
+const HAAndFallbackStrategies = lazy(() => import('@/pages/mainTabs/NetworkSecurity/AccessControl/Advanced/BestPractices/HAAndFallbackStrategies'));
 
 const BestPractices: RouteObject[] = [
   {

@@ -1,9 +1,9 @@
 export const config = {
   // Where to import the navigation root from (Subpage[])
-  navEntryModule: '@/navigation/Combined/Core/Pages',
+  navEntryModule: '@/navigation/combined/topics',
 
   // Output roots
-  pagesRoot: 'src/Pages/MainTabs',
+  pagesRoot: 'src/pages/mainTabs',
   routesSectionsRoot: 'src/routes/Sections',
 
   // prettier-ignore

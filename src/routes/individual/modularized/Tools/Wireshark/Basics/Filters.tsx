@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DisplayFilters = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Basics/Filters/Display'));
-const CaptureFilters = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Basics/Filters/Capture'));
+const DisplayFilters = lazy(() => import('@/pages/mainTabs/Tools/Wireshark/Basics/Filters/Display'));
+const CaptureFilters = lazy(() => import('@/pages/mainTabs/Tools/Wireshark/Basics/Filters/Capture'));
 
 const Filters: RouteObject[] = [
   {

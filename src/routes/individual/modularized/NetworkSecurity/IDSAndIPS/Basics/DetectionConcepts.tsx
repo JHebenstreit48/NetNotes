@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const IntrusionDetection = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/IDSAndIPS/Basics/DetectionConcepts/IntrusionDetection'));
-const IDSVsIPS = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/IDSAndIPS/Basics/DetectionConcepts/IDSVsIPS'));
+const IntrusionDetection = lazy(() => import('@/pages/mainTabs/NetworkSecurity/IDSAndIPS/Basics/DetectionConcepts/IntrusionDetection'));
+const IDSVsIPS = lazy(() => import('@/pages/mainTabs/NetworkSecurity/IDSAndIPS/Basics/DetectionConcepts/IDSVsIPS'));
 
 const DetectionConcepts: RouteObject[] = [
   {

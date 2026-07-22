@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GNS3EVENGLabs = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/LabAndCapture/GNS3EVENGLabs'));
-const WiresharkProfiles = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/LabAndCapture/WiresharkProfiles'));
+const GNS3EVENGLabs = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/LabAndCapture/GNS3EVENGLabs'));
+const WiresharkProfiles = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/LabAndCapture/WiresharkProfiles'));
 
 const LabAndCapture: RouteObject[] = [
   {

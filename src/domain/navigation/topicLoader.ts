@@ -16,11 +16,11 @@ export const topicButtons: Array<{ key: TopicKey; name: string }> = [
 ];
 
 const topicImporters: Record<TopicKey, () => Promise<{ default: Subpage }>> = {
-  routeAndSwitch: () => import("@/navigation/Combined/Topics/networking"),
-  networkSecurity: () => import("@/navigation/Combined/Topics/networkSecurity"),
-  voip: () => import("@/navigation/Combined/Topics/voip"),
-  certifications: () => import("@/navigation/Combined/Topics/certifications"),
-  tools: () => import("@/navigation/Combined/Topics/tools"),
+  routeAndSwitch: () => import("@/navigation/combined/topics/networking"),
+  networkSecurity: () => import("@/navigation/combined/topics/networkSecurity"),
+  voip: () => import("@/navigation/combined/topics/voip"),
+  certifications: () => import("@/navigation/combined/topics/certifications"),
+  tools: () => import("@/navigation/combined/topics/tools"),
 };
 
 export async function loadTopic(key: TopicKey): Promise<Subpage> {

@@ -1,11 +1,11 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SubnetMasksAndCIDR = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/SubnetMasksAndCIDR'));
-const BroadcastDomainsAndSegmentation = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/BroadcastDomainsAndSegmentation'));
-const DefaultGatewayAndRoutingTables = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/DefaultGatewayAndRoutingTables'));
-const IPv4Subnetting = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/IPv4Subnetting'));
-const IPv6Subnetting = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/IPv6Subnetting'));
+const SubnetMasksAndCIDR = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/SubnetMasksAndCIDR'));
+const BroadcastDomainsAndSegmentation = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/BroadcastDomainsAndSegmentation'));
+const DefaultGatewayAndRoutingTables = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/DefaultGatewayAndRoutingTables'));
+const IPv4Subnetting = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/IPv4Subnetting'));
+const IPv6Subnetting = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/SubnettingAndGateways/IPv6Subnetting'));
 
 const SubnettingAndGateways: RouteObject[] = [
   {

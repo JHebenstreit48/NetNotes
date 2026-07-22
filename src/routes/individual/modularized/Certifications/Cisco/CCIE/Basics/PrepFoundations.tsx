@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const StudyPlan = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCIE/Basics/PrepFoundations/StudyPlan'));
-const ToolsAndEnvironment = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCIE/Basics/PrepFoundations/ToolsAndEnvironment'));
+const StudyPlan = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCIE/Basics/PrepFoundations/StudyPlan'));
+const ToolsAndEnvironment = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCIE/Basics/PrepFoundations/ToolsAndEnvironment'));
 
 const PrepFoundations: RouteObject[] = [
   {

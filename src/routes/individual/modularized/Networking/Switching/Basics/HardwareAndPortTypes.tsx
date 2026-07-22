@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const SwitchesAndConnectors = lazy(
-  () => import('@/Pages/MainTabs/Networking/Switching/Basics/HardwareAndPortTypes/SwitchesAndConnectors')
+  () => import('@/pages/mainTabs/Networking/Switching/Basics/HardwareAndPortTypes/SwitchesAndConnectors')
 );
 const EthernetSpeedHistory = lazy(
-  () => import('@/Pages/MainTabs/Networking/Switching/Basics/HardwareAndPortTypes/EthernetSpeedHistory')
+  () => import('@/pages/mainTabs/Networking/Switching/Basics/HardwareAndPortTypes/EthernetSpeedHistory')
 );
 
 const HardwareAndHistory: RouteObject[] = [

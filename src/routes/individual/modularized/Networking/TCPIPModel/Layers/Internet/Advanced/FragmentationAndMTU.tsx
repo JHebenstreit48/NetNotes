@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const IPv4DFMFAndReassembly = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/FragmentationAndMTU/IPv4DFMFAndReassembly'));
-const PathMTUDiscovery = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/FragmentationAndMTU/PathMTUDiscovery'));
+const IPv4DFMFAndReassembly = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/FragmentationAndMTU/IPv4DFMFAndReassembly'));
+const PathMTUDiscovery = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/FragmentationAndMTU/PathMTUDiscovery'));
 
 const FragmentationAndMTU: RouteObject[] = [
   {

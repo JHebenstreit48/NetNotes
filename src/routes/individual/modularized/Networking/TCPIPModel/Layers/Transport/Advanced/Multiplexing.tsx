@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ProcessDemultiplexing = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/Multiplexing/ProcessDemultiplexing'));
-const EphemeralAndWellKnownPorts = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/Multiplexing/EphemeralAndWellKnownPorts'));
+const ProcessDemultiplexing = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/Multiplexing/ProcessDemultiplexing'));
+const EphemeralAndWellKnownPorts = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/Multiplexing/EphemeralAndWellKnownPorts'));
 
 const Multiplexing: RouteObject[] = [
   {

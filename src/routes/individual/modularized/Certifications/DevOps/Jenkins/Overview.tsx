@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WhatIsTheCJE = lazy(() => import('@/Pages/MainTabs/Certifications/DevOps/Jenkins/Overview/WhatIsTheCJE'));
-const SkillsMeasured = lazy(() => import('@/Pages/MainTabs/Certifications/DevOps/Jenkins/Overview/SkillsMeasured'));
+const WhatIsTheCJE = lazy(() => import('@/pages/mainTabs/Certifications/DevOps/Jenkins/Overview/WhatIsTheCJE'));
+const SkillsMeasured = lazy(() => import('@/pages/mainTabs/Certifications/DevOps/Jenkins/Overview/SkillsMeasured'));
 
 const Overview: RouteObject[] = [
   {

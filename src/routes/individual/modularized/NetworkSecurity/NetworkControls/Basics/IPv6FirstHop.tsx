@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RAGuard = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/NetworkControls/Basics/IPv6FirstHop/RAGuard'));
-const NDInspection = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/NetworkControls/Basics/IPv6FirstHop/NDInspection'));
+const RAGuard = lazy(() => import('@/pages/mainTabs/NetworkSecurity/NetworkControls/Basics/IPv6FirstHop/RAGuard'));
+const NDInspection = lazy(() => import('@/pages/mainTabs/NetworkSecurity/NetworkControls/Basics/IPv6FirstHop/NDInspection'));
 
 const IPv6FirstHop: RouteObject[] = [
   {

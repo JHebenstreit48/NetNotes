@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SeventyTwoHourPlan = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Advanced/FinalReview/SeventyTwoHourPlan'));
-const DayBeforeChecklist = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Advanced/FinalReview/DayBeforeChecklist'));
+const SeventyTwoHourPlan = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Advanced/FinalReview/SeventyTwoHourPlan'));
+const DayBeforeChecklist = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Advanced/FinalReview/DayBeforeChecklist'));
 
 const FinalReview: RouteObject[] = [
   {

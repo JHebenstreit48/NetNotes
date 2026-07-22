@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SIPGatewaysAndInterop = lazy(() => import('@/Pages/MainTabs/VoIP/Tools/SoftphonesAndClients/TeamsAndZoomPhone/SIPGatewaysAndInterop'));
-const CallQualityMOSAndCAC = lazy(() => import('@/Pages/MainTabs/VoIP/Tools/SoftphonesAndClients/TeamsAndZoomPhone/CallQualityMOSAndCAC'));
+const SIPGatewaysAndInterop = lazy(() => import('@/pages/mainTabs/VoIP/Tools/SoftphonesAndClients/TeamsAndZoomPhone/SIPGatewaysAndInterop'));
+const CallQualityMOSAndCAC = lazy(() => import('@/pages/mainTabs/VoIP/Tools/SoftphonesAndClients/TeamsAndZoomPhone/CallQualityMOSAndCAC'));
 
 const TeamsAndZoomPhone: RouteObject[] = [
   {

@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Basics = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Basics/StandardACLs/Basics'));
-const Syntax = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Basics/StandardACLs/Syntax'));
-const Placement = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Basics/StandardACLs/Placement'));
+const Basics = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Basics/StandardACLs/Basics'));
+const Syntax = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Basics/StandardACLs/Syntax'));
+const Placement = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Basics/StandardACLs/Placement'));
 
 const StandardACLs: RouteObject[] = [
   {

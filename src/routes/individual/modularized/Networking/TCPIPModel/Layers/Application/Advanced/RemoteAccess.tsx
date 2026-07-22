@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SSH = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/RemoteAccess/SSH'));
-const BestPractices = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/RemoteAccess/BestPractices'));
+const SSH = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Advanced/RemoteAccess/SSH'));
+const BestPractices = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Advanced/RemoteAccess/BestPractices'));
 
 const RemoteAccess: RouteObject[] = [
   {

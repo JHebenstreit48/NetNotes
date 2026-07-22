@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DialogAndTokens = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/Session/DialogAndTokens'));
-const SyncAndRecovery = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/Session/SyncAndRecovery'));
+const DialogAndTokens = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/Session/DialogAndTokens'));
+const SyncAndRecovery = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/Session/SyncAndRecovery'));
 
 const Session: RouteObject[] = [
   {

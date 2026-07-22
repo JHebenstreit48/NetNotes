@@ -4,9 +4,9 @@ import {
   readVisits,
   writeVisits,
   type Visit,
-} from "@/components/Shared/hooks/useVisitTracker";
+} from "@/components/shared/hooks/useVisitTracker";
 import { resolveBreadcrumbTrail } from "@/domain/navigation/breadcrumbs";
-import { SITE_NAME } from "@/components/Shared/dynamicSiteName";
+import { SITE_NAME } from "@/components/shared/dynamicSiteName";
 
 /* ---------- Title cache ---------- */
 const TITLES_KEY = "page_titles_v1";

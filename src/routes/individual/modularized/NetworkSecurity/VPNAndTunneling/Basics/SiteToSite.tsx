@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const IPsecIKEv2Overview = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/VPNAndTunneling/Basics/SiteToSite/IPsecIKEv2Overview'));
-const CryptoMapsAndVTIs = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/VPNAndTunneling/Basics/SiteToSite/CryptoMapsAndVTIs'));
+const IPsecIKEv2Overview = lazy(() => import('@/pages/mainTabs/NetworkSecurity/VPNAndTunneling/Basics/SiteToSite/IPsecIKEv2Overview'));
+const CryptoMapsAndVTIs = lazy(() => import('@/pages/mainTabs/NetworkSecurity/VPNAndTunneling/Basics/SiteToSite/CryptoMapsAndVTIs'));
 
 const SiteToSite: RouteObject[] = [
   {

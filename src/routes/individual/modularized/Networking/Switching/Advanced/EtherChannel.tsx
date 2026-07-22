@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const LACPAndPAgP = lazy(() => import('@/Pages/MainTabs/Networking/Switching/Advanced/EtherChannel/LACPAndPAgP'));
+const LACPAndPAgP = lazy(() => import('@/pages/mainTabs/Networking/Switching/Advanced/EtherChannel/LACPAndPAgP'));
 const LoadBalancingAndDesign = lazy(
-  () => import('@/Pages/MainTabs/Networking/Switching/Advanced/EtherChannel/LoadBalancingAndDesign')
+  () => import('@/pages/mainTabs/Networking/Switching/Advanced/EtherChannel/LoadBalancingAndDesign')
 );
 
 const EtherChannel: RouteObject[] = [

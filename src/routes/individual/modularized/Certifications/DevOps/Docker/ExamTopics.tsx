@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ContainersAndImages = lazy(() => import('@/Pages/MainTabs/Certifications/DevOps/Docker/ExamTopics/ContainersAndImages'));
-const OrchestrationBasics = lazy(() => import('@/Pages/MainTabs/Certifications/DevOps/Docker/ExamTopics/OrchestrationBasics'));
+const ContainersAndImages = lazy(() => import('@/pages/mainTabs/Certifications/DevOps/Docker/ExamTopics/ContainersAndImages'));
+const OrchestrationBasics = lazy(() => import('@/pages/mainTabs/Certifications/DevOps/Docker/ExamTopics/OrchestrationBasics'));
 
 const ExamTopics: RouteObject[] = [
   {

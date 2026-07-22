@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WirelessStandards = lazy(() => import('@/Pages/MainTabs/Networking/Wireless/Basics/80211Fundamentals/WirelessStandards'));
-const FrequenciesAndChannels = lazy(() => import('@/Pages/MainTabs/Networking/Wireless/Basics/80211Fundamentals/FrequenciesAndChannels'));
+const WirelessStandards = lazy(() => import('@/pages/mainTabs/Networking/Wireless/Basics/80211Fundamentals/WirelessStandards'));
+const FrequenciesAndChannels = lazy(() => import('@/pages/mainTabs/Networking/Wireless/Basics/80211Fundamentals/FrequenciesAndChannels'));
 
 const EightOTwoElevenFundamentals: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CLIAccess = lazy(() => import('@/Pages/MainTabs/Tools/CiscoPacketTracer/Basics/ConfigurationBasics/CLIAccess'));
-const StartupRunningFiles = lazy(() => import('@/Pages/MainTabs/Tools/CiscoPacketTracer/Basics/ConfigurationBasics/StartupRunningFiles'));
+const CLIAccess = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Basics/ConfigurationBasics/CLIAccess'));
+const StartupRunningFiles = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Basics/ConfigurationBasics/StartupRunningFiles'));
 
 const ConfigurationBasics: RouteObject[] = [
   {

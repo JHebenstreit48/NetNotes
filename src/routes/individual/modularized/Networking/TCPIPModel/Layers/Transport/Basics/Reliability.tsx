@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ReliableDeliveryFlowControl = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Basics/Reliability/ReliableDeliveryFlowControl'));
-const SegmentationAndReassembly = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Basics/Reliability/SegmentationAndReassembly'));
+const ReliableDeliveryFlowControl = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Basics/Reliability/ReliableDeliveryFlowControl'));
+const SegmentationAndReassembly = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Basics/Reliability/SegmentationAndReassembly'));
 
 const Reliability: RouteObject[] = [
   {

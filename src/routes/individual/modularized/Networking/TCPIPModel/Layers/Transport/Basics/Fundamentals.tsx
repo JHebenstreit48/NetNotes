@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Basics/Fundamentals/Introduction'));
-const TCPVsUDP = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Basics/Fundamentals/TCPVsUDP'));
+const Introduction = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Basics/Fundamentals/Introduction'));
+const TCPVsUDP = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Basics/Fundamentals/TCPVsUDP'));
 
 const Fundamentals: RouteObject[] = [
   {

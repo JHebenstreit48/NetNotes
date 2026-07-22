@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NSAPStructure = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Advanced/CLNSAndAddressing/NSAPStructure'));
-const CLNPHeaders = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Advanced/CLNSAndAddressing/CLNPHeaders'));
+const NSAPStructure = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Advanced/CLNSAndAddressing/NSAPStructure'));
+const CLNPHeaders = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Advanced/CLNSAndAddressing/CLNPHeaders'));
 
 const CLNSAndAddressing: RouteObject[] = [
   {

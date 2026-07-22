@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DHCPOptionsAndVoiceVLANs = lazy(() => import('@/Pages/MainTabs/VoIP/Diagnostics/Advanced/Provisioning/DHCPOptionsAndVoiceVLANs'));
-const TFTPHTTPServersAndFileLayouts = lazy(() => import('@/Pages/MainTabs/VoIP/Diagnostics/Advanced/Provisioning/TFTPHTTPServersAndFileLayouts'));
+const DHCPOptionsAndVoiceVLANs = lazy(() => import('@/pages/mainTabs/VoIP/Diagnostics/Advanced/Provisioning/DHCPOptionsAndVoiceVLANs'));
+const TFTPHTTPServersAndFileLayouts = lazy(() => import('@/pages/mainTabs/VoIP/Diagnostics/Advanced/Provisioning/TFTPHTTPServersAndFileLayouts'));
 
 const Provisioning: RouteObject[] = [
   {

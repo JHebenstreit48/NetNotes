@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const BrokeredAccess = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/SegmentZeroTrust/Advanced/ZTNAPatterns/BrokeredAccess'));
-const AppSegmentation = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/SegmentZeroTrust/Advanced/ZTNAPatterns/AppSegmentation'));
+const BrokeredAccess = lazy(() => import('@/pages/mainTabs/NetworkSecurity/SegmentZeroTrust/Advanced/ZTNAPatterns/BrokeredAccess'));
+const AppSegmentation = lazy(() => import('@/pages/mainTabs/NetworkSecurity/SegmentZeroTrust/Advanced/ZTNAPatterns/AppSegmentation'));
 
 const ZTNAPatterns: RouteObject[] = [
   {

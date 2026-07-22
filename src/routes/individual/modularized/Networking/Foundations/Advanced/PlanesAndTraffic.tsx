@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DataVsControlVsMgmt = lazy(() => import('@/Pages/MainTabs/Networking/Foundations/Advanced/PlanesAndTraffic/DataVsControlVsMgmt'));
-const UnicastMulticastBroadcast = lazy(() => import('@/Pages/MainTabs/Networking/Foundations/Advanced/PlanesAndTraffic/UnicastMulticastBroadcast'));
+const DataVsControlVsMgmt = lazy(() => import('@/pages/mainTabs/Networking/Foundations/Advanced/PlanesAndTraffic/DataVsControlVsMgmt'));
+const UnicastMulticastBroadcast = lazy(() => import('@/pages/mainTabs/Networking/Foundations/Advanced/PlanesAndTraffic/UnicastMulticastBroadcast'));
 
 const PlanesAndTraffic: RouteObject[] = [
   {

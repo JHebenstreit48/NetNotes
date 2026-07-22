@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GatewaysAndProxies = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/CompatAndInterop/GatewaysAndProxies'));
-const LegacyClientsToday = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/CompatAndInterop/LegacyClientsToday'));
+const GatewaysAndProxies = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/CompatAndInterop/GatewaysAndProxies'));
+const LegacyClientsToday = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/CompatAndInterop/LegacyClientsToday'));
 
 const CompatAndInterop: RouteObject[] = [
   {

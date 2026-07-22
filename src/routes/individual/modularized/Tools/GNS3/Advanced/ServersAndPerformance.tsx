@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const LocalRemoteServer = lazy(() => import('@/Pages/MainTabs/Tools/GNS3/Advanced/ServersAndPerformance/LocalRemoteServer'));
-const TuningAndResources = lazy(() => import('@/Pages/MainTabs/Tools/GNS3/Advanced/ServersAndPerformance/TuningAndResources'));
+const LocalRemoteServer = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Advanced/ServersAndPerformance/LocalRemoteServer'));
+const TuningAndResources = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Advanced/ServersAndPerformance/TuningAndResources'));
 
 const ServersAndPerformance: RouteObject[] = [
   {

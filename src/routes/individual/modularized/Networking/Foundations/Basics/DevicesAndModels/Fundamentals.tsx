@@ -2,17 +2,17 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const NetworkInfrastructure = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/Fundamentals/NetworkInfrastructure')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Fundamentals/NetworkInfrastructure')
 );
 
 const NetworkDevices = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/Fundamentals/NetworkDevices')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Fundamentals/NetworkDevices')
 );
 const HomeNetworkArchitecture = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/Fundamentals/HomeNetworkArchitecture')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Fundamentals/HomeNetworkArchitecture')
 );
 const NetworkModels = lazy(
-  () => import('@/Pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/Fundamentals/NetworkModels')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Fundamentals/NetworkModels')
 );
 
 const DevicesAndModels: RouteObject[] = [

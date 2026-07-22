@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Examples = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Advanced/ExamplesAndPatterns/Examples'));
-const PlacementAndTesting = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Advanced/ExamplesAndPatterns/PlacementAndTesting'));
+const Examples = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Advanced/ExamplesAndPatterns/Examples'));
+const PlacementAndTesting = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Advanced/ExamplesAndPatterns/PlacementAndTesting'));
 
 const ExamplesAndPatterns: RouteObject[] = [
   {

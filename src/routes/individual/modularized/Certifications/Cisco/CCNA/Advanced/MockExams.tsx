@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Timed = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Advanced/MockExams/Timed'));
-const ReviewAndAnalytics = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Advanced/MockExams/ReviewAndAnalytics'));
+const Timed = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Advanced/MockExams/Timed'));
+const ReviewAndAnalytics = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Advanced/MockExams/ReviewAndAnalytics'));
 
 const MockExams: RouteObject[] = [
   {

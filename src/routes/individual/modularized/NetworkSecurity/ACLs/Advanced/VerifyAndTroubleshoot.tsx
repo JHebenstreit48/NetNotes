@@ -1,10 +1,10 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ShowAccessLists = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Advanced/VerifyAndTroubleshoot/ShowAccessLists'));
-const ShowRunInterface = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Advanced/VerifyAndTroubleshoot/ShowRunInterface'));
-const PingAndTraceroute = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Advanced/VerifyAndTroubleshoot/PingAndTraceroute'));
-const CommonMistakes = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Advanced/VerifyAndTroubleshoot/CommonMistakes'));
+const ShowAccessLists = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Advanced/VerifyAndTroubleshoot/ShowAccessLists'));
+const ShowRunInterface = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Advanced/VerifyAndTroubleshoot/ShowRunInterface'));
+const PingAndTraceroute = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Advanced/VerifyAndTroubleshoot/PingAndTraceroute'));
+const CommonMistakes = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Advanced/VerifyAndTroubleshoot/CommonMistakes'));
 
 const VerifyAndTroubleshoot: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WhatIsNetwork = lazy(() => import('@/Pages/MainTabs/Certifications/CompTIA/CompTIANetwork/Overview/WhatIsNetwork'));
-const WhyGetNetworkCertified = lazy(() => import('@/Pages/MainTabs/Certifications/CompTIA/CompTIANetwork/Overview/WhyGetNetworkCertified'));
+const WhatIsNetwork = lazy(() => import('@/pages/mainTabs/Certifications/CompTIA/CompTIANetwork/Overview/WhatIsNetwork'));
+const WhyGetNetworkCertified = lazy(() => import('@/pages/mainTabs/Certifications/CompTIA/CompTIANetwork/Overview/WhyGetNetworkCertified'));
 
 const Overview: RouteObject[] = [
   {

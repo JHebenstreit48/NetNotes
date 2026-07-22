@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ProtocolInspectors = lazy(() => import('@/Pages/MainTabs/Tools/CiscoPacketTracer/Advanced/SimulationAnalysis/ProtocolInspectors'));
-const EventWorkflows = lazy(() => import('@/Pages/MainTabs/Tools/CiscoPacketTracer/Advanced/SimulationAnalysis/EventWorkflows'));
+const ProtocolInspectors = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Advanced/SimulationAnalysis/ProtocolInspectors'));
+const EventWorkflows = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Advanced/SimulationAnalysis/EventWorkflows'));
 
 const SimulationAnalysis: RouteObject[] = [
   {

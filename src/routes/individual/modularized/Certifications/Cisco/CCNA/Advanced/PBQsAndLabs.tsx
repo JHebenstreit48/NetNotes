@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PacketTracerLabs = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Advanced/PBQsAndLabs/PacketTracerLabs'));
-const TroubleshootingScenarios = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Advanced/PBQsAndLabs/TroubleshootingScenarios'));
+const PacketTracerLabs = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Advanced/PBQsAndLabs/PacketTracerLabs'));
+const TroubleshootingScenarios = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Advanced/PBQsAndLabs/TroubleshootingScenarios'));
 
 const PBQsAndLabs: RouteObject[] = [
   {

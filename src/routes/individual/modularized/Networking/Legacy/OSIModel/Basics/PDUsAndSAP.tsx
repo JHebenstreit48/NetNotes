@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PDUNamesByLayer = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/PDUsAndSAP/PDUNamesByLayer'));
-const SAPSDUPCI = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/PDUsAndSAP/SAPSDUPCI'));
+const PDUNamesByLayer = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/PDUsAndSAP/PDUNamesByLayer'));
+const SAPSDUPCI = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/PDUsAndSAP/SAPSDUPCI'));
 
 const PDUsAndSAP: RouteObject[] = [
   {

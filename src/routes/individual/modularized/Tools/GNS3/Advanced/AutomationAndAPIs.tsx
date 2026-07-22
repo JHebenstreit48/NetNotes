@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const StartupConfigs = lazy(() => import('@/Pages/MainTabs/Tools/GNS3/Advanced/AutomationAndAPIs/StartupConfigs'));
-const GNS3RESTAPI = lazy(() => import('@/Pages/MainTabs/Tools/GNS3/Advanced/AutomationAndAPIs/GNS3RESTAPI'));
+const StartupConfigs = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Advanced/AutomationAndAPIs/StartupConfigs'));
+const GNS3RESTAPI = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Advanced/AutomationAndAPIs/GNS3RESTAPI'));
 
 const AutomationAndAPIs: RouteObject[] = [
   {

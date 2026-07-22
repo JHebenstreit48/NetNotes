@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AssociateTimedMock = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Advanced/MockExams/AssociateTimedMock'));
-const DEVCORTimedMock = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Advanced/MockExams/DEVCORTimedMock'));
+const AssociateTimedMock = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/DevNet/Advanced/MockExams/AssociateTimedMock'));
+const DEVCORTimedMock = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/DevNet/Advanced/MockExams/DEVCORTimedMock'));
 
 const MockExams: RouteObject[] = [
   {

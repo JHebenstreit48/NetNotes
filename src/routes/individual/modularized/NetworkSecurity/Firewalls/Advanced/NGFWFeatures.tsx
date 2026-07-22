@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AppIDIPSURL = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/Firewalls/Advanced/NGFWFeatures/AppIDIPSURL'));
-const SSLTLSDecryption = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/Firewalls/Advanced/NGFWFeatures/SSLTLSDecryption'));
+const AppIDIPSURL = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Advanced/NGFWFeatures/AppIDIPSURL'));
+const SSLTLSDecryption = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Advanced/NGFWFeatures/SSLTLSDecryption'));
 
 const NGFWFeatures: RouteObject[] = [
   {
