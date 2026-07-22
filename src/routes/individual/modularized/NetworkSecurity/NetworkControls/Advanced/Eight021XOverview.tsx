@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const SupplicantAuthenticator = lazy(() =>
-  import('@/Pages/MainTabs/NetworkSecurity/NetworkControls/Advanced/8021XOverview/SupplicantAuthenticator')
+  import('@/pages/MainTabs/NetworkSecurity/NetworkControls/Advanced/8021XOverview/SupplicantAuthenticator')
 );
 const GuestRestrictedVLANs = lazy(() =>
-  import('@/Pages/MainTabs/NetworkSecurity/NetworkControls/Advanced/8021XOverview/GuestRestrictedVLANs')
+  import('@/pages/MainTabs/NetworkSecurity/NetworkControls/Advanced/8021XOverview/GuestRestrictedVLANs')
 );
 
 const EightZeroTwoOneXOverview: RouteObject[] = [

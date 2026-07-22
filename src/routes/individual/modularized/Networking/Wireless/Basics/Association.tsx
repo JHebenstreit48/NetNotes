@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DiscoveryAndJoin = lazy(() => import('@/Pages/MainTabs/Networking/Wireless/Basics/Association/DiscoveryAndJoin'));
-const DHCPAndDNSWorkflow = lazy(() => import('@/Pages/MainTabs/Networking/Wireless/Basics/Association/DHCPAndDNSWorkflow'));
+const DiscoveryAndJoin = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Basics/Association/DiscoveryAndJoin'));
+const DHCPAndDNSWorkflow = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Basics/Association/DHCPAndDNSWorkflow'));
 
 const Association: RouteObject[] = [
   {

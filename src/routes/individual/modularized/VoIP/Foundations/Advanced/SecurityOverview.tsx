@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TLSAndSRTPAtAHighLevel = lazy(() => import('@/Pages/MainTabs/VoIP/Foundations/Advanced/SecurityOverview/TLSAndSRTPAtAHighLevel'));
-const SBCsAndEdgeDesign = lazy(() => import('@/Pages/MainTabs/VoIP/Foundations/Advanced/SecurityOverview/SBCsAndEdgeDesign'));
+const TLSAndSRTPAtAHighLevel = lazy(() => import('@/pages/MainTabs/VoIP/Foundations/Advanced/SecurityOverview/TLSAndSRTPAtAHighLevel'));
+const SBCsAndEdgeDesign = lazy(() => import('@/pages/MainTabs/VoIP/Foundations/Advanced/SecurityOverview/SBCsAndEdgeDesign'));
 
 const SecurityOverview: RouteObject[] = [
   {

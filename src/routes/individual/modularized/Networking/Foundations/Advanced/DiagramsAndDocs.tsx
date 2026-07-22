@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PhysicalVsLogical = lazy(() => import('@/Pages/MainTabs/Networking/Foundations/Advanced/DiagramsAndDocs/PhysicalVsLogical'));
-const NamingAndLabeling = lazy(() => import('@/Pages/MainTabs/Networking/Foundations/Advanced/DiagramsAndDocs/NamingAndLabeling'));
+const PhysicalVsLogical = lazy(() => import('@/pages/MainTabs/Networking/Foundations/Advanced/DiagramsAndDocs/PhysicalVsLogical'));
+const NamingAndLabeling = lazy(() => import('@/pages/MainTabs/Networking/Foundations/Advanced/DiagramsAndDocs/NamingAndLabeling'));
 
 const DiagramsAndDocs: RouteObject[] = [
   {

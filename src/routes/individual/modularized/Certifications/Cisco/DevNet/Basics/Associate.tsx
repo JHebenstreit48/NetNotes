@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ExamOverview = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Basics/Associate/ExamOverview'));
-const ExamDomains = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Basics/Associate/ExamDomains'));
+const ExamOverview = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Basics/Associate/ExamOverview'));
+const ExamDomains = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Basics/Associate/ExamDomains'));
 
 const Associate: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TelnetBasics = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/Telnet/TelnetBasics'));
-const MigrateToSSH = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/Telnet/MigrateToSSH'));
+const TelnetBasics = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/Telnet/TelnetBasics'));
+const MigrateToSSH = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/Telnet/MigrateToSSH'));
 
 const Telnet: RouteObject[] = [
   {

@@ -1,12 +1,12 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ICMP = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/ICMPAndCommands/ICMP'));
+const ICMP = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/ICMPAndCommands/ICMP'));
 const Ipconfig = lazy(
-  () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/ICMPAndCommands/Ipconfig')
+  () => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/ICMPAndCommands/Ipconfig')
 );
 const PingAndTraceroute = lazy(
-  () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/ICMPAndCommands/PingAndTraceroute')
+  () => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/ICMPAndCommands/PingAndTraceroute')
 );
 
 const ICMPAndDiagnostics: RouteObject[] = [

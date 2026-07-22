@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/Fundamentals/Introduction'));
-const LayersComparison = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/Fundamentals/LayerComparison'));
+const Introduction = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Basics/Fundamentals/Introduction'));
+const LayersComparison = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Basics/Fundamentals/LayerComparison'));
 
 const Fundamentals: RouteObject[] = [
   {

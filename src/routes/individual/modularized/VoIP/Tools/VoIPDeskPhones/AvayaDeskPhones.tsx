@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const JSeriesAndPlatforms = lazy(() => import('@/Pages/MainTabs/VoIP/Tools/VoIPDeskPhones/AvayaDeskPhones/JSeriesAndPlatforms'));
-const ModelsDirectory = lazy(() => import('@/Pages/MainTabs/VoIP/Tools/VoIPDeskPhones/AvayaDeskPhones/ModelsDirectory'));
+const JSeriesAndPlatforms = lazy(() => import('@/pages/MainTabs/VoIP/Tools/VoIPDeskPhones/AvayaDeskPhones/JSeriesAndPlatforms'));
+const ModelsDirectory = lazy(() => import('@/pages/MainTabs/VoIP/Tools/VoIPDeskPhones/AvayaDeskPhones/ModelsDirectory'));
 
 const AvayaDeskPhones: RouteObject[] = [
   {

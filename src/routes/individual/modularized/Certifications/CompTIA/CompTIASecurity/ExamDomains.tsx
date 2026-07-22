@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ThreatsAttacksAndVulnerabilities = lazy(() => import('@/Pages/MainTabs/Certifications/CompTIA/CompTIASecurity/ExamDomains/ThreatsAttacksAndVulnerabilities'));
-const IdentityAndAccessManagement = lazy(() => import('@/Pages/MainTabs/Certifications/CompTIA/CompTIASecurity/ExamDomains/IdentityAndAccessManagement'));
+const ThreatsAttacksAndVulnerabilities = lazy(() => import('@/pages/MainTabs/Certifications/CompTIA/CompTIASecurity/ExamDomains/ThreatsAttacksAndVulnerabilities'));
+const IdentityAndAccessManagement = lazy(() => import('@/pages/MainTabs/Certifications/CompTIA/CompTIASecurity/ExamDomains/IdentityAndAccessManagement'));
 
 const ExamDomains: RouteObject[] = [
   {

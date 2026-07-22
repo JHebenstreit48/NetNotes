@@ -3,7 +3,7 @@ export const config = {
   navEntryModule: '@/navigation/Combined/Core/Pages',
 
   // Output roots
-  pagesRoot: 'src/Pages/MainTabs',
+  pagesRoot: 'src/pages/MainTabs',
   routesSectionsRoot: 'src/routes/Sections',
 
   // prettier-ignore

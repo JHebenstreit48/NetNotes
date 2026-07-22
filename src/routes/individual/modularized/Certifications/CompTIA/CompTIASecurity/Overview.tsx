@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WhatIsSecurity = lazy(() => import('@/Pages/MainTabs/Certifications/CompTIA/CompTIASecurity/Overview/WhatIsSecurity'));
-const SecurityExamFormat = lazy(() => import('@/Pages/MainTabs/Certifications/CompTIA/CompTIASecurity/Overview/SecurityExamFormat'));
+const WhatIsSecurity = lazy(() => import('@/pages/MainTabs/Certifications/CompTIA/CompTIASecurity/Overview/WhatIsSecurity'));
+const SecurityExamFormat = lazy(() => import('@/pages/MainTabs/Certifications/CompTIA/CompTIASecurity/Overview/SecurityExamFormat'));
 
 const Overview: RouteObject[] = [
   {

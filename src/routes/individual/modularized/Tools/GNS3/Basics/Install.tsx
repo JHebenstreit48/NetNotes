@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GNS3AppAndVM = lazy(() => import('@/Pages/MainTabs/Tools/GNS3/Basics/Install/GNS3AppAndVM'));
-const RequirementsAndSetup = lazy(() => import('@/Pages/MainTabs/Tools/GNS3/Basics/Install/RequirementsAndSetup'));
+const GNS3AppAndVM = lazy(() => import('@/pages/MainTabs/Tools/GNS3/Basics/Install/GNS3AppAndVM'));
+const RequirementsAndSetup = lazy(() => import('@/pages/MainTabs/Tools/GNS3/Basics/Install/RequirementsAndSetup'));
 
 const Install: RouteObject[] = [
   {

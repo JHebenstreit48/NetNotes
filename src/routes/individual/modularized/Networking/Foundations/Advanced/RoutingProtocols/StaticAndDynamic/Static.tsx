@@ -1,7 +1,7 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Networking/Foundations/Advanced/RoutingProtocols/StaticAndDynamic/Static/Introduction'));
+const Introduction = lazy(() => import('@/pages/MainTabs/Networking/Foundations/Advanced/RoutingProtocols/StaticAndDynamic/Static/Introduction'));
 
 const Static: RouteObject[] = [
     {

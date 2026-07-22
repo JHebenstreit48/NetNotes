@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SngrepCallFlows = lazy(() => import('@/Pages/MainTabs/VoIP/Diagnostics/Advanced/Signaling/SngrepCallFlows'));
-const WiresharkSIPSDPFilters = lazy(() => import('@/Pages/MainTabs/VoIP/Diagnostics/Advanced/Signaling/WiresharkSIPSDPFilters'));
+const SngrepCallFlows = lazy(() => import('@/pages/MainTabs/VoIP/Diagnostics/Advanced/Signaling/SngrepCallFlows'));
+const WiresharkSIPSDPFilters = lazy(() => import('@/pages/MainTabs/VoIP/Diagnostics/Advanced/Signaling/WiresharkSIPSDPFilters'));
 
 const Signaling: RouteObject[] = [
   {

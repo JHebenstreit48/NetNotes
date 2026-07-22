@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RedundancyAndFailover = lazy(() => import('@/Pages/MainTabs/Networking/Cloud/Advanced/HAAndScale/RedundancyAndFailover'));
-const RegionsAndLatency = lazy(() => import('@/Pages/MainTabs/Networking/Cloud/Advanced/HAAndScale/RegionsAndLatency'));
+const RedundancyAndFailover = lazy(() => import('@/pages/MainTabs/Networking/Cloud/Advanced/HAAndScale/RedundancyAndFailover'));
+const RegionsAndLatency = lazy(() => import('@/pages/MainTabs/Networking/Cloud/Advanced/HAAndScale/RegionsAndLatency'));
 
 const HAAndScale: RouteObject[] = [
   {

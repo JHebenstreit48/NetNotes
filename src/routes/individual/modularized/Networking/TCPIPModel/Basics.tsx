@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-import Introduction from '@/Pages/MainTabs/Networking/TCPIPModel/Basics/Introduction';
-import ProtocolStack from '@/Pages/MainTabs/Networking/TCPIPModel/Basics/ProtocolStack';
+import Introduction from '@/pages/MainTabs/Networking/TCPIPModel/Basics/Introduction';
+import ProtocolStack from '@/pages/MainTabs/Networking/TCPIPModel/Basics/ProtocolStack';
 
 const ClientServerRoles: RouteObject[] = [
   {

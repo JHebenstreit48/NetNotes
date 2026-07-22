@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MethodologyAndFlow = lazy(() => import('@/Pages/MainTabs/Networking/Foundations/Advanced/Troubleshooting/MethodologyAndFlow'));
-const BaselinesAndMonitoring = lazy(() => import('@/Pages/MainTabs/Networking/Foundations/Advanced/Troubleshooting/BaselinesAndMonitoring'));
+const MethodologyAndFlow = lazy(() => import('@/pages/MainTabs/Networking/Foundations/Advanced/Troubleshooting/MethodologyAndFlow'));
+const BaselinesAndMonitoring = lazy(() => import('@/pages/MainTabs/Networking/Foundations/Advanced/Troubleshooting/BaselinesAndMonitoring'));
 
 const Troubleshooting: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ASN1AndBERDER = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/Presentation/ASN1AndBERDER'));
-const TransferSyntax = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Basics/Presentation/TransferSyntax'));
+const ASN1AndBERDER = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Basics/Presentation/ASN1AndBERDER'));
+const TransferSyntax = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Basics/Presentation/TransferSyntax'));
 
 const Presentation: RouteObject[] = [
   {

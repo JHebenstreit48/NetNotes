@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CommonPitfalls = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCIE/Advanced/Troubleshooting/CommonPitfalls'));
-const DebugWorkflow = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCIE/Advanced/Troubleshooting/DebugWorkflow'));
+const CommonPitfalls = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCIE/Advanced/Troubleshooting/CommonPitfalls'));
+const DebugWorkflow = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCIE/Advanced/Troubleshooting/DebugWorkflow'));
 
 const Troubleshooting: RouteObject[] = [
   {

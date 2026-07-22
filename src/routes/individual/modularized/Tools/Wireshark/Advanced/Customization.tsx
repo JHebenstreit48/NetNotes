@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ColumnsAndColoring = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Advanced/Customization/ColumnsAndColoring'));
-const ExtcapAndTShark = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Advanced/Customization/ExtcapAndTShark'));
+const ColumnsAndColoring = lazy(() => import('@/pages/MainTabs/Tools/Wireshark/Advanced/Customization/ColumnsAndColoring'));
+const ExtcapAndTShark = lazy(() => import('@/pages/MainTabs/Tools/Wireshark/Advanced/Customization/ExtcapAndTShark'));
 
 const Customization: RouteObject[] = [
   {

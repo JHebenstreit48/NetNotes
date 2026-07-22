@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Concepts = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/AccessControl/Basics/AAAAndRBAC/Concepts'));
-const RADIUSVsTACACS = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/AccessControl/Basics/AAAAndRBAC/RADIUSVsTACACS'));
+const Concepts = lazy(() => import('@/pages/MainTabs/NetworkSecurity/AccessControl/Basics/AAAAndRBAC/Concepts'));
+const RADIUSVsTACACS = lazy(() => import('@/pages/MainTabs/NetworkSecurity/AccessControl/Basics/AAAAndRBAC/RADIUSVsTACACS'));
 
 const AAAAndRBAC: RouteObject[] = [
   {

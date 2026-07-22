@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WMMAndEDCA = lazy(() => import('@/Pages/MainTabs/Networking/Wireless/Advanced/QoSAndServices/WMMAndEDCA'));
-const MulticastOverWLAN = lazy(() => import('@/Pages/MainTabs/Networking/Wireless/Advanced/QoSAndServices/MulticastOverWLAN'));
+const WMMAndEDCA = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Advanced/QoSAndServices/WMMAndEDCA'));
+const MulticastOverWLAN = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Advanced/QoSAndServices/MulticastOverWLAN'));
 
 const QoSAndServices: RouteObject[] = [
   {

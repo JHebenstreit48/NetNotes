@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/SignalsAndMedia/Introduction'));
-const BitDigitalSignals = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/SignalsAndMedia/BitDigitalSignals'));
+const Introduction = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/SignalsAndMedia/Introduction'));
+const BitDigitalSignals = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/Physical/SignalsAndMedia/BitDigitalSignals'));
 
 const SignalsAndMedia: RouteObject[] = [
   {

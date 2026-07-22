@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CertificationOverview = lazy(() => import('@/Pages/MainTabs/Certifications/DevOps/TerraformAssociate/HashiCorpTerraform/CertificationOverview'));
-const ExamDomains = lazy(() => import('@/Pages/MainTabs/Certifications/DevOps/TerraformAssociate/HashiCorpTerraform/ExamDomains'));
+const CertificationOverview = lazy(() => import('@/pages/MainTabs/Certifications/DevOps/TerraformAssociate/HashiCorpTerraform/CertificationOverview'));
+const ExamDomains = lazy(() => import('@/pages/MainTabs/Certifications/DevOps/TerraformAssociate/HashiCorpTerraform/ExamDomains'));
 
 const HashiCorpTerraform: RouteObject[] = [
   {

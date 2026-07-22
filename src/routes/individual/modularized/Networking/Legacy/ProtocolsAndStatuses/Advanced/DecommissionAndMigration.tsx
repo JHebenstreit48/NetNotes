@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SSHCutoverPlaybook = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/DecommissionAndMigration/SSHCutoverPlaybook'));
-const MailPOP3IMAP = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/DecommissionAndMigration/MailPOP3IMAP'));
+const SSHCutoverPlaybook = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/DecommissionAndMigration/SSHCutoverPlaybook'));
+const MailPOP3IMAP = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/DecommissionAndMigration/MailPOP3IMAP'));
 
 const DecommissionAndMigration: RouteObject[] = [
   {

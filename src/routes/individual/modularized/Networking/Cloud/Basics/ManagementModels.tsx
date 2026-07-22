@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const OnPremWLCVsCloud = lazy(
-  () => import('@/Pages/MainTabs/Networking/Cloud/Basics/ManagementModels/OnPremWLCVsCloud')
+  () => import('@/pages/MainTabs/Networking/Cloud/Basics/ManagementModels/OnPremWLCVsCloud')
 );
 const LicenseAndSubscription = lazy(
-  () => import('@/Pages/MainTabs/Networking/Cloud/Basics/ManagementModels/LicenseAndSubscription')
+  () => import('@/pages/MainTabs/Networking/Cloud/Basics/ManagementModels/LicenseAndSubscription')
 );
 
 const ManagementModels: RouteObject[] = [

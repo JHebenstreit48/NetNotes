@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WLCBasics = lazy(() => import('@/Pages/MainTabs/Networking/Wireless/Advanced/ControllerOps/WLCBasics'));
-const CAPWAPJoinAndTunnel = lazy(() => import('@/Pages/MainTabs/Networking/Wireless/Advanced/ControllerOps/CAPWAPJoinAndTunnel'));
+const WLCBasics = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Advanced/ControllerOps/WLCBasics'));
+const CAPWAPJoinAndTunnel = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Advanced/ControllerOps/CAPWAPJoinAndTunnel'));
 
 const ControllerOps: RouteObject[] = [
   {

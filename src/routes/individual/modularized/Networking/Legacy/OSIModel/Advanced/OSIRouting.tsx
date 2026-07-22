@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ESIS = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Advanced/OSIRouting/ESIS'));
-const ISIS = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Advanced/OSIRouting/ISIS'));
+const ESIS = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Advanced/OSIRouting/ESIS'));
+const ISIS = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Advanced/OSIRouting/ISIS'));
 
 const OSIRouting: RouteObject[] = [
   {

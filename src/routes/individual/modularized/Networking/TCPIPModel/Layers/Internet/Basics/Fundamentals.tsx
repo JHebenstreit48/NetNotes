@@ -2,11 +2,11 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const Introduction = lazy(
-  () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/Fundamentals/Introduction')
+  () => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/Fundamentals/Introduction')
 );
 
 const DHCP = lazy(
-  () => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/Fundamentals/DHCP')
+  () => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/Fundamentals/DHCP')
 );
 
 const Fundamentals: RouteObject[] = [

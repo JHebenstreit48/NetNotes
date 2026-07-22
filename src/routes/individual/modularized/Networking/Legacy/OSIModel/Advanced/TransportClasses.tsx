@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TP0TP2 = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Advanced/TransportClasses/TP0TP2'));
-const TP3TP4 = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/OSIModel/Advanced/TransportClasses/TP3TP4'));
+const TP0TP2 = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Advanced/TransportClasses/TP0TP2'));
+const TP3TP4 = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Advanced/TransportClasses/TP3TP4'));
 
 const TransportClasses: RouteObject[] = [
   {

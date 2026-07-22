@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RTPAndJitterAnalysis = lazy(() => import('@/Pages/MainTabs/VoIP/Diagnostics/Advanced/MediaQuality/RTPAndJitterAnalysis'));
-const MOSAndPacketLoss = lazy(() => import('@/Pages/MainTabs/VoIP/Diagnostics/Advanced/MediaQuality/MOSAndPacketLoss'));
+const RTPAndJitterAnalysis = lazy(() => import('@/pages/MainTabs/VoIP/Diagnostics/Advanced/MediaQuality/RTPAndJitterAnalysis'));
+const MOSAndPacketLoss = lazy(() => import('@/pages/MainTabs/VoIP/Diagnostics/Advanced/MediaQuality/MOSAndPacketLoss'));
 
 const MediaQuality: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const EightWeek = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Advanced/BlueprintPlans/EightWeek'));
-const TwelveWeek = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Advanced/BlueprintPlans/TwelveWeek'));
+const EightWeek = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Advanced/BlueprintPlans/EightWeek'));
+const TwelveWeek = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Advanced/BlueprintPlans/TwelveWeek'));
 
 const BlueprintPlans: RouteObject[] = [
   {

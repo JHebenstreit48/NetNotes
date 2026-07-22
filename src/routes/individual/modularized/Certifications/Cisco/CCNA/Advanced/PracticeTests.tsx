@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Boson = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Advanced/PracticeTests/Boson'));
-const MeasureUp = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Advanced/PracticeTests/MeasureUp'));
+const Boson = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Advanced/PracticeTests/Boson'));
+const MeasureUp = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Advanced/PracticeTests/MeasureUp'));
 
 const PracticeTests: RouteObject[] = [
   {

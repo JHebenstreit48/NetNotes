@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NetworkAccess = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/AccessControl/Basics/AccessContexts/NetworkAccess'));
-const DeviceAdmin = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/AccessControl/Basics/AccessContexts/DeviceAdmin'));
+const NetworkAccess = lazy(() => import('@/pages/MainTabs/NetworkSecurity/AccessControl/Basics/AccessContexts/NetworkAccess'));
+const DeviceAdmin = lazy(() => import('@/pages/MainTabs/NetworkSecurity/AccessControl/Basics/AccessContexts/DeviceAdmin'));
 
 const AccessContexts: RouteObject[] = [
   {

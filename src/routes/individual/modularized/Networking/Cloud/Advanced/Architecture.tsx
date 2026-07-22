@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TunnelsAndSplitTunnel = lazy(() => import('@/Pages/MainTabs/Networking/Cloud/Advanced/Architecture/TunnelsAndSplitTunnel'));
-const SiteSSOAndMultiTenant = lazy(() => import('@/Pages/MainTabs/Networking/Cloud/Advanced/Architecture/SiteSSOAndMultiTenant'));
+const TunnelsAndSplitTunnel = lazy(() => import('@/pages/MainTabs/Networking/Cloud/Advanced/Architecture/TunnelsAndSplitTunnel'));
+const SiteSSOAndMultiTenant = lazy(() => import('@/pages/MainTabs/Networking/Cloud/Advanced/Architecture/SiteSSOAndMultiTenant'));
 
 const Architecture: RouteObject[] = [
   {

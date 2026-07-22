@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PortsSockets = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Basics/PortsAndSockets/PortsSockets'));
-const PortRanges = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Basics/PortsAndSockets/PortRanges'));
+const PortsSockets = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Basics/PortsAndSockets/PortsSockets'));
+const PortRanges = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Basics/PortsAndSockets/PortRanges'));
 
 const PortsAndSockets: RouteObject[] = [
   {

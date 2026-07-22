@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RIPOverview = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/RIP/RIPOverview'));
-const DistanceVectorOps = lazy(() => import('@/Pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/RIP/DistanceVectorOps'));
+const RIPOverview = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/RIP/RIPOverview'));
+const DistanceVectorOps = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/RIP/DistanceVectorOps'));
 
 const RIP: RouteObject[] = [
   {

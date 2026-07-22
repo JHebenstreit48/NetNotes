@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Networking/Mobile/Basics/Bluetooth/Introduction'));
-const PairingAndProfiles = lazy(() => import('@/Pages/MainTabs/Networking/Mobile/Basics/Bluetooth/PairingAndProfiles'));
+const Introduction = lazy(() => import('@/pages/MainTabs/Networking/Mobile/Basics/Bluetooth/Introduction'));
+const PairingAndProfiles = lazy(() => import('@/pages/MainTabs/Networking/Mobile/Basics/Bluetooth/PairingAndProfiles'));
 
 const Bluetooth: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ExamOverview = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Basics/Fundamentals/Introduction'));
-const PoliciesAndRegistration = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/CCNA/Basics/Fundamentals/PoliciesAndRegistration'));
+const ExamOverview = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Basics/Fundamentals/Introduction'));
+const PoliciesAndRegistration = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Basics/Fundamentals/PoliciesAndRegistration'));
 
 const Overview: RouteObject[] = [
   {

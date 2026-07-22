@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const InstallAndProfiles = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Basics/Fundamentals/InstallAndProfiles'));
-const CaptureInterfaces = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Basics/Fundamentals/CaptureInterfaces'));
+const InstallAndProfiles = lazy(() => import('@/pages/MainTabs/Tools/Wireshark/Basics/Fundamentals/InstallAndProfiles'));
+const CaptureInterfaces = lazy(() => import('@/pages/MainTabs/Tools/Wireshark/Basics/Fundamentals/CaptureInterfaces'));
 
 const GettingStarted: RouteObject[] = [
   {

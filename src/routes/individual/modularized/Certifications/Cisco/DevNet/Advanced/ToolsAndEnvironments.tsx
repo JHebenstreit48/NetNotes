@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DevContainers = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Advanced/ToolsAndEnvironments/DevContainers'));
-const CICDForLabs = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Advanced/ToolsAndEnvironments/CICDForLabs'));
+const DevContainers = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Advanced/ToolsAndEnvironments/DevContainers'));
+const CICDForLabs = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Advanced/ToolsAndEnvironments/CICDForLabs'));
 
 const ToolsAndEnvironments: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const IGMPAndMLD = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/MulticastFundamentals/IGMPAndMLD'));
-const PIMSMDM = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/MulticastFundamentals/PIMSMDM'));
+const IGMPAndMLD = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/MulticastFundamentals/IGMPAndMLD'));
+const PIMSMDM = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/MulticastFundamentals/PIMSMDM'));
 
 const MulticastFundamentals: RouteObject[] = [
   {

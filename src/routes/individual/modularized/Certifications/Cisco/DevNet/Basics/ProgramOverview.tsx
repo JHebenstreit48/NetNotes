@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WhatIsDevNet = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Basics/ProgramOverview/WhatIsDevNet'));
-const PathsAndPrereqs = lazy(() => import('@/Pages/MainTabs/Certifications/Cisco/DevNet/Basics/ProgramOverview/PathsAndPrereqs'));
+const WhatIsDevNet = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Basics/ProgramOverview/WhatIsDevNet'));
+const PathsAndPrereqs = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Basics/ProgramOverview/PathsAndPrereqs'));
 
 const ProgramOverview: RouteObject[] = [
   {

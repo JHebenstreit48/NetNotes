@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Basics = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Advanced/ExtendedACLs/Basics'));
-const Syntax = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Advanced/ExtendedACLs/Syntax'));
-const Placement = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/ACLs/Advanced/ExtendedACLs/Placement'));
+const Basics = lazy(() => import('@/pages/MainTabs/NetworkSecurity/ACLs/Advanced/ExtendedACLs/Basics'));
+const Syntax = lazy(() => import('@/pages/MainTabs/NetworkSecurity/ACLs/Advanced/ExtendedACLs/Syntax'));
+const Placement = lazy(() => import('@/pages/MainTabs/NetworkSecurity/ACLs/Advanced/ExtendedACLs/Placement'));
 
 const ExtendedACLs: RouteObject[] = [
   {

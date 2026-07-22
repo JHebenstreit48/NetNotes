@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SignaturesAndThresholds = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/IDSAndIPS/Advanced/DetectionEngines/SignaturesAndThresholds'));
-const AnomalyAndBehavior = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/IDSAndIPS/Advanced/DetectionEngines/AnomalyAndBehavior'));
+const SignaturesAndThresholds = lazy(() => import('@/pages/MainTabs/NetworkSecurity/IDSAndIPS/Advanced/DetectionEngines/SignaturesAndThresholds'));
+const AnomalyAndBehavior = lazy(() => import('@/pages/MainTabs/NetworkSecurity/IDSAndIPS/Advanced/DetectionEngines/AnomalyAndBehavior'));
 
 const DetectionEngines: RouteObject[] = [
   {

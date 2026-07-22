@@ -1,10 +1,10 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/Introduction'));
-const NTP = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/NTP'));
-const SNMP = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/SNMP'));
-const FTPSFTP = lazy(() => import('@/Pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/FTPSFTP'));
+const Introduction = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/Introduction'));
+const NTP = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/NTP'));
+const SNMP = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/SNMP'));
+const FTPSFTP = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/NetworkServices/FTPSFTP'));
 
 const NetworkServices: RouteObject[] = [
   {

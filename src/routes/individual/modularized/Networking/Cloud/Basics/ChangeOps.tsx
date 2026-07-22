@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const FirmwareAndStaging = lazy(
-  () => import('@/Pages/MainTabs/Networking/Cloud/Basics/ChangeOps/FirmwareAndStaging')
+  () => import('@/pages/MainTabs/Networking/Cloud/Basics/ChangeOps/FirmwareAndStaging')
 );
 const RollbackAndAudit = lazy(
-  () => import('@/Pages/MainTabs/Networking/Cloud/Basics/ChangeOps/RollbackAndAudit')
+  () => import('@/pages/MainTabs/Networking/Cloud/Basics/ChangeOps/RollbackAndAudit')
 );
 
 const ChangeOps: RouteObject[] = [

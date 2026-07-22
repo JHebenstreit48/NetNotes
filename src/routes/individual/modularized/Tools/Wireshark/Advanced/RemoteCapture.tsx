@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RpcapSshdump = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Advanced/RemoteCapture/RpcapSshdump'));
-const RingBuffersAndPerformance = lazy(() => import('@/Pages/MainTabs/Tools/Wireshark/Advanced/RemoteCapture/RingBuffersAndPerformance'));
+const RpcapSshdump = lazy(() => import('@/pages/MainTabs/Tools/Wireshark/Advanced/RemoteCapture/RpcapSshdump'));
+const RingBuffersAndPerformance = lazy(() => import('@/pages/MainTabs/Tools/Wireshark/Advanced/RemoteCapture/RingBuffersAndPerformance'));
 
 const RemoteCapture: RouteObject[] = [
   {

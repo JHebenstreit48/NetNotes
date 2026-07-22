@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Networking/Mobile/Basics/Cellular/Introduction'));
-const CoverageAndDataPlans = lazy(() => import('@/Pages/MainTabs/Networking/Mobile/Basics/Cellular/CoverageAndDataPlans'));
+const Introduction = lazy(() => import('@/pages/MainTabs/Networking/Mobile/Basics/Cellular/Introduction'));
+const CoverageAndDataPlans = lazy(() => import('@/pages/MainTabs/Networking/Mobile/Basics/Cellular/CoverageAndDataPlans'));
 
 const Cellular: RouteObject[] = [
   {

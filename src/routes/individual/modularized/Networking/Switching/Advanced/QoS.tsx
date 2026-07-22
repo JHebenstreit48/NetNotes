@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const TrustBoundaries = lazy(
-  () => import('@/Pages/MainTabs/Networking/Switching/Advanced/QoS/TrustBoundaries')
+  () => import('@/pages/MainTabs/Networking/Switching/Advanced/QoS/TrustBoundaries')
 );
 const CoSDSCPMapping = lazy(
-  () => import('@/Pages/MainTabs/Networking/Switching/Advanced/QoS/CoSDSCPMapping')
+  () => import('@/pages/MainTabs/Networking/Switching/Advanced/QoS/CoSDSCPMapping')
 );
 
 const QoS: RouteObject[] = [

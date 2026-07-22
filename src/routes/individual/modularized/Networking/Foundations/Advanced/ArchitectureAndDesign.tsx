@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CoreDistributionAccess = lazy(() => import('@/Pages/MainTabs/Networking/Foundations/Advanced/ArchitectureAndDesign/CoreDistributionAccess'));
-const SpineLeaf = lazy(() => import('@/Pages/MainTabs/Networking/Foundations/Advanced/ArchitectureAndDesign/SpineLeaf'));
+const CoreDistributionAccess = lazy(() => import('@/pages/MainTabs/Networking/Foundations/Advanced/ArchitectureAndDesign/CoreDistributionAccess'));
+const SpineLeaf = lazy(() => import('@/pages/MainTabs/Networking/Foundations/Advanced/ArchitectureAndDesign/SpineLeaf'));
 
 const ArchitectureAndDesign: RouteObject[] = [
   {

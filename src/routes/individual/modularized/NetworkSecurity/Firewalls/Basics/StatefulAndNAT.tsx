@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const StatefulInspection = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/Firewalls/Basics/StatefulAndNAT/StatefulInspection'));
-const NATFundamentals = lazy(() => import('@/Pages/MainTabs/NetworkSecurity/Firewalls/Basics/StatefulAndNAT/NATFundamentals'));
+const StatefulInspection = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Basics/StatefulAndNAT/StatefulInspection'));
+const NATFundamentals = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Basics/StatefulAndNAT/NATFundamentals'));
 
 const StatefulAndNAT: RouteObject[] = [
   {
