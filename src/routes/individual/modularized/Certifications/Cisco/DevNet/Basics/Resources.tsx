@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DevNetSandbox101 = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Basics/Resources/DevNetSandbox101'));
-const APIDocsAndCollections = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Basics/Resources/APIDocsAndCollections'));
+const DevNetSandbox101 = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/DevNet/Basics/Resources/DevNetSandbox101'));
+const APIDocsAndCollections = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/DevNet/Basics/Resources/APIDocsAndCollections'));
 
 const Resources: RouteObject[] = [
   {

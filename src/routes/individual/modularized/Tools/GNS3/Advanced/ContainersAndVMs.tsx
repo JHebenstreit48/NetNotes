@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DockerIntegration = lazy(() => import('@/pages/MainTabs/Tools/GNS3/Advanced/ContainersAndVMs/DockerIntegration'));
-const QEMUKVMTips = lazy(() => import('@/pages/MainTabs/Tools/GNS3/Advanced/ContainersAndVMs/QEMUKVMTips'));
+const DockerIntegration = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Advanced/ContainersAndVMs/DockerIntegration'));
+const QEMUKVMTips = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Advanced/ContainersAndVMs/QEMUKVMTips'));
 
 const ContainersAndVMs: RouteObject[] = [
   {

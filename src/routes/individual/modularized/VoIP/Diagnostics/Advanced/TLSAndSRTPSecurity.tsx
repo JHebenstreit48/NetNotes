@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TLSHandshakeAndCertificates = lazy(() => import('@/pages/MainTabs/VoIP/Diagnostics/Advanced/TLSAndSRTPSecurity/TLSHandshakeAndCertificates'));
-const SRTPTroubleshooting = lazy(() => import('@/pages/MainTabs/VoIP/Diagnostics/Advanced/TLSAndSRTPSecurity/SRTPTroubleshooting'));
+const TLSHandshakeAndCertificates = lazy(() => import('@/pages/mainTabs/VoIP/Diagnostics/Advanced/TLSAndSRTPSecurity/TLSHandshakeAndCertificates'));
+const SRTPTroubleshooting = lazy(() => import('@/pages/mainTabs/VoIP/Diagnostics/Advanced/TLSAndSRTPSecurity/SRTPTroubleshooting'));
 
 const TLSAndSRTPSecurity: RouteObject[] = [
   {

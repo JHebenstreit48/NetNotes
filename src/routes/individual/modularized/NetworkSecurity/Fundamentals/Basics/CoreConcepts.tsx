@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CIAAndThreatModeling = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Fundamentals/Basics/CoreConcepts/CIAAndThreatModeling'));
-const LeastPrivilegeAndDefenseInDepth = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Fundamentals/Basics/CoreConcepts/LeastPrivilegeAndDefenseInDepth'));
+const CIAAndThreatModeling = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Fundamentals/Basics/CoreConcepts/CIAAndThreatModeling'));
+const LeastPrivilegeAndDefenseInDepth = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Fundamentals/Basics/CoreConcepts/LeastPrivilegeAndDefenseInDepth'));
 
 const CoreConcepts: RouteObject[] = [
   {

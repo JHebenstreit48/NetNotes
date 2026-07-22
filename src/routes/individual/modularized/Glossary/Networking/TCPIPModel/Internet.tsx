@@ -2,14 +2,14 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const Basics = lazy(
-  () => import('@/pages/MainTabs/Glossary/Networking/TCPIPModel/Internet/Basics')
+  () => import('@/pages/mainTabs/Glossary/Networking/TCPIPModel/Internet/Basics')
 );
 const IPv4Addressing = lazy(
-  () => import('@/pages/MainTabs/Glossary/Networking/TCPIPModel/Internet/IPv4Addressing')
+  () => import('@/pages/mainTabs/Glossary/Networking/TCPIPModel/Internet/IPv4Addressing')
 );
 
 const IPv6Addressing = lazy(
-  () => import('@/pages/MainTabs/Glossary/Networking/TCPIPModel/Internet/IPv6Addressing')
+  () => import('@/pages/mainTabs/Glossary/Networking/TCPIPModel/Internet/IPv6Addressing')
 );
 
 const Switching: RouteObject[] = [

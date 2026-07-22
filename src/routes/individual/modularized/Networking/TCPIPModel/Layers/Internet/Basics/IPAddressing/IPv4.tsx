@@ -2,19 +2,19 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const AddressStructure = lazy(
-  () => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/AddressStructure')
+  () => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/AddressStructure')
 );
 const TransmissionTypes = lazy(
-  () => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/TransmissionTypes')
+  () => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/TransmissionTypes')
 );
 const TypesOfAddresses = lazy(
-  () => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/TypesOfAddresses')
+  () => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/TypesOfAddresses')
 );
 const IPv4Exhaustion = lazy(
-  () => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/IPv4Exhaustion')
+  () => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/IPv4Exhaustion')
 );
 const IPv4vsIPv6Comparison = lazy(
-  () => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/IPv4VsIPv6Comparison')
+  () => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Basics/IPAddressing/IPv4/IPv4VsIPv6Comparison')
 );
 
 const IPv4: RouteObject[] = [

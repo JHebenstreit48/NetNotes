@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SpeedDuplex = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Advanced/Physical/NegotiationAndDuplex/SpeedDuplex'));
-const AutoNegAndAutoMDIMDIX = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Advanced/Physical/NegotiationAndDuplex/AutoNegAndAutoMDIMDIX'));
+const SpeedDuplex = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Advanced/Physical/NegotiationAndDuplex/SpeedDuplex'));
+const AutoNegAndAutoMDIMDIX = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Advanced/Physical/NegotiationAndDuplex/AutoNegAndAutoMDIMDIX'));
 
 const NegotiationAndDuplex: RouteObject[] = [
   {

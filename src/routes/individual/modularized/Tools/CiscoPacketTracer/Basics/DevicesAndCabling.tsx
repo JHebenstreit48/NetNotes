@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PaletteAndModules = lazy(() => import('@/pages/MainTabs/Tools/CiscoPacketTracer/Basics/DevicesAndCabling/PaletteAndModules'));
-const CablingAndConsole = lazy(() => import('@/pages/MainTabs/Tools/CiscoPacketTracer/Basics/DevicesAndCabling/CablingAndConsole'));
+const PaletteAndModules = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Basics/DevicesAndCabling/PaletteAndModules'));
+const CablingAndConsole = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Basics/DevicesAndCabling/CablingAndConsole'));
 
 const DevicesAndCabling: RouteObject[] = [
   {

@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/pages/MainTabs/Networking/Mobile/Basics/Fundamentals/Introduction'));
-const RadiosAtAGlance = lazy(() => import('@/pages/MainTabs/Networking/Mobile/Basics/Fundamentals/RadiosAtAGlance'));
-const NetworkSelection = lazy(() => import('@/pages/MainTabs/Networking/Mobile/Basics/Fundamentals/NetworkSelection'));
+const Introduction = lazy(() => import('@/pages/mainTabs/Networking/Mobile/Basics/Fundamentals/Introduction'));
+const RadiosAtAGlance = lazy(() => import('@/pages/mainTabs/Networking/Mobile/Basics/Fundamentals/RadiosAtAGlance'));
+const NetworkSelection = lazy(() => import('@/pages/mainTabs/Networking/Mobile/Basics/Fundamentals/NetworkSelection'));
 
 const Fundamentals: RouteObject[] = [
   {

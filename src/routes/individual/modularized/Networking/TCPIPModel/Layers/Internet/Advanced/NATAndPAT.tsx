@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ConceptsAndTypes = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/NATAndPAT/ConceptsAndTypes'));
-const UseCasesAndLimits = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/NATAndPAT/UseCasesAndLimits'));
+const ConceptsAndTypes = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/NATAndPAT/ConceptsAndTypes'));
+const UseCasesAndLimits = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Internet/Advanced/NATAndPAT/UseCasesAndLimits'));
 
 const NATAndPAT: RouteObject[] = [
   {

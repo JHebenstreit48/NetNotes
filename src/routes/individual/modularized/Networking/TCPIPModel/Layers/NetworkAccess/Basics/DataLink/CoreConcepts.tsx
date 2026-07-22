@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/CoreConcepts/Introduction'));
-const AddressResolutionProtocol = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/CoreConcepts/ARP'));
+const Introduction = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/CoreConcepts/Introduction'));
+const AddressResolutionProtocol = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/NetworkAccess/Basics/DataLink/CoreConcepts/ARP'));
 
 const CoreConcepts: RouteObject[] = [
   {

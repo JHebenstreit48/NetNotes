@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AddWiresharkTShark = lazy(() => import('@/pages/MainTabs/Tools/GNS3/Basics/CaptureAndConsole/AddWiresharkTShark'));
-const ConsoleAccess = lazy(() => import('@/pages/MainTabs/Tools/GNS3/Basics/CaptureAndConsole/ConsoleAccess'));
+const AddWiresharkTShark = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Basics/CaptureAndConsole/AddWiresharkTShark'));
+const ConsoleAccess = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Basics/CaptureAndConsole/ConsoleAccess'));
 
 const CaptureAndConsole: RouteObject[] = [
   {

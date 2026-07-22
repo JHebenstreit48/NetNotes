@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Fundamentals = lazy(() => import('@/pages/MainTabs/NetworkSecurity/ACLs/Basics/WildcardMasks/Fundamentals'));
-const WildcardVsSubnetMask = lazy(() => import('@/pages/MainTabs/NetworkSecurity/ACLs/Basics/WildcardMasks/WildcardVsSubnetMask'));
-const Calculation = lazy(() => import('@/pages/MainTabs/NetworkSecurity/ACLs/Basics/WildcardMasks/Calculation'));
+const Fundamentals = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Basics/WildcardMasks/Fundamentals'));
+const WildcardVsSubnetMask = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Basics/WildcardMasks/WildcardVsSubnetMask'));
+const Calculation = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Basics/WildcardMasks/Calculation'));
 
 const WildcardMasks: RouteObject[] = [
   {

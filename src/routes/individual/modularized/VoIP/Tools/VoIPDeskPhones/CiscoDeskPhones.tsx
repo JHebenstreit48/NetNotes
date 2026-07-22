@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const OverviewAndFamilies = lazy(() => import('@/pages/MainTabs/VoIP/Tools/VoIPDeskPhones/CiscoDeskPhones/OverviewAndFamilies'));
-const ModelsDirectory = lazy(() => import('@/pages/MainTabs/VoIP/Tools/VoIPDeskPhones/CiscoDeskPhones/ModelsDirectory'));
+const OverviewAndFamilies = lazy(() => import('@/pages/mainTabs/VoIP/Tools/VoIPDeskPhones/CiscoDeskPhones/OverviewAndFamilies'));
+const ModelsDirectory = lazy(() => import('@/pages/mainTabs/VoIP/Tools/VoIPDeskPhones/CiscoDeskPhones/ModelsDirectory'));
 
 const CiscoDeskPhones: RouteObject[] = [
   {

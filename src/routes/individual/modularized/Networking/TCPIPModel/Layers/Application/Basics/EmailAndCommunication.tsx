@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SMTP = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Basics/EmailAndCommunication/SMTP'));
-const IMAP = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Basics/EmailAndCommunication/IMAP'));
-const TextMessaging = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Basics/EmailAndCommunication/TextMessaging'));
+const SMTP = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Basics/EmailAndCommunication/SMTP'));
+const IMAP = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Basics/EmailAndCommunication/IMAP'));
+const TextMessaging = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Basics/EmailAndCommunication/TextMessaging'));
 
 const EmailAndCommunication: RouteObject[] = [
   {

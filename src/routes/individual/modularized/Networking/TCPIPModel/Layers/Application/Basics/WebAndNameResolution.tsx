@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Basics/WebAndName/Introduction'));
-const HTTPHTTPS = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Basics/WebAndName/HTTPHTTPS'));
-const DNS = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Basics/WebAndName/DNS'));
+const Introduction = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Basics/WebAndName/Introduction'));
+const HTTPHTTPS = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Basics/WebAndName/HTTPHTTPS'));
+const DNS = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Basics/WebAndName/DNS'));
 
 const WebAndNameResolution: RouteObject[] = [
   {

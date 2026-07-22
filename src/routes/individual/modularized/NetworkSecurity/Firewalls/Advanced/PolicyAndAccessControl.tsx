@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RuleDesignAndOrder = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Advanced/PolicyAndAccessControl/RuleDesignAndOrder'));
-const AccessControlStrategies = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Advanced/PolicyAndAccessControl/AccessControlStrategies'));
+const RuleDesignAndOrder = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Advanced/PolicyAndAccessControl/RuleDesignAndOrder'));
+const AccessControlStrategies = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Advanced/PolicyAndAccessControl/AccessControlStrategies'));
 
 const PolicyAndAccessControl: RouteObject[] = [
   {

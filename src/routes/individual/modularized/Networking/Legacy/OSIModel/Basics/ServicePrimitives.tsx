@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ReqIndRespConf = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Basics/ServicePrimitives/ReqIndRespConf'));
-const EncapsulationPath = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Basics/ServicePrimitives/EncapsulationPath'));
+const ReqIndRespConf = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/ServicePrimitives/ReqIndRespConf'));
+const EncapsulationPath = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/ServicePrimitives/EncapsulationPath'));
 
 const ServicePrimitives: RouteObject[] = [
   {

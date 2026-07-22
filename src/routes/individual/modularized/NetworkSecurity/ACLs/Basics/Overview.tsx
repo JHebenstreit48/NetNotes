@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Fundamentals = lazy(() => import('@/pages/MainTabs/NetworkSecurity/ACLs/Basics/Overview/Fundamentals'));
-const ProcessingAndRuleOrder = lazy(() => import('@/pages/MainTabs/NetworkSecurity/ACLs/Basics/Overview/ProcessingAndRuleOrder'));
-const NamedVsNumbered = lazy(() => import('@/pages/MainTabs/NetworkSecurity/ACLs/Basics/Overview/NamedVsNumbered'));
+const Fundamentals = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Basics/Overview/Fundamentals'));
+const ProcessingAndRuleOrder = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Basics/Overview/ProcessingAndRuleOrder'));
+const NamedVsNumbered = lazy(() => import('@/pages/mainTabs/NetworkSecurity/ACLs/Basics/Overview/NamedVsNumbered'));
 
 const Overview: RouteObject[] = [
   {

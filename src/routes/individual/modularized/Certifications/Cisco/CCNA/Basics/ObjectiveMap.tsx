@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DomainBreakdown = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Basics/ObjectiveMap/DomainBreakdown'));
-const LinkMapToNotes = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Basics/ObjectiveMap/LinkMapToNotes'));
+const DomainBreakdown = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Basics/ObjectiveMap/DomainBreakdown'));
+const LinkMapToNotes = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Basics/ObjectiveMap/LinkMapToNotes'));
 
 const ObjectiveMap: RouteObject[] = [
   {

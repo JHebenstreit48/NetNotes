@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DataCollectionTypes = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/UserDataAndPrivacy/DataCollectionTypes'));
-const PrivacyInApplicationProtocols = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Application/Advanced/UserDataAndPrivacy/PrivacyInApplicationProtocols'));
+const DataCollectionTypes = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Advanced/UserDataAndPrivacy/DataCollectionTypes'));
+const PrivacyInApplicationProtocols = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Application/Advanced/UserDataAndPrivacy/PrivacyInApplicationProtocols'));
 
 const UserDataAndPrivacy: RouteObject[] = [
   {

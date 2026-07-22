@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CustomDevicesAndDefaults = lazy(() => import('@/pages/MainTabs/Tools/CiscoPacketTracer/Advanced/TemplatesAndFiles/CustomDevicesAndDefaults'));
-const ExportImport = lazy(() => import('@/pages/MainTabs/Tools/CiscoPacketTracer/Advanced/TemplatesAndFiles/ExportImport'));
+const CustomDevicesAndDefaults = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Advanced/TemplatesAndFiles/CustomDevicesAndDefaults'));
+const ExportImport = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Advanced/TemplatesAndFiles/ExportImport'));
 
 const TemplatesAndFiles: RouteObject[] = [
   {

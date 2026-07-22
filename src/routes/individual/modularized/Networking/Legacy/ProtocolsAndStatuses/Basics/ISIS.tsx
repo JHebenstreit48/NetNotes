@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ISISOverview = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/ISIS/ISISOverview'));
-const LevelsAndAreas = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/ISIS/LevelsAndAreas'));
+const ISISOverview = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/ISIS/ISISOverview'));
+const LevelsAndAreas = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/ISIS/LevelsAndAreas'));
 
 const ISIS: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ZonesAndZonePairs = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Basics/ZBFWConcepts/ZonesAndZonePairs'));
-const ClassMapsAndPolicyMaps = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Basics/ZBFWConcepts/ClassMapsAndPolicyMaps'));
+const ZonesAndZonePairs = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Basics/ZBFWConcepts/ZonesAndZonePairs'));
+const ClassMapsAndPolicyMaps = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Basics/ZBFWConcepts/ClassMapsAndPolicyMaps'));
 
 const ZBFWConcepts: RouteObject[] = [
   {

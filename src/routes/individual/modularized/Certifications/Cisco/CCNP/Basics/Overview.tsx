@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WhatIsTheCCNP = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNP/Basics/Overview/WhatIsTheCCNP'));
-const TracksAndPrerequisites = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNP/Basics/Overview/TracksAndPrerequisites'));
+const WhatIsTheCCNP = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNP/Basics/Overview/WhatIsTheCCNP'));
+const TracksAndPrerequisites = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNP/Basics/Overview/TracksAndPrerequisites'));
 
 const Overview: RouteObject[] = [
   {

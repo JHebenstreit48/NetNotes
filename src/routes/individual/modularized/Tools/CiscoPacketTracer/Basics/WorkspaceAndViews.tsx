@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const LogicalVsPhysical = lazy(() => import('@/pages/MainTabs/Tools/CiscoPacketTracer/Basics/WorkspaceAndViews/LogicalVsPhysical'));
-const DeviceConfigTabs = lazy(() => import('@/pages/MainTabs/Tools/CiscoPacketTracer/Basics/WorkspaceAndViews/DeviceConfigTabs'));
+const LogicalVsPhysical = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Basics/WorkspaceAndViews/LogicalVsPhysical'));
+const DeviceConfigTabs = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Basics/WorkspaceAndViews/DeviceConfigTabs'));
 
 const WorkspaceAndViews: RouteObject[] = [
   {

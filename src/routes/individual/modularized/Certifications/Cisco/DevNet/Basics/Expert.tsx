@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ExamOverview = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Basics/Expert/ExamOverview'));
-const LabBlueprint = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/DevNet/Basics/Expert/LabBlueprint'));
+const ExamOverview = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/DevNet/Basics/Expert/ExamOverview'));
+const LabBlueprint = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/DevNet/Basics/Expert/LabBlueprint'));
 
 const Expert: RouteObject[] = [
   {

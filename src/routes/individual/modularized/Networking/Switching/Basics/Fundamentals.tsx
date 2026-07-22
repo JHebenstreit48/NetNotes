@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const Layer2 = lazy(
-  () => import('@/pages/MainTabs/Networking/Switching/Basics/Fundamentals/Layer2')
+  () => import('@/pages/mainTabs/Networking/Switching/Basics/Fundamentals/Layer2')
 );
 const MACAddressTable = lazy(
-  () => import('@/pages/MainTabs/Networking/Switching/Basics/Fundamentals/MACAddressTable')
+  () => import('@/pages/mainTabs/Networking/Switching/Basics/Fundamentals/MACAddressTable')
 );
 
 const Fundamentals: RouteObject[] = [

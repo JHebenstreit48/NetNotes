@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RIPTimers = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/RoutingLegacy/RIPTimers'));
-const ISISPDUs = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/RoutingLegacy/ISISPDUs'));
+const RIPTimers = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/RoutingLegacy/RIPTimers'));
+const ISISPDUs = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/RoutingLegacy/ISISPDUs'));
 
 const RoutingLegacy: RouteObject[] = [
   {

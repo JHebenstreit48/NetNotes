@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DatagramsAndChecksum = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/UDPDetails/DatagramsAndChecksum'));
-const MultiplexingDemuxAndUseCases = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/UDPDetails/MultiplexingDemuxAndUseCases'));
+const DatagramsAndChecksum = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/UDPDetails/DatagramsAndChecksum'));
+const MultiplexingDemuxAndUseCases = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/UDPDetails/MultiplexingDemuxAndUseCases'));
 
 const UDPDetails: RouteObject[] = [
   {

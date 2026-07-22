@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const LogsAndEventCorrelation = lazy(() => import('@/pages/MainTabs/Networking/Cloud/Advanced/Troubleshooting/LogsAndEventCorrelation'));
-const RemotePacketCapture = lazy(() => import('@/pages/MainTabs/Networking/Cloud/Advanced/Troubleshooting/RemotePacketCapture'));
+const LogsAndEventCorrelation = lazy(() => import('@/pages/mainTabs/Networking/Cloud/Advanced/Troubleshooting/LogsAndEventCorrelation'));
+const RemotePacketCapture = lazy(() => import('@/pages/mainTabs/Networking/Cloud/Advanced/Troubleshooting/RemotePacketCapture'));
 
 const Troubleshooting: RouteObject[] = [
   {

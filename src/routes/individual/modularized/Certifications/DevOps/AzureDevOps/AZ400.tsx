@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CertificationOverview = lazy(() => import('@/pages/MainTabs/Certifications/DevOps/AzureDevOps/AZ400/CertificationOverview'));
-const SkillsMeasured = lazy(() => import('@/pages/MainTabs/Certifications/DevOps/AzureDevOps/AZ400/SkillsMeasured'));
+const CertificationOverview = lazy(() => import('@/pages/mainTabs/Certifications/DevOps/AzureDevOps/AZ400/CertificationOverview'));
+const SkillsMeasured = lazy(() => import('@/pages/mainTabs/Certifications/DevOps/AzureDevOps/AZ400/SkillsMeasured'));
 
 const AZ400: RouteObject[] = [
   {

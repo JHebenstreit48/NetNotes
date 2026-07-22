@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const OSITCPIPMap = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Advanced/InterworkingAndMapping/OSITCPIPMap'));
-const GatewaysAndTranslate = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Advanced/InterworkingAndMapping/GatewaysAndTranslate'));
+const OSITCPIPMap = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Advanced/InterworkingAndMapping/OSITCPIPMap'));
+const GatewaysAndTranslate = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Advanced/InterworkingAndMapping/GatewaysAndTranslate'));
 
 const InterworkingAndMapping: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PacingAndTimedBlocks = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Basics/TimeManagement/PacingAndTimedBlocks'));
-const ReviewWindows = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Basics/TimeManagement/ReviewWindows'));
+const PacingAndTimedBlocks = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Basics/TimeManagement/PacingAndTimedBlocks'));
+const ReviewWindows = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Basics/TimeManagement/ReviewWindows'));
 
 const TimeManagement: RouteObject[] = [
   {

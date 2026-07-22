@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const Trunking = lazy(
-  () => import('@/pages/MainTabs/Networking/Switching/Advanced/VLANs/Operations/Trunking')
+  () => import('@/pages/mainTabs/Networking/Switching/Advanced/VLANs/Operations/Trunking')
 );
 const VTP = lazy(
-  () => import('@/pages/MainTabs/Networking/Switching/Advanced/VLANs/Operations/VTP')
+  () => import('@/pages/mainTabs/Networking/Switching/Advanced/VLANs/Operations/VTP')
 );
 
 const VLANOperations: RouteObject[] = [

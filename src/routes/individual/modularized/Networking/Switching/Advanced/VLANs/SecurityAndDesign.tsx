@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const HoppingMitigation = lazy(
-  () => import('@/pages/MainTabs/Networking/Switching/Advanced/VLANs/SecurityAndDesign/HoppingMitigation')
+  () => import('@/pages/mainTabs/Networking/Switching/Advanced/VLANs/SecurityAndDesign/HoppingMitigation')
 );
 const DTPBestPractices = lazy(
-  () => import('@/pages/MainTabs/Networking/Switching/Advanced/VLANs/SecurityAndDesign/DTPBestPractices')
+  () => import('@/pages/mainTabs/Networking/Switching/Advanced/VLANs/SecurityAndDesign/DTPBestPractices')
 );
 
 const VLANSecurityAndDesign: RouteObject[] = [

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ScaleAndResources = lazy(() => import('@/pages/MainTabs/Tools/CiscoPacketTracer/Advanced/PerformanceAndLimits/ScaleAndResources'));
-const VersionCompatibility = lazy(() => import('@/pages/MainTabs/Tools/CiscoPacketTracer/Advanced/PerformanceAndLimits/VersionCompatibility'));
+const ScaleAndResources = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Advanced/PerformanceAndLimits/ScaleAndResources'));
+const VersionCompatibility = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Advanced/PerformanceAndLimits/VersionCompatibility'));
 
 const PerformanceAndLimits: RouteObject[] = [
   {

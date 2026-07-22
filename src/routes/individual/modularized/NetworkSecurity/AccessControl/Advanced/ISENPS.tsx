@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PolicyElementsAndConditions = lazy(() => import('@/pages/MainTabs/NetworkSecurity/AccessControl/Advanced/ISENPS/PolicyElementsAndConditions'));
-const AuthZFlowsAndResults = lazy(() => import('@/pages/MainTabs/NetworkSecurity/AccessControl/Advanced/ISENPS/AuthZFlowsAndResults'));
+const PolicyElementsAndConditions = lazy(() => import('@/pages/mainTabs/NetworkSecurity/AccessControl/Advanced/ISENPS/PolicyElementsAndConditions'));
+const AuthZFlowsAndResults = lazy(() => import('@/pages/mainTabs/NetworkSecurity/AccessControl/Advanced/ISENPS/AuthZFlowsAndResults'));
 
 const ISENPS: RouteObject[] = [
   {

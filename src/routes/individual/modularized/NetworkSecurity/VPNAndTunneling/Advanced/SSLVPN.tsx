@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AnyConnectPortal = lazy(() => import('@/pages/MainTabs/NetworkSecurity/VPNAndTunneling/Advanced/SSLVPN/AnyConnectPortal'));
-const SplitDNSAndBookmarks = lazy(() => import('@/pages/MainTabs/NetworkSecurity/VPNAndTunneling/Advanced/SSLVPN/SplitDNSAndBookmarks'));
+const AnyConnectPortal = lazy(() => import('@/pages/mainTabs/NetworkSecurity/VPNAndTunneling/Advanced/SSLVPN/AnyConnectPortal'));
+const SplitDNSAndBookmarks = lazy(() => import('@/pages/mainTabs/NetworkSecurity/VPNAndTunneling/Advanced/SSLVPN/SplitDNSAndBookmarks'));
 
 const SSLVPN: RouteObject[] = [
   {

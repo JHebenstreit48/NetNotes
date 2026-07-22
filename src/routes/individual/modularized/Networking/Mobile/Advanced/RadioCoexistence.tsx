@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WiFiBluetoothInteraction = lazy(() => import('@/pages/MainTabs/Networking/Mobile/Advanced/RadioCoexistence/WiFiBluetoothInteraction'));
-const CellularWiFiSwitching = lazy(() => import('@/pages/MainTabs/Networking/Mobile/Advanced/RadioCoexistence/CellularWiFiSwitching'));
+const WiFiBluetoothInteraction = lazy(() => import('@/pages/mainTabs/Networking/Mobile/Advanced/RadioCoexistence/WiFiBluetoothInteraction'));
+const CellularWiFiSwitching = lazy(() => import('@/pages/mainTabs/Networking/Mobile/Advanced/RadioCoexistence/CellularWiFiSwitching'));
 
 const RadioCoexistence: RouteObject[] = [
   {

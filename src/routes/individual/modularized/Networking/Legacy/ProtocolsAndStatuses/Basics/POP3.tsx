@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/POP3/Introduction'));
-const POP3VsIMAP = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/POP3/POP3VsIMAP'));
+const Introduction = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/POP3/Introduction'));
+const POP3VsIMAP = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Basics/POP3/POP3VsIMAP'));
 
 const POP3: RouteObject[] = [
   {

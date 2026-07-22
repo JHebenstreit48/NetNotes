@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WhatIsCCIE = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCIE/Basics/Overview/WhatIsCCIE'));
-const PathsAndPrereqs = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCIE/Basics/Overview/PathsAndPrereqs'));
+const WhatIsCCIE = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCIE/Basics/Overview/WhatIsCCIE'));
+const PathsAndPrereqs = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCIE/Basics/Overview/PathsAndPrereqs'));
 
 const Overview: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const BSSESSSSID = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Basics/WLANArchitecture/BSSESSSSID'));
-const APModes = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Basics/WLANArchitecture/APModes'));
+const BSSESSSSID = lazy(() => import('@/pages/mainTabs/Networking/Wireless/Basics/WLANArchitecture/BSSESSSSID'));
+const APModes = lazy(() => import('@/pages/mainTabs/Networking/Wireless/Basics/WLANArchitecture/APModes'));
 
 const WLANArchitecture: RouteObject[] = [
   {

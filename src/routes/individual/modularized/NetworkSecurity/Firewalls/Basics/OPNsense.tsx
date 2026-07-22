@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const InstallAndSetup = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Basics/OPNsense/InstallAndSetup'));
-const CoreFirewallConfiguration = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Basics/OPNsense/CoreFirewallConfiguration'));
+const InstallAndSetup = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Basics/OPNsense/InstallAndSetup'));
+const CoreFirewallConfiguration = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Basics/OPNsense/CoreFirewallConfiguration'));
 
 const OPNsense: RouteObject[] = [
   {

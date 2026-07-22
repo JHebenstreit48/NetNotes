@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CleartextRisks = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/Security/CleartextRisks'));
-const AAAAndBanners = lazy(() => import('@/pages/MainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/Security/AAAAndBanners'));
+const CleartextRisks = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/Security/CleartextRisks'));
+const AAAAndBanners = lazy(() => import('@/pages/mainTabs/Networking/Legacy/ProtocolsAndStatuses/Advanced/Security/AAAAndBanners'));
 
 const Security: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WirelessTroubleshooting = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Basics/Troubleshooting/WirelessTroubleshooting'));
-const CommonIssuesAndFixes = lazy(() => import('@/pages/MainTabs/Networking/Wireless/Basics/Troubleshooting/CommonIssuesAndFixes'));
+const WirelessTroubleshooting = lazy(() => import('@/pages/mainTabs/Networking/Wireless/Basics/Troubleshooting/WirelessTroubleshooting'));
+const CommonIssuesAndFixes = lazy(() => import('@/pages/mainTabs/Networking/Wireless/Basics/Troubleshooting/CommonIssuesAndFixes'));
 
 const Troubleshooting: RouteObject[] = [
   {

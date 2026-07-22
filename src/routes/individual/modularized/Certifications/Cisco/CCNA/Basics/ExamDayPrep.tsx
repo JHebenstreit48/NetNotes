@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PearsonVUEChecklist = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Basics/ExamDayPrep/PearsonVUEChecklist'));
-const EnvironmentAndID = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNA/Basics/ExamDayPrep/EnvironmentAndID'));
+const PearsonVUEChecklist = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Basics/ExamDayPrep/PearsonVUEChecklist'));
+const EnvironmentAndID = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Basics/ExamDayPrep/EnvironmentAndID'));
 
 const ExamDayPrep: RouteObject[] = [
   {

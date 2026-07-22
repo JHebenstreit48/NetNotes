@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ExamOverview = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNP/Basics/ENCOR350401/ExamOverview'));
-const ExamTopics = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCNP/Basics/ENCOR350401/ExamTopics'));
+const ExamOverview = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNP/Basics/ENCOR350401/ExamOverview'));
+const ExamTopics = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNP/Basics/ENCOR350401/ExamTopics'));
 
 const ENCOR350401: RouteObject[] = [
   {

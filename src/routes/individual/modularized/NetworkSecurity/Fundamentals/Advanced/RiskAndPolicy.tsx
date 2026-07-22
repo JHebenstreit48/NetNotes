@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RiskScoringAndAppetite = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Fundamentals/Advanced/RiskAndPolicy/RiskScoringAndAppetite'));
-const PolicyFrameworks = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Fundamentals/Advanced/RiskAndPolicy/PolicyFrameworks'));
+const RiskScoringAndAppetite = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Fundamentals/Advanced/RiskAndPolicy/RiskScoringAndAppetite'));
+const PolicyFrameworks = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Fundamentals/Advanced/RiskAndPolicy/PolicyFrameworks'));
 
 const RiskAndPolicy: RouteObject[] = [
   {

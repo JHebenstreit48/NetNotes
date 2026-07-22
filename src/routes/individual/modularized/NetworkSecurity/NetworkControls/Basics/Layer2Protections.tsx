@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PortSecurity = lazy(() => import('@/pages/MainTabs/NetworkSecurity/NetworkControls/Basics/Layer2Protections/PortSecurity'));
-const DHCPSnoopingAndDAI = lazy(() => import('@/pages/MainTabs/NetworkSecurity/NetworkControls/Basics/Layer2Protections/DHCPSnoopingAndDAI'));
+const PortSecurity = lazy(() => import('@/pages/mainTabs/NetworkSecurity/NetworkControls/Basics/Layer2Protections/PortSecurity'));
+const DHCPSnoopingAndDAI = lazy(() => import('@/pages/mainTabs/NetworkSecurity/NetworkControls/Basics/Layer2Protections/DHCPSnoopingAndDAI'));
 
 const Layer2Protections: RouteObject[] = [
   {

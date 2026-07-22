@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DesignAndPhases = lazy(() => import('@/pages/MainTabs/NetworkSecurity/VPNAndTunneling/Advanced/DMVPN/DesignAndPhases'));
-const RoutingAndCrypto = lazy(() => import('@/pages/MainTabs/NetworkSecurity/VPNAndTunneling/Advanced/DMVPN/RoutingAndCrypto'));
+const DesignAndPhases = lazy(() => import('@/pages/mainTabs/NetworkSecurity/VPNAndTunneling/Advanced/DMVPN/DesignAndPhases'));
+const RoutingAndCrypto = lazy(() => import('@/pages/mainTabs/NetworkSecurity/VPNAndTunneling/Advanced/DMVPN/RoutingAndCrypto'));
 
 const DMVPN: RouteObject[] = [
   {

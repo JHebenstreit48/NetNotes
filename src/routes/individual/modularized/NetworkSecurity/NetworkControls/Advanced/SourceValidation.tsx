@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const IPSourceGuard = lazy(() => import('@/pages/MainTabs/NetworkSecurity/NetworkControls/Advanced/SourceValidation/IPSourceGuard'));
-const URPF = lazy(() => import('@/pages/MainTabs/NetworkSecurity/NetworkControls/Advanced/SourceValidation/URPF'));
+const IPSourceGuard = lazy(() => import('@/pages/mainTabs/NetworkSecurity/NetworkControls/Advanced/SourceValidation/IPSourceGuard'));
+const URPF = lazy(() => import('@/pages/mainTabs/NetworkSecurity/NetworkControls/Advanced/SourceValidation/URPF'));
 
 const SourceValidation: RouteObject[] = [
   {

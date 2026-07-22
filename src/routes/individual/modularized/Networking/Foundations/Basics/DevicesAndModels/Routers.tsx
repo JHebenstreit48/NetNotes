@@ -2,17 +2,17 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const BasicRouterSetup = lazy(
-  () => import('@/pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/BasicRouterSetup')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/BasicRouterSetup')
 );
 const RolesAndTypes = lazy(
-  () => import('@/pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/RolesAndTypes')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/RolesAndTypes')
 );
 const Interfaces = lazy(
-  () => import('@/pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/Interfaces')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/Interfaces')
 );
-const PortTypes = lazy(() => import('@/pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/PortTypes'));
+const PortTypes = lazy(() => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/PortTypes'));
 const RoutingVsSwitching = lazy(
-  () => import('@/pages/MainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/RoutingVsSwitching')
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/DevicesAndModels/Routers/RoutingVsSwitching')
 );
 
 const Routers: RouteObject[] = [

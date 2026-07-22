@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const EnterpriseVsSecurity = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCIE/Basics/Tracks/EnterpriseVsSecurity'));
-const DataCenterSPCollab = lazy(() => import('@/pages/MainTabs/Certifications/Cisco/CCIE/Basics/Tracks/DataCenterSPCollab'));
+const EnterpriseVsSecurity = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCIE/Basics/Tracks/EnterpriseVsSecurity'));
+const DataCenterSPCollab = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCIE/Basics/Tracks/DataCenterSPCollab'));
 
 const Tracks: RouteObject[] = [
   {

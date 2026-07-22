@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const ClaimingAndInventory = lazy(
-  () => import('@/pages/MainTabs/Networking/Cloud/Basics/Provisioning/ClaimingAndInventory')
+  () => import('@/pages/mainTabs/Networking/Cloud/Basics/Provisioning/ClaimingAndInventory')
 );
 const TemplatesAndProfiles = lazy(
-  () => import('@/pages/MainTabs/Networking/Cloud/Basics/Provisioning/TemplatesAndProfiles')
+  () => import('@/pages/mainTabs/Networking/Cloud/Basics/Provisioning/TemplatesAndProfiles')
 );
 
 const Provisioning: RouteObject[] = [

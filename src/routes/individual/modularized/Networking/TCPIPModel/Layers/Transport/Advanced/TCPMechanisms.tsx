@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ThreeWayHandshake = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/TCPMechanisms/ThreeWayHandshake'));
-const AcknowledgmentSequencing = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/TCPMechanisms/AcknowledgmentSequencing'));
-const WindowingCongestionControl = lazy(() => import('@/pages/MainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/TCPMechanisms/WindowingCongestionControl'));
+const ThreeWayHandshake = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/TCPMechanisms/ThreeWayHandshake'));
+const AcknowledgmentSequencing = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/TCPMechanisms/AcknowledgmentSequencing'));
+const WindowingCongestionControl = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/Transport/Advanced/TCPMechanisms/WindowingCongestionControl'));
 
 const TCPMechanisms: RouteObject[] = [
   {

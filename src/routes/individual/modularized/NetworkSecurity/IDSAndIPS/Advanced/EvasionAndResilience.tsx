@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const FragmentationAndTTLTricks = lazy(() => import('@/pages/MainTabs/NetworkSecurity/IDSAndIPS/Advanced/EvasionAndResilience/FragmentationAndTTLTricks'));
-const PerformanceAndLatency = lazy(() => import('@/pages/MainTabs/NetworkSecurity/IDSAndIPS/Advanced/EvasionAndResilience/PerformanceAndLatency'));
+const FragmentationAndTTLTricks = lazy(() => import('@/pages/mainTabs/NetworkSecurity/IDSAndIPS/Advanced/EvasionAndResilience/FragmentationAndTTLTricks'));
+const PerformanceAndLatency = lazy(() => import('@/pages/mainTabs/NetworkSecurity/IDSAndIPS/Advanced/EvasionAndResilience/PerformanceAndLatency'));
 
 const EvasionAndResilience: RouteObject[] = [
   {

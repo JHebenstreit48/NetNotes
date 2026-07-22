@@ -2,10 +2,10 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const Concepts = lazy(
-  () => import('@/pages/MainTabs/Networking/Switching/Advanced/VLANs/Concepts/Concepts')
+  () => import('@/pages/mainTabs/Networking/Switching/Advanced/VLANs/Concepts/Concepts')
 );
 const VoiceAndNative = lazy(
-  () => import('@/pages/MainTabs/Networking/Switching/Advanced/VLANs/Concepts/VoiceAndNative')
+  () => import('@/pages/mainTabs/Networking/Switching/Advanced/VLANs/Concepts/VoiceAndNative')
 );
 
 const VLANConcepts: RouteObject[] = [

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SIPVsRTP = lazy(() => import('@/pages/MainTabs/VoIP/Foundations/Basics/CallBasics/SIPVsRTP'));
-const BasicCallFlow = lazy(() => import('@/pages/MainTabs/VoIP/Foundations/Basics/CallBasics/BasicCallFlow'));
+const SIPVsRTP = lazy(() => import('@/pages/mainTabs/VoIP/Foundations/Basics/CallBasics/SIPVsRTP'));
+const BasicCallFlow = lazy(() => import('@/pages/mainTabs/VoIP/Foundations/Basics/CallBasics/BasicCallFlow'));
 
 const CallBasics: RouteObject[] = [
   {

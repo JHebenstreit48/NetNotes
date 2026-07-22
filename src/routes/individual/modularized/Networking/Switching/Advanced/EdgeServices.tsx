@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PortSecurity = lazy(() => import('@/pages/MainTabs/Networking/Switching/Advanced/EdgeServices/PortSecurity'));
-const StormControl = lazy(() => import('@/pages/MainTabs/Networking/Switching/Advanced/EdgeServices/StormControl'));
+const PortSecurity = lazy(() => import('@/pages/mainTabs/Networking/Switching/Advanced/EdgeServices/PortSecurity'));
+const StormControl = lazy(() => import('@/pages/mainTabs/Networking/Switching/Advanced/EdgeServices/StormControl'));
 
 const EdgeServices: RouteObject[] = [
   {

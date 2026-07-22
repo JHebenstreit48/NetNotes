@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const FailoverAndClustering = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Advanced/HighAvailability/FailoverAndClustering'));
-const StateSyncAndHealth = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Firewalls/Advanced/HighAvailability/StateSyncAndHealth'));
+const FailoverAndClustering = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Advanced/HighAvailability/FailoverAndClustering'));
+const StateSyncAndHealth = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Firewalls/Advanced/HighAvailability/StateSyncAndHealth'));
 
 const HighAvailability: RouteObject[] = [
   {

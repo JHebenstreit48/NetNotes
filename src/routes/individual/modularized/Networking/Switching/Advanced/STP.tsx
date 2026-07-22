@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RolesAndStates = lazy(() => import('@/pages/MainTabs/Networking/Switching/Advanced/STP/RolesAndStates'));
-const Protections = lazy(() => import('@/pages/MainTabs/Networking/Switching/Advanced/STP/Protections'));
+const RolesAndStates = lazy(() => import('@/pages/mainTabs/Networking/Switching/Advanced/STP/RolesAndStates'));
+const Protections = lazy(() => import('@/pages/mainTabs/Networking/Switching/Advanced/STP/Protections'));
 
 const STP: RouteObject[] = [
   {

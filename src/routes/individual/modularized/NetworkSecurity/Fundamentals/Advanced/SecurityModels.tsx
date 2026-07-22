@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const KillChainVsATTAndCK = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Fundamentals/Advanced/SecurityModels/KillChainVsATTAndCK'));
-const ControlTypesAndMapping = lazy(() => import('@/pages/MainTabs/NetworkSecurity/Fundamentals/Advanced/SecurityModels/ControlTypesAndMapping'));
+const KillChainVsATTAndCK = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Fundamentals/Advanced/SecurityModels/KillChainVsATTAndCK'));
+const ControlTypesAndMapping = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Fundamentals/Advanced/SecurityModels/ControlTypesAndMapping'));
 
 const SecurityModels: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Glossary = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Basics/GlossaryResources/Glossary'));
-const Resources = lazy(() => import('@/pages/MainTabs/Networking/Legacy/OSIModel/Basics/GlossaryResources/Resources'));
+const Glossary = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/GlossaryResources/Glossary'));
+const Resources = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/GlossaryResources/Resources'));
 
 const GlossaryResources: RouteObject[] = [
   {

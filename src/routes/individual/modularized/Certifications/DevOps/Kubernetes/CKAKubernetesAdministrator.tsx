@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CKAOverview = lazy(() => import('@/pages/MainTabs/Certifications/DevOps/Kubernetes/CKAKubernetesAdministrator/CKAOverview'));
-const CKADomains = lazy(() => import('@/pages/MainTabs/Certifications/DevOps/Kubernetes/CKAKubernetesAdministrator/CKADomains'));
+const CKAOverview = lazy(() => import('@/pages/mainTabs/Certifications/DevOps/Kubernetes/CKAKubernetesAdministrator/CKAOverview'));
+const CKADomains = lazy(() => import('@/pages/mainTabs/Certifications/DevOps/Kubernetes/CKAKubernetesAdministrator/CKADomains'));
 
 const CKAKubernetesAdministrator: RouteObject[] = [
   {

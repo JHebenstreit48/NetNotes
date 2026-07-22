@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Principles = lazy(() => import('@/pages/MainTabs/NetworkSecurity/SegmentZeroTrust/Basics/ZeroTrust/Principles'));
-const IdentityAndMicroperimeters = lazy(() => import('@/pages/MainTabs/NetworkSecurity/SegmentZeroTrust/Basics/ZeroTrust/IdentityAndMicroperimeters'));
+const Principles = lazy(() => import('@/pages/mainTabs/NetworkSecurity/SegmentZeroTrust/Basics/ZeroTrust/Principles'));
+const IdentityAndMicroperimeters = lazy(() => import('@/pages/mainTabs/NetworkSecurity/SegmentZeroTrust/Basics/ZeroTrust/IdentityAndMicroperimeters'));
 
 const ZeroTrust: RouteObject[] = [
   {
