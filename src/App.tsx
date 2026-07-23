@@ -8,7 +8,7 @@ import BackToTopGate from '@/components/shared/BackToTop/Gate';
 import '@/scss/shared/Page.scss';
 import '@/scss/shared/Header/index.scss';
 import '@/scss/shared/Footer.scss';
-import '@/scss/Navigation/index.scss';
+import '@/scss/navigation/index.scss';
 import '@/scss/shared/Error.scss';
 
 function RouteFallback() {
