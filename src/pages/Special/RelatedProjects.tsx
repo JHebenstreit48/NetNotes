@@ -1,5 +1,5 @@
-import "@/scss/Shared/HomeAndAbout/index.scss";
-import '@/scss/Shared/RelatedProjects.scss';   // overrides only
+import "@/scss/shared/HomeAndAbout/index.scss";
+import '@/scss/shared/RelatedProjects.scss';   // overrides only
 
 export default function RelatedProjects() {
   return (
