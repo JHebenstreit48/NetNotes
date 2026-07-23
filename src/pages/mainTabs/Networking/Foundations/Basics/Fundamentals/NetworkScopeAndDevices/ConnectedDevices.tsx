@@ -2,17 +2,17 @@ import PageLayout from '@/components/NavigationUI/PageLayout';
 import PageTitle from '@/components/PageComponents/PageTitle';
 import Notes from '@/components/PageComponents/Notes/Notes';
 
-const StandardsAndOrganizations = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/StandardsAndOrganizations';
+const ConnectedDevices = () => {
+  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/NetworkScopeAndDevices/ConnectedDevices';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="Fundamentals - Standards and Organizations" />
+        <PageTitle title="Fundamentals - Connected Devices" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default StandardsAndOrganizations;
+export default ConnectedDevices;

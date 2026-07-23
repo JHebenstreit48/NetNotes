@@ -1,14 +1,14 @@
 import PageLayout from '@/components/NavigationUI/PageLayout';
-import PageTitle from '@/components/PageComponents/PageTitle';
+import PageTile from '@/components/PageComponents/PageTitle'
 import Notes from '@/components/PageComponents/Notes/Notes';
 
 const Introduction = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/Introduction';
+  const markdownFilePath = 'NetworkSecurity/Firewalls/Basics/Fundamentals/Introduction';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="Fundamentals - Introduction To Networking" />
+        <PageTile title="Firewalls - Fundamentals - Introduction" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>

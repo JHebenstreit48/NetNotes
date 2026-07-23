@@ -2,17 +2,17 @@ import PageLayout from '@/components/NavigationUI/PageLayout';
 import PageTitle from '@/components/PageComponents/PageTitle';
 import Notes from '@/components/PageComponents/Notes/Notes';
 
-const Internet = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/Internet';
+const CommunicationProtocols = () => {
+  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/ProtocolsAndStandards/CommunicationProtocols';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="Fundamentals - Internet and Global Networks" />
+        <PageTitle title="Fundamentals - Communication Protocols" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default Internet;
+export default CommunicationProtocols;

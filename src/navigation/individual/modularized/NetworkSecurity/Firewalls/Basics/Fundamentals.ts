@@ -11,6 +11,10 @@ const Fundamentals: Subpage = {
       name: 'Types of Firewalls',
       path: '/firewalls/basics/fundamentals/types-of-firewalls',
     },
+    {
+      name: 'How Firewalls Decide: Rules & Policies',
+      path: '/firewalls/basics/fundamentals/rules-and-policies',
+    },
   ],
 };
 

@@ -1,4 +1,3 @@
-// NetworkSecurity/IDSIPS/Advanced.ts
 import type { Subpage } from '@/types/navigation';
 
 const Advanced: Subpage = {
