@@ -6,10 +6,10 @@ import RouteTracker from '@/components/shared/analytics/RouteTracker';
 import BackToTopGate from '@/components/shared/BackToTop/Gate';
 
 import '@/scss/shared/Page.scss';
-import '@/scss/Shared/Header/index.scss';
-import '@/scss/Shared/Footer.scss';
-import '@/scss/Navigation/index.scss';
-import '@/scss/Shared/Error.scss';
+import '@/scss/shared/Header/index.scss';
+import '@/scss/shared/Footer.scss';
+import '@/scss/navigation/index.scss';
+import '@/scss/shared/Error.scss';
 
 function RouteFallback() {
   return <div className="routeFallback">Loading…</div>;
