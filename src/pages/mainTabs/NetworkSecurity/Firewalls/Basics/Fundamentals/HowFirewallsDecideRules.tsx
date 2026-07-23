@@ -2,17 +2,17 @@ import PageLayout from '@/components/NavigationUI/PageLayout';
 import PageTile from '@/components/PageComponents/PageTitle'
 import Notes from '@/components/PageComponents/Notes/Notes';
 
-const PortTypes = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/DevicesAndModels/Routers/PortTypes';
+const HowFirewallsDecideRules = () => {
+  const markdownFilePath = 'NetworkSecurity/Firewalls/Basics/Fundamentals/HowFirewallsDecideRules';
 
   return (
     <>
       <PageLayout>
-        <PageTile title="Devices & Models - Routers - Port Types" />
+        <PageTile title="Firewalls - Fundamentals - How Firewalls Decide: Rules & Policies" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default PortTypes;
+export default HowFirewallsDecideRules;
