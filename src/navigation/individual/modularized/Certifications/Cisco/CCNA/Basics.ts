@@ -1,87 +1,22 @@
 import type { Subpage } from '@/types/navigation';
 
+import Fundamentals from '@/navigation/individual/modularized/Certifications/Cisco/CCNA/Basics/Fundamentals';
+import StudyMethods from '@/navigation/individual/modularized/Certifications/Cisco/CCNA/Basics/StudyMethods';
+import TimeManagement from '@/navigation/individual/modularized/Certifications/Cisco/CCNA/Basics/TimeManagement';
+import ObjectiveMap from '@/navigation/individual/modularized/Certifications/Cisco/CCNA/Basics/ObjectiveMap';
+import Resources from '@/navigation/individual/modularized/Certifications/Cisco/CCNA/Basics/Resources';
+import ExamDayPrep from '@/navigation/individual/modularized/Certifications/Cisco/CCNA/Basics/ExamDayPrep';
+
 const Basics: Subpage = {
-  name: "Basics",
+  name: 'Basics',
   subpages: [
-    {
-      name: "Fundamentals",
-      subpages: [
-        {
-          name: "Introduction",
-          path: "/certifications/cisco/ccna/basics/fundamentals/introduction"
-        },
-        {
-          name: "Policies & Registration",
-          path: "/certifications/cisco/ccna/basics/fundamentals/policies-and-registration"
-        }
-      ]
-    },
-    {
-      name: "Study Methods",
-      subpages: [
-        {
-          name: "Active Recall & Labs",
-          path: "/certifications/cisco/ccna/basics/study-methods/active-recall-and-labs"
-        },
-        {
-          name: "Pomodoro & Spaced Repetition",
-          path: "/certifications/cisco/ccna/basics/study-methods/pomodoro-and-spaced-repetition"
-        }
-      ]
-    },
-    {
-      name: "Time Management",
-      subpages: [
-        {
-          name: "Pacing & Timed Blocks",
-          path: "/certifications/cisco/ccna/basics/time-management/pacing-and-timed-blocks"
-        },
-        {
-          name: "Review Windows",
-          path: "/certifications/cisco/ccna/basics/time-management/review-windows"
-        }
-      ]
-    },
-    {
-      name: "Objective Map",
-      subpages: [
-        {
-          name: "Domain Breakdown",
-          path: "/certifications/cisco/ccna/basics/objective-map/domain-breakdown"
-        },
-        {
-          name: "Link Map to Notes",
-          path: "/certifications/cisco/ccna/basics/objective-map/link-map-to-notes"
-        }
-      ]
-    },
-    {
-      name: "Resources",
-      subpages: [
-        {
-          name: "Flashcards (Anki/Quizlet)",
-          path: "/certifications/cisco/ccna/basics/resources/flashcards-anki-quizlet"
-        },
-        {
-          name: "Study Templates",
-          path: "/certifications/cisco/ccna/basics/resources/study-templates"
-        }
-      ]
-    },
-    {
-      name: "Exam Day Prep",
-      subpages: [
-        {
-          name: "Pearson/VUE Checklist",
-          path: "/certifications/cisco/ccna/basics/exam-day-prep/pearson-vue-checklist"
-        },
-        {
-          name: "Environment & ID",
-          path: "/certifications/cisco/ccna/basics/exam-day-prep/environment-and-id"
-        }
-      ]
-    }
-  ]
+    Fundamentals,
+    StudyMethods,
+    TimeManagement,
+    ObjectiveMap,
+    Resources,
+    ExamDayPrep
+  ],
 };
 
 export default Basics;

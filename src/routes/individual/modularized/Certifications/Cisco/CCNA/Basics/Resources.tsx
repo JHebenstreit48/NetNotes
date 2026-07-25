@@ -1,18 +1,11 @@
-import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Flashcards = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Basics/Resources/Flashcards'));
-const StudyTemplates = lazy(() => import('@/pages/mainTabs/Certifications/Cisco/CCNA/Basics/Resources/StudyTemplates'));
+import StudyMaterials from '@/routes/individual/modularized/Certifications/Cisco/CCNA/Basics/Resources/StudyMaterials';
+import Anki from '@/routes/individual/modularized/Certifications/Cisco/CCNA/Basics/Resources/Anki';
 
 const Resources: RouteObject[] = [
-  {
-    path: '/certifications/cisco/ccna/basics/resources/flashcards-anki-quizlet',
-    element: <Flashcards />,
-  },
-  {
-    path: '/certifications/cisco/ccna/basics/resources/study-templates',
-    element: <StudyTemplates />,
-  },
+    ...StudyMaterials,
+    ...Anki
 ];
 
 export default Resources;
