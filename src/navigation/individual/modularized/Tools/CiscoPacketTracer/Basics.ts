@@ -1,31 +1,21 @@
 import type { Subpage } from '@/types/navigation';
 
+import Fundamentals from '@/navigation/individual/modularized/Tools/CiscoPacketTracer/Basics/Fundamentals';
+
 const Basics: Subpage = {
   name: "Basics",
   subpages: [
-    {
-      name: "Fundamentals",
-      subpages: [
-        {
-          name: "Install & Interface",
-          path: "/packettracer/basics/fundamentals/install-and-interface"
-        },
-        {
-          name: "Projects & Saves",
-          path: "/packettracer/basics/fundamentals/projects-and-saves"
-        }
-      ]
-    },
+    Fundamentals,
     {
       name: "Workspace & Views",
       subpages: [
         {
           name: "Logical vs Physical",
-          path: "/packettracer/basics/workspace-and-views/logical-vs-physical"
+          path: "/tools/cisco-packet-tracer/basics/workspace-and-views/logical-vs-physical"
         },
         {
           name: "Device Config Tabs",
-          path: "/packettracer/basics/workspace-and-views/device-config-tabs"
+          path: "/tools/cisco-packet-tracer/basics/workspace-and-views/device-config-tabs"
         }
       ]
     },
@@ -34,11 +24,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Realtime vs Simulation",
-          path: "/packettracer/basics/modes/realtime-vs-simulation"
+          path: "/tools/cisco-packet-tracer/basics/modes/realtime-vs-simulation"
         },
         {
           name: "Event List & Custom PDU",
-          path: "/packettracer/basics/modes/event-list-and-custom-pdu"
+          path: "/tools/cisco-packet-tracer/basics/modes/event-list-and-custom-pdu"
         }
       ]
     },
@@ -47,11 +37,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Palette & Modules",
-          path: "/packettracer/basics/devices-and-cabling/palette-and-modules"
+          path: "/tools/cisco-packet-tracer/basics/devices-and-cabling/palette-and-modules"
         },
         {
           name: "Cabling & Console",
-          path: "/packettracer/basics/devices-and-cabling/cabling-and-console"
+          path: "/tools/cisco-packet-tracer/basics/devices-and-cabling/cabling-and-console"
         }
       ]
     },
@@ -60,11 +50,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "CLI Access",
-          path: "/packettracer/basics/configuration-basics/cli-access"
+          path: "/tools/cisco-packet-tracer/basics/configuration-basics/cli-access"
         },
         {
           name: "Startup/Running Files",
-          path: "/packettracer/basics/configuration-basics/startup-and-running-files"
+          path: "/tools/cisco-packet-tracer/basics/configuration-basics/startup-and-running-files"
         }
       ]
     }

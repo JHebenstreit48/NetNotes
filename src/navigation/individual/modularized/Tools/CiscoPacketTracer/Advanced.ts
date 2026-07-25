@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Protocol Inspectors",
-          path: "/packettracer/advanced/simulation-analysis/protocol-inspectors"
+          path: "/tools/cisco-packet-tracer/advanced/simulation-analysis/protocol-inspectors"
         },
         {
           name: "Event Workflows",
-          path: "/packettracer/advanced/simulation-analysis/event-workflows"
+          path: "/tools/cisco-packet-tracer/advanced/simulation-analysis/event-workflows"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Activity Wizard",
-          path: "/packettracer/advanced/activities-and-assessment/activity-wizard"
+          path: "/tools/cisco-packet-tracer/advanced/activities-and-assessment/activity-wizard"
         },
         {
           name: "Grading & Feedback",
-          path: "/packettracer/advanced/activities-and-assessment/grading-and-feedback"
+          path: "/tools/cisco-packet-tracer/advanced/activities-and-assessment/grading-and-feedback"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Custom Devices & Defaults",
-          path: "/packettracer/advanced/templates-and-files/custom-devices-and-defaults"
+          path: "/tools/cisco-packet-tracer/advanced/templates-and-files/custom-devices-and-defaults"
         },
         {
           name: "Export/Import (PKA/PKZ)",
-          path: "/packettracer/advanced/templates-and-files/export-and-import"
+          path: "/tools/cisco-packet-tracer/advanced/templates-and-files/export-and-import"
         }
       ]
     },
@@ -47,11 +47,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Multiuser Links",
-          path: "/packettracer/advanced/collaboration/multiuser-links"
+          path: "/tools/cisco-packet-tracer/advanced/collaboration/multiuser-links"
         },
         {
           name: "Shared Projects",
-          path: "/packettracer/advanced/collaboration/shared-projects"
+          path: "/tools/cisco-packet-tracer/advanced/collaboration/shared-projects"
         }
       ]
     },
@@ -60,11 +60,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Scale & Resources",
-          path: "/packettracer/advanced/performance-and-limits/scale-and-resources"
+          path: "/tools/cisco-packet-tracer/advanced/performance-and-limits/scale-and-resources"
         },
         {
           name: "Version Compatibility",
-          path: "/packettracer/advanced/performance-and-limits/version-compatibility"
+          path: "/tools/cisco-packet-tracer/advanced/performance-and-limits/version-compatibility"
         }
       ]
     }
