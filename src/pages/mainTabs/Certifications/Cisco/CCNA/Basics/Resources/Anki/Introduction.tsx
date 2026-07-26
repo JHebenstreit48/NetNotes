@@ -2,17 +2,17 @@ import PageLayout from '@/components/NavigationUI/PageLayout';
 import PageTitle from '@/components/PageComponents/PageTitle';
 import Notes from '@/components/PageComponents/Notes/Notes';
 
-const Flashcards = () => {
-  const markdownFilePath = 'Certifications/Cisco/CCNA/Basics/Resources/Flashcards';
+const Introduction = () => {
+  const markdownFilePath = 'Certifications/Cisco/CCNA/Basics/Resources/Anki/Introduction';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="Flashcards (Anki/Quizlet)" />
+        <PageTitle title="Cisco - CCNA - Basics - Study Materials - Anki - Introduction" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default Flashcards;
+export default Introduction;

@@ -2,17 +2,17 @@ import PageLayout from '@/components/NavigationUI/PageLayout';
 import PageTitle from '@/components/PageComponents/PageTitle';
 import Notes from '@/components/PageComponents/Notes/Notes';
 
-const InstallAndInterface = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/Fundamentals/InstallAndInterface';
+const RecommendedStudyMaterials = () => {
+  const markdownFilePath = 'Certifications/Cisco/CCNA/Basics/Resources/RecommendedStudyMaterials';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="Install & Interface" />
+        <PageTitle title="Cisco - CCNA - Basics - Study Materials - Recommended Study Materials" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default InstallAndInterface;
+export default RecommendedStudyMaterials;

@@ -2,17 +2,17 @@ import PageLayout from '@/components/NavigationUI/PageLayout';
 import PageTitle from '@/components/PageComponents/PageTitle';
 import Notes from '@/components/PageComponents/Notes/Notes';
 
-const InstallAndInterface = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/Fundamentals/InstallAndInterface';
+const Introduction = () => {
+  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/Fundamentals/Introduction';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="Install & Interface" />
+        <PageTitle title="Cisco Packet Tracker - Basics - Fundamentals - Introduction" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default InstallAndInterface;
+export default Introduction;
