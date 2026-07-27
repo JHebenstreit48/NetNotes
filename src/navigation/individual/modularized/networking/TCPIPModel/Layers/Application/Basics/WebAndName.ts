@@ -5,15 +5,15 @@ const WebAndName: Subpage = {
   subpages: [
     {
       name: 'Introduction',
-      path: '/tcpip-model/layers/application/basics/web-and-name/introduction',
+      path: '/networking/tcp-ip-model/layers/application/basics/web-and-name/introduction',
     },
     {
       name: 'HTTP/HTTPS',
-      path: '/tcpip-model/layers/application/basics/web-and-name/http-https',
+      path: '/networking/tcp-ip-model/layers/application/basics/web-and-name/http-https',
     },
     {
       name: 'DNS',
-      path: '/tcpip-model/layers/application/basics/web-and-name/dns',
+      path: '/networking/tcp-ip-model/layers/application/basics/web-and-name/dns',
     },
   ],
 };

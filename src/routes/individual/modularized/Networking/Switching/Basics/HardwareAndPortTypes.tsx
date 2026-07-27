@@ -10,11 +10,11 @@ const EthernetSpeedHistory = lazy(
 
 const HardwareAndHistory: RouteObject[] = [
   {
-    path: '/switching/basics/hardware-and-port-types/switches-and-connectors',
+    path: '/networking/switching/basics/hardware-and-port-types/switches-and-connectors',
     element: <SwitchesAndConnectors />,
   },
   {
-    path: '/switching/basics/hardware-and-port-types/ethernet-speed-history',
+    path: '/networking/switching/basics/hardware-and-port-types/ethernet-speed-history',
     element: <EthernetSpeedHistory />,
   },
 ];

@@ -7,15 +7,15 @@ const WindowingCongestionControl = lazy(() => import('@/pages/mainTabs/Networkin
 
 const TCPMechanisms: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/transport/advanced/tcp-mechanisms/three-way-handshake',
+    path: '/networking/tcp-ip-model/layers/transport/advanced/tcp-mechanisms/three-way-handshake',
     element: <ThreeWayHandshake />,
   },
   {
-    path: '/tcpip-model/layers/transport/advanced/tcp-mechanisms/acknowledgment-sequencing',
+    path: '/networking/tcp-ip-model/layers/transport/advanced/tcp-mechanisms/acknowledgment-sequencing',
     element: <AcknowledgmentSequencing />,
   },
   {
-    path: '/tcpip-model/layers/transport/advanced/tcp-mechanisms/windowing-congestion-control',
+    path: '/networking/tcp-ip-model/layers/transport/advanced/tcp-mechanisms/windowing-congestion-control',
     element: <WindowingCongestionControl />,
   },
 ];

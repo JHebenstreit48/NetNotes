@@ -6,11 +6,11 @@ const PIMSMDM = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers
 
 const MulticastFundamentals: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/internet/multicast-fundamentals/igmp-and-mld',
+    path: '/networking/tcp-ip-model/layers/internet/multicast-fundamentals/igmp-and-mld',
     element: <IGMPAndMLD />,
   },
   {
-    path: '/tcpip-model/layers/internet/multicast-fundamentals/pim-sm-dm-concepts',
+    path: '/networking/tcp-ip-model/layers/internet/multicast-fundamentals/pim-sm-dm-concepts',
     element: <PIMSMDM />,
   },
 ];

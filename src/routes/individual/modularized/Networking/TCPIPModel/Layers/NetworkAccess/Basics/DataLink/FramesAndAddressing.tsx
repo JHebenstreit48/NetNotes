@@ -7,15 +7,15 @@ const BurnedInAddress = lazy(() => import('@/pages/mainTabs/Networking/TCPIPMode
 
 const FramesAndAddressing: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing',
     element: <MACAddressing />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields',
     element: <EthernetFrameFields />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia',
     element: <BurnedInAddress />,
   },
 ];

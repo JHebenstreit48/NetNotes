@@ -6,11 +6,11 @@ const SegmentationAndReassembly = lazy(() => import('@/pages/mainTabs/Networking
 
 const Reliability: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/transport/basics/reliability/reliable-delivery-flow-control',
+    path: '/networking/tcp-ip-model/layers/transport/basics/reliability/reliable-delivery-flow-control',
     element: <ReliableDeliveryFlowControl />,
   },
   {
-    path: '/tcpip-model/layers/transport/basics/reliability/segmentation-reassembly',
+    path: '/networking/tcp-ip-model/layers/transport/basics/reliability/segmentation-reassembly',
     element: <SegmentationAndReassembly />,
   },
 ];

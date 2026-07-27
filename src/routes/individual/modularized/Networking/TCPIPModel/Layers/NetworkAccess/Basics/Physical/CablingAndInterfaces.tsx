@@ -8,19 +8,19 @@ const FiberConnectors = lazy(() => import('@/pages/mainTabs/Networking/TCPIPMode
 
 const BandwidthAndThroughput: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories',
     element: <EthernetCablingCategories />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable',
     element: <CoaxialCable />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors',
     element: <CopperConnectors />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers',
     element: <FiberConnectors />,
   }
 ];

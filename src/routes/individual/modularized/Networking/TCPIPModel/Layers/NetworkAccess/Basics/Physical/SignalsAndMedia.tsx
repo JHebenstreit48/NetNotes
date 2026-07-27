@@ -6,11 +6,11 @@ const BitDigitalSignals = lazy(() => import('@/pages/mainTabs/Networking/TCPIPMo
 
 const SignalsAndMedia: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/signals-and-media/introduction',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/signals-and-media/introduction',
     element: <Introduction />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals',
     element: <BitDigitalSignals />,
   },
 ];

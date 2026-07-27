@@ -11,11 +11,11 @@ const Advanced: Subpage = {
           subpages: [
             {
               name: "FCS/CRC",
-              path: "/tcpip-model/layers/network-access/advanced/data-link/checks-and-errors/fcs-crc"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/data-link/checks-and-errors/fcs-crc"
             },
             {
               name: "Errors & Collisions",
-              path: "/tcpip-model/layers/network-access/advanced/data-link/checks-and-errors/errors-and-collisions"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/data-link/checks-and-errors/errors-and-collisions"
             }
           ]
         },
@@ -24,11 +24,11 @@ const Advanced: Subpage = {
           subpages: [
             {
               name: "MTU & Path MTU",
-              path: "/tcpip-model/layers/network-access/advanced/data-link/mtu-and-framing/mtu-and-path-mtu"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/data-link/mtu-and-framing/mtu-and-path-mtu"
             },
             {
               name: "Jumbo Frames",
-              path: "/tcpip-model/layers/network-access/advanced/data-link/mtu-and-framing/jumbo-frames"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/data-link/mtu-and-framing/jumbo-frames"
             }
           ]
         }
@@ -42,11 +42,11 @@ const Advanced: Subpage = {
           subpages: [
             {
               name: "NRZ/Manchester",
-              path: "/tcpip-model/layers/network-access/advanced/physical/encoding-and-line-codes/nrz-manchester"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/physical/encoding-and-line-codes/nrz-manchester"
             },
             {
               name: "8b/10b • 64b/66b",
-              path: "/tcpip-model/layers/network-access/advanced/physical/encoding-and-line-codes/8b10b-64b66b"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/physical/encoding-and-line-codes/8b10b-64b66b"
             }
           ]
         },
@@ -55,11 +55,11 @@ const Advanced: Subpage = {
           subpages: [
             {
               name: "Speed/Duplex",
-              path: "/tcpip-model/layers/network-access/advanced/physical/negotiation-and-duplex/speed-duplex"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/physical/negotiation-and-duplex/speed-duplex"
             },
             {
               name: "Auto-Neg & Auto-MDI/MDI-X",
-              path: "/tcpip-model/layers/network-access/advanced/physical/negotiation-and-duplex/auto-neg-and-auto-mdi-mdix"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/physical/negotiation-and-duplex/auto-neg-and-auto-mdi-mdix"
             }
           ]
         },
@@ -68,11 +68,11 @@ const Advanced: Subpage = {
           subpages: [
             {
               name: "Attenuation & Distance",
-              path: "/tcpip-model/layers/network-access/advanced/physical/noise-and-distance/attenuation-and-distance"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/physical/noise-and-distance/attenuation-and-distance"
             },
             {
               name: "Crosstalk & EMI",
-              path: "/tcpip-model/layers/network-access/advanced/physical/noise-and-distance/crosstalk-and-emi"
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/physical/noise-and-distance/crosstalk-and-emi"
             }
           ]
         }

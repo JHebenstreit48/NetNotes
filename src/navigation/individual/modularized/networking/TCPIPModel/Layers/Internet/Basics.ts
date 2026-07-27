@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: 'Introduction',
-          path: '/tcpip-model/layers/internet/basics/fundamentals/introduction',
+          path: '/networking/tcp-ip-model/layers/internet/basics/fundamentals/introduction',
         },
         {
           name: 'DHCP (Address Assignment)',
-          path: '/tcpip-model/layers/internet/basics/fundamentals/dhcp',
+          path: '/networking/tcp-ip-model/layers/internet/basics/fundamentals/dhcp',
         },
       ],
     },
@@ -24,23 +24,23 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'Address Structure',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/address-structure',
             },
             {
               name: 'Transmission Types',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/transmission-types',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/transmission-types',
             },
             {
               name: 'Types of Addresses',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses',
             },
             {
               name: 'IPv4 Exhaustion & Transition',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition',
             },
             {
               name: 'IPv4 vs IPv6 Comparison',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison',
             },
           ],
         },
@@ -49,15 +49,15 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'Fundamentals',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv6/fundamentals',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv6/fundamentals',
             },
             {
               name: 'Address Types & Scope',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv6/address-types-and-scope',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv6/address-types-and-scope',
             },
             {
               name: 'ND/RA & SLAAC/DAD',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv6/nd-ra-slaac-dad',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv6/nd-ra-slaac-dad',
             },
           ],
         },
@@ -66,23 +66,23 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'Subnet Masks & CIDR',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/subnet-masks-and-cidr',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/subnet-masks-and-cidr',
             },
             {
               name: 'Broadcast Domains & Segmentation',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation',
             },
             {
               name: 'Default Gateway & Routing Tables',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables',
             },
             {
               name: 'IPv4 Subnetting',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv4-subnetting',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv4-subnetting',
             },
             {
               name: 'IPv6 Subnetting',
-              path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv6-subnetting',
+              path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv6-subnetting',
             },
           ],
         },
@@ -93,15 +93,15 @@ const Basics: Subpage = {
       subpages: [
         {
           name: 'ICMP',
-          path: '/tcpip-model/layers/internet/basics/icmp-and-commands/icmp',
+          path: '/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/icmp',
         },
         {
           name: 'ipconfig (Viewing & Renewing IP Configuration)',
-          path: '/tcpip-model/layers/internet/basics/icmp-and-commands/ipconfig',
+          path: '/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/ipconfig',
         },
         {
           name: 'Ping & Traceroute',
-          path: '/tcpip-model/layers/internet/basics/icmp-and-commands/ping-and-traceroute',
+          path: '/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/ping-and-traceroute',
         },
       ],
     },

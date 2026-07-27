@@ -6,11 +6,11 @@ const JumboFrames = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/La
 
 const MTUAndFraming: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/advanced/data-link/mtu-and-framing/mtu-and-path-mtu',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/data-link/mtu-and-framing/mtu-and-path-mtu',
     element: <MTUAndPathMTU />,
   },
   {
-    path: '/tcpip-model/layers/network-access/advanced/data-link/mtu-and-framing/jumbo-frames',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/data-link/mtu-and-framing/jumbo-frames',
     element: <JumboFrames />,
   },
 ];

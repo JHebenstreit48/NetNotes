@@ -7,15 +7,15 @@ const TextMessaging = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/
 
 const EmailAndCommunication: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/application/basics/email-and-communication/smtp',
+    path: '/networking/tcp-ip-model/layers/application/basics/email-and-communication/smtp',
     element: <SMTP />,
   },
   {
-    path: '/tcpip-model/layers/application/basics/email-and-communication/imap',
+    path: '/networking/tcp-ip-model/layers/application/basics/email-and-communication/imap',
     element: <IMAP />,
   },
   {
-    path: '/tcpip-model/layers/application/basics/email-and-communication/text-messaging',
+    path: '/networking/tcp-ip-model/layers/application/basics/email-and-communication/text-messaging',
     element: <TextMessaging />,
   }
 ];

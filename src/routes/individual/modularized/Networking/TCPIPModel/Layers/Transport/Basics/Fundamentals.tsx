@@ -6,11 +6,11 @@ const TCPVsUDP = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layer
 
 const Fundamentals: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/transport/basics/fundamentals/introduction',
+    path: '/networking/tcp-ip-model/layers/transport/basics/fundamentals/introduction',
     element: <Introduction />,
   },
   {
-    path: '/tcpip-model/layers/transport/basics/fundamentals/tcp-vs-udp',
+    path: '/networking/tcp-ip-model/layers/transport/basics/fundamentals/tcp-vs-udp',
     element: <TCPVsUDP />,
   },
 ];

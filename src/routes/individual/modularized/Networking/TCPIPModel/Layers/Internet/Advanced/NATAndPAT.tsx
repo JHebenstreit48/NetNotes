@@ -6,11 +6,11 @@ const UseCasesAndLimits = lazy(() => import('@/pages/mainTabs/Networking/TCPIPMo
 
 const NATAndPAT: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/internet/nat-and-pat/concepts-and-types',
+    path: '/networking/tcp-ip-model/layers/internet/nat-and-pat/concepts-and-types',
     element: <ConceptsAndTypes />,
   },
   {
-    path: '/tcpip-model/layers/internet/nat-and-pat/use-cases-and-limits',
+    path: '/networking/tcp-ip-model/layers/internet/nat-and-pat/use-cases-and-limits',
     element: <UseCasesAndLimits />,
   },
 ];

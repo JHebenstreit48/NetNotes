@@ -6,11 +6,11 @@ const ErrorsAndCollisions = lazy(() => import('@/pages/mainTabs/Networking/TCPIP
 
 const ChecksAndErrors: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/advanced/data-link/checks-and-errors/fcs-crc',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/data-link/checks-and-errors/fcs-crc',
     element: <FCSCRC />,
   },
   {
-    path: '/tcpip-model/layers/network-access/advanced/data-link/checks-and-errors/errors-and-collisions',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/data-link/checks-and-errors/errors-and-collisions',
     element: <ErrorsAndCollisions />,
   },
 ];

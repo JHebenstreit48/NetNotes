@@ -6,11 +6,11 @@ const AddressResolutionProtocol = lazy(() => import('@/pages/mainTabs/Networking
 
 const CoreConcepts: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/introduction',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/introduction',
     element: <Introduction />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/arp',
     element: <AddressResolutionProtocol />,
   },
 ];

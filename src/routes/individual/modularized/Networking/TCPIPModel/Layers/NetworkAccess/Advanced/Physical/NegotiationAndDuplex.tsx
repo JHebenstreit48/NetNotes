@@ -6,11 +6,11 @@ const AutoNegAndAutoMDIMDIX = lazy(() => import('@/pages/mainTabs/Networking/TCP
 
 const NegotiationAndDuplex: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/advanced/physical/negotiation-and-duplex/speed-duplex',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/physical/negotiation-and-duplex/speed-duplex',
     element: <SpeedDuplex />,
   },
   {
-    path: '/tcpip-model/layers/network-access/advanced/physical/negotiation-and-duplex/auto-neg-and-auto-mdi-mdix',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/physical/negotiation-and-duplex/auto-neg-and-auto-mdi-mdix',
     element: <AutoNegAndAutoMDIMDIX />,
   },
 ];

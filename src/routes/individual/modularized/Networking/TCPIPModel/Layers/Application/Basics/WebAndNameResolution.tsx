@@ -7,15 +7,15 @@ const DNS = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers/App
 
 const WebAndNameResolution: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/application/basics/web-and-name/introduction',
+    path: '/networking/tcp-ip-model/layers/application/basics/web-and-name/introduction',
     element: <Introduction />,
   },
   {
-    path: '/tcpip-model/layers/application/basics/web-and-name/http-https',
+    path: '/networking/tcp-ip-model/layers/application/basics/web-and-name/http-https',
     element: <HTTPHTTPS />,
   },
   {
-    path: '/tcpip-model/layers/application/basics/web-and-name/dns',
+    path: '/networking/tcp-ip-model/layers/application/basics/web-and-name/dns',
     element: <DNS />,
   },
 ];

@@ -10,11 +10,11 @@ const MACAddressTable = lazy(
 
 const Fundamentals: RouteObject[] = [
   {
-    path: '/switching/basics/fundamentals/layer-2-switching',
+    path: '/networking/switching/basics/fundamentals/layer-2-switching',
     element: <Layer2 />,
   },
   {
-    path: '/switching/basics/fundamentals/mac-address-table',
+    path: '/networking/switching/basics/fundamentals/mac-address-table',
     element: <MACAddressTable />,
   },
 ];

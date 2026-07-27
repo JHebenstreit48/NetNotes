@@ -6,11 +6,11 @@ const MultiplexingDemuxAndUseCases = lazy(() => import('@/pages/mainTabs/Network
 
 const UDPDetails: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/transport/advanced/udp/datagrams-and-checksum',
+    path: '/networking/tcp-ip-model/layers/transport/advanced/udp/datagrams-and-checksum',
     element: <DatagramsAndChecksum />,
   },
   {
-    path: '/tcpip-model/layers/transport/advanced/udp/multiplexing-demux-use-cases',
+    path: '/networking/tcp-ip-model/layers/transport/advanced/udp/multiplexing-demux-use-cases',
     element: <MultiplexingDemuxAndUseCases />,
   },
 ];

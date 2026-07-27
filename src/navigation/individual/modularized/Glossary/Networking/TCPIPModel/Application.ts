@@ -5,15 +5,15 @@ const Application: Subpage = {
   subpages: [
     {
       name: 'Basics',
-      path: '/glossary/networking/tcpipmodel/application/basics',
+      path: '/glossary/networking/tcp-ip-model/application/basics',
     },
     {
       name: 'DNS (Domain Name System)',
-      path: '/glossary/networking/tcpipmodel/application/dns',
+      path: '/glossary/networking/tcp-ip-model/application/dns',
     },
     {
       name: 'HTTP / HTTPS',
-      path: '/glossary/networking/tcpipmodel/application/http-https',
+      path: '/glossary/networking/tcp-ip-model/application/http-https',
     },
   ],
 };

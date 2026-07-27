@@ -6,11 +6,11 @@ const DeEncapsulation = lazy(() => import('@/pages/mainTabs/Networking/TCPIPMode
 
 const EncapDeEncap: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/encapsulation',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/encapsulation',
     element: <Encapsulation />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation',
     element: <DeEncapsulation />,
   },
 ];

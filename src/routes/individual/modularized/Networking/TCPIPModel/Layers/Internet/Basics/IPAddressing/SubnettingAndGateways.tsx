@@ -9,23 +9,23 @@ const IPv6Subnetting = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel
 
 const SubnettingAndGateways: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/subnet-masks-and-cidr',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/subnet-masks-and-cidr',
     element: <SubnetMasksAndCIDR />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/broadcast-domains-and-segmentation',
     element: <BroadcastDomainsAndSegmentation />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/default-gateway-and-routing-tables',
     element: <DefaultGatewayAndRoutingTables />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv4-subnetting',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv4-subnetting',
     element: <IPv4Subnetting />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv6-subnetting',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/subnetting-and-gateways/ipv6-subnetting',
     element: <IPv6Subnetting />,
   }
 ];

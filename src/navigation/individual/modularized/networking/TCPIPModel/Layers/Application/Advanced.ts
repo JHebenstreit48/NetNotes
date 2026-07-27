@@ -8,19 +8,19 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: 'Introduction',
-          path: '/tcpip-model/layers/application/advanced/network-services/introduction',
+          path: '/networking/tcp-ip-model/layers/application/advanced/network-services/introduction',
         },
         {
           name: 'NTP',
-          path: '/tcpip-model/layers/application/advanced/network-services/ntp',
+          path: '/networking/tcp-ip-model/layers/application/advanced/network-services/ntp',
         },
         {
           name: 'SNMP',
-          path: '/tcpip-model/layers/application/advanced/network-services/snmp',
+          path: '/networking/tcp-ip-model/layers/application/advanced/network-services/snmp',
         },
         {
           name: 'FTP/SFTP',
-          path: '/tcpip-model/layers/application/advanced/network-services/ftp',
+          path: '/networking/tcp-ip-model/layers/application/advanced/network-services/ftp',
         },
       ],
     },
@@ -29,11 +29,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: 'SSH',
-          path: '/tcpip-model/layers/application/advanced/remote-access/ssh',
+          path: '/networking/tcp-ip-model/layers/application/advanced/remote-access/ssh',
         },
         {
           name: 'Best Practices',
-          path: '/tcpip-model/layers/application/advanced/remote-access/ssh-best-practices',
+          path: '/networking/tcp-ip-model/layers/application/advanced/remote-access/ssh-best-practices',
         },
       ],
     },
@@ -42,11 +42,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: 'Data Collection Types',
-          path: '/tcpip-model/layers/application/advanced/user-data/data-collection-types',
+          path: '/networking/tcp-ip-model/layers/application/advanced/user-data/data-collection-types',
         },
         {
           name: 'Privacy in Application Protocols',
-          path: '/tcpip-model/layers/application/advanced/user-data/privacy-in-protocols',
+          path: '/networking/tcp-ip-model/layers/application/advanced/user-data/privacy-in-protocols',
         },
       ],
     },

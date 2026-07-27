@@ -6,11 +6,11 @@ const PortRanges = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Lay
 
 const PortsAndSockets: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/transport/basics/ports/ports-and-sockets',
+    path: '/networking/tcp-ip-model/layers/transport/basics/ports/ports-and-sockets',
     element: <PortsSockets />,
   },
   {
-    path: '/tcpip-model/layers/transport/basics/ports/port-ranges',
+    path: '/networking/tcp-ip-model/layers/transport/basics/ports/port-ranges',
     element: <PortRanges />,
   },
 ];

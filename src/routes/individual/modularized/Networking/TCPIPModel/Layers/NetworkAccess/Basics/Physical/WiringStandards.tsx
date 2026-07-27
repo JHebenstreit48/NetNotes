@@ -8,15 +8,15 @@ const TerminatingEthernet = lazy(() => import('@/pages/mainTabs/Networking/TCPIP
 
 const WiringStandards: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b',
     element: <T568AVsT568B />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/wiring-standards/straight-through-vs-crossover',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/wiring-standards/straight-through-vs-crossover',
     element: <StraightThroughVsCrossover />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/wiring-standards/terminating-ethernet',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/wiring-standards/terminating-ethernet',
     element: <TerminatingEthernet />,
   }
 ];
