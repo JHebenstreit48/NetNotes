@@ -5,15 +5,15 @@ const Transport: Subpage = {
   subpages: [
     {
       name: 'Basics',
-      path: '/glossary/networking/tcpipmodel/transport/basics',
+      path: '/glossary/networking/tcp-ip-model/transport/basics',
     },
     {
       name: 'TCP vs UDP',
-      path: '/glossary/networking/tcpipmodel/transport/tcp-vs-udp',
+      path: '/glossary/networking/tcp-ip-model/transport/tcp-vs-udp',
     },
     {
       name: 'Ports (Ephemeral & Well-Known)',
-      path: '/glossary/networking/tcpipmodel/transport/ports',
+      path: '/glossary/networking/tcp-ip-model/transport/ports',
     },
   ],
 };

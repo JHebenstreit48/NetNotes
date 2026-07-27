@@ -13,15 +13,15 @@ const NDRASLAACDAD = lazy(
 
 const IPv6: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv6/fundamentals',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv6/fundamentals',
     element: <Fundamentals />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv6/address-types-and-scope',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv6/address-types-and-scope',
     element: <AddressTypesAndScope />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv6/nd-ra-slaac-dad',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv6/nd-ra-slaac-dad',
     element: <NDRASLAACDAD />,
   },
 ];

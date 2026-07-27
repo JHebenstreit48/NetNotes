@@ -6,11 +6,11 @@ const BestPractices = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/
 
 const RemoteAccess: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/application/advanced/remote-access/ssh',
+    path: '/networking/tcp-ip-model/layers/application/advanced/remote-access/ssh',
     element: <SSH />,
   },
   {
-    path: '/tcpip-model/layers/application/advanced/remote-access/ssh-best-practices',
+    path: '/networking/tcp-ip-model/layers/application/advanced/remote-access/ssh-best-practices',
     element: <BestPractices />,
   },
 ];

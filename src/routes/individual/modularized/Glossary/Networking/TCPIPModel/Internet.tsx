@@ -14,15 +14,15 @@ const IPv6Addressing = lazy(
 
 const Switching: RouteObject[] = [
   {
-    path: '/glossary/networking/tcpipmodel/internet/basics',
+    path: '/glossary/networking/tcp-ip-model/internet/basics',
     element: <Basics />,
   },
   {
-    path: '/glossary/networking/tcpipmodel/internet/ipv4-addressing',
+    path: '/glossary/networking/tcp-ip-model/internet/ipv4-addressing',
     element: <IPv4Addressing />,
   },
   {
-    path: '/glossary/networking/tcpipmodel/internet/ipv6-addressing',
+    path: '/glossary/networking/tcp-ip-model/internet/ipv6-addressing',
     element: <IPv6Addressing />,
   }
 ];

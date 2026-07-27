@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: 'Introduction',
-          path: '/tcpip-model/basics/fundamentals/introduction',
+          path: '/networking/tcp-ip-model/basics/fundamentals/introduction',
         },
         {
           name: 'Protocol Stack',
-          path: '/tcpip-model/basics/fundamentals/protocol-stack',
+          path: '/networking/tcp-ip-model/basics/fundamentals/protocol-stack',
         },
       ],
     },

@@ -6,11 +6,11 @@ const PrivacyInApplicationProtocols = lazy(() => import('@/pages/mainTabs/Networ
 
 const UserDataAndPrivacy: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/application/advanced/user-data/data-collection-types',
+    path: '/networking/tcp-ip-model/layers/application/advanced/user-data/data-collection-types',
     element: <DataCollectionTypes />,
   },
   {
-    path: '/tcpip-model/layers/application/advanced/user-data/privacy-in-protocols',
+    path: '/networking/tcp-ip-model/layers/application/advanced/user-data/privacy-in-protocols',
     element: <PrivacyInApplicationProtocols />,
   },
 ];

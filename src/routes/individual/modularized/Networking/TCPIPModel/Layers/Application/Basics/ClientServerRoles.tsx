@@ -6,11 +6,11 @@ const P2PAndExamples = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel
 
 const ClientServerRoles: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/application/basics/client-and-server-roles/fundamentals',
+    path: '/networking/tcp-ip-model/layers/application/basics/client-and-server-roles/fundamentals',
     element: <Fundamentals />,
   },
   {
-    path: '/tcpip-model/layers/application/basics/client-and-server-roles/p2p-and-examples',
+    path: '/networking/tcp-ip-model/layers/application/basics/client-and-server-roles/p2p-and-examples',
     element: <P2PAndExamples />,
   }
 ];

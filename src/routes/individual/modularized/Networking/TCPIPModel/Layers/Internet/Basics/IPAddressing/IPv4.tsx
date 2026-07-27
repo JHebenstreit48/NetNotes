@@ -19,23 +19,23 @@ const IPv4vsIPv6Comparison = lazy(
 
 const IPv4: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/address-structure',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/address-structure',
     element: <AddressStructure />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/transmission-types',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/transmission-types',
     element: <TransmissionTypes />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/types-of-addresses',
     element: <TypesOfAddresses />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-exhaustion-and-transition',
     element: <IPv4Exhaustion />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison',
+    path: '/networking/tcp-ip-model/layers/internet/basics/ip-addressing/ipv4/ipv4-vs-ipv6-comparison',
     element: <IPv4vsIPv6Comparison />,
   },
 ];

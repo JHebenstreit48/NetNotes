@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Layer 2 Switching",
-          path: "/switching/basics/fundamentals/layer-2-switching"
+          path: "/networking/switching/basics/fundamentals/layer-2-switching"
         },
         {
           name: "MAC Address Table",
-          path: "/switching/basics/fundamentals/mac-address-table"
+          path: "/networking/switching/basics/fundamentals/mac-address-table"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Switches and Connectors",
-          path: "/switching/basics/hardware-and-port-types/switches-and-connectors"
+          path: "/networking/switching/basics/hardware-and-port-types/switches-and-connectors"
         },
         {
           name: "Ethernet Speed History",
-          path: "/switching/basics/hardware-and-port-types/ethernet-speed-history"
+          path: "/networking/switching/basics/hardware-and-port-types/ethernet-speed-history"
         }
       ]
     }

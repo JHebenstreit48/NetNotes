@@ -5,15 +5,15 @@ const EmailAndCommunication: Subpage = {
   subpages: [
     {
       name: 'SMTP',
-      path: '/tcpip-model/layers/application/basics/email-and-communication/smtp',
+      path: '/networking/tcp-ip-model/layers/application/basics/email-and-communication/smtp',
     },
     {
       name: 'IMAP',
-      path: '/tcpip-model/layers/application/basics/email-and-communication/imap',
+      path: '/networking/tcp-ip-model/layers/application/basics/email-and-communication/imap',
     },
     {
       name: 'Text Messaging',
-      path: '/tcpip-model/layers/application/basics/email-and-communication/text-messaging',
+      path: '/networking/tcp-ip-model/layers/application/basics/email-and-communication/text-messaging',
     },
   ],
 };

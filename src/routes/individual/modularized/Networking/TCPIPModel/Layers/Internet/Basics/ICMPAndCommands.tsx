@@ -11,15 +11,15 @@ const PingAndTraceroute = lazy(
 
 const ICMPAndDiagnostics: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/internet/basics/icmp-and-commands/icmp',
+    path: '/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/icmp',
     element: <ICMP />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/icmp-and-commands/ipconfig',
+    path: '/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/ipconfig',
     element: <Ipconfig />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/icmp-and-commands/ping-and-traceroute',
+    path: '/networking/tcp-ip-model/layers/internet/basics/icmp-and-commands/ping-and-traceroute',
     element: <PingAndTraceroute />,
   },
 ];

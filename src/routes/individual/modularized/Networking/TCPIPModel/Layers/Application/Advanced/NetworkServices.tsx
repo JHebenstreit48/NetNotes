@@ -8,19 +8,19 @@ const FTPSFTP = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Layers
 
 const NetworkServices: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/application/advanced/network-services/introduction',
+    path: '/networking/tcp-ip-model/layers/application/advanced/network-services/introduction',
     element: <Introduction />,
   },
   {
-    path: '/tcpip-model/layers/application/advanced/network-services/ntp',
+    path: '/networking/tcp-ip-model/layers/application/advanced/network-services/ntp',
     element: <NTP />,
   },
   {
-    path: '/tcpip-model/layers/application/advanced/network-services/snmp',
+    path: '/networking/tcp-ip-model/layers/application/advanced/network-services/snmp',
     element: <SNMP />,
   },
   {
-    path: '/tcpip-model/layers/application/advanced/network-services/ftp',
+    path: '/networking/tcp-ip-model/layers/application/advanced/network-services/ftp',
     element: <FTPSFTP />,
   },
 ];

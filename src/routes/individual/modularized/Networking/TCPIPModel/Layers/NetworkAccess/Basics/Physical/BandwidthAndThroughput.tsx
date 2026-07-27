@@ -6,11 +6,11 @@ const Throughput = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Lay
 
 const BandwidthAndThroughput: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth',
     element: <Bandwidth />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput',
     element: <Throughput />,
   },
 ];

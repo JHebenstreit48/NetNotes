@@ -11,11 +11,11 @@ const DHCP = lazy(
 
 const Fundamentals: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/internet/basics/fundamentals/introduction',
+    path: '/networking/tcp-ip-model/layers/internet/basics/fundamentals/introduction',
     element: <Introduction />,
   },
   {
-    path: '/tcpip-model/layers/internet/basics/fundamentals/dhcp',
+    path: '/networking/tcp-ip-model/layers/internet/basics/fundamentals/dhcp',
     element: <DHCP />,
   },
 ];

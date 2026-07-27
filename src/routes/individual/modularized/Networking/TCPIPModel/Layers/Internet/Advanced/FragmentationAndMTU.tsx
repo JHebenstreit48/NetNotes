@@ -6,11 +6,11 @@ const PathMTUDiscovery = lazy(() => import('@/pages/mainTabs/Networking/TCPIPMod
 
 const FragmentationAndMTU: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/internet/fragmentation-and-mtu/ipv4-df-mf-and-reassembly',
+    path: '/networking/tcp-ip-model/layers/internet/fragmentation-and-mtu/ipv4-df-mf-and-reassembly',
     element: <IPv4DFMFAndReassembly />,
   },
   {
-    path: '/tcpip-model/layers/internet/fragmentation-and-mtu/path-mtu-discovery',
+    path: '/networking/tcp-ip-model/layers/internet/fragmentation-and-mtu/path-mtu-discovery',
     element: <PathMTUDiscovery />,
   },
 ];

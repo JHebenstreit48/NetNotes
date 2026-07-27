@@ -11,19 +11,19 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'Introduction',
-              path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/introduction',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/introduction',
             },
             {
               name: 'Encapsulation',
-              path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/encapsulation',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/encapsulation',
             },
             {
               name: 'De-encapsulation',
-              path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/de-encapsulation',
             },
             {
               name: 'Address Resolution Protocol (ARP)',
-              path: '/tcpip-model/layers/network-access/basics/data-link/core-concepts/arp',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/core-concepts/arp',
             },
           ],
         },
@@ -32,15 +32,15 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'MAC Addressing',
-              path: '/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/mac-addressing',
             },
             {
               name: 'Ethernet Frame Fields',
-              path: '/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/ethernet-frame-fields',
             },
             {
               name: 'Burned-In Address (BIA)',
-              path: '/tcpip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/data-link/frames-and-addressing/burned-in-address-bia',
             },
           ],
         },
@@ -54,11 +54,11 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'Introduction',
-              path: '/tcpip-model/layers/network-access/basics/physical/signals-and-media/introduction',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/signals-and-media/introduction',
             },
             {
               name: 'Bit/Digital Signals',
-              path: '/tcpip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/signals-and-media/bit-digital-signals',
             },
           ],
         },
@@ -67,11 +67,11 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'Communication Standards',
-              path: '/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/communication-standards',
             },
             {
               name: 'Data Transmission Methods',
-              path: '/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/data-transmission-methods',
             },
           ],
         },
@@ -80,23 +80,23 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'Ethernet Cabling Categories',
-              path: '/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/ethernet-cabling-categories',
             },
             {
               name: 'Coaxial Cable',
-              path: '/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/coaxial-cable',
             },
             {
               name: 'Copper Connectors (RJ45 / 8P8C)',
-              path: '/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/copper-connectors',
             },
             {
               name: 'Fiber Connectors & Transceivers',
-              path: '/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/fiber-connectors-and-transceivers',
             },
             {
               name: 'Powerline Networking',
-              path: '/tcpip-model/layers/network-access/basics/physical/cabling-and-interfaces/powerline-networking',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/cabling-and-interfaces/powerline-networking',
             },
           ],
         },
@@ -105,15 +105,15 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'T568A vs T568B',
-              path: '/tcpip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/wiring-standards/t568a-vs-t568b',
             },
             {
               name: 'Straight-Through vs Crossover',
-              path: '/tcpip-model/layers/network-access/basics/physical/wiring-standards/straight-through-vs-crossover',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/wiring-standards/straight-through-vs-crossover',
             },
             {
               name: 'Terminating Ethernet (Crimp & Punchdown)',
-              path: '/tcpip-model/layers/network-access/basics/physical/wiring-standards/terminating-ethernet',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/wiring-standards/terminating-ethernet',
             },
           ],
         },
@@ -122,11 +122,11 @@ const Basics: Subpage = {
           subpages: [
             {
               name: 'Bandwidth',
-              path: '/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/bandwidth',
             },
             {
               name: 'Throughput',
-              path: '/tcpip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput',
+              path: '/networking/tcp-ip-model/layers/network-access/basics/physical/bandwidth-and-throughput/throughput',
             },
           ],
         },

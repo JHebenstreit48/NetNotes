@@ -5,19 +5,19 @@ const Internet: Subpage = {
   subpages: [
     {
       name: 'Basics',
-      path: '/glossary/networking/tcpipmodel/internet/basics',
+      path: '/glossary/networking/tcp-ip-model/internet/basics',
     },
     {
       name: 'IPv4 Addressing',
-      path: '/glossary/networking/tcpipmodel/internet/ipv4-addressing',
+      path: '/glossary/networking/tcp-ip-model/internet/ipv4-addressing',
     },
     {
       name: 'IPv6 Addressing',
-      path: '/glossary/networking/tcpipmodel/internet/ipv6-addressing',
+      path: '/glossary/networking/tcp-ip-model/internet/ipv6-addressing',
     },
     {
       name: 'NAT & PAT',
-      path: '/glossary/networking/tcpipmodel/internet/nat-and-pat',
+      path: '/glossary/networking/tcp-ip-model/internet/nat-and-pat',
     },
   ],
 };

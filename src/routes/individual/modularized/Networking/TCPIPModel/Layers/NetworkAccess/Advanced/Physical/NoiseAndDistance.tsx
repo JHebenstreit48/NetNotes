@@ -6,11 +6,11 @@ const CrosstalkAndEMI = lazy(() => import('@/pages/mainTabs/Networking/TCPIPMode
 
 const NoiseAndDistance: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/advanced/physical/noise-and-distance/attenuation-and-distance',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/physical/noise-and-distance/attenuation-and-distance',
     element: <AttenuationAndDistance />,
   },
   {
-    path: '/tcpip-model/layers/network-access/advanced/physical/noise-and-distance/crosstalk-and-emi',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/physical/noise-and-distance/crosstalk-and-emi',
     element: <CrosstalkAndEMI />,
   },
 ];

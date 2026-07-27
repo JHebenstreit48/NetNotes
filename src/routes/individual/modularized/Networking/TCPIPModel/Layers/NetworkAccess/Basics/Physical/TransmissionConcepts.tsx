@@ -6,11 +6,11 @@ const DataTransmissionMethods = lazy(() => import('@/pages/mainTabs/Networking/T
 
 const TransmissionConcepts: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/transmission/communication-standards',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/communication-standards',
     element: <CommunicationStandards />,
   },
   {
-    path: '/tcpip-model/layers/network-access/basics/physical/transmission/data-transmission-methods',
+    path: '/networking/tcp-ip-model/layers/network-access/basics/physical/transmission/data-transmission-methods',
     element: <DataTransmissionMethods />,
   },
 ];

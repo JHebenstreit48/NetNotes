@@ -6,11 +6,11 @@ const Eightb10b64b66b = lazy(() => import('@/pages/mainTabs/Networking/TCPIPMode
 
 const EncodingAndLineCodes: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/network-access/advanced/physical/encoding-and-line-codes/nrz-manchester',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/physical/encoding-and-line-codes/nrz-manchester',
     element: <NRZManchester />,
   },
   {
-    path: '/tcpip-model/layers/network-access/advanced/physical/encoding-and-line-codes/8b10b-64b66b',
+    path: '/networking/tcp-ip-model/layers/network-access/advanced/physical/encoding-and-line-codes/8b10b-64b66b',
     element: <Eightb10b64b66b />,
   },
 ];

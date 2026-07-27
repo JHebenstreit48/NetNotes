@@ -6,11 +6,11 @@ const EphemeralAndWellKnownPorts = lazy(() => import('@/pages/mainTabs/Networkin
 
 const Multiplexing: RouteObject[] = [
   {
-    path: '/tcpip-model/layers/transport/advanced/multiplexing/process-demultiplexing',
+    path: '/networking/tcp-ip-model/layers/transport/advanced/multiplexing/process-demultiplexing',
     element: <ProcessDemultiplexing />,
   },
   {
-    path: '/tcpip-model/layers/transport/advanced/multiplexing/ephemeral-and-well-known-ports',
+    path: '/networking/tcp-ip-model/layers/transport/advanced/multiplexing/ephemeral-and-well-known-ports',
     element: <EphemeralAndWellKnownPorts />,
   },
 ];
