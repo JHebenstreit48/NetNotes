@@ -11,11 +11,11 @@ const Advanced: Subpage = {
           subpages: [
             {
               name: "VLAN Concepts",
-              path: "/switching/advanced/vlans/concepts/vlan-concepts"
+              path: "/networking/switching/advanced/vlans/concepts/vlan-concepts"
             },
             {
               name: "Voice & Native VLANs",
-              path: "/switching/advanced/vlans/concepts/voice-and-native-vlans"
+              path: "/networking/switching/advanced/vlans/concepts/voice-and-native-vlans"
             }
           ]
         },
@@ -24,11 +24,11 @@ const Advanced: Subpage = {
           subpages: [
             {
               name: "Trunking (802.1Q)",
-              path: "/switching/advanced/vlans/operations/trunking-8021q"
+              path: "/networking/switching/advanced/vlans/operations/trunking-8021q"
             },
             {
               name: "VLAN Trunking Protocol (VTP)",
-              path: "/switching/advanced/vlans/operations/vtp"
+              path: "/networking/switching/advanced/vlans/operations/vtp"
             }
           ]
         },
@@ -37,11 +37,11 @@ const Advanced: Subpage = {
           subpages: [
             {
               name: "Inter-VLAN Routing",
-              path: "/switching/advanced/vlans/routing/inter-vlan-routing"
+              path: "/networking/switching/advanced/vlans/routing/inter-vlan-routing"
             },
             {
               name: "Router-on-a-Stick (RoAS)",
-              path: "/switching/advanced/vlans/routing/router-on-a-stick"
+              path: "/networking/switching/advanced/vlans/routing/router-on-a-stick"
             }
           ]
         },
@@ -50,11 +50,11 @@ const Advanced: Subpage = {
           subpages: [
             {
               name: "VLAN Hopping Mitigation",
-              path: "/switching/advanced/vlans/security-and-design/vlan-hopping-mitigation"
+              path: "/networking/switching/advanced/vlans/security-and-design/vlan-hopping-mitigation"
             },
             {
               name: "DTP Best Practices",
-              path: "/switching/advanced/vlans/security-and-design/dtp-best-practices"
+              path: "/networking/switching/advanced/vlans/security-and-design/dtp-best-practices"
             }
           ]
         }
@@ -65,11 +65,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Roles & States",
-          path: "/switching/advanced/stp/roles-and-states"
+          path: "/networking/switching/advanced/stp/roles-and-states"
         },
         {
           name: "Protections (BPDU/Root/Loop Guard)",
-          path: "/switching/advanced/stp/protections"
+          path: "/networking/switching/advanced/stp/protections"
         }
       ]
     },
@@ -78,11 +78,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "LACP & PAgP",
-          path: "/switching/advanced/etherchannel/lacp-and-pagp"
+          path: "/networking/switching/advanced/etherchannel/lacp-and-pagp"
         },
         {
           name: "Load Balancing & Design",
-          path: "/switching/advanced/etherchannel/load-balancing-and-design"
+          path: "/networking/switching/advanced/etherchannel/load-balancing-and-design"
         }
       ]
     },
@@ -91,11 +91,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Port Security",
-          path: "/switching/advanced/edge-services/port-security"
+          path: "/networking/switching/advanced/edge-services/port-security"
         },
         {
           name: "Storm Control",
-          path: "/switching/advanced/edge-services/storm-control"
+          path: "/networking/switching/advanced/edge-services/storm-control"
         }
       ]
     },
@@ -104,11 +104,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Trust Boundaries",
-          path: "/switching/advanced/qos/trust-boundaries"
+          path: "/networking/switching/advanced/qos/trust-boundaries"
         },
         {
           name: "CoS/DSCP Mapping",
-          path: "/switching/advanced/qos/cos-dscp-mapping"
+          path: "/networking/switching/advanced/qos/cos-dscp-mapping"
         }
       ]
     }

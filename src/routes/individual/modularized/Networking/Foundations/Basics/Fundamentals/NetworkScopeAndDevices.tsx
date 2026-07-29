@@ -16,19 +16,19 @@ const ConnectedDevices = lazy(
 
 const NetworkScopeAndDevices: RouteObject[] = [
   {
-    path: '/networking/foundations/basics/fundamentals/network-scope-and-devices/introduction',
+    path: '/networking/networking/foundations/basics/fundamentals/network-scope-and-devices/introduction',
     element: <Introduction />,
   },
   {
-    path: '/networking/foundations/basics/fundamentals/network-scope-and-devices/internet',
+    path: '/networking/networking/foundations/basics/fundamentals/network-scope-and-devices/internet',
     element: <Internet />,
   },
   {
-    path: '/networking/foundations/basics/fundamentals/network-scope-and-devices/local-networks',
+    path: '/networking/networking/foundations/basics/fundamentals/network-scope-and-devices/local-networks',
     element: <LocalNetworks />,
   },
   {
-    path: '/networking/foundations/basics/fundamentals/network-scope-and-devices/connected-devices',
+    path: '/networking/networking/foundations/basics/fundamentals/network-scope-and-devices/connected-devices',
     element: <ConnectedDevices />,
   },
 ];

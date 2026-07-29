@@ -6,11 +6,11 @@ const BandSteeringAndLoadBalance = lazy(() => import('@/pages/mainTabs/Networkin
 
 const RFAndPerformance: RouteObject[] = [
   {
-    path: '/wireless/advanced/rf-performance/rssi-snr-and-mcs',
+    path: '/networking/wireless/advanced/rf-performance/rssi-snr-and-mcs',
     element: <RSSISNRAndMCS />,
   },
   {
-    path: '/wireless/advanced/rf-performance/band-steering-and-load-balance',
+    path: '/networking/wireless/advanced/rf-performance/band-steering-and-load-balance',
     element: <BandSteeringAndLoadBalance />,
   },
 ];

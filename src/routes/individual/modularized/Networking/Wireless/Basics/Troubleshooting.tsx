@@ -6,11 +6,11 @@ const CommonIssuesAndFixes = lazy(() => import('@/pages/mainTabs/Networking/Wire
 
 const Troubleshooting: RouteObject[] = [
   {
-    path: '/wireless/basics/troubleshooting/wireless-troubleshooting',
+    path: '/networking/wireless/basics/troubleshooting/wireless-troubleshooting',
     element: <WirelessTroubleshooting />,
   },
   {
-    path: '/wireless/basics/troubleshooting/common-issues-and-fixes',
+    path: '/networking/wireless/basics/troubleshooting/common-issues-and-fixes',
     element: <CommonIssuesAndFixes />,
   },
 ];

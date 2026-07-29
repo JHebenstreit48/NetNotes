@@ -6,11 +6,11 @@ const StormControl = lazy(() => import('@/pages/mainTabs/Networking/Switching/Ad
 
 const EdgeServices: RouteObject[] = [
   {
-    path: '/switching/advanced/edge-services/port-security',
+    path: '/networking/switching/advanced/edge-services/port-security',
     element: <PortSecurity />,
   },
   {
-    path: '/switching/advanced/edge-services/storm-control',
+    path: '/networking/switching/advanced/edge-services/storm-control',
     element: <StormControl />,
   },
 ];

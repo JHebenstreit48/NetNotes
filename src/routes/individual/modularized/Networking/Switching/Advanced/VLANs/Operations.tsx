@@ -10,11 +10,11 @@ const VTP = lazy(
 
 const VLANOperations: RouteObject[] = [
   {
-    path: '/switching/advanced/vlans/operations/trunking-8021q',
+    path: '/networking/switching/advanced/vlans/operations/trunking-8021q',
     element: <Trunking />,
   },
   {
-    path: '/switching/advanced/vlans/operations/vtp',
+    path: '/networking/switching/advanced/vlans/operations/vtp',
     element: <VTP />,
   },
 ];

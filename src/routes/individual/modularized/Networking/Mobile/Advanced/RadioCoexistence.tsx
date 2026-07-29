@@ -6,11 +6,11 @@ const CellularWiFiSwitching = lazy(() => import('@/pages/mainTabs/Networking/Mob
 
 const RadioCoexistence: RouteObject[] = [
   {
-    path: '/mobile/advanced/coexistence/wifi-and-bluetooth',
+    path: '/networking/mobile/advanced/coexistence/wifi-and-bluetooth',
     element: <WiFiBluetoothInteraction />,
   },
   {
-    path: '/mobile/advanced/coexistence/cellular-and-wifi-switching',
+    path: '/networking/mobile/advanced/coexistence/cellular-and-wifi-switching',
     element: <CellularWiFiSwitching />,
   },
 ];

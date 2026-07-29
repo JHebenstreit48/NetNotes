@@ -6,11 +6,11 @@ const Protections = lazy(() => import('@/pages/mainTabs/Networking/Switching/Adv
 
 const STP: RouteObject[] = [
   {
-    path: '/switching/advanced/stp/roles-and-states',
+    path: '/networking/switching/advanced/stp/roles-and-states',
     element: <RolesAndStates />,
   },
   {
-    path: '/switching/advanced/stp/protections',
+    path: '/networking/switching/advanced/stp/protections',
     element: <Protections />,
   },
 ];

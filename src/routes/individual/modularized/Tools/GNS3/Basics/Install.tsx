@@ -6,11 +6,11 @@ const RequirementsAndSetup = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Basi
 
 const Install: RouteObject[] = [
   {
-    path: '/gns3/basics/install/gns3-app-and-vm',
+    path: '/tools/gns3/basics/install/gns3-app-and-vm',
     element: <GNS3AppAndVM />,
   },
   {
-    path: '/gns3/basics/install/requirements-and-setup',
+    path: '/tools/gns3/basics/install/requirements-and-setup',
     element: <RequirementsAndSetup />,
   },
 ];

@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/servers/basics/fundamentals/introduction"
+          path: "/networking/servers/basics/fundamentals/introduction"
         },
         {
           name: "Client-Server Model",
-          path: "/servers/basics/fundamentals/client-server-model"
+          path: "/networking/servers/basics/fundamentals/client-server-model"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Rack, Tower, and Blade Servers",
-          path: "/servers/basics/hardware-and-form-factors/rack-tower-blade"
+          path: "/networking/servers/basics/hardware-and-form-factors/rack-tower-blade"
         },
         {
           name: "Server Components",
-          path: "/servers/basics/hardware-and-form-factors/server-components"
+          path: "/networking/servers/basics/hardware-and-form-factors/server-components"
         }
       ]
     }

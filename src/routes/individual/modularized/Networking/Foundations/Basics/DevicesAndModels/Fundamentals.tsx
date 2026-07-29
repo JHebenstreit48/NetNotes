@@ -17,19 +17,19 @@ const NetworkModels = lazy(
 
 const DevicesAndModels: RouteObject[] = [
   {
-    path: '/foundations/basics/devices-and-models/fundamentals/network-infrastructure',
+    path: '/networking/foundations/basics/devices-and-models/fundamentals/network-infrastructure',
     element: <NetworkInfrastructure />,
   },
   {
-    path: '/foundations/basics/devices-and-models/fundamentals/network-devices',
+    path: '/networking/foundations/basics/devices-and-models/fundamentals/network-devices',
     element: <NetworkDevices />,
   },
   {
-    path: '/foundations/basics/devices-and-models/fundamentals/home-network-architecture',
+    path: '/networking/foundations/basics/devices-and-models/fundamentals/home-network-architecture',
     element: <HomeNetworkArchitecture />,
   },
   {
-    path: '/foundations/basics/devices-and-models/fundamentals/network-models',
+    path: '/networking/foundations/basics/devices-and-models/fundamentals/network-models',
     element: <NetworkModels />,
   },
 ];

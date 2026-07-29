@@ -6,11 +6,11 @@ const CoreFirewallConfiguration = lazy(() => import('@/pages/mainTabs/NetworkSec
 
 const OPNsense: RouteObject[] = [
   {
-    path: '/firewalls/basics/opnsense/install-setup',
+    path: '/network-security/firewalls/basics/opnsense/install-setup',
     element: <InstallAndSetup />,
   },
   {
-    path: '/firewalls/basics/opnsense/core-configuration',
+    path: '/network-security/firewalls/basics/opnsense/core-configuration',
     element: <CoreFirewallConfiguration />,
   },
 ];

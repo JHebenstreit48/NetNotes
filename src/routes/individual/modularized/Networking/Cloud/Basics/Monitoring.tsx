@@ -10,11 +10,11 @@ const HealthAndTelemetry = lazy(
 
 const Monitoring: RouteObject[] = [
   {
-    path: '/cloud/basics/monitoring/dashboards-and-alerts',
+    path: '/networking/cloud/basics/monitoring/dashboards-and-alerts',
     element: <DashboardsAndAlerts />,
   },
   {
-    path: '/cloud/basics/monitoring/health-and-telemetry',
+    path: '/networking/cloud/basics/monitoring/health-and-telemetry',
     element: <HealthAndTelemetry />,
   },
 ];

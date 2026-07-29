@@ -6,11 +6,11 @@ const RemotePacketCapture = lazy(() => import('@/pages/mainTabs/Networking/Cloud
 
 const Troubleshooting: RouteObject[] = [
   {
-    path: '/cloud/advanced/troubleshooting/logs-and-event-correlation',
+    path: '/networking/cloud/advanced/troubleshooting/logs-and-event-correlation',
     element: <LogsAndEventCorrelation />,
   },
   {
-    path: '/cloud/advanced/troubleshooting/remote-packet-capture',
+    path: '/networking/cloud/advanced/troubleshooting/remote-packet-capture',
     element: <RemotePacketCapture />,
   },
 ];

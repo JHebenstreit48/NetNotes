@@ -7,15 +7,15 @@ const HowFirewallsDecideRules = lazy(() => import('@/pages/mainTabs/NetworkSecur
 
 const OPNsense: RouteObject[] = [
   {
-    path: '/firewalls/basics/fundamentals/introduction',
+    path: '/network-security/firewalls/basics/fundamentals/introduction',
     element: <Introduction />,
   },
   {
-    path: '/firewalls/basics/fundamentals/types-of-firewalls',
+    path: '/network-security/firewalls/basics/fundamentals/types-of-firewalls',
     element: <TypesOfFirewalls />,
   },
   {
-    path: '/firewalls/basics/fundamentals/how-firewalls-decide-rules',
+    path: '/network-security/firewalls/basics/fundamentals/how-firewalls-decide-rules',
     element: <HowFirewallsDecideRules />,
   },
 ];

@@ -5,15 +5,15 @@ const IGPs: Subpage = {
   subpages: [
     {
       name: 'Introduction',
-      path: '/foundations/advanced/routing-protocols/igps-and-egps/igps/introduction',
+      path: '/networking/foundations/advanced/routing-protocols/igps-and-egps/igps/introduction',
     },
     {
       name: 'OSPF',
-      path: '/foundations/advanced/routing-protocols/igps-and-egps/igps/ospf',
+      path: '/networking/foundations/advanced/routing-protocols/igps-and-egps/igps/ospf',
     },
     {
       name: 'EIGRP (Cisco Proprietary)',
-      path: '/foundations/advanced/routing-protocols/igps-and-egps/igps/eigrp',
+      path: '/networking/foundations/advanced/routing-protocols/igps-and-egps/igps/eigrp',
     },
   ],
 };

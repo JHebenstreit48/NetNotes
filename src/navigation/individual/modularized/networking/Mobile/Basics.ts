@@ -8,15 +8,15 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/mobile/basics/fundamentals/introduction",
+          path: "/networking/mobile/basics/fundamentals/introduction",
         },
         {
           name: "Radios at a Glance",
-          path: "/mobile/basics/fundamentals/radios-at-a-glance",
+          path: "/networking/mobile/basics/fundamentals/radios-at-a-glance",
         },
         {
           name: "Network Selection & Wi-Fi Behavior",
-          path: "/mobile/basics/fundamentals/network-selection",
+          path: "/networking/mobile/basics/fundamentals/network-selection",
         },
       ],
     },
@@ -25,11 +25,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/mobile/basics/cellular/introduction",
+          path: "/networking/mobile/basics/cellular/introduction",
         },
         {
           name: "Coverage & Data Plans",
-          path: "/mobile/basics/cellular/coverage-and-data-plans",
+          path: "/networking/mobile/basics/cellular/coverage-and-data-plans",
         },
       ],
     },
@@ -38,11 +38,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/mobile/basics/bluetooth/introduction",
+          path: "/networking/mobile/basics/bluetooth/introduction",
         },
         {
           name: "Pairing & Profiles",
-          path: "/mobile/basics/bluetooth/pairing-and-profiles",
+          path: "/networking/mobile/basics/bluetooth/pairing-and-profiles",
         },
       ],
     },
@@ -51,11 +51,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/mobile/basics/nfc/introduction",
+          path: "/networking/mobile/basics/nfc/introduction",
         },
         {
           name: "Common Uses",
-          path: "/mobile/basics/nfc/common-uses",
+          path: "/networking/mobile/basics/nfc/common-uses",
         },
       ],
     },
@@ -64,11 +64,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/mobile/basics/location/introduction",
+          path: "/networking/mobile/basics/location/introduction",
         },
         {
           name: "Accuracy & Limitations",
-          path: "/mobile/basics/location/accuracy-and-limitations",
+          path: "/networking/mobile/basics/location/accuracy-and-limitations",
         },
       ],
     },
@@ -77,11 +77,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/mobile/basics/tethering/introduction",
+          path: "/networking/mobile/basics/tethering/introduction",
         },
         {
           name: "USB vs Wi-Fi vs Bluetooth",
-          path: "/mobile/basics/tethering/usb-wifi-bluetooth",
+          path: "/networking/mobile/basics/tethering/usb-wifi-bluetooth",
         },
       ],
     },

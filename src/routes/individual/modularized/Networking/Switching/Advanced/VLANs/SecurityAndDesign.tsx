@@ -10,11 +10,11 @@ const DTPBestPractices = lazy(
 
 const VLANSecurityAndDesign: RouteObject[] = [
   {
-    path: '/switching/advanced/vlans/security-and-design/vlan-hopping-mitigation',
+    path: '/networking/switching/advanced/vlans/security-and-design/vlan-hopping-mitigation',
     element: <HoppingMitigation />,
   },
   {
-    path: '/switching/advanced/vlans/security-and-design/dtp-best-practices',
+    path: '/networking/switching/advanced/vlans/security-and-design/dtp-best-practices',
     element: <DTPBestPractices />,
   },
 ];

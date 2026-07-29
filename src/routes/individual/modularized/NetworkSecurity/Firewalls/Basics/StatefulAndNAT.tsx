@@ -6,11 +6,11 @@ const NATFundamentals = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Fire
 
 const StatefulAndNAT: RouteObject[] = [
   {
-    path: '/firewalls/basics/stateful-inspection',
+    path: '/network-security/firewalls/basics/stateful-inspection',
     element: <StatefulInspection />,
   },
   {
-    path: '/firewalls/basics/nat-fundamentals',
+    path: '/network-security/firewalls/basics/nat-fundamentals',
     element: <NATFundamentals />,
   },
 ];

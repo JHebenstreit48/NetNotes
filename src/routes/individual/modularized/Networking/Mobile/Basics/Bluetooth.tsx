@@ -6,11 +6,11 @@ const PairingAndProfiles = lazy(() => import('@/pages/mainTabs/Networking/Mobile
 
 const Bluetooth: RouteObject[] = [
   {
-    path: '/mobile/basics/bluetooth/introduction',
+    path: '/networking/mobile/basics/bluetooth/introduction',
     element: <Introduction />,
   },
   {
-    path: '/mobile/basics/bluetooth/pairing-and-profiles',
+    path: '/networking/mobile/basics/bluetooth/pairing-and-profiles',
     element: <PairingAndProfiles />,
   },
 ];

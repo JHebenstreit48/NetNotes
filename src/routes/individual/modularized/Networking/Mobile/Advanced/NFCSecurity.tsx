@@ -6,11 +6,11 @@ const PaymentsAndSecureElement = lazy(() => import('@/pages/mainTabs/Networking/
 
 const NFCSecurity: RouteObject[] = [
   {
-    path: '/mobile/advanced/nfc-security/risks-and-best-practices',
+    path: '/networking/mobile/advanced/nfc-security/risks-and-best-practices',
     element: <RisksAndBestPractices />,
   },
   {
-    path: '/mobile/advanced/nfc-security/payments-and-secure-element',
+    path: '/networking/mobile/advanced/nfc-security/payments-and-secure-element',
     element: <PaymentsAndSecureElement />,
   },
 ];

@@ -6,11 +6,11 @@ const USBVsWiFiVsBluetooth = lazy(() => import('@/pages/mainTabs/Networking/Mobi
 
 const Tethering: RouteObject[] = [
   {
-    path: '/mobile/basics/tethering/introduction',
+    path: '/networking/mobile/basics/tethering/introduction',
     element: <Introduction />,
   },
   {
-    path: '/mobile/basics/tethering/usb-wifi-bluetooth',
+    path: '/networking/mobile/basics/tethering/usb-wifi-bluetooth',
     element: <USBVsWiFiVsBluetooth />,
   },
 ];

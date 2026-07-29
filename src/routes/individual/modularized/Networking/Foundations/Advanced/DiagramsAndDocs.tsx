@@ -6,11 +6,11 @@ const NamingAndLabeling = lazy(() => import('@/pages/mainTabs/Networking/Foundat
 
 const DiagramsAndDocs: RouteObject[] = [
   {
-    path: '/foundations/advanced/diagrams-and-docs/physical-vs-logical',
+    path: '/networking/foundations/advanced/diagrams-and-docs/physical-vs-logical',
     element: <PhysicalVsLogical />,
   },
   {
-    path: '/foundations/advanced/diagrams-and-docs/naming-and-labeling',
+    path: '/networking/foundations/advanced/diagrams-and-docs/naming-and-labeling',
     element: <NamingAndLabeling />,
   },
 ];

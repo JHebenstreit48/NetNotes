@@ -5,19 +5,19 @@ const Fundamentals: Subpage = {
   subpages: [
     {
       name: 'Network Infrastructure',
-      path: '/foundations/basics/devices-and-models/fundamentals/network-infrastructure',
+      path: '/networking/foundations/basics/devices-and-models/fundamentals/network-infrastructure',
     },
     {
       name: 'Networking Devices',
-      path: '/foundations/basics/devices-and-models/fundamentals/network-devices',
+      path: '/networking/foundations/basics/devices-and-models/fundamentals/network-devices',
     },
     {
       name: 'Home Network Architecture',
-      path: '/foundations/basics/devices-and-models/fundamentals/home-network-architecture',
+      path: '/networking/foundations/basics/devices-and-models/fundamentals/home-network-architecture',
     },
     {
       name: 'Networking Models',
-      path: '/foundations/basics/devices-and-models/fundamentals/network-models',
+      path: '/networking/foundations/basics/devices-and-models/fundamentals/network-models',
     },
   ],
 };

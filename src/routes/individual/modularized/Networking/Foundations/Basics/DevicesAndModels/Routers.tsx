@@ -19,23 +19,23 @@ const RoutingVsSwitching = lazy(
 
 const Routers: RouteObject[] = [
   {
-    path: '/foundations/basics/devices-and-models/routers/basic-router-setup',
+    path: '/networking/foundations/basics/devices-and-models/routers/basic-router-setup',
     element: <BasicRouterSetup />,
   },
   {
-    path: '/foundations/basics/devices-and-models/routers/roles-and-types',
+    path: '/networking/foundations/basics/devices-and-models/routers/roles-and-types',
     element: <RolesAndTypes />,
   },
   {
-    path: '/foundations/basics/devices-and-models/routers/interfaces-and-port-types',
+    path: '/networking/foundations/basics/devices-and-models/routers/interfaces-and-port-types',
     element: <InterfacesAndPortTypes />,
   },
   {
-    path: '/foundations/basics/devices-and-models/routers/router-models',
+    path: '/networking/foundations/basics/devices-and-models/routers/router-models',
     element: <RouterModels />,
   },
   {
-    path: '/foundations/basics/devices-and-models/routers/routing-vs-switching',
+    path: '/networking/foundations/basics/devices-and-models/routers/routing-vs-switching',
     element: <RoutingVsSwitching />,
   },
 ];

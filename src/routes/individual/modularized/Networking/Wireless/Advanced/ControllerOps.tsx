@@ -6,11 +6,11 @@ const CAPWAPJoinAndTunnel = lazy(() => import('@/pages/mainTabs/Networking/Wirel
 
 const ControllerOps: RouteObject[] = [
   {
-    path: '/wireless/advanced/controller/wlc-basics',
+    path: '/networking/wireless/advanced/controller/wlc-basics',
     element: <WLCBasics />,
   },
   {
-    path: '/wireless/advanced/controller/capwap-join-and-tunnel',
+    path: '/networking/wireless/advanced/controller/capwap-join-and-tunnel',
     element: <CAPWAPJoinAndTunnel />,
   },
 ];

@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "App-ID / IPS / URL",
-          path: "/firewalls/advanced/ngfw/appid-ips-url"
+          path: "/network-security/firewalls/advanced/ngfw/appid-ips-url"
         },
         {
           name: "SSL/TLS Decryption",
-          path: "/firewalls/advanced/ngfw/ssl-tls-decryption"
+          path: "/network-security/firewalls/advanced/ngfw/ssl-tls-decryption"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Rule Design & Order",
-          path: "/firewalls/advanced/policy/rule-design"
+          path: "/network-security/firewalls/advanced/policy/rule-design"
         },
         {
           name: "Access Control Strategies",
-          path: "/firewalls/advanced/policy/access-control-strategies"
+          path: "/network-security/firewalls/advanced/policy/access-control-strategies"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Failover & Clustering",
-          path: "/firewalls/advanced/ha/failover-clustering"
+          path: "/network-security/firewalls/advanced/ha/failover-clustering"
         },
         {
           name: "State Sync & Health",
-          path: "/firewalls/advanced/ha/state-sync-health"
+          path: "/network-security/firewalls/advanced/ha/state-sync-health"
         }
       ]
     }

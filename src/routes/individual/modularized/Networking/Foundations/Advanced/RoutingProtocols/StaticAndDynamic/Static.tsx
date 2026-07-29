@@ -5,7 +5,7 @@ const Introduction = lazy(() => import('@/pages/mainTabs/Networking/Foundations/
 
 const Static: RouteObject[] = [
     {
-        path: '/foundations/advanced/routing-protocols/static-and-dynamic/static/introduction',
+        path: '/networking/foundations/advanced/routing-protocols/static-and-dynamic/static/introduction',
         element: <Introduction />,
     }
 ];

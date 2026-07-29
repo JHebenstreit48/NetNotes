@@ -5,15 +5,15 @@ const EndDevices: Subpage = {
   subpages: [
     {
       name: 'Introduction',
-      path: '/foundations/basics/devices-and-models/end-devices/introduction',
+      path: '/networking/foundations/basics/devices-and-models/end-devices/introduction',
     },
     {
       name: 'Servers',
-      path: '/foundations/basics/devices-and-models/end-devices/servers',
+      path: '/networking/foundations/basics/devices-and-models/end-devices/servers',
     },
     {
       name: 'Common End Devices',
-      path: '/foundations/basics/devices-and-models/end-devices/common-end-devices',
+      path: '/networking/foundations/basics/devices-and-models/end-devices/common-end-devices',
     },
   ],
 };

@@ -8,11 +8,11 @@ const LoadBalancingAndDesign = lazy(
 
 const EtherChannel: RouteObject[] = [
   {
-    path: '/switching/advanced/etherchannel/lacp-and-pagp',
+    path: '/networking/switching/advanced/etherchannel/lacp-and-pagp',
     element: <LACPAndPAgP />,
   },
   {
-    path: '/switching/advanced/etherchannel/load-balancing-and-design',
+    path: '/networking/switching/advanced/etherchannel/load-balancing-and-design',
     element: <LoadBalancingAndDesign />,
   },
 ];

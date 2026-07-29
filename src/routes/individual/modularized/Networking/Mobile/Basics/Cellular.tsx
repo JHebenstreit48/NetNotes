@@ -6,11 +6,11 @@ const CoverageAndDataPlans = lazy(() => import('@/pages/mainTabs/Networking/Mobi
 
 const Cellular: RouteObject[] = [
   {
-    path: '/mobile/basics/cellular/introduction',
+    path: '/networking/mobile/basics/cellular/introduction',
     element: <Introduction />,
   },
   {
-    path: '/mobile/basics/cellular/coverage-and-data-plans',
+    path: '/networking/mobile/basics/cellular/coverage-and-data-plans',
     element: <CoverageAndDataPlans />,
   },
 ];

@@ -7,15 +7,15 @@ const CommonEndDevices = lazy(() => import('@/pages/mainTabs/Networking/Foundati
 
 const Routers: RouteObject[] = [
   {
-    path: '/foundations/basics/devices-and-models/end-devices/introduction',
+    path: '/networking/foundations/basics/devices-and-models/end-devices/introduction',
     element: <Introduction />,
   },
   {
-    path: '/foundations/basics/devices-and-models/end-devices/servers',
+    path: '/networking/foundations/basics/devices-and-models/end-devices/servers',
     element: <Servers />,
   },
   {
-    path: '/foundations/basics/devices-and-models/end-devices/common-end-devices',
+    path: '/networking/foundations/basics/devices-and-models/end-devices/common-end-devices',
     element: <CommonEndDevices />,
   }
 ];

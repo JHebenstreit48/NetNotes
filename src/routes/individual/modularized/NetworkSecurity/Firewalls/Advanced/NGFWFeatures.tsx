@@ -6,11 +6,11 @@ const SSLTLSDecryption = lazy(() => import('@/pages/mainTabs/NetworkSecurity/Fir
 
 const NGFWFeatures: RouteObject[] = [
   {
-    path: '/firewalls/advanced/ngfw/appid-ips-url',
+    path: '/network-security/firewalls/advanced/ngfw/appid-ips-url',
     element: <AppIDIPSURL />,
   },
   {
-    path: '/firewalls/advanced/ngfw/ssl-tls-decryption',
+    path: '/network-security/firewalls/advanced/ngfw/ssl-tls-decryption',
     element: <SSLTLSDecryption />,
   },
 ];

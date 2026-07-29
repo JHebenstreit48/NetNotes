@@ -6,11 +6,11 @@ const UnicastMulticastBroadcast = lazy(() => import('@/pages/mainTabs/Networking
 
 const PlanesAndTraffic: RouteObject[] = [
   {
-    path: '/foundations/advanced/planes-and-traffic/data-vs-control-vs-management',
+    path: '/networking/foundations/advanced/planes-and-traffic/data-vs-control-vs-management',
     element: <DataVsControlVsMgmt />,
   },
   {
-    path: '/foundations/advanced/planes-and-traffic/unicast-multicast-broadcast',
+    path: '/networking/foundations/advanced/planes-and-traffic/unicast-multicast-broadcast',
     element: <UnicastMulticastBroadcast />,
   },
 ];

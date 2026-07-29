@@ -6,11 +6,11 @@ const FastTransitionNotes = lazy(() => import('@/pages/mainTabs/Networking/Wirel
 
 const Roaming: RouteObject[] = [
   {
-    path: '/wireless/advanced/roaming/80211kvr',
+    path: '/networking/wireless/advanced/roaming/80211kvr',
     element: <EightOTwoElevenkVR />,
   },
   {
-    path: '/wireless/advanced/roaming/fast-transition-notes',
+    path: '/networking/wireless/advanced/roaming/fast-transition-notes',
     element: <FastTransitionNotes />,
   },
 ];

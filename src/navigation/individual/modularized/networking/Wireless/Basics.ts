@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Wireless Standards",
-          path: "/wireless/basics/80211/wireless-standards"
+          path: "/networking/wireless/basics/80211/wireless-standards"
         },
         {
           name: "Frequencies & Channels",
-          path: "/wireless/basics/80211/frequencies-and-channels"
+          path: "/networking/wireless/basics/80211/frequencies-and-channels"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "BSS/ESS/SSID",
-          path: "/wireless/basics/architecture/bss-ess-ssid"
+          path: "/networking/wireless/basics/architecture/bss-ess-ssid"
         },
         {
           name: "AP Modes (Local/Flex)",
-          path: "/wireless/basics/architecture/ap-modes"
+          path: "/networking/wireless/basics/architecture/ap-modes"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Discovery & Join",
-          path: "/wireless/basics/association/discovery-and-join"
+          path: "/networking/wireless/basics/association/discovery-and-join"
         },
         {
           name: "DHCP & DNS Workflow",
-          path: "/wireless/basics/association/dhcp-and-dns-workflow"
+          path: "/networking/wireless/basics/association/dhcp-and-dns-workflow"
         }
       ]
     },
@@ -47,11 +47,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Wireless Troubleshooting",
-          path: "/wireless/basics/troubleshooting/wireless-troubleshooting"
+          path: "/networking/wireless/basics/troubleshooting/wireless-troubleshooting"
         },
         {
           name: "Common Issues & Fixes",
-          path: "/wireless/basics/troubleshooting/common-issues-and-fixes"
+          path: "/networking/wireless/basics/troubleshooting/common-issues-and-fixes"
         }
       ]
     }

@@ -6,11 +6,11 @@ const CommonUses = lazy(() => import('@/pages/mainTabs/Networking/Mobile/Basics/
 
 const NFC: RouteObject[] = [
   {
-    path: '/mobile/basics/nfc/introduction',
+    path: '/networking/mobile/basics/nfc/introduction',
     element: <Introduction />,
   },
   {
-    path: '/mobile/basics/nfc/common-uses',
+    path: '/networking/mobile/basics/nfc/common-uses',
     element: <CommonUses />,
   },
 ];

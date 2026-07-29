@@ -6,11 +6,11 @@ const RegionsAndLatency = lazy(() => import('@/pages/mainTabs/Networking/Cloud/A
 
 const HAAndScale: RouteObject[] = [
   {
-    path: '/cloud/advanced/ha-and-scale/redundancy-and-failover',
+    path: '/networking/cloud/advanced/ha-and-scale/redundancy-and-failover',
     element: <RedundancyAndFailover />,
   },
   {
-    path: '/cloud/advanced/ha-and-scale/regions-and-latency',
+    path: '/networking/cloud/advanced/ha-and-scale/regions-and-latency',
     element: <RegionsAndLatency />,
   },
 ];

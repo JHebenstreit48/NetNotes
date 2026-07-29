@@ -6,11 +6,11 @@ const SiteSSOAndMultiTenant = lazy(() => import('@/pages/mainTabs/Networking/Clo
 
 const Architecture: RouteObject[] = [
   {
-    path: '/cloud/advanced/architecture/tunnels-and-split-tunnel',
+    path: '/networking/cloud/advanced/architecture/tunnels-and-split-tunnel',
     element: <TunnelsAndSplitTunnel />,
   },
   {
-    path: '/cloud/advanced/architecture/site-sso-and-multi-tenant',
+    path: '/networking/cloud/advanced/architecture/site-sso-and-multi-tenant',
     element: <SiteSSOAndMultiTenant />,
   },
 ];

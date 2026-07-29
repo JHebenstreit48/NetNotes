@@ -10,11 +10,11 @@ const CoSDSCPMapping = lazy(
 
 const QoS: RouteObject[] = [
   {
-    path: '/switching/advanced/qos/trust-boundaries',
+    path: '/networking/switching/advanced/qos/trust-boundaries',
     element: <TrustBoundaries />,
   },
   {
-    path: '/switching/advanced/qos/cos-dscp-mapping',
+    path: '/networking/switching/advanced/qos/cos-dscp-mapping',
     element: <CoSDSCPMapping />,
   },
 ];

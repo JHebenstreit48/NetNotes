@@ -5,15 +5,15 @@ const Fundamentals: Subpage = {
   subpages: [
     {
       name: 'Introduction',
-      path: '/firewalls/basics/fundamentals/introduction',
+      path: '/network-security/firewalls/basics/fundamentals/introduction',
     },
     {
       name: 'Types of Firewalls',
-      path: '/firewalls/basics/fundamentals/types-of-firewalls',
+      path: '/network-security/firewalls/basics/fundamentals/types-of-firewalls',
     },
     {
       name: 'How Firewalls Decide: Rules & Policies',
-      path: '/firewalls/basics/fundamentals/rules-and-policies',
+      path: '/network-security/firewalls/basics/fundamentals/rules-and-policies',
     },
   ],
 };

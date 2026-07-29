@@ -6,11 +6,11 @@ const MulticastOverWLAN = lazy(() => import('@/pages/mainTabs/Networking/Wireles
 
 const QoSAndServices: RouteObject[] = [
   {
-    path: '/wireless/advanced/qos/wmm-and-edca',
+    path: '/networking/wireless/advanced/qos/wmm-and-edca',
     element: <WMMAndEDCA />,
   },
   {
-    path: '/wireless/advanced/qos/multicast-over-wlan',
+    path: '/networking/wireless/advanced/qos/multicast-over-wlan',
     element: <MulticastOverWLAN />,
   },
 ];

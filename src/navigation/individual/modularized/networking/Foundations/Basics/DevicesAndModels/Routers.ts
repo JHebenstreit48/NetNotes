@@ -5,23 +5,23 @@ const Routers: Subpage = {
   subpages: [
     {
       name: 'Basic Router Setup',
-      path: '/foundations/basics/devices-and-models/routers/basic-router-setup',
+      path: '/networking/foundations/basics/devices-and-models/routers/basic-router-setup',
     },
     {
       name: 'Roles & Types',
-      path: '/foundations/basics/devices-and-models/routers/roles-and-types',
+      path: '/networking/foundations/basics/devices-and-models/routers/roles-and-types',
     },
     {
       name: 'Interfaces & Port Types',
-      path: '/foundations/basics/devices-and-models/routers/interfaces-and-port-types',
+      path: '/networking/foundations/basics/devices-and-models/routers/interfaces-and-port-types',
     },
     {
       name: 'Router Models',
-      path: '/foundations/basics/devices-and-models/routers/router-models',
+      path: '/networking/foundations/basics/devices-and-models/routers/router-models',
     },
     {
       name: 'Routing vs Switching',
-      path: '/foundations/basics/devices-and-models/routers/routing-vs-switching',
+      path: '/networking/foundations/basics/devices-and-models/routers/routing-vs-switching',
     },
   ],
 };

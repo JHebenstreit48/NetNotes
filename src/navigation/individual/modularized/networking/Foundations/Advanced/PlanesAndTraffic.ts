@@ -5,11 +5,11 @@ const PlanesAndTraffic: Subpage = {
   subpages: [
     {
       name: 'Data vs Control vs Mgmt',
-      path: '/foundations/advanced/planes-and-traffic/data-vs-control-vs-management',
+      path: '/networking/foundations/advanced/planes-and-traffic/data-vs-control-vs-management',
     },
     {
       name: 'Plane Protection & Security',
-      path: '/foundations/advanced/planes-and-traffic/plane-protection-and-security',
+      path: '/networking/foundations/advanced/planes-and-traffic/plane-protection-and-security',
     },
   ],
 };
