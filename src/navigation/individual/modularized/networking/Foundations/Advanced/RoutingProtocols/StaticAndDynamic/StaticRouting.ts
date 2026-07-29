@@ -9,7 +9,7 @@ const StaticRouting: Subpage = {
     },
     {
       name: 'Configuration & Use Cases',
-      path: '/networking/foundations/advanced/routing-protocols/static-and-dynamic/static-routing/configuration-and-use-cases',
+      path: '/networking/foundations/advanced/routing-protocols/static-and-dynamic/static/configuration-and-use-cases',
     },
     {
       name: 'Troubleshooting & Best Practices',
