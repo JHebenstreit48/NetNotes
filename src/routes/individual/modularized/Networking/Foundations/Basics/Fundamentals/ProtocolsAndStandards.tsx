@@ -10,11 +10,11 @@ const StandardsAndOrganizations = lazy(
 
 const ProtocolsAndStandards: RouteObject[] = [
   {
-    path: '/networking/networking/foundations/basics/fundamentals/protocols-and-standards/communication-protocols',
+    path: '/networking/foundations/basics/fundamentals/protocols-and-standards/communication-protocols',
     element: <CommunicationProtocols />,
   },
   {
-    path: '/networking/networking/foundations/basics/fundamentals/protocols-and-standards/standards-and-organizations',
+    path: '/networking/foundations/basics/fundamentals/protocols-and-standards/standards-and-organizations',
     element: <StandardsAndOrganizations />,
   }
 ];

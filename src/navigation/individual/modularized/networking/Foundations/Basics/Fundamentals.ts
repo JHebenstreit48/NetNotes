@@ -8,19 +8,19 @@ const Fundamentals: Subpage = {
       subpages: [
         {
           name: 'Introduction',
-          path: '/networking/networking/foundations/basics/fundamentals/network-scope-and-devices/introduction',
+          path: '/networking/foundations/basics/fundamentals/network-scope-and-devices/introduction',
         },
         {
           name: 'Internet/Networks',
-          path: '/networking/networking/foundations/basics/fundamentals/network-scope-and-devices/internet',
+          path: '/networking/foundations/basics/fundamentals/network-scope-and-devices/internet',
         },
         {
           name: 'Local Networks',
-          path: '/networking/networking/foundations/basics/fundamentals/network-scope-and-devices/local-networks',
+          path: '/networking/foundations/basics/fundamentals/network-scope-and-devices/local-networks',
         },
         {
           name: 'Connected Devices',
-          path: '/networking/networking/foundations/basics/fundamentals/network-scope-and-devices/connected-devices',
+          path: '/networking/foundations/basics/fundamentals/network-scope-and-devices/connected-devices',
         },
       ],
     },
@@ -29,11 +29,11 @@ const Fundamentals: Subpage = {
       subpages: [
         {
           name: 'Communication Protocols',
-          path: '/networking/networking/foundations/basics/fundamentals/protocols-and-standards/communication-protocols',
+          path: '/networking/foundations/basics/fundamentals/protocols-and-standards/communication-protocols',
         },
         {
           name: 'Standards & Organizations',
-          path: '/networking/networking/foundations/basics/fundamentals/protocols-and-standards/standards-and-organizations',
+          path: '/networking/foundations/basics/fundamentals/protocols-and-standards/standards-and-organizations',
         },
       ],
     },
