@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 
-import Header from '@/components/shared/Header/Header';
+import Header from '@/components/shared/header/header';
 import Footer from '@/components/shared/Footer';
 import RouteTracker from '@/components/shared/analytics/RouteTracker';
 import BackToTopGate from '@/components/shared/BackToTop/Gate';
