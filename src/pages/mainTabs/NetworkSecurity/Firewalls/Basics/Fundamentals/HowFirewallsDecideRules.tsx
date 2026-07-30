@@ -1,6 +1,6 @@
 import PageLayout from '@/components/navigationUI/pageLayout';
-import PageTile from '@/components/PageComponents/PageTitle'
-import Notes from '@/components/PageComponents/Notes/Notes';
+import PageTile from '@/components/pageComponents/pageTitle'
+import Notes from '@/components/pageComponents/notes/notes';
 
 const HowFirewallsDecideRules = () => {
   const markdownFilePath = 'NetworkSecurity/Firewalls/Basics/Fundamentals/HowFirewallsDecideRules';

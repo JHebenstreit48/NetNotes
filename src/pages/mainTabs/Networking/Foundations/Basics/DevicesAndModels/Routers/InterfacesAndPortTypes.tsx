@@ -1,6 +1,6 @@
 import PageLayout from '@/components/navigationUI/pageLayout';
-import PageTile from '@/components/PageComponents/PageTitle'
-import Notes from '@/components/PageComponents/Notes/Notes';
+import PageTile from '@/components/pageComponents/pageTitle'
+import Notes from '@/components/pageComponents/notes/notes';
 
 const InterfacesAndPortTypes = () => {
   const markdownFilePath = 'Networking/Foundations/Basics/DevicesAndModels/Routers/InterfacesAndPortTypes';

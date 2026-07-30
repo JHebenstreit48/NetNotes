@@ -1,6 +1,6 @@
 import PageLayout from '@/components/navigationUI/pageLayout';
-import PageTitle from '@/components/PageComponents/PageTitle';
-import Notes from '@/components/PageComponents/Notes/Notes';
+import PageTitle from '@/components/pageComponents/pageTitle';
+import Notes from '@/components/pageComponents/notes/notes';
 
 const LatencyJitterAndLoss = () => {
   const markdownFilePath = 'VoIP/Foundations/Advanced/RealWorldVoIP/LatencyJitterAndLoss';
