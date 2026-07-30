@@ -1,5 +1,5 @@
 import "@/scss/shared/homeAndAbout/index.scss";
-import '@/scss/shared/RelatedProjects.scss';
+import '@/scss/shared/relatedProjects.scss';
 
 export default function RelatedProjects() {
   return (
