@@ -1,4 +1,4 @@
-import Navigation from '@/components/NavigationUI/Navigation';
+import Navigation from '@/components/navigationUI/navigation';
 import HeaderTitle from '@/components/shared/Header/HeaderTitle';
 import { SITE_NAME } from '@/components/shared/dynamicSiteName';
 import { Link } from "react-router-dom";

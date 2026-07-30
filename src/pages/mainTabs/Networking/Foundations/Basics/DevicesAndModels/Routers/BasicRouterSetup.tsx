@@ -1,4 +1,4 @@
-import PageLayout from '@/components/NavigationUI/PageLayout';
+import PageLayout from '@/components/navigationUI/pageLayout';
 import PageTile from '@/components/PageComponents/PageTitle'
 import Notes from '@/components/PageComponents/Notes/Notes';
 

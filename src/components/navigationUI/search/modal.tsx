@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
-import SHeader from "@/components/NavigationUI/Search/SHeader";
-import SModeToggle from "@/components/NavigationUI/Search/SModeToggle";
-import InputResults from "@/components/NavigationUI/Search/InputResults";
+import SHeader from "@/components/navigationUI/search/sHeader";
+import SModeToggle from "@/components/navigationUI/search/sModeToggle";
+import InputResults from "@/components/navigationUI/search/inputResults";
 import { filterResults } from "@/utils/navigation/search/filterResults";
 import { GroupedSearchResult, SearchMatch } from "@/types/navigation/types";
 
