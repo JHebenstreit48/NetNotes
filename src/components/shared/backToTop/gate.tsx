@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
-import BackToTopButton from "@/components/shared/BackToTop/Button";
 
-/** Render BackToTop on all pages EXCEPT Home, About, and Error */
+import BackToTopButton from "@/components/shared/backToTop/button";
+
 const HIDE_ON = [
   /^\/$/,        // Home
   /^\/about\b/i, // About (case-insensitive)
