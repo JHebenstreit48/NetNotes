@@ -1,12 +1,12 @@
-import "@/scss/shared/HomeAndAbout/index.scss";
-import '@/scss/shared/RelatedProjects.scss';   // overrides only
+import "@/scss/shared/homeAndAbout/index.scss";
+import '@/scss/shared/RelatedProjects.scss';
 
 export default function RelatedProjects() {
   return (
     <>
 
-      <main className="homePage">  {/* ← match Home's wrapper class */}
-        <div className="siteInfo">  {/* ← match Home's glass card class */}
+      <main className="homePage">
+        <div className="siteInfo">
           <h1>Related Projects</h1>
           <hr />
 
