@@ -1,6 +1,6 @@
-import PageLayout from '@/components/NavigationUI/PageLayout';
-import PageTitle from '@/components/PageComponents/PageTitle';
-import Notes from '@/components/PageComponents/Notes/Notes';
+import PageLayout from '@/components/navigationUI/pageLayout';
+import PageTitle from '@/components/pageComponents/pageTitle';
+import Notes from '@/components/pageComponents/notes/notes';
 
 const APIDocsAndCollections = () => {
   const markdownFilePath = 'Certifications/Cisco/DevNet/Basics/Resources/APIDocsAndCollections';

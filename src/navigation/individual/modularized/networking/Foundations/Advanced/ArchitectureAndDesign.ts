@@ -5,11 +5,11 @@ const ArchitectureAndDesign: Subpage = {
   subpages: [
     {
       name: 'Core/Distribution/Access',
-      path: '/foundations/advanced/architecture-and-design/core-distribution-access',
+      path: '/networking/foundations/advanced/architecture-and-design/core-distribution-access',
     },
     {
       name: 'Spine-Leaf',
-      path: '/foundations/advanced/architecture-and-design/spine-leaf',
+      path: '/networking/foundations/advanced/architecture-and-design/spine-leaf',
     },
   ],
 };

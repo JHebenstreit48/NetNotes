@@ -6,11 +6,11 @@ const FrequenciesAndChannels = lazy(() => import('@/pages/mainTabs/Networking/Wi
 
 const EightOTwoElevenFundamentals: RouteObject[] = [
   {
-    path: '/wireless/basics/80211/wireless-standards',
+    path: '/networking/wireless/basics/80211/wireless-standards',
     element: <WirelessStandards />,
   },
   {
-    path: '/wireless/basics/80211/frequencies-and-channels',
+    path: '/networking/wireless/basics/80211/frequencies-and-channels',
     element: <FrequenciesAndChannels />,
   },
 ];

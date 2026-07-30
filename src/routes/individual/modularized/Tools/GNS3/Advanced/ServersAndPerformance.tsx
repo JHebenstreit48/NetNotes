@@ -6,11 +6,11 @@ const TuningAndResources = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Advanc
 
 const ServersAndPerformance: RouteObject[] = [
   {
-    path: '/gns3/advanced/servers-and-performance/local-and-remote-server',
+    path: '/tools/gns3/advanced/servers-and-performance/local-and-remote-server',
     element: <LocalRemoteServer />,
   },
   {
-    path: '/gns3/advanced/servers-and-performance/tuning-and-resources',
+    path: '/tools/gns3/advanced/servers-and-performance/tuning-and-resources',
     element: <TuningAndResources />,
   },
 ];

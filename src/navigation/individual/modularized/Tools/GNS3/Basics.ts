@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "GNS3 App & VM",
-          path: "/gns3/basics/install/gns3-app-and-vm"
+          path: "/tools/gns3/basics/install/gns3-app-and-vm"
         },
         {
           name: "Requirements & Setup",
-          path: "/gns3/basics/install/requirements-and-setup"
+          path: "/tools/gns3/basics/install/requirements-and-setup"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Appliances & Import",
-          path: "/gns3/basics/images-and-templates/appliances-and-import"
+          path: "/tools/gns3/basics/images-and-templates/appliances-and-import"
         },
         {
           name: "IOSv/IOU (Licensing)",
-          path: "/gns3/basics/images-and-templates/iosv-iou-licensing"
+          path: "/tools/gns3/basics/images-and-templates/iosv-iou-licensing"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Nodes & Links",
-          path: "/gns3/basics/topology-and-projects/nodes-and-links"
+          path: "/tools/gns3/basics/topology-and-projects/nodes-and-links"
         },
         {
           name: "Projects & Snapshots",
-          path: "/gns3/basics/topology-and-projects/projects-and-snapshots"
+          path: "/tools/gns3/basics/topology-and-projects/projects-and-snapshots"
         }
       ]
     },
@@ -47,11 +47,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Add Wireshark/TShark (GNS3)",
-          path: "/gns3/basics/capture-and-console/add-wireshark-and-tshark"
+          path: "/tools/gns3/basics/capture-and-console/add-wireshark-and-tshark"
         },
         {
           name: "Console Access (Telnet/Serial/VNC)",
-          path: "/gns3/basics/capture-and-console/console-access-telnet-serial-vnc"
+          path: "/tools/gns3/basics/capture-and-console/console-access-telnet-serial-vnc"
         }
       ]
     }

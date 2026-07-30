@@ -10,11 +10,11 @@ const LicenseAndSubscription = lazy(
 
 const ManagementModels: RouteObject[] = [
   {
-    path: '/cloud/basics/management-models/on-prem-wlc-vs-cloud',
+    path: '/networking/cloud/basics/management-models/on-prem-wlc-vs-cloud',
     element: <OnPremWLCVsCloud />,
   },
   {
-    path: '/cloud/basics/management-models/licensing-and-subscriptions',
+    path: '/networking/cloud/basics/management-models/licensing-and-subscriptions',
     element: <LicenseAndSubscription />,
   },
 ];

@@ -6,11 +6,11 @@ const BulkOpsAndCI = lazy(() => import('@/pages/mainTabs/Networking/Cloud/Advanc
 
 const AutomationAndAPIs: RouteObject[] = [
   {
-    path: '/cloud/advanced/automation-and-apis/rest-and-webhooks',
+    path: '/networking/cloud/advanced/automation-and-apis/rest-and-webhooks',
     element: <RESTAndWebhooks />,
   },
   {
-    path: '/cloud/advanced/automation-and-apis/bulk-ops-and-ci',
+    path: '/networking/cloud/advanced/automation-and-apis/bulk-ops-and-ci',
     element: <BulkOpsAndCI />,
   },
 ];

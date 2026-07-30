@@ -6,11 +6,11 @@ const HostInternetAccess = lazy(() => import('@/pages/mainTabs/Tools/GNS3/Advanc
 
 const Connectivity: RouteObject[] = [
   {
-    path: '/gns3/advanced/connectivity/cloud-nat-bridging',
+    path: '/tools/gns3/advanced/connectivity/cloud-nat-bridging',
     element: <CloudNATBridging />,
   },
   {
-    path: '/gns3/advanced/connectivity/host-and-internet-access',
+    path: '/tools/gns3/advanced/connectivity/host-and-internet-access',
     element: <HostInternetAccess />,
   },
 ];

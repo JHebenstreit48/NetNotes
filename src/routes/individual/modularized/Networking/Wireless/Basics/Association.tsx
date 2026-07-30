@@ -6,11 +6,11 @@ const DHCPAndDNSWorkflow = lazy(() => import('@/pages/mainTabs/Networking/Wirele
 
 const Association: RouteObject[] = [
   {
-    path: '/wireless/basics/association/discovery-and-join',
+    path: '/networking/wireless/basics/association/discovery-and-join',
     element: <DiscoveryAndJoin />,
   },
   {
-    path: '/wireless/basics/association/dhcp-and-dns-workflow',
+    path: '/networking/wireless/basics/association/dhcp-and-dns-workflow',
     element: <DHCPAndDNSWorkflow />,
   },
 ];

@@ -6,11 +6,11 @@ const ClassMapsAndPolicyMaps = lazy(() => import('@/pages/mainTabs/NetworkSecuri
 
 const ZBFWConcepts: RouteObject[] = [
   {
-    path: '/firewalls/basics/zbfw/zones-and-zone-pairs',
+    path: '/network-security/firewalls/basics/zbfw/zones-and-zone-pairs',
     element: <ZonesAndZonePairs />,
   },
   {
-    path: '/firewalls/basics/zbfw/classmaps-policymaps',
+    path: '/network-security/firewalls/basics/zbfw/classmaps-policymaps',
     element: <ClassMapsAndPolicyMaps />,
   },
 ];

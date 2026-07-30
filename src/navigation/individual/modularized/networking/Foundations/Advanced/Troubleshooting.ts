@@ -5,11 +5,11 @@ const Troubleshooting: Subpage = {
   subpages: [
     {
       name: 'Methodology & Flow',
-      path: '/foundations/advanced/troubleshooting/methodology-and-flow',
+      path: '/networking/foundations/advanced/troubleshooting/methodology-and-flow',
     },
     {
       name: 'Baselines & Monitoring',
-      path: '/foundations/advanced/troubleshooting/baselines-and-monitoring',
+      path: '/networking/foundations/advanced/troubleshooting/baselines-and-monitoring',
     },
   ],
 };

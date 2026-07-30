@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Congestion & Throttling",
-          path: "/mobile/advanced/cellular-performance/congestion-and-throttling",
+          path: "/networking/mobile/advanced/cellular-performance/congestion-and-throttling",
         },
         {
           name: "Handoffs (Concepts)",
-          path: "/mobile/advanced/cellular-performance/handoffs-concepts",
+          path: "/networking/mobile/advanced/cellular-performance/handoffs-concepts",
         },
       ],
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Common Pairing Issues",
-          path: "/mobile/advanced/bluetooth/common-pairing-issues",
+          path: "/networking/mobile/advanced/bluetooth/common-pairing-issues",
         },
         {
           name: "Interference & Dropouts",
-          path: "/mobile/advanced/bluetooth/interference-and-dropouts",
+          path: "/networking/mobile/advanced/bluetooth/interference-and-dropouts",
         },
       ],
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Risks & Best Practices",
-          path: "/mobile/advanced/nfc-security/risks-and-best-practices",
+          path: "/networking/mobile/advanced/nfc-security/risks-and-best-practices",
         },
         {
           name: "Payments & Secure Element",
-          path: "/mobile/advanced/nfc-security/payments-and-secure-element",
+          path: "/networking/mobile/advanced/nfc-security/payments-and-secure-element",
         },
       ],
     },
@@ -47,11 +47,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Wi-Fi + Bluetooth Interaction",
-          path: "/mobile/advanced/coexistence/wifi-and-bluetooth",
+          path: "/networking/mobile/advanced/coexistence/wifi-and-bluetooth",
         },
         {
           name: "Cellular + Wi-Fi Switching",
-          path: "/mobile/advanced/coexistence/cellular-and-wifi-switching",
+          path: "/networking/mobile/advanced/coexistence/cellular-and-wifi-switching",
         },
       ],
     },

@@ -5,15 +5,15 @@ const StaticRouting: Subpage = {
   subpages: [
     {
       name: 'Introduction',
-      path: '/foundations/advanced/routing-protocols/static-and-dynamic/static/introduction',
+      path: '/networking/foundations/advanced/routing-protocols/static-and-dynamic/static/introduction',
     },
     {
       name: 'Configuration & Use Cases',
-      path: '/foundations/advanced/routing-protocols/static-and-dynamic/static-routing/configuration-and-use-cases',
+      path: '/networking/foundations/advanced/routing-protocols/static-and-dynamic/static/configuration-and-use-cases',
     },
     {
       name: 'Troubleshooting & Best Practices',
-      path: '/foundations/advanced/routing-protocols/static-and-dynamic/static/troubleshooting-and-best-practices',
+      path: '/networking/foundations/advanced/routing-protocols/static-and-dynamic/static/troubleshooting-and-best-practices',
     },
   ],
 };

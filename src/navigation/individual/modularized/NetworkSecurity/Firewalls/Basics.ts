@@ -11,11 +11,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "NAT Fundamentals",
-          path: "/firewalls/basics/nat-fundamentals"
+          path: "/network-security/firewalls/basics/nat-fundamentals"
         },
         {
           name: "Stateful Inspection",
-          path: "/firewalls/basics/stateful-inspection"
+          path: "/network-security/firewalls/basics/stateful-inspection"
         }
       ]
     },
@@ -24,11 +24,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Zones & Zone-Pairs",
-          path: "/firewalls/basics/zbfw/zones-and-zone-pairs"
+          path: "/network-security/firewalls/basics/zbfw/zones-and-zone-pairs"
         },
         {
           name: "Class-Maps & Policy-Maps",
-          path: "/firewalls/basics/zbfw/classmaps-policymaps"
+          path: "/network-security/firewalls/basics/zbfw/classmaps-policymaps"
         }
       ]
     },
@@ -37,11 +37,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Install & Setup",
-          path: "/firewalls/basics/opnsense/install-setup"
+          path: "/network-security/firewalls/basics/opnsense/install-setup"
         },
         {
           name: "Core Firewall Configuration",
-          path: "/firewalls/basics/opnsense/core-configuration"
+          path: "/network-security/firewalls/basics/opnsense/core-configuration"
         }
       ]
     }

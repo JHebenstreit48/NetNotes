@@ -6,11 +6,11 @@ const AccessControlStrategies = lazy(() => import('@/pages/mainTabs/NetworkSecur
 
 const PolicyAndAccessControl: RouteObject[] = [
   {
-    path: '/firewalls/advanced/policy/rule-design',
+    path: '/network-security/firewalls/advanced/policy/rule-design',
     element: <RuleDesignAndOrder />,
   },
   {
-    path: '/firewalls/advanced/policy/access-control-strategies',
+    path: '/network-security/firewalls/advanced/policy/access-control-strategies',
     element: <AccessControlStrategies />,
   },
 ];

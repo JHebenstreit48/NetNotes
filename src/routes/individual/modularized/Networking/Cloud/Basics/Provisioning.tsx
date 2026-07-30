@@ -10,11 +10,11 @@ const TemplatesAndProfiles = lazy(
 
 const Provisioning: RouteObject[] = [
   {
-    path: '/cloud/basics/provisioning/claiming-and-inventory',
+    path: '/networking/cloud/basics/provisioning/claiming-and-inventory',
     element: <ClaimingAndInventory />,
   },
   {
-    path: '/cloud/basics/provisioning/templates-and-profiles',
+    path: '/networking/cloud/basics/provisioning/templates-and-profiles',
     element: <TemplatesAndProfiles />,
   },
 ];

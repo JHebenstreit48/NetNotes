@@ -1,6 +1,6 @@
-import PageLayout from '@/components/NavigationUI/PageLayout';
-import PageTile from '@/components/PageComponents/PageTitle'
-import Notes from '@/components/PageComponents/Notes/Notes';
+import PageLayout from '@/components/navigationUI/pageLayout';
+import PageTile from '@/components/pageComponents/pageTitle'
+import Notes from '@/components/pageComponents/notes/notes';
 
 const Introduction = () => {
   const markdownFilePath = 'NetworkSecurity/Firewalls/Basics/Fundamentals/Introduction';

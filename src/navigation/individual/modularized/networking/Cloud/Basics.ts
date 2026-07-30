@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "On-Prem WLC vs Cloud",
-          path: "/cloud/basics/management-models/on-prem-wlc-vs-cloud"
+          path: "/networking/cloud/basics/management-models/on-prem-wlc-vs-cloud"
         },
         {
           name: "Licensing & Subscriptions",
-          path: "/cloud/basics/management-models/licensing-and-subscriptions"
+          path: "/networking/cloud/basics/management-models/licensing-and-subscriptions"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Claiming & Inventory",
-          path: "/cloud/basics/provisioning/claiming-and-inventory"
+          path: "/networking/cloud/basics/provisioning/claiming-and-inventory"
         },
         {
           name: "Templates & Profiles",
-          path: "/cloud/basics/provisioning/templates-and-profiles"
+          path: "/networking/cloud/basics/provisioning/templates-and-profiles"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Dashboards & Alerts",
-          path: "/cloud/basics/monitoring/dashboards-and-alerts"
+          path: "/networking/cloud/basics/monitoring/dashboards-and-alerts"
         },
         {
           name: "Health & Telemetry",
-          path: "/cloud/basics/monitoring/health-and-telemetry"
+          path: "/networking/cloud/basics/monitoring/health-and-telemetry"
         }
       ]
     },
@@ -47,11 +47,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Firmware & Staging",
-          path: "/cloud/basics/change-ops/firmware-and-staging"
+          path: "/networking/cloud/basics/change-ops/firmware-and-staging"
         },
         {
           name: "Rollback & Audit",
-          path: "/cloud/basics/change-ops/rollback-and-audit"
+          path: "/networking/cloud/basics/change-ops/rollback-and-audit"
         }
       ]
     }

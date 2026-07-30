@@ -6,11 +6,11 @@ const AccuracyAndLimitations = lazy(() => import('@/pages/mainTabs/Networking/Mo
 
 const Location: RouteObject[] = [
   {
-    path: '/mobile/basics/location/introduction',
+    path: '/networking/mobile/basics/location/introduction',
     element: <Introduction />,
   },
   {
-    path: '/mobile/basics/location/accuracy-and-limitations',
+    path: '/networking/mobile/basics/location/accuracy-and-limitations',
     element: <AccuracyAndLimitations />,
   },
 ];

@@ -7,15 +7,15 @@ const NetworkSelection = lazy(() => import('@/pages/mainTabs/Networking/Mobile/B
 
 const Fundamentals: RouteObject[] = [
   {
-    path: '/mobile/basics/fundamentals/introduction',
+    path: '/networking/mobile/basics/fundamentals/introduction',
     element: <Introduction />,
   },
   {
-    path: '/mobile/basics/fundamentals/radios-at-a-glance',
+    path: '/networking/mobile/basics/fundamentals/radios-at-a-glance',
     element: <RadiosAtAGlance />,
   },
   {
-    path: '/mobile/basics/fundamentals/network-selection',
+    path: '/networking/mobile/basics/fundamentals/network-selection',
     element: <NetworkSelection />,
   },
 ];

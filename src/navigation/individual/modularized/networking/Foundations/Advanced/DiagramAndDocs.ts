@@ -5,11 +5,11 @@ const DiagramAndDocs: Subpage = {
   subpages: [
     {
       name: 'Physical vs Logical',
-      path: '/foundations/advanced/diagrams-and-docs/physical-vs-logical',
+      path: '/networking/foundations/advanced/diagrams-and-docs/physical-vs-logical',
     },
     {
       name: 'Naming & Labeling',
-      path: '/foundations/advanced/diagrams-and-docs/naming-and-labeling',
+      path: '/networking/foundations/advanced/diagrams-and-docs/naming-and-labeling',
     },
   ],
 };

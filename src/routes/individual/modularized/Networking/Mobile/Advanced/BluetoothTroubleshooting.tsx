@@ -6,11 +6,11 @@ const InterferenceAndDropouts = lazy(() => import('@/pages/mainTabs/Networking/M
 
 const BluetoothTroubleshooting: RouteObject[] = [
   {
-    path: '/mobile/advanced/bluetooth/common-pairing-issues',
+    path: '/networking/mobile/advanced/bluetooth/common-pairing-issues',
     element: <CommonPairingIssues />,
   },
   {
-    path: '/mobile/advanced/bluetooth/interference-and-dropouts',
+    path: '/networking/mobile/advanced/bluetooth/interference-and-dropouts',
     element: <InterferenceAndDropouts />,
   },
 ];

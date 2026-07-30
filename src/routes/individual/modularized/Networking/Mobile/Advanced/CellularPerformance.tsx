@@ -6,11 +6,11 @@ const Handoffs = lazy(() => import('@/pages/mainTabs/Networking/Mobile/Advanced/
 
 const CellularPerformance: RouteObject[] = [
   {
-    path: '/mobile/advanced/cellular-performance/congestion-and-throttling',
+    path: '/networking/mobile/advanced/cellular-performance/congestion-and-throttling',
     element: <CongestionAndThrottling />,
   },
   {
-    path: '/mobile/advanced/cellular-performance/handoffs-concepts',
+    path: '/networking/mobile/advanced/cellular-performance/handoffs-concepts',
     element: <Handoffs />,
   },
 ];

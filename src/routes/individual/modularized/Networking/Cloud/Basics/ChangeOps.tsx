@@ -10,11 +10,11 @@ const RollbackAndAudit = lazy(
 
 const ChangeOps: RouteObject[] = [
   {
-    path: '/cloud/basics/change-ops/firmware-and-staging',
+    path: '/networking/cloud/basics/change-ops/firmware-and-staging',
     element: <FirmwareAndStaging />,
   },
   {
-    path: '/cloud/basics/change-ops/rollback-and-audit',
+    path: '/networking/cloud/basics/change-ops/rollback-and-audit',
     element: <RollbackAndAudit />,
   },
 ];

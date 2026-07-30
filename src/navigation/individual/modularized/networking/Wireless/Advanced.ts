@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "RSSI/SNR & MCS",
-          path: "/wireless/advanced/rf-performance/rssi-snr-and-mcs"
+          path: "/networking/wireless/advanced/rf-performance/rssi-snr-and-mcs"
         },
         {
           name: "Band Steering & Load Balance",
-          path: "/wireless/advanced/rf-performance/band-steering-and-load-balance"
+          path: "/networking/wireless/advanced/rf-performance/band-steering-and-load-balance"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "802.11k/v/r",
-          path: "/wireless/advanced/roaming/80211kvr"
+          path: "/networking/wireless/advanced/roaming/80211kvr"
         },
         {
           name: "Fast Transition Notes",
-          path: "/wireless/advanced/roaming/fast-transition-notes"
+          path: "/networking/wireless/advanced/roaming/fast-transition-notes"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "WMM & EDCA",
-          path: "/wireless/advanced/qos/wmm-and-edca"
+          path: "/networking/wireless/advanced/qos/wmm-and-edca"
         },
         {
           name: "Multicast over WLAN",
-          path: "/wireless/advanced/qos/multicast-over-wlan"
+          path: "/networking/wireless/advanced/qos/multicast-over-wlan"
         }
       ]
     },
@@ -47,11 +47,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "WLC Basics",
-          path: "/wireless/advanced/controller/wlc-basics"
+          path: "/networking/wireless/advanced/controller/wlc-basics"
         },
         {
           name: "CAPWAP Join & Tunnel",
-          path: "/wireless/advanced/controller/capwap-join-and-tunnel"
+          path: "/networking/wireless/advanced/controller/capwap-join-and-tunnel"
         }
       ]
     }

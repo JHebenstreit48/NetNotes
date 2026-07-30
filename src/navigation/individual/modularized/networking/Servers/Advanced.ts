@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "File & Print Servers",
-          path: "/servers/advanced/server-roles/file-and-print-servers"
+          path: "/networking/servers/advanced/server-roles/file-and-print-servers"
         },
         {
           name: "DNS & DHCP Servers",
-          path: "/servers/advanced/server-roles/dns-and-dhcp-servers"
+          path: "/networking/servers/advanced/server-roles/dns-and-dhcp-servers"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Hypervisors (Type 1 vs Type 2)",
-          path: "/servers/advanced/virtualization/hypervisors"
+          path: "/networking/servers/advanced/virtualization/hypervisors"
         },
         {
           name: "Virtual Machines vs Containers",
-          path: "/servers/advanced/virtualization/vms-vs-containers"
+          path: "/networking/servers/advanced/virtualization/vms-vs-containers"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Redundancy & Uptime",
-          path: "/servers/advanced/data-center/redundancy-and-uptime"
+          path: "/networking/servers/advanced/data-center/redundancy-and-uptime"
         },
         {
           name: "Cooling & Power",
-          path: "/servers/advanced/data-center/cooling-and-power"
+          path: "/networking/servers/advanced/data-center/cooling-and-power"
         }
       ]
     }

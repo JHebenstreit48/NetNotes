@@ -6,11 +6,11 @@ const BaselinesAndMonitoring = lazy(() => import('@/pages/mainTabs/Networking/Fo
 
 const Troubleshooting: RouteObject[] = [
   {
-    path: '/foundations/advanced/troubleshooting/methodology-and-flow',
+    path: '/networking/foundations/advanced/troubleshooting/methodology-and-flow',
     element: <MethodologyAndFlow />,
   },
   {
-    path: '/foundations/advanced/troubleshooting/baselines-and-monitoring',
+    path: '/networking/foundations/advanced/troubleshooting/baselines-and-monitoring',
     element: <BaselinesAndMonitoring />,
   },
 ];

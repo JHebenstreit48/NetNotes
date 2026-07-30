@@ -6,11 +6,11 @@ const StateSyncAndHealth = lazy(() => import('@/pages/mainTabs/NetworkSecurity/F
 
 const HighAvailability: RouteObject[] = [
   {
-    path: '/firewalls/advanced/ha/failover-clustering',
+    path: '/network-security/firewalls/advanced/ha/failover-clustering',
     element: <FailoverAndClustering />,
   },
   {
-    path: '/firewalls/advanced/ha/state-sync-health',
+    path: '/network-security/firewalls/advanced/ha/state-sync-health',
     element: <StateSyncAndHealth />,
   },
 ];

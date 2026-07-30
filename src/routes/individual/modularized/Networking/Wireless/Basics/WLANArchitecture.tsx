@@ -6,11 +6,11 @@ const APModes = lazy(() => import('@/pages/mainTabs/Networking/Wireless/Basics/W
 
 const WLANArchitecture: RouteObject[] = [
   {
-    path: '/wireless/basics/architecture/bss-ess-ssid',
+    path: '/networking/wireless/basics/architecture/bss-ess-ssid',
     element: <BSSESSSSID />,
   },
   {
-    path: '/wireless/basics/architecture/ap-modes',
+    path: '/networking/wireless/basics/architecture/ap-modes',
     element: <APModes />,
   },
 ];

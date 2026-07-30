@@ -6,11 +6,11 @@ const RoAS = lazy(() => import('@/pages/mainTabs/Networking/Switching/Advanced/V
 
 const VLANRouting: RouteObject[] = [
   {
-    path: '/switching/advanced/vlans/routing/inter-vlan-routing',
+    path: '/networking/switching/advanced/vlans/routing/inter-vlan-routing',
     element: <InterVLANRouting />,
   },
   {
-    path: '/switching/advanced/vlans/routing/router-on-a-stick',
+    path: '/networking/switching/advanced/vlans/routing/router-on-a-stick',
     element: <RoAS />,
   },
 ];

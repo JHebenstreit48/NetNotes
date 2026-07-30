@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Tunnels & Split-Tunnel",
-          path: "/cloud/advanced/architecture/tunnels-and-split-tunnel"
+          path: "/networking/cloud/advanced/architecture/tunnels-and-split-tunnel"
         },
         {
           name: "Site/SSO & Multi-Tenant",
-          path: "/cloud/advanced/architecture/site-sso-and-multi-tenant"
+          path: "/networking/cloud/advanced/architecture/site-sso-and-multi-tenant"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Redundancy & Failover",
-          path: "/cloud/advanced/ha-and-scale/redundancy-and-failover"
+          path: "/networking/cloud/advanced/ha-and-scale/redundancy-and-failover"
         },
         {
           name: "Regions & Latency",
-          path: "/cloud/advanced/ha-and-scale/regions-and-latency"
+          path: "/networking/cloud/advanced/ha-and-scale/regions-and-latency"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "REST & Webhooks",
-          path: "/cloud/advanced/automation-and-apis/rest-and-webhooks"
+          path: "/networking/cloud/advanced/automation-and-apis/rest-and-webhooks"
         },
         {
           name: "Bulk Ops & CI",
-          path: "/cloud/advanced/automation-and-apis/bulk-ops-and-ci"
+          path: "/networking/cloud/advanced/automation-and-apis/bulk-ops-and-ci"
         }
       ]
     },
@@ -47,11 +47,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Logs & Event Correlation",
-          path: "/cloud/advanced/troubleshooting/logs-and-event-correlation"
+          path: "/networking/cloud/advanced/troubleshooting/logs-and-event-correlation"
         },
         {
           name: "Remote Packet Capture",
-          path: "/cloud/advanced/troubleshooting/remote-packet-capture"
+          path: "/networking/cloud/advanced/troubleshooting/remote-packet-capture"
         }
       ]
     }

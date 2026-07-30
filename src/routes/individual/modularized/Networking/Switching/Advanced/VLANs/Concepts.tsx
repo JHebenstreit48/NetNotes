@@ -10,11 +10,11 @@ const VoiceAndNative = lazy(
 
 const VLANConcepts: RouteObject[] = [
   {
-    path: '/switching/advanced/vlans/concepts/vlan-concepts',
+    path: '/networking/switching/advanced/vlans/concepts/vlan-concepts',
     element: <Concepts />,
   },
   {
-    path: '/switching/advanced/vlans/concepts/voice-and-native-vlans',
+    path: '/networking/switching/advanced/vlans/concepts/voice-and-native-vlans',
     element: <VoiceAndNative />,
   },
 ];
