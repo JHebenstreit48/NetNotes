@@ -7,10 +7,14 @@ const Routers: Subpage = {
       name: 'Gateways & Default Gateway',
       path: '/glossary/networking/foundations/routers/gateways-and-default-gateway',
     },
-    // Future additions as terms grow, e.g.:
-    // { name: 'Router Interfaces', path: '...' },
-    // { name: 'Wireless Router Features', path: '...' },
-    // { name: 'Routing Basics', path: '...' },
+    {
+      name: 'Router Interfaces & Wireless Features',
+      path: '/glossary/networking/foundations/routers/router-interfaces-and-wireless-features',
+    },
+    {
+      name: 'Routing Basics',
+      path: '/glossary/networking/foundations/routers/routing-basics',
+    },
   ],
 };
 
