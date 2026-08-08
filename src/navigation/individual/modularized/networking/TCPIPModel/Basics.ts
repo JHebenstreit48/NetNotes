@@ -11,6 +11,10 @@ const Basics: Subpage = {
           path: '/networking/tcp-ip-model/basics/fundamentals/introduction',
         },
         {
+          name: 'History',
+          path: '/networking/tcp-ip-model/basics/fundamentals/history',
+        },
+        {
           name: 'Protocol Stack',
           path: '/networking/tcp-ip-model/basics/fundamentals/protocol-stack',
         },

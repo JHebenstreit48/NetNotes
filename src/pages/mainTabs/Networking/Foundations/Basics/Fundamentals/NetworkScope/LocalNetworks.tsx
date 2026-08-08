@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const LocalNetworks = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/NetworkScopeAndDevices/LocalNetworks';
+  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/NetworkScope/LocalNetworks';
 
   return (
     <>

@@ -2,17 +2,17 @@ import PageLayout from '@/components/navigationUI/pageLayout';
 import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
-const Introduction = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/NetworkScopeAndDevices/Introduction';
+const History = () => {
+  const markdownFilePath = 'Networking/TCPIPModel/Basics/History';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="Fundamentals - Introduction To Networking" />
+        <PageTitle title="TCP/IP Model - Basics - Introduction" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default Introduction;
+export default History;

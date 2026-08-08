@@ -20,6 +20,6 @@
     "resolveJsonModule": true,
     "typeRoots": ["./node_modules/@types"]
   },
-  "include": ["src"],
+  "include": ["src", "src/pages/mainTabs/Networking/Foundations/Basics/Fundamentals/DevicesAndCommunications/ProtocolsAndStandards.tsx"],
   "exclude": ["node_modules", "dist"]
 }

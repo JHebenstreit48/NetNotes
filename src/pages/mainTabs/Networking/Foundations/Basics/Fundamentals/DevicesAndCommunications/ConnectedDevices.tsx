@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const ConnectedDevices = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/NetworkScopeAndDevices/ConnectedDevices';
+  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/DevicesAndCommunications/ConnectedDevices';
 
   return (
     <>
