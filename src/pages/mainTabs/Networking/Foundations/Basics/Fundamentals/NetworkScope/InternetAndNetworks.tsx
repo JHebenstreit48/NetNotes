@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const Internet = () => {
-  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/NetworkScopeAndDevices/Internet';
+  const markdownFilePath = 'Networking/Foundations/Basics/Fundamentals/NetworkScope/Internet';
 
   return (
     <>

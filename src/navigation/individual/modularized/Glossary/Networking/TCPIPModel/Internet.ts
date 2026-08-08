@@ -19,6 +19,10 @@ const Internet: Subpage = {
       name: 'NAT & PAT',
       path: '/glossary/networking/tcp-ip-model/internet/nat-and-pat',
     },
+    {
+      name: 'QoS & Fragmentation',
+      path: '/glossary/networking/tcp-ip-model/internet/qos-and-fragmentation',
+    },
   ],
 };
 

@@ -58,8 +58,8 @@ const Advanced: Subpage = {
               path: "/networking/tcp-ip-model/layers/network-access/advanced/physical/negotiation-and-duplex/speed-duplex"
             },
             {
-              name: "Auto-Neg & Auto-MDI/MDI-X",
-              path: "/networking/tcp-ip-model/layers/network-access/advanced/physical/negotiation-and-duplex/auto-neg-and-auto-mdi-mdix"
+              name: "Auto-Negotiation",
+              path: "/networking/tcp-ip-model/layers/network-access/advanced/physical/negotiation-and-duplex/auto-negotiation"
             }
           ]
         },

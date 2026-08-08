@@ -7,6 +7,9 @@ const HostsAndPorts = lazy(
 const L2ConceptsAndArchitecture = lazy(
   () => import('@/pages/mainTabs/Glossary/Networking/Switching/L2ConceptsAndArchitecture')
 );
+const Protocols = lazy(
+  () => import('@/pages/mainTabs/Glossary/Networking/Switching/Protocols')
+);
 
 const Switching: RouteObject[] = [
   {
@@ -17,6 +20,10 @@ const Switching: RouteObject[] = [
     path: '/glossary/networking/switching/l2-concepts-and-architecture',
     element: <L2ConceptsAndArchitecture />,
   },
+  {
+    path: '/glossary/networking/switching/protocols',
+    element: <Protocols />,
+  }
 ];
 
 export default Switching;
