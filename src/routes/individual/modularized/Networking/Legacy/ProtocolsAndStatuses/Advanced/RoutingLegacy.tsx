@@ -6,11 +6,11 @@ const ISISPDUs = lazy(() => import('@/pages/mainTabs/Networking/Legacy/Protocols
 
 const RoutingLegacy: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/advanced/routing-legacy/rip-timers',
+    path: '/networking/legacy/protocols-and-statuses/advanced/routing-legacy/rip-timers',
     element: <RIPTimers />,
   },
   {
-    path: '/legacy/protocols-and-statuses/advanced/routing-legacy/isis-pdus',
+    path: '/networking/legacy/protocols-and-statuses/advanced/routing-legacy/isis-pdus',
     element: <ISISPDUs />,
   },
 ];

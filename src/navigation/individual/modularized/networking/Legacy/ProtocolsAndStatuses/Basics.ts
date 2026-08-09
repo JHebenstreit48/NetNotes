@@ -8,15 +8,15 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/legacy/protocols-and-statuses/basics/telnet/introduction"
+          path: "/networking/legacy/protocols-and-statuses/basics/telnet/introduction"
         },
         {
           name: "Migrate to SSH",
-          path: "/legacy/protocols-and-statuses/basics/telnet/migrate-to-ssh"
+          path: "/networking/legacy/protocols-and-statuses/basics/telnet/migrate-to-ssh"
         },
         {
           name: "SSH Cutover Playbook",
-          path: "/legacy/protocols-and-statuses/basics/telnet/ssh-cutover-playbook"
+          path: "/networking/legacy/protocols-and-statuses/basics/telnet/ssh-cutover-playbook"
         }
       ]
     },
@@ -25,15 +25,15 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/legacy/protocols-and-statuses/basics/pop3/introduction"
+          path: "/networking/legacy/protocols-and-statuses/basics/pop3/introduction"
         },
         {
           name: "POP3 vs IMAP",
-          path: "/legacy/protocols-and-statuses/basics/pop3/pop3-vs-imap"
+          path: "/networking/legacy/protocols-and-statuses/basics/pop3/pop3-vs-imap"
         },
         {
           name: "Mail: POP3→IMAP Migration",
-          path: "/legacy/protocols-and-statuses/basics/pop3/mail-pop3-to-imap-migration"
+          path: "/networking/legacy/protocols-and-statuses/basics/pop3/mail-pop3-to-imap-migration"
         }
       ]
     },
@@ -42,15 +42,15 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/legacy/protocols-and-statuses/basics/rip/introduction"
+          path: "/networking/legacy/protocols-and-statuses/basics/rip/introduction"
         },
         {
           name: "Distance-Vector Ops",
-          path: "/legacy/protocols-and-statuses/basics/rip/distance-vector-ops"
+          path: "/networking/legacy/protocols-and-statuses/basics/rip/distance-vector-ops"
         },
         {
           name: "RIP Timers",
-          path: "/legacy/protocols-and-statuses/basics/rip/timers"
+          path: "/networking/legacy/protocols-and-statuses/basics/rip/timers"
         }
       ]
     },
@@ -59,15 +59,15 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/legacy/protocols-and-statuses/basics/isis/introduction"
+          path: "/networking/legacy/protocols-and-statuses/basics/isis/introduction"
         },
         {
           name: "Levels & Areas",
-          path: "/legacy/protocols-and-statuses/basics/isis/levels-and-areas"
+          path: "/networking/legacy/protocols-and-statuses/basics/isis/levels-and-areas"
         },
         {
           name: "IS-IS PDUs",
-          path: "/legacy/protocols-and-statuses/basics/isis/pdus"
+          path: "/networking/legacy/protocols-and-statuses/basics/isis/pdus"
         }
       ]
     },
@@ -76,11 +76,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/legacy/protocols-and-statuses/basics/tftp/introduction"
+          path: "/networking/legacy/protocols-and-statuses/basics/tftp/introduction"
         },
         {
           name: "Use Cases & Limits",
-          path: "/legacy/protocols-and-statuses/basics/tftp/use-cases-and-limits"
+          path: "/networking/legacy/protocols-and-statuses/basics/tftp/use-cases-and-limits"
         }
       ]
     }

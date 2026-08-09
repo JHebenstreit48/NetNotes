@@ -2,16 +2,25 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const Introduction = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/Fundamentals/Introduction'));
-const LayersComparison = lazy(() => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/Fundamentals/LayerComparison'));
+const ServicesVsProtocols = lazy(
+  () => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/Fundamentals/ServicesVsProtocols')
+);
+const ModelAndLayersComparison = lazy(
+  () => import('@/pages/mainTabs/Networking/Legacy/OSIModel/Basics/Fundamentals/ModelAndLayerComparison')
+);
 
 const Fundamentals: RouteObject[] = [
   {
-    path: '/legacy/osi-model/basics/fundamentals/introduction',
+    path: '/networking/legacy/osi-model/basics/fundamentals/introduction',
     element: <Introduction />,
   },
   {
-    path: '/legacy/osi-model/basics/fundamentals/layer-comparison',
-    element: <LayersComparison />,
+    path: '/networking/legacy/osi-model/basics/fundamentals/services-vs-protocols',
+    element: <ServicesVsProtocols />,
+  },
+  {
+    path: '/networking/legacy/osi-model/basics/fundamentals/layer-comparison',
+    element: <ModelAndLayersComparison />,
   },
 ];
 

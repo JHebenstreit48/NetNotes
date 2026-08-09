@@ -6,11 +6,11 @@ const DistanceVectorOps = lazy(() => import('@/pages/mainTabs/Networking/Legacy/
 
 const RIP: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/rip/overview',
+    path: '/networking/legacy/protocols-and-statuses/rip/overview',
     element: <RIPOverview />,
   },
   {
-    path: '/legacy/protocols-and-statuses/rip/distance-vector-ops',
+    path: '/networking/legacy/protocols-and-statuses/rip/distance-vector-ops',
     element: <DistanceVectorOps />,
   },
 ];

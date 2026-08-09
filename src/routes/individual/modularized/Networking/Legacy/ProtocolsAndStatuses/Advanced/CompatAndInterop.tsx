@@ -6,11 +6,11 @@ const LegacyClientsToday = lazy(() => import('@/pages/mainTabs/Networking/Legacy
 
 const CompatAndInterop: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/advanced/compat-and-interop/gateways-and-proxies',
+    path: '/networking/legacy/protocols-and-statuses/advanced/compat-and-interop/gateways-and-proxies',
     element: <GatewaysAndProxies />,
   },
   {
-    path: '/legacy/protocols-and-statuses/advanced/compat-and-interop/legacy-clients-today',
+    path: '/networking/legacy/protocols-and-statuses/advanced/compat-and-interop/legacy-clients-today',
     element: <LegacyClientsToday />,
   },
 ];

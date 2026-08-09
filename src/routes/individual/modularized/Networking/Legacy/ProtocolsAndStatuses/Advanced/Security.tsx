@@ -6,11 +6,11 @@ const AAAAndBanners = lazy(() => import('@/pages/mainTabs/Networking/Legacy/Prot
 
 const Security: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/advanced/security-legacy/cleartext-risks',
+    path: '/networking/legacy/protocols-and-statuses/advanced/security-legacy/cleartext-risks',
     element: <CleartextRisks />,
   },
   {
-    path: '/legacy/protocols-and-statuses/advanced/security-legacy/aaa-and-banners',
+    path: '/networking/legacy/protocols-and-statuses/advanced/security-legacy/aaa-and-banners',
     element: <AAAAndBanners />,
   },
 ];

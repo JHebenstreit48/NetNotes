@@ -6,11 +6,11 @@ const LevelsAndAreas = lazy(() => import('@/pages/mainTabs/Networking/Legacy/Pro
 
 const ISIS: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/isis/overview',
+    path: '/networking/legacy/protocols-and-statuses/isis/overview',
     element: <ISISOverview />,
   },
   {
-    path: '/legacy/protocols-and-statuses/isis/levels-and-areas',
+    path: '/networking/legacy/protocols-and-statuses/isis/levels-and-areas',
     element: <LevelsAndAreas />,
   },
 ];

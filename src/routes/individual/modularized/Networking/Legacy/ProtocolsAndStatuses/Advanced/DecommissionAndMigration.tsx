@@ -6,11 +6,11 @@ const MailPOP3IMAP = lazy(() => import('@/pages/mainTabs/Networking/Legacy/Proto
 
 const DecommissionAndMigration: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/advanced/decommission-and-migration/ssh-cutover-playbook',
+    path: '/networking/legacy/protocols-and-statuses/advanced/decommission-and-migration/ssh-cutover-playbook',
     element: <SSHCutoverPlaybook />,
   },
   {
-    path: '/legacy/protocols-and-statuses/advanced/decommission-and-migration/mail-pop3-to-imap',
+    path: '/networking/legacy/protocols-and-statuses/advanced/decommission-and-migration/mail-pop3-to-imap',
     element: <MailPOP3IMAP />,
   },
 ];
