@@ -6,11 +6,11 @@ const POP3VsIMAP = lazy(() => import('@/pages/mainTabs/Networking/Legacy/Protoco
 
 const POP3: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/basics/pop3/introduction',
+    path: '/networking/legacy/protocols-and-statuses/basics/pop3/introduction',
     element: <Introduction />,
   },
   {
-    path: '/legacy/protocols-and-statuses/basics/pop3/pop3-vs-imap',
+    path: '/networking/legacy/protocols-and-statuses/basics/pop3/pop3-vs-imap',
     element: <POP3VsIMAP />,
   },
 ];

@@ -6,11 +6,11 @@ const WiresharkProfiles = lazy(() => import('@/pages/mainTabs/Networking/Legacy/
 
 const LabAndCapture: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/advanced/lab-and-capture/gns3-eve-ng-labs',
+    path: '/networking/legacy/protocols-and-statuses/advanced/lab-and-capture/gns3-eve-ng-labs',
     element: <GNS3EVENGLabs />,
   },
   {
-    path: '/legacy/protocols-and-statuses/advanced/lab-and-capture/wireshark-profiles',
+    path: '/networking/legacy/protocols-and-statuses/advanced/lab-and-capture/wireshark-profiles',
     element: <WiresharkProfiles />,
   },
 ];

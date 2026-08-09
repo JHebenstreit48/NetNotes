@@ -6,11 +6,11 @@ const UseCasesAndLimits = lazy(() => import('@/pages/mainTabs/Networking/Legacy/
 
 const TFTP: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/tftp/introduction',
+    path: '/networking/legacy/protocols-and-statuses/tftp/introduction',
     element: <Introduction />,
   },
   {
-    path: '/legacy/protocols-and-statuses/tftp/use-cases-and-limits',
+    path: '/networking/legacy/protocols-and-statuses/tftp/use-cases-and-limits',
     element: <UseCasesAndLimits />,
   },
 ];

@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Cleartext Risks",
-          path: "/legacy/protocols-and-statuses/advanced/security-legacy/cleartext-risks"
+          path: "/networking/legacy/protocols-and-statuses/advanced/security-legacy/cleartext-risks"
         },
         {
           name: "AAA & Banners",
-          path: "/legacy/protocols-and-statuses/advanced/security-legacy/aaa-and-banners"
+          path: "/networking/legacy/protocols-and-statuses/advanced/security-legacy/aaa-and-banners"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Gateways & Proxies",
-          path: "/legacy/protocols-and-statuses/advanced/compat-and-interop/gateways-and-proxies"
+          path: "/networking/legacy/protocols-and-statuses/advanced/compat-and-interop/gateways-and-proxies"
         },
         {
           name: "Legacy Clients Today",
-          path: "/legacy/protocols-and-statuses/advanced/compat-and-interop/legacy-clients-today"
+          path: "/networking/legacy/protocols-and-statuses/advanced/compat-and-interop/legacy-clients-today"
         }
       ]
     }

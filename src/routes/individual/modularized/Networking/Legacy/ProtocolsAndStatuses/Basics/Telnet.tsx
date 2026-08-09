@@ -6,11 +6,11 @@ const MigrateToSSH = lazy(() => import('@/pages/mainTabs/Networking/Legacy/Proto
 
 const Telnet: RouteObject[] = [
   {
-    path: '/legacy/protocols-and-statuses/telnet/basics',
+    path: '/networking/legacy/protocols-and-statuses/telnet/basics',
     element: <TelnetBasics />,
   },
   {
-    path: '/legacy/protocols-and-statuses/telnet/migrate-to-ssh',
+    path: '/networking/legacy/protocols-and-statuses/telnet/migrate-to-ssh',
     element: <MigrateToSSH />,
   },
 ];
