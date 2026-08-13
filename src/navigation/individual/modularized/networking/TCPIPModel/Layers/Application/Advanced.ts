@@ -1,29 +1,11 @@
 import type { Subpage } from '@/types/navigation';
 
+import NetworkServices from '@/navigation/individual/modularized/networking/TCPIPModel/Layers/Application/Advanced/NetworkServices';
+
 const Advanced: Subpage = {
   name: 'Advanced',
   subpages: [
-    {
-      name: 'Network Services',
-      subpages: [
-        {
-          name: 'Introduction',
-          path: '/networking/tcp-ip-model/layers/application/advanced/network-services/introduction',
-        },
-        {
-          name: 'NTP',
-          path: '/networking/tcp-ip-model/layers/application/advanced/network-services/ntp',
-        },
-        {
-          name: 'SNMP',
-          path: '/networking/tcp-ip-model/layers/application/advanced/network-services/snmp',
-        },
-        {
-          name: 'FTP/SFTP',
-          path: '/networking/tcp-ip-model/layers/application/advanced/network-services/ftp',
-        },
-      ],
-    },
+    NetworkServices,
     {
       name: 'Remote Access',
       subpages: [
