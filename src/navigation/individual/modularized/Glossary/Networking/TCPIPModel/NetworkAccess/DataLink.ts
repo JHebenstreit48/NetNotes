@@ -4,16 +4,12 @@ const DataLink: Subpage = {
   name: 'Data Link',
   subpages: [
     {
-      name: 'MAC Address',
-      path: '/glossary/networking/tcp-ip-model/networkaccess/data-link/mac-address',
+      name: 'Core Concepts',
+      path: '/glossary/networking/tcp-ip-model/networkaccess/data-link/core-concepts',
     },
     {
-      name: 'ARP (Address Resolution Protocol)',
-      path: '/glossary/networking/tcp-ip-model/networkaccess/data-link/arp',
-    },
-    {
-      name: 'Frame',
-      path: '/glossary/networking/tcp-ip-model/networkaccess/data-link/frame',
+      name: 'Frames & Addressing',
+      path: '/glossary/networking/tcp-ip-model/networkaccess/data-link/frames-and-addressing',
     },
   ],
 };
