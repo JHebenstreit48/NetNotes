@@ -5,11 +5,11 @@ const DataLink: Subpage = {
   subpages: [
     {
       name: 'Core Concepts',
-      path: '/glossary/networking/tcp-ip-model/networkaccess/data-link/core-concepts',
+      path: '/glossary/networking/tcp-ip-model/network-access/data-link/core-concepts',
     },
     {
       name: 'Frames & Addressing',
-      path: '/glossary/networking/tcp-ip-model/networkaccess/data-link/frames-and-addressing',
+      path: '/glossary/networking/tcp-ip-model/network-access/data-link/frames-and-addressing',
     },
   ],
 };
