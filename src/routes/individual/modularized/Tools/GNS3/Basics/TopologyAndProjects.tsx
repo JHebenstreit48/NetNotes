@@ -6,11 +6,11 @@ const ProjectsAndSnapshots = lazy(() => import('@/pages/mainTabs/ToolsAndTesting
 
 const TopologyAndProjects: RouteObject[] = [
   {
-    path: '/tools/gns3/basics/topology-and-projects/nodes-and-links',
+    path: '/networking/legacy/protocols-and-statuses/gns3/basics/topology-and-projects/nodes-and-links',
     element: <NodesAndLinks />,
   },
   {
-    path: '/tools/gns3/basics/topology-and-projects/projects-and-snapshots',
+    path: '/networking/legacy/protocols-and-statuses/gns3/basics/topology-and-projects/projects-and-snapshots',
     element: <ProjectsAndSnapshots />,
   },
 ];

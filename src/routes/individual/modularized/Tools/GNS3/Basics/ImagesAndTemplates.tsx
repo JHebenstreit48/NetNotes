@@ -6,11 +6,11 @@ const IOSvIOU = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Tools/GNS3/B
 
 const ImagesAndTemplates: RouteObject[] = [
   {
-    path: '/tools/gns3/basics/images-and-templates/appliances-and-import',
+    path: '/networking/legacy/protocols-and-statuses/gns3/basics/images-and-templates/appliances-and-import',
     element: <AppliancesAndImport />,
   },
   {
-    path: '/tools/gns3/basics/images-and-templates/iosv-iou-licensing',
+    path: '/networking/legacy/protocols-and-statuses/gns3/basics/images-and-templates/iosv-iou-licensing',
     element: <IOSvIOU />,
   },
 ];

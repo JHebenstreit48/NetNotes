@@ -6,11 +6,11 @@ const QEMUKVMTips = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Tools/GN
 
 const ContainersAndVMs: RouteObject[] = [
   {
-    path: '/tools/gns3/advanced/containers-and-vms/docker-integration',
+    path: '/networking/legacy/protocols-and-statuses/gns3/advanced/containers-and-vms/docker-integration',
     element: <DockerIntegration />,
   },
   {
-    path: '/tools/gns3/advanced/containers-and-vms/qemu-kvm-tips',
+    path: '/networking/legacy/protocols-and-statuses/gns3/advanced/containers-and-vms/qemu-kvm-tips',
     element: <QEMUKVMTips />,
   },
 ];

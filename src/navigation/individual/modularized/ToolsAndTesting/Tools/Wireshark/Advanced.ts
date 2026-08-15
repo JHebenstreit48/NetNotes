@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Follow Streams & RTT",
-          path: "/wireshark/advanced/analysis/follow-streams-and-rtt"
+          path: "/tools-and-testing/tools/wireshark/advanced/analysis/follow-streams-and-rtt"
         },
         {
           name: "TLS Keys & Decryption",
-          path: "/wireshark/advanced/analysis/tls-keys-and-decryption"
+          path: "/tools-and-testing/tools/wireshark/advanced/analysis/tls-keys-and-decryption"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Columns & Coloring",
-          path: "/wireshark/advanced/customization/columns-and-coloring"
+          path: "/tools-and-testing/tools/wireshark/advanced/customization/columns-and-coloring"
         },
         {
           name: "Extcap & TShark",
-          path: "/wireshark/advanced/customization/extcap-and-tshark"
+          path: "/tools-and-testing/tools/wireshark/advanced/customization/extcap-and-tshark"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "rpcap/sshdump",
-          path: "/wireshark/advanced/remote-capture/rpcap-and-sshdump"
+          path: "/tools-and-testing/tools/wireshark/advanced/remote-capture/rpcap-and-sshdump"
         },
         {
           name: "Ring Buffers & Performance",
-          path: "/wireshark/advanced/remote-capture/ring-buffers-and-performance"
+          path: "/tools-and-testing/tools/wireshark/advanced/remote-capture/ring-buffers-and-performance"
         }
       ]
     }

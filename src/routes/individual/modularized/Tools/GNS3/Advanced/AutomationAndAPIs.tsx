@@ -6,11 +6,11 @@ const GNS3RESTAPI = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Tools/GN
 
 const AutomationAndAPIs: RouteObject[] = [
   {
-    path: '/tools/gns3/advanced/automation-and-apis/startup-configs',
+    path: '/networking/legacy/protocols-and-statuses/gns3/advanced/automation-and-apis/startup-configs',
     element: <StartupConfigs />,
   },
   {
-    path: '/tools/gns3/advanced/automation-and-apis/gns3-rest-api',
+    path: '/networking/legacy/protocols-and-statuses/gns3/advanced/automation-and-apis/gns3-rest-api',
     element: <GNS3RESTAPI />,
   },
 ];

@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Install & Profiles",
-          path: "/wireshark/basics/fundamentals/install-and-profiles"
+          path: "/tools-and-testing/tools/wireshark/basics/fundamentals/install-and-profiles"
         },
         {
           name: "Capture Interfaces",
-          path: "/wireshark/basics/fundamentals/capture-interfaces"
+          path: "/tools-and-testing/tools/wireshark/basics/fundamentals/capture-interfaces"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Display",
-          path: "/wireshark/basics/filters/display"
+          path: "/tools-and-testing/tools/wireshark/basics/filters/display"
         },
         {
           name: "Capture",
-          path: "/wireshark/basics/filters/capture"
+          path: "/tools-and-testing/tools/wireshark/basics/filters/capture"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Packet/Bytes/Tree",
-          path: "/wireshark/basics/views-and-tools/packet-bytes-tree"
+          path: "/tools-and-testing/tools/wireshark/basics/views-and-tools/packet-bytes-tree"
         },
         {
           name: "IO Graphs & Stats",
-          path: "/wireshark/basics/views-and-tools/io-graphs-and-stats"
+          path: "/tools-and-testing/tools/wireshark/basics/views-and-tools/io-graphs-and-stats"
         }
       ]
     }

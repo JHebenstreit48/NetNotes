@@ -7,15 +7,15 @@ const ProjectsAndSaves = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Too
 
 const Fundamentals: RouteObject[] = [
   {
-    path: '/tools/cisco-packet-tracer/basics/fundamentals/introduction',
+    path: '/networking/legacy/protocols-and-statuses/cisco-packet-tracer/basics/fundamentals/introduction',
     element: <Introduction />,
   },
   {
-    path: '/tools/cisco-packet-tracer/basics/fundamentals/install-and-interface',
+    path: '/networking/legacy/protocols-and-statuses/cisco-packet-tracer/basics/fundamentals/install-and-interface',
     element: <InstallAndInterface />,
   },
   {
-    path: '/tools/cisco-packet-tracer/basics/fundamentals/projects-and-saves',
+    path: '/networking/legacy/protocols-and-statuses/cisco-packet-tracer/basics/fundamentals/projects-and-saves',
     element: <ProjectsAndSaves />,
   },
 ];

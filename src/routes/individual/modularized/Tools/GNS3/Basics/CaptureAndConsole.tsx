@@ -6,11 +6,11 @@ const ConsoleAccess = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Tools/
 
 const CaptureAndConsole: RouteObject[] = [
   {
-    path: '/tools/gns3/basics/capture-and-console/add-wireshark-and-tshark',
+    path: '/networking/legacy/protocols-and-statuses/gns3/basics/capture-and-console/add-wireshark-and-tshark',
     element: <AddWiresharkTShark />,
   },
   {
-    path: '/tools/gns3/basics/capture-and-console/console-access-telnet-serial-vnc',
+    path: '/networking/legacy/protocols-and-statuses/gns3/basics/capture-and-console/console-access-telnet-serial-vnc',
     element: <ConsoleAccess />,
   },
 ];
