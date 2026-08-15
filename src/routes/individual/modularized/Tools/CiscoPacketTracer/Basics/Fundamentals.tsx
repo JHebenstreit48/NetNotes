@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Basics/Fundamentals/Introduction'));
-const InstallAndInterface = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Basics/Fundamentals/InstallAndInterface'));
-const ProjectsAndSaves = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Basics/Fundamentals/ProjectsAndSaves'));
+const Introduction = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Tools/CiscoPacketTracer/Basics/Fundamentals/Introduction'));
+const InstallAndInterface = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Tools/CiscoPacketTracer/Basics/Fundamentals/InstallAndInterface'));
+const ProjectsAndSaves = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Tools/CiscoPacketTracer/Basics/Fundamentals/ProjectsAndSaves'));
 
 const Fundamentals: RouteObject[] = [
   {

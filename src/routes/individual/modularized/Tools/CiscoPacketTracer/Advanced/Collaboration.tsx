@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MultiuserLinks = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Advanced/Collaboration/MultiuserLinks'));
-const SharedProjects = lazy(() => import('@/pages/mainTabs/Tools/CiscoPacketTracer/Advanced/Collaboration/SharedProjects'));
+const MultiuserLinks = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/Collaboration/MultiuserLinks'));
+const SharedProjects = lazy(() => import('@/pages/mainTabs/ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/Collaboration/SharedProjects'));
 
 const Collaboration: RouteObject[] = [
   {
