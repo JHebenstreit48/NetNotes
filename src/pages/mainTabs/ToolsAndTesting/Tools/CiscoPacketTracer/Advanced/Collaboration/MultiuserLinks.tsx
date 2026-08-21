@@ -1,0 +1,18 @@
+import PageLayout from '@/components/navigationUI/pageLayout';
+import PageTitle from '@/components/pageComponents/pageTitle';
+import Notes from '@/components/pageComponents/notes/notes';
+
+const MultiuserLinks = () => {
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/Collaboration/MultiuserLinks';
+
+  return (
+    <>
+      <PageLayout>
+        <PageTitle title="Multiuser Links" />
+        <Notes filePath={markdownFilePath} />
+      </PageLayout>
+    </>
+  );
+};
+
+export default MultiuserLinks;

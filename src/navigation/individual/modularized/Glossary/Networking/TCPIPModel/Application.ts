@@ -8,12 +8,12 @@ const Application: Subpage = {
       path: '/glossary/networking/tcp-ip-model/application/basics',
     },
     {
-      name: 'DNS (Domain Name System)',
-      path: '/glossary/networking/tcp-ip-model/application/dns',
+      name: 'Web & DNS',
+      path: '/glossary/networking/tcp-ip-model/application/web-and-dns',
     },
     {
-      name: 'HTTP / HTTPS',
-      path: '/glossary/networking/tcp-ip-model/application/http-https',
+      name: 'Messaging',
+      path: '/glossary/networking/tcp-ip-model/application/messaging',
     },
   ],
 };

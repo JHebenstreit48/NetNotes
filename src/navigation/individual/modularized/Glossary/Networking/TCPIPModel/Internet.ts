@@ -8,20 +8,16 @@ const Internet: Subpage = {
       path: '/glossary/networking/tcp-ip-model/internet/basics',
     },
     {
-      name: 'IPv4 Addressing',
-      path: '/glossary/networking/tcp-ip-model/internet/ipv4-addressing',
-    },
-    {
-      name: 'IPv6 Addressing',
-      path: '/glossary/networking/tcp-ip-model/internet/ipv6-addressing',
-    },
-    {
-      name: 'NAT & PAT',
-      path: '/glossary/networking/tcp-ip-model/internet/nat-and-pat',
+      name: 'Addressing',
+      path: '/glossary/networking/tcp-ip-model/internet/addressing',
     },
     {
       name: 'QoS & Fragmentation',
       path: '/glossary/networking/tcp-ip-model/internet/qos-and-fragmentation',
+    },
+    {
+      name: 'Commands',
+      path: '/glossary/networking/tcp-ip-model/internet/commands',
     },
   ],
 };

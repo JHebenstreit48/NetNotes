@@ -90,7 +90,6 @@
   flex-direction: row;
   align-items: center;
   width: auto;
-  padding-top: 0;
 
   @include maxw($cellphone-portrait) {
     display: none;
@@ -115,7 +114,7 @@
 
 .mainNav {
   margin-top: $mainnav-margin-top;
-  margin-left: 11rem;
+  margin-left: 4rem;
 
   @include maxw($cellphone-portrait) {
     margin-top: 0;

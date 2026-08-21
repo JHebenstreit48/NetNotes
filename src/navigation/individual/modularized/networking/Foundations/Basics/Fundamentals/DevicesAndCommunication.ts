@@ -11,6 +11,10 @@ const DevicesAndCommunication: Subpage = {
       name: 'Protocols & Standards',
       path: '/networking/foundations/basics/fundamentals/devices-and-communication/protocols-and-standards',
     },
+    {
+      name: 'CLI Basics',
+      path: '/networking/foundations/basics/fundamentals/devices-and-communication/cli-basics',
+    },
   ],
 };
 

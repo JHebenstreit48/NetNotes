@@ -8,7 +8,7 @@ const Basics = () => {
   return (
     <>
       <PageLayout>
-        <PageTitle title="Glossary - Internet Layer - Basics" />
+        <PageTitle title="Glossary - TCP/IP Model - Internet - Basics" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>

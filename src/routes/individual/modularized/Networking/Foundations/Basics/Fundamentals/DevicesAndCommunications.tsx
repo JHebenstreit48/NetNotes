@@ -7,6 +7,9 @@ const ConnectedDevices = lazy(
 const StandardsAndOrganizations = lazy(
   () => import('@/pages/mainTabs/Networking/Foundations/Basics/Fundamentals/DevicesAndCommunications/ProtocolsAndStandards')
 );
+const CLIBasics = lazy(
+  () => import('@/pages/mainTabs/Networking/Foundations/Basics/Fundamentals/DevicesAndCommunications/CLIBasics')
+);
 
 const ProtocolsAndStandards: RouteObject[] = [
   {
@@ -16,6 +19,10 @@ const ProtocolsAndStandards: RouteObject[] = [
   {
     path: '/networking/foundations/basics/fundamentals/devices-and-communication/protocols-and-standards',
     element: <StandardsAndOrganizations />,
+  },
+  {
+    path: '/networking/foundations/basics/fundamentals/devices-and-communication/cli-basics',
+    element: <CLIBasics />,
   }
 ];
 
