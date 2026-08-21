@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const FollowStreamsAndRTT = () => {
-  const markdownFilePath = 'Tools/Wireshark/Advanced/Analysis/FollowStreamsAndRTT';
+  const markdownFilePath = 'ToolsAndTesting/Tools/Wireshark/Advanced/Analysis/FollowStreamsAndRTT';
 
   return (
     <>

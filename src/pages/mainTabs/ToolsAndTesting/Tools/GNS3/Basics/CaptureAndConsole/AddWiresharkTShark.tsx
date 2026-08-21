@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const AddWiresharkTShark = () => {
-  const markdownFilePath = 'Tools/GNS3/Basics/CaptureAndConsole/AddWiresharkTShark';
+  const markdownFilePath = 'ToolsAndTesting/Tools/GNS3/Basics/CaptureAndConsole/AddWiresharkTShark';
 
   return (
     <>

@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const RingBuffersAndPerformance = () => {
-  const markdownFilePath = 'Tools/Wireshark/Advanced/RemoteCapture/RingBuffersAndPerformance';
+  const markdownFilePath = 'ToolsAndTesting/Tools/Wireshark/Advanced/RemoteCapture/RingBuffersAndPerformance';
 
   return (
     <>

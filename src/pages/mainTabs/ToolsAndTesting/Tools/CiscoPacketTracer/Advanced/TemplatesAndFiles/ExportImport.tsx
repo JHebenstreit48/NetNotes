@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const ExportImport = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Advanced/TemplatesAndFiles/ExportImport';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/TemplatesAndFiles/ExportImport';
 
   return (
     <>

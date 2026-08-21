@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const EventListAndCustomPDU = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/Modes/EventListAndCustomPDU';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Basics/Modes/EventListAndCustomPDU';
 
   return (
     <>

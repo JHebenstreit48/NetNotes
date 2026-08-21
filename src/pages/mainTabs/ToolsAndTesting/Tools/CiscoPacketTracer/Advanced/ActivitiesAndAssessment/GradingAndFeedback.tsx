@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const GradingAndFeedback = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Advanced/ActivitiesAndAssessment/GradingAndFeedback';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/ActivitiesAndAssessment/GradingAndFeedback';
 
   return (
     <>

@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const ProtocolInspectors = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Advanced/SimulationAnalysis/ProtocolInspectors';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/SimulationAnalysis/ProtocolInspectors';
 
   return (
     <>

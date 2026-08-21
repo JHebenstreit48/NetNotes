@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const ProjectsAndSnapshots = () => {
-  const markdownFilePath = 'Tools/GNS3/Basics/TopologyAndProjects/ProjectsAndSnapshots';
+  const markdownFilePath = 'ToolsAndTesting/Tools/GNS3/Basics/TopologyAndProjects/ProjectsAndSnapshots';
 
   return (
     <>

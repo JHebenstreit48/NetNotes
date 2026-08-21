@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const EventWorkflows = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Advanced/SimulationAnalysis/EventWorkflows';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/SimulationAnalysis/EventWorkflows';
 
   return (
     <>

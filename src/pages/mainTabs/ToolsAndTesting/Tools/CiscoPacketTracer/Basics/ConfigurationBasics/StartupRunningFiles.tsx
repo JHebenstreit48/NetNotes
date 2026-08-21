@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const StartupRunningFiles = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/ConfigurationBasics/StartupRunningFiles';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Basics/ConfigurationBasics/StartupRunningFiles';
 
   return (
     <>

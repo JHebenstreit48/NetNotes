@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const ColumnsAndColoring = () => {
-  const markdownFilePath = 'Tools/Wireshark/Advanced/Customization/ColumnsAndColoring';
+  const markdownFilePath = 'ToolsAndTesting/Tools/Wireshark/Advanced/Customization/ColumnsAndColoring';
 
   return (
     <>

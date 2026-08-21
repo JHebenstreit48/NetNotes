@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const ActivityWizard = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Advanced/ActivitiesAndAssessment/ActivityWizard';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/ActivitiesAndAssessment/ActivityWizard';
 
   return (
     <>

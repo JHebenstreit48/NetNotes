@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const PaletteAndModules = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/DevicesAndCabling/PaletteAndModules';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Basics/DevicesAndCabling/PaletteAndModules';
 
   return (
     <>

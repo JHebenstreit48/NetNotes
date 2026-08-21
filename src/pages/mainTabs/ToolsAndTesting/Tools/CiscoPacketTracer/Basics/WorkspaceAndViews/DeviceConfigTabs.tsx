@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const DeviceConfigTabs = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/WorkspaceAndViews/DeviceConfigTabs';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Basics/WorkspaceAndViews/DeviceConfigTabs';
 
   return (
     <>

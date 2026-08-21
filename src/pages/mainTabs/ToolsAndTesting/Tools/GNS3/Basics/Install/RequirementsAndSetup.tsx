@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const RequirementsAndSetup = () => {
-  const markdownFilePath = 'Tools/GNS3/Basics/Install/RequirementsAndSetup';
+  const markdownFilePath = 'ToolsAndTesting/Tools/GNS3/Basics/Install/RequirementsAndSetup';
 
   return (
     <>

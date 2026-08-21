@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const CLIAccess = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/ConfigurationBasics/CLIAccess';
+  const markdownFilePath = '/ToolsAndTesting/Tools/CiscoPacketTracer/Basics/ConfigurationBasics/CLIAccess';
 
   return (
     <>

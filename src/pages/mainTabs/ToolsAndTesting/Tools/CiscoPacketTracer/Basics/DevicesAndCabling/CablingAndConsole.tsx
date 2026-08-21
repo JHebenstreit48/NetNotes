@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const CablingAndConsole = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/DevicesAndCabling/CablingAndConsole';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Basics/DevicesAndCabling/CablingAndConsole';
 
   return (
     <>

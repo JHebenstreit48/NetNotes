@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const CloudNATBridging = () => {
-  const markdownFilePath = 'Tools/GNS3/Advanced/Connectivity/CloudNATBridging';
+  const markdownFilePath = 'ToolsAndTesting/Tools/GNS3/Advanced/Connectivity/CloudNATBridging';
 
   return (
     <>

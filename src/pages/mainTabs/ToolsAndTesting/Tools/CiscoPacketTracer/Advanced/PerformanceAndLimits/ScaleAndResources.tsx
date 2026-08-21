@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const ScaleAndResources = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Advanced/PerformanceAndLimits/ScaleAndResources';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/PerformanceAndLimits/ScaleAndResources';
 
   return (
     <>

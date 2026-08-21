@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const IOGraphsAndStats = () => {
-  const markdownFilePath = 'Tools/Wireshark/Basics/ViewsAndTools/IOGraphsAndStats';
+  const markdownFilePath = 'ToolsAndTesting/Tools/Wireshark/Basics/ViewsAndTools/IOGraphsAndStats';
 
   return (
     <>

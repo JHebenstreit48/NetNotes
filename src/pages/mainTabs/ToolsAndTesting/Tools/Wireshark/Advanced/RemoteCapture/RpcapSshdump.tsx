@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const RpcapSshdump = () => {
-  const markdownFilePath = 'Tools/Wireshark/Advanced/RemoteCapture/RpcapSshdump';
+  const markdownFilePath = 'ToolsAndTesting/Tools/Wireshark/Advanced/RemoteCapture/RpcapSshdump';
 
   return (
     <>

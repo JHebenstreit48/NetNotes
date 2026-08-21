@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const InstallAndInterface = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Basics/Fundamentals/InstallAndInterface';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Basics/Fundamentals/InstallAndInterface';
 
   return (
     <>

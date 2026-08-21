@@ -4,7 +4,7 @@ import networking from "@/navigation/combined/topics/networking";
 import networkSecurity from "@/navigation/combined/topics/networkSecurity";
 import voip from "@/navigation/combined/topics/voip";
 import certifications from "@/navigation/combined/topics/certifications";
-import tools from "@/navigation/combined/topics/tools";
+import toolsAndTesting from "@/navigation/combined/topics/tools";
 import glossary from "@/navigation/combined/topics/glossary";
 
 const pages: Subpage[] = [
@@ -12,7 +12,7 @@ const pages: Subpage[] = [
   networkSecurity,
   voip,
   certifications,
-  tools,
+  toolsAndTesting,
   glossary
 ];
 

@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const IOSvIOU = () => {
-  const markdownFilePath = 'Tools/GNS3/Basics/ImagesAndTemplates/IOSvIOU';
+  const markdownFilePath = 'ToolsAndTesting/Tools/GNS3/Basics/ImagesAndTemplates/IOSvIOU';
 
   return (
     <>

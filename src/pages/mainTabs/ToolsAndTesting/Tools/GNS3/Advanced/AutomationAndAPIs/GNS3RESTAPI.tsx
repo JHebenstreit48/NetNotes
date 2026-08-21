@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const GNS3RESTAPI = () => {
-  const markdownFilePath = 'Tools/GNS3/Advanced/AutomationAndAPIs/GNS3RESTAPI';
+  const markdownFilePath = 'ToolsAndTesting/Tools/GNS3/Advanced/AutomationAndAPIs/GNS3RESTAPI';
 
   return (
     <>

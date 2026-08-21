@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const InstallAndProfiles = () => {
-  const markdownFilePath = 'Tools/Wireshark/Basics/Fundamentals/InstallAndProfiles';
+  const markdownFilePath = 'ToolsAndTesting/Tools/Wireshark/Basics/Fundamentals/InstallAndProfiles';
 
   return (
     <>

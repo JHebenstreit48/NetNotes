@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const MultiuserLinks = () => {
-  const markdownFilePath = 'Tools/CiscoPacketTracer/Advanced/Collaboration/MultiuserLinks';
+  const markdownFilePath = 'ToolsAndTesting/Tools/CiscoPacketTracer/Advanced/Collaboration/MultiuserLinks';
 
   return (
     <>
