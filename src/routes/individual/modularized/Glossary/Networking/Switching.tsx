@@ -1,15 +1,12 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const HostsAndPorts = lazy(
-  () => import('@/pages/mainTabs/Glossary/Networking/Switching/HostsAndPorts')
-);
+const HostsAndPorts = lazy(() => import('@/pages/mainTabs/Glossary/Networking/Switching/HostsAndPorts'));
 const L2ConceptsAndArchitecture = lazy(
   () => import('@/pages/mainTabs/Glossary/Networking/Switching/L2ConceptsAndArchitecture')
 );
-const Protocols = lazy(
-  () => import('@/pages/mainTabs/Glossary/Networking/Switching/Protocols')
-);
+const Protocols = lazy(() => import('@/pages/mainTabs/Glossary/Networking/Switching/Protocols'));
+const PowerOverEthernet = lazy(() => import('@/pages/mainTabs/Glossary/Networking/Switching/PowerOverEthernet'));
 
 const Switching: RouteObject[] = [
   {
@@ -23,7 +20,11 @@ const Switching: RouteObject[] = [
   {
     path: '/glossary/networking/switching/protocols',
     element: <Protocols />,
-  }
+  },
+  {
+    path: '/glossary/networking/switching/power-over-ethernet',
+    element: <PowerOverEthernet />,
+  },
 ];
 
 export default Switching;

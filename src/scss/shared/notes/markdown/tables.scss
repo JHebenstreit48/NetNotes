@@ -7,7 +7,6 @@
       flex-direction: column;
       align-items: center;
       width: 100%;
-      overflow-x: auto;
 
       .notesTable {
         width: 100%;
@@ -51,3 +50,29 @@
         @include inline-pop($notes-secondary, $notes-table-emphasis-size, $mono-jetbrains);
       }
     }
+
+.tablePairSideBySide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+
+  .tableWrapper {
+    flex: 1 1 45%;
+
+    .notesTable {
+      table-layout: auto;
+
+      .tableCell {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  @include maxw($tablet-landscape) {
+    .tableWrapper {
+      flex: 1 1 100%;
+    }
+  }
+}

@@ -15,10 +15,10 @@ const Fundamentals: Subpage = {
       name: 'OSI vs TCP/IP Models',
       path: '/glossary/networking/foundations/fundamentals/osi-vs-tcpip-models',
     },
-    // Later additions as you cover more intro material:
-    // { name: 'Collision vs Broadcast Domains', path: '...' },
-    // { name: 'Physical Layer Terms', path: '...' },
-    // { name: 'Data Link Layer Basics', path: '...' },
+    {
+      name: 'CLI & Commands',
+      path: '/glossary/networking/foundations/fundamentals/cli-and-commands',
+    },
   ],
 };
 
