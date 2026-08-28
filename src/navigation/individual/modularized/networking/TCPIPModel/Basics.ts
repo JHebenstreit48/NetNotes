@@ -18,6 +18,10 @@ const Basics: Subpage = {
           name: 'Protocol Stack',
           path: '/networking/tcp-ip-model/basics/fundamentals/protocol-stack',
         },
+        {
+          name: 'Decimal vs Hexadecimal',
+          path: '/networking/tcp-ip-model/basics/fundamentals/decimal-vs-hexadecimal',
+        },
       ],
     },
   ],
