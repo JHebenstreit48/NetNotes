@@ -4,8 +4,9 @@ import { RouteObject } from 'react-router-dom';
 const Introduction = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Basics/Introduction'));
 const History = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Basics/History'));
 const ProtocolStack = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Basics/ProtocolStack'));
+const DecimalVsHexadecimal = lazy(() => import('@/pages/mainTabs/Networking/TCPIPModel/Basics/DecimalVsHexadecimal'));
 
-const ClientServerRoles: RouteObject[] = [
+const Basics: RouteObject[] = [
   {
     path: '/networking/tcp-ip-model/basics/fundamentals/introduction',
     element: <Introduction />,
@@ -17,7 +18,11 @@ const ClientServerRoles: RouteObject[] = [
   {
     path: '/networking/tcp-ip-model/basics/fundamentals/protocol-stack',
     element: <ProtocolStack />,
+  },
+  {
+    path: '/networking/tcp-ip-model/basics/fundamentals/decimal-vs-hexadecimal',
+    element: <DecimalVsHexadecimal />,
   }
 ];
 
-export default ClientServerRoles;
+export default Basics;
